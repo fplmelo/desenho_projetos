@@ -261,20 +261,16 @@ window.Quarto = {
   </ul></li>
   <li><a href="#part-2---data-analyses" id="toc-part-2---data-analyses" class="nav-link" data-scroll-target="#part-2---data-analyses">Part 2 - Data Analyses</a>
   <ul class="collapse">
-  <li><a href="#introduction-to-categorical-data-analysis" id="toc-introduction-to-categorical-data-analysis" class="nav-link" data-scroll-target="#introduction-to-categorical-data-analysis">Introduction to Categorical Data Analysis</a></li>
-  <li><a href="#contingency-tables" id="toc-contingency-tables" class="nav-link" data-scroll-target="#contingency-tables">Contingency Tables</a></li>
-  <li><a href="#creating-contingency-tables-in-r" id="toc-creating-contingency-tables-in-r" class="nav-link" data-scroll-target="#creating-contingency-tables-in-r">Creating Contingency Tables in R</a></li>
-  <li><a href="#create-the-contingency-table-using-table" id="toc-create-the-contingency-table-using-table" class="nav-link" data-scroll-target="#create-the-contingency-table-using-table">Create the contingency table using <code>table</code></a></li>
-  <li><a href="#chi-square-contingency-table-test" id="toc-chi-square-contingency-table-test" class="nav-link" data-scroll-target="#chi-square-contingency-table-test">Chi-Square Contingency Table Test</a></li>
-  <li><a href="#assumptions-of-the-chi-square-test" id="toc-assumptions-of-the-chi-square-test" class="nav-link" data-scroll-target="#assumptions-of-the-chi-square-test">Assumptions of the Chi-Square Test</a></li>
-  <li><a href="#performing-the-chi-square-test-in-r" id="toc-performing-the-chi-square-test-in-r" class="nav-link" data-scroll-target="#performing-the-chi-square-test-in-r">Performing the Chi-Square Test in R</a></li>
-  <li><a href="#fishers-exact-test" id="toc-fishers-exact-test" class="nav-link" data-scroll-target="#fishers-exact-test">Fisher’s Exact Test</a></li>
-  </ul></li>
-  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises">Exercises</a>
+  <li><a href="#understanding-mean-tests-in-r" id="toc-understanding-mean-tests-in-r" class="nav-link" data-scroll-target="#understanding-mean-tests-in-r">Understanding Mean Tests in R</a>
   <ul class="collapse">
-  <li><a href="#exercise-1-car-characteristics" id="toc-exercise-1-car-characteristics" class="nav-link" data-scroll-target="#exercise-1-car-characteristics">Exercise 1: Car Characteristics</a></li>
-  <li><a href="#exercise-2-penguin-species-and-sex" id="toc-exercise-2-penguin-species-and-sex" class="nav-link" data-scroll-target="#exercise-2-penguin-species-and-sex">Exercise 2: Penguin Species and Sex</a></li>
-  <li><a href="#refereces-for-this-class" id="toc-refereces-for-this-class" class="nav-link" data-scroll-target="#refereces-for-this-class">Refereces for this class</a></li>
+  <li><a href="#introduction-to-mean-tests" id="toc-introduction-to-mean-tests" class="nav-link" data-scroll-target="#introduction-to-mean-tests">Introduction to Mean Tests</a></li>
+  <li><a href="#assumptions-for-mean-tests" id="toc-assumptions-for-mean-tests" class="nav-link" data-scroll-target="#assumptions-for-mean-tests">Assumptions for Mean Tests</a></li>
+  <li><a href="#parametric-vs-non-parametric-versions" id="toc-parametric-vs-non-parametric-versions" class="nav-link" data-scroll-target="#parametric-vs-non-parametric-versions">Parametric vs Non-Parametric Versions</a></li>
+  <li><a href="#one-sample-comparisons" id="toc-one-sample-comparisons" class="nav-link" data-scroll-target="#one-sample-comparisons">One-sample comparisons</a></li>
+  <li><a href="#twoor-more-sample-comparisons-independent-groups" id="toc-twoor-more-sample-comparisons-independent-groups" class="nav-link" data-scroll-target="#twoor-more-sample-comparisons-independent-groups">Two(or more)-sample comparisons (independent groups)</a></li>
+  </ul></li>
+  <li><a href="#compare-two-groups" id="toc-compare-two-groups" class="nav-link" data-scroll-target="#compare-two-groups">Compare two groups</a></li>
+  <li><a href="#compare-more-than-two-groups" id="toc-compare-more-than-two-groups" class="nav-link" data-scroll-target="#compare-more-than-two-groups">Compare more than two groups</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -426,158 +422,433 @@ Tip
 </section>
 <section id="part-2---data-analyses" class="level1">
 <h1>Part 2 - Data Analyses</h1>
-<section id="introduction-to-categorical-data-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="introduction-to-categorical-data-analysis">Introduction to Categorical Data Analysis</h2>
-<p>When working with data, we often encounter variables that represent categories rather than numerical quantities. These are known as <strong>categorical variables</strong>. Examples might include eye colour (blue, brown, green), habitat type (rural, industrial), or survival status (yes, no). Understanding the frequency distribution of a single categorical variable is straightforward, but researchers are frequently interested in the relationship or association between <em>two or more</em> categorical variables.</p>
-<p>For example, we might want to know if there is a relationship between eye colour and sex in a group of students, or whether the frequency of different ladybird colour forms varies between different habitats. To explore these relationships and test for associations, we use tools like contingency tables and the Chi-Square contingency table test.</p>
+<section id="understanding-mean-tests-in-r" class="level2">
+<h2 class="anchored" data-anchor-id="understanding-mean-tests-in-r">Understanding Mean Tests in R</h2>
+<p>Mean tests are statistical procedures used to determine if there are significant differences between the means of two or more groups, or if a sample mean is significantly different from a specific value. These tests are fundamental in validating relationships, especially when dealing with a categorical variable and a continuous variable. The sources highlight various tests, including t-tests, Analysis of Variance (ANOVA), and their non-parametric counterparts, the Wilcoxon rank sum test and Kruskal-Wallis test</p>
+<section id="introduction-to-mean-tests" class="level3">
+<h3 class="anchored" data-anchor-id="introduction-to-mean-tests">Introduction to Mean Tests</h3>
+<p>Mean tests are fundamental statistical tools used to <strong>determine if there are significant differences between the average values (means) of one or more groups or against a specific hypothesised value</strong>. They are crucial for drawing conclusions from data in various fields, including epidemiology and data science.</p>
 </section>
-<section id="contingency-tables" class="level2">
-<h2 class="anchored" data-anchor-id="contingency-tables">Contingency Tables</h2>
-<p>A <strong>contingency table</strong> is a fundamental tool for summarising the frequency distribution of two or more categorical variables simultaneously. It organises the data into a grid where each cell shows the count of observations that fall into a specific combination of categories from the variables.</p>
-<p>A table summarising the frequencies of two categorical variables is called a <strong>two-way contingency table</strong>. If more than two variables were involved, it would be a higher-dimensional table (e.g., a three-way contingency table for three variables).</p>
-<p>The term “contingency” refers to the table’s ability to capture how the frequencies of one variable are ‘contingent’ upon, or associated with, the categories of another variable. This association, linkage, non-independence, or interaction is evident when the proportions of observations in one set of categories depend on a second set of categories.</p>
-<p>Consider two possibilities for a two-way table with categories R1, R2 and C1, C2:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th></th>
-<th>C1</th>
-<th>C2</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>R1</strong></td>
-<td>10</td>
-<td>20</td>
-</tr>
-<tr class="even">
-<td><strong>R2</strong></td>
-<td>40</td>
-<td>80</td>
-</tr>
-</tbody>
-</table>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th></th>
-<th>C1</th>
-<th>C2</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>R1</strong></td>
-<td>10</td>
-<td>80</td>
-</tr>
-<tr class="even">
-<td><strong>R2</strong></td>
-<td>40</td>
-<td>20</td>
-</tr>
-</tbody>
-</table>
-<p>In the first table (left), there is <strong>no association</strong>. The proportion of R1 cases relative to R2 cases is the same for both C1 and C2 (10/40 = 20/80 = 1/4). The total numbers in each category are irrelevant; it’s the proportions that indicate association.</p>
-<p>In the second table (right), there <strong>is evidence of an association</strong>. The proportion of R1 cases relative to R2 cases changes markedly between C1 (10/40 = 1/4) and C2 (80/20 = 4). The R1 cases are less frequent in the C1 column compared to the C2 column, relative to R2. Again, the proportions, not the raw numbers, reveal the association.</p>
+<section id="assumptions-for-mean-tests" class="level3">
+<h3 class="anchored" data-anchor-id="assumptions-for-mean-tests">Assumptions for Mean Tests</h3>
+<p>Parametric mean tests, such as the t-test and ANOVA, rely on several key assumptions about the data [5-12]. It is a best practice to <strong>visually check data distribution and run assumption tests prior to performing any statistical tests</strong>.</p>
+<p>The common assumptions for parametric tests are:</p>
+<ul>
+<li><p><strong>Independence</strong>: The samples are independent of each other [5, 6, 10]. For example, in an unpaired t-test, the observations in one group should not be related to the observations in another group. Paired tests, however, are an exception, as they explicitly deal with related or dependent samples.</p></li>
+<li><p><strong>Normality</strong>: The data for each group or the differences between paired observations should be <strong>approximately normally distributed</strong>.</p>
+<ul>
+<li><p><strong>Checking normality</strong>: This can be assessed using the <strong>Shapiro-Wilk test</strong> (<code>shapiro.test()</code> from <code>base</code> R or <code>shapiro_test()</code> from <code>rstatix</code>), which is suitable for sample sizes between 3 and 5000 observations. A p-value greater than 0.05 from this test indicates that the data distribution is not significantly different from a normal distribution, suggesting normality can be assumed.</p></li>
+<li><p><strong>Visual confirmation</strong>: <strong>Quantile-Quantile (Q-Q) plots</strong> (<code>ggqqplot()</code> from <code>ggpubr</code>) or <strong>histograms</strong> (<code>geom_histogram()</code> with <code>ggplot</code>) are useful visual tools to assess normality [19-23]. If points in a Q-Q plot fall approximately along the reference line, normality can be assumed [19]. Statistical tests can sometimes be overly sensitive to large sample sizes or not sensitive enough at low sample sizes, making visual interpretation valuable.</p></li>
+<li><p><strong>Large Sample Sizes</strong>: For sample sizes greater than 30 (n &gt; 30), the <strong>Central Limit Theorem</strong> suggests that violations of the normality assumption should not pose major issues, allowing the use of parametric tests [25]. However, visual checks and the Shapiro-Wilk test can still help identify serious deviations.</p></li>
+</ul></li>
+<li><p><strong>Homoscedasticity (Equality of Variances)</strong>: The variance of the outcome variable should be <strong>equal across the groups</strong> being compared. This assumption is primarily made by the <strong>classic Student’s t-test</strong> and standard ANOVA.</p>
+<ul>
+<li><strong>Checking homoscedasticity</strong>: <strong>Levene’s test</strong> (<code>leveneTest()</code> from <code>car</code> package or <code>levene_test()</code> from <code>rstatix</code>) is a robust method to compare variances. A p-value greater than 0.05 suggests that the variances are not significantly different, implying homogeneity of variances.</li>
+<li><strong>Visual confirmation</strong>: Boxplots can also be used to visually examine homoscedasticity.</li>
+<li><strong>Handling unequal variances</strong>: If variances are unequal, <strong>Welch’s t-test</strong> (for two groups) or <strong>Welch’s ANOVA</strong> (for more than two groups) are more appropriate alternatives as they do not assume equal variances. R’s <code>t.test()</code> function defaults to Welch’s t-test, making it a safer choice.</li>
+</ul></li>
+<li><p><strong>No Significant Outliers</strong>: <strong>Outliers</strong> can skew results and violate assumptions. They can be identified using boxplot methods, such as <code>identify_outliers()</code> from the <code>rstatix</code> package. If extreme outliers are present, non-parametric tests might be considered.</p></li>
+</ul>
 </section>
-<section id="creating-contingency-tables-in-r" class="level2">
-<h2 class="anchored" data-anchor-id="creating-contingency-tables-in-r">Creating Contingency Tables in R</h2>
-<p>The sources discuss several ways to create contingency tables in R, depending on how the raw data is structured.</p>
-<p>The primary function for creating contingency tables from raw data is <code>table()</code> or <code>xtabs()</code>. The <code>xtabs()</code> function is particularly useful as it can handle different data formats and is required for the <code>chisq.test()</code> function.</p>
-<p>When your data has one row for each individual observation and columns for each categorical variable, you can use <code>xtabs()</code> with a formula.</p>
-<p>Let’s use the <code>penguins</code> dataset as an example. Suppose we want a contingency table of <code>species</code> and <code>island</code>.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the penguins data (assuming it's available, e.g., from the palmerpenguins package)</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("palmerpenguins")</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(palmerpenguins)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(penguins)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Remove rows with missing values for species or island</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>penguins_complete <span class="ot">&lt;-</span> <span class="fu">na.omit</span>(penguins[, <span class="fu">c</span>(<span class="st">"species"</span>, <span class="st">"island"</span>)])</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the contingency table using xtabs</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>species_island_table <span class="ot">&lt;-</span> <span class="fu">xtabs</span>(<span class="sc">~</span> species <span class="sc">+</span> island, <span class="at">data =</span> penguins_complete)</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>species_island_table</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>           island
-species     Biscoe Dream Torgersen
-  Adelie        44    56        52
-  Chinstrap      0    68         0
-  Gentoo       124     0         0</code></pre>
-</div>
-</div>
-<p>Here, <code>xtabs()</code> counts the number of occurrences for each combination of species and island. Alternatively, the <code>table()</code> function can be used, which is often simpler for this data structure.</p>
+<section id="parametric-vs-non-parametric-versions" class="level3">
+<h3 class="anchored" data-anchor-id="parametric-vs-non-parametric-versions">Parametric vs Non-Parametric Versions</h3>
+<p>The choice between parametric and non-parametric tests largely depends on whether the data meets the assumptions of parametric tests, especially normality and homoscedasticity.</p>
+<ul>
+<li><strong>Parametric Tests</strong>:
+<ul>
+<li>Assume specific distributions for the data (e.g., normal distribution) and often require assumptions about the equality of variances.</li>
+<li>Examples include <strong>T-tests</strong> and <strong>Analysis of Variance (ANOVA)</strong>.</li>
+<li>They are generally more powerful when their assumptions are met.</li>
+</ul></li>
+<li><strong>Non-Parametric Tests</strong>:
+<ul>
+<li>Do <strong>not rely on assumptions about the distribution of the data</strong>.</li>
+<li>Often focus on medians or ranks rather than means.</li>
+<li>Examples include the <strong>Wilcoxon test</strong> (Rank-Sum test for two groups, Signed-Rank test for paired samples) and the <strong>Kruskal-Wallis test</strong> (for more than two groups).</li>
+<li>Recommended when parametric test assumptions are violated.</li>
+</ul></li>
+</ul>
 </section>
-<section id="create-the-contingency-table-using-table" class="level2">
-<h2 class="anchored" data-anchor-id="create-the-contingency-table-using-table">Create the contingency table using <code>table</code></h2>
+<section id="one-sample-comparisons" class="level3">
+<h3 class="anchored" data-anchor-id="one-sample-comparisons">One-sample comparisons</h3>
+<p>One-sample t-test is used to compare the mean of one sample to a known standard (or theoretical/hypothetical) mean (μ).</p>
+<p>Generally, the theoretical mean comes from:</p>
+<ul>
+<li><p>A previous experiment. For example, compare whether the mean weight of mice differs from 200 mg, a value determined in a previous study.</p></li>
+<li><p>From an experiment where you have control and treatment conditions. If you express your data as “percent of control”, you can test whether the average value of treatment condition differs significantly from 100.</p></li>
+</ul>
+<p>In statistics, we can define the corresponding null hypothesis (H0) as follow:</p>
+<p><span class="math inline">\(H_0 : m=\mu\)</span></p>
+<p><span class="math inline">\(H_0 : m \geq \mu\)</span></p>
+<p><span class="math inline">\(H_0 : m \leq \mu\)</span></p>
+<p>The corresponding alternative hypotheses (H’) are as follow:</p>
+<p><span class="math inline">\(H': m\neq\mu\)</span> (just different)</p>
+<p><span class="math inline">\(H' : m &lt; \mu\)</span> (smaller)</p>
+<p><span class="math inline">\(H' : m &gt; \mu\)</span> (greater)</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Now, imagine the <code>palmerpenguins</code> dataset. Imagine that you are a researcher working with penguins and someone reported a carcase of a dead penguin in an island that where you know that species <code>Adelie</code> was never registered. The only precise data you have is the length of the bill found (39.2mm). Can we use a <strong>one-sample test</strong> for that?</p>
+</div>
+</div>
+<p>Let’s check the mean values of bill length</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>species_island_table_table <span class="ot">&lt;-</span> <span class="fu">table</span>(penguins_complete<span class="sc">$</span>species, penguins_complete<span class="sc">$</span>island)</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>species_island_table_table</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(palmerpenguins)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(species) <span class="sc">%&gt;%</span> </span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>() <span class="sc">%&gt;%</span> </span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">bill_length_mean =</span> <span class="fu">mean</span>(bill_length_mm), <span class="at">bill_lengh_sd =</span> <span class="fu">sd</span>(bill_length_mm))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>           
-            Biscoe Dream Torgersen
-  Adelie        44    56        52
-  Chinstrap      0    68         0
-  Gentoo       124     0         0</code></pre>
+<pre><code># A tibble: 3 × 3
+  species   bill_length_mean bill_lengh_sd
+  &lt;fct&gt;                &lt;dbl&gt;         &lt;dbl&gt;
+1 Adelie                38.8          2.66
+2 Chinstrap             48.8          3.34
+3 Gentoo                47.6          3.11</code></pre>
 </div>
 </div>
-<p>Notice that <code>table()</code> requires you to specify the columns using the <code>$</code> operator, while <code>xtabs()</code> uses a formula.</p>
-<p>Case 2: Partially Summarised Data (Counts per Site/Group) Sometimes data is partially summarised, for example, counts within different sub-locations. In this case, you’ll have a column containing the counts and columns identifying the categories. You use <code>xtabs()</code> with the count variable on the left side of the formula <code>~</code>.</p>
-<p>Let’s simulate a similar structure using mtcars, grouping by cylinder (cyl) and transmission type (am), and having a ‘mpg’ variable. This isn’t a natural fit for mtcars, but we can illustrate the concept.</p>
+<p>Let’s test our possible hypotheses</p>
+<p>1- The dead penguin is from <strong>Adelie</strong> species, then <span class="math inline">\(H' : m &lt; \mu\)</span> where <span class="math inline">\(\mu\)</span> is the carcase and <code>m</code> could be the mean of other penguin species, let’s say <strong>Chinstrap</strong></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulate partially summarised data from mtcars (e.g., counts per car type group)</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co"># This is for illustration of the data format, not a real mtcars use case</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>mtcars_summary <span class="ot">&lt;-</span> <span class="fu">aggregate</span>(mpg <span class="sc">~</span> cyl <span class="sc">+</span> am, <span class="at">data =</span> mtcars, <span class="at">FUN =</span> length)</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Use xtabs with the count variable on the left</span></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>cyl_am_table_summary <span class="ot">&lt;-</span> <span class="fu">xtabs</span>(mpg <span class="sc">~</span> cyl <span class="sc">+</span> am, <span class="at">data =</span> mtcars_summary)</span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>cyl_am_table_summary</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(species<span class="sc">==</span><span class="st">"Adelie"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(bill_length_mm) <span class="ot">-&gt;</span> m</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(m, <span class="at">mu =</span> <span class="fl">39.2</span>, <span class="at">alternative =</span> <span class="st">"two.sided"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>   am
-cyl  0  1
-  4  3  8
-  6  4  3
-  8 12  2</code></pre>
+<pre><code>
+    One Sample t-test
+
+data:  m
+t = -1.8852, df = 150, p-value = 0.06134
+alternative hypothesis: true mean is not equal to 39.2
+95 percent confidence interval:
+ 38.36312 39.21966
+sample estimates:
+mean of x 
+ 38.79139 </code></pre>
 </div>
-</div>
-<p>In this structure, xtabs(mpg ~ cyl + am, …) tells R to sum the <code>mpg</code> variable for each combination of cyl and am.</p>
-<p>Case 3: Fully Summarised Data If your data is already in a summarised format, with each row representing a unique combination of categories and a column for the total count for that combination,<code>xtabs()</code> can still be used. The syntax is the same as Case 2, with the count variable on the left side of ~. xtabs will essentially ‘sum’ over the single count for each combination, effectively converting the data frame format into an xtabs contingency table object, which is needed for <code>chisq.test()</code>. Let’s use the ladybird example table:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Manual creation of the ladybird table as a data frame (similar to LADYBIRDS3.CSV)</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>ladybird_df_summarised <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">Habitat =</span> <span class="fu">c</span>(<span class="st">"Industrial"</span>, <span class="st">"Industrial"</span>, <span class="st">"Rural"</span>, <span class="st">"Rural"</span>),</span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">Colour =</span> <span class="fu">c</span>(<span class="st">"Black"</span>, <span class="st">"Red"</span>, <span class="st">"Black"</span>, <span class="st">"Red"</span>),</span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">Number =</span> <span class="fu">c</span>(<span class="dv">115</span>, <span class="dv">85</span>, <span class="dv">30</span>, <span class="dv">70</span>)</span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>ladybird_df_summarised</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(m, <span class="at">mu =</span> <span class="fl">39.2</span>, <span class="at">alternative =</span> <span class="st">"greater"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>     Habitat Colour Number
-1 Industrial  Black    115
-2 Industrial    Red     85
-3      Rural  Black     30
-4      Rural    Red     70</code></pre>
+<pre><code>
+    One Sample t-test
+
+data:  m
+t = -1.8852, df = 150, p-value = 0.9693
+alternative hypothesis: true mean is greater than 39.2
+95 percent confidence interval:
+ 38.43266      Inf
+sample estimates:
+mean of x 
+ 38.79139 </code></pre>
 </div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Use xtabs to convert to a contingency table object</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>ladybird_table_xtabs <span class="ot">&lt;-</span> <span class="fu">xtabs</span>(Number <span class="sc">~</span> Habitat <span class="sc">+</span> Colour, <span class="at">data =</span> ladybird_df_summarised)</span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>ladybird_table_xtabs</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(m, <span class="at">mu =</span> <span class="fl">39.2</span>, <span class="at">alternative =</span> <span class="st">"less"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>            Colour
-Habitat      Black Red
-  Industrial   115  85
-  Rural         30  70</code></pre>
+<pre><code>
+    One Sample t-test
+
+data:  m
+t = -1.8852, df = 150, p-value = 0.03067
+alternative hypothesis: true mean is less than 39.2
+95 percent confidence interval:
+     -Inf 39.15012
+sample estimates:
+mean of x 
+ 38.79139 </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(species<span class="sc">==</span><span class="st">"Chinstrap"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(bill_length_mm) <span class="ot">-&gt;</span> m</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(m, <span class="at">mu =</span> <span class="fl">39.2</span>, <span class="at">alternative =</span> <span class="st">"two.sided"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    One Sample t-test
+
+data:  m
+t = 23.79, df = 67, p-value &lt; 2.2e-16
+alternative hypothesis: true mean is not equal to 39.2
+95 percent confidence interval:
+ 48.02555 49.64210
+sample estimates:
+mean of x 
+ 48.83382 </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(m, <span class="at">mu =</span> <span class="fl">39.2</span>, <span class="at">alternative =</span> <span class="st">"greater"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    One Sample t-test
+
+data:  m
+t = 23.79, df = 67, p-value &lt; 2.2e-16
+alternative hypothesis: true mean is greater than 39.2
+95 percent confidence interval:
+ 48.15841      Inf
+sample estimates:
+mean of x 
+ 48.83382 </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(m, <span class="at">mu =</span> <span class="fl">39.2</span>, <span class="at">alternative =</span> <span class="st">"less"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    One Sample t-test
+
+data:  m
+t = 23.79, df = 67, p-value = 1
+alternative hypothesis: true mean is less than 39.2
+95 percent confidence interval:
+     -Inf 49.50924
+sample estimates:
+mean of x 
+ 48.83382 </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(species<span class="sc">==</span><span class="st">"Gentoo"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(bill_length_mm) <span class="ot">-&gt;</span> m</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(m, <span class="at">mu =</span> <span class="fl">39.2</span>, <span class="at">alternative =</span> <span class="st">"two.sided"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    One Sample t-test
+
+data:  m
+t = 29.886, df = 122, p-value &lt; 2.2e-16
+alternative hypothesis: true mean is not equal to 39.2
+95 percent confidence interval:
+ 46.95478 48.05497
+sample estimates:
+mean of x 
+ 47.50488 </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(m, <span class="at">mu =</span> <span class="fl">39.2</span>, <span class="at">alternative =</span> <span class="st">"greater"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    One Sample t-test
+
+data:  m
+t = 29.886, df = 122, p-value &lt; 2.2e-16
+alternative hypothesis: true mean is greater than 39.2
+95 percent confidence interval:
+ 47.04431      Inf
+sample estimates:
+mean of x 
+ 47.50488 </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(m, <span class="at">mu =</span> <span class="fl">39.2</span>, <span class="at">alternative =</span> <span class="st">"less"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    One Sample t-test
+
+data:  m
+t = 29.886, df = 122, p-value = 1
+alternative hypothesis: true mean is less than 39.2
+95 percent confidence interval:
+     -Inf 47.96545
+sample estimates:
+mean of x 
+ 47.50488 </code></pre>
 </div>
 </div>
-<p>This produces the desired contingency table object. ## Visualizing Contingency Tables Visualising contingency tables can provide quick insights into potential associations. Mosaic plots are particularly useful as they represent combinations of categories by rectangles whose size is proportional to the count, and can use colour to indicate deviation from expected counts under independence. Using the penguins species by island table:</p>
+<p>From all comparison, the one that rejected more differences was the first (compared to Adelie), so our scientific hypotheses that the carcase might belongs to an Adelie penguins cannot be rejected. All other comparisons, rejected this scientific hypothesis.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Exactly the same logic applies to the non-parametric version of the test: <strong>Wilcoxon test</strong></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(graphics) <span class="co"># mosaicplot is in the built-in graphics package</span></span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the table</span></span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="fu">mosaicplot</span>(species_island_table, <span class="at">shade =</span> <span class="cn">TRUE</span>, <span class="at">las=</span><span class="dv">2</span>, <span class="at">main =</span> <span class="st">"Penguin Species by Island"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(species<span class="sc">==</span><span class="st">"Adelie"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(bill_length_mm)<span class="ot">-&gt;</span> m <span class="co"># Note that I had to use the fucntion pull to extract a numeric vector rather than a tibble acecpted by t.test before</span></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="fu">wilcox.test</span>(m, <span class="at">mu =</span> <span class="fl">39.2</span>, <span class="at">alternative =</span> <span class="st">"two.sided"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Wilcoxon signed rank test with continuity correction
+
+data:  m
+V = 4447, p-value = 0.04137
+alternative hypothesis: true location is not equal to 39.2</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">wilcox.test</span>(m, <span class="at">mu =</span> <span class="fl">39.2</span>, <span class="at">alternative =</span> <span class="st">"greater"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Wilcoxon signed rank test with continuity correction
+
+data:  m
+V = 4447, p-value = 0.9794
+alternative hypothesis: true location is greater than 39.2</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">wilcox.test</span>(m, <span class="at">mu =</span> <span class="fl">39.2</span>, <span class="at">alternative =</span> <span class="st">"less"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Wilcoxon signed rank test with continuity correction
+
+data:  m
+V = 4447, p-value = 0.02069
+alternative hypothesis: true location is less than 39.2</code></pre>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="twoor-more-sample-comparisons-independent-groups" class="level3">
+<h3 class="anchored" data-anchor-id="twoor-more-sample-comparisons-independent-groups">Two(or more)-sample comparisons (independent groups)</h3>
+<p>This test is used to compare the means of two independent groups. For instance, it can compare the average weights of individuals grouped by gender. There are two primary forms:</p>
+<p>• <strong>Student’s t-test</strong>: Assumes that the variance of the two groups are equal.</p>
+<p>• <strong>Welch’s t-test</strong>: Is less restrictive and does not assume equal variances between the two groups. By default, R typically computes the Welch’s t-test, which is considered the safer option, especially when group sizes and standard deviations are very different. * <strong>Analyses of Variance</strong>: Works similarly as the t-test but is able to compare more than two groups and uses a different calculation to decide on whether or not to reject null hypothesis, via <strong>F-statisticis</strong></p>
+<p><strong>Assumptions</strong>:</p>
+<ul>
+<li><p>Independence of observations: Each subject should belong to only one group, and there should be no relationship between observations across groups.</p></li>
+<li><p>No significant outliers in either group.</p></li>
+<li><p>Normality: The data for each group should be approximately normally distributed.</p></li>
+<li><p>Homogeneity of variances: The variance of the outcome variable should be equal in each group. This assumption is specifically for the standard Student’s t-test and is relaxed in the Welch’s t-test. Homogeneity of variances can be checked using Levene’s test. If variances are unequal, Welch’s t-test is often preferred as it maintains a more accurate Type I error rate</p></li>
+</ul>
+<p><strong>Non-Parametric Alternatives</strong></p>
+<p>When the assumptions for parametric tests (like t-tests or ANOVA) are not met, particularly normality or homogeneity of variances, non-parametric alternatives are recommended.</p>
+<p>• <strong>Wilcoxon Rank Sum Test (Mann-Whitney U test)</strong>: This is the non-parametric alternative to the independent samples t-test. It determines if two numeric samples are from the same distribution when populations are not normally distributed or have unequal variance, focusing on comparing medians rather than means.</p>
+<p>• <strong>Kruskal-Wallis Test</strong>: This is the non-parametric alternative to one-way ANOVA. It tests for differences in the distribution of more than two samples when normality cannot be assumed. Like ANOVA, it is an “omnibus” test and typically requires pairwise Wilcoxon tests as post-hoc analyses to identify specific group differences.</p>
+</section>
+</section>
+<section id="compare-two-groups" class="level2">
+<h2 class="anchored" data-anchor-id="compare-two-groups">Compare two groups</h2>
+<p>Let’s consider again the Penguins dataset. Can I use the bill length as helpful character to separate species?</p>
+<p>Let’s see if Chinstrap and Gentoo species differ in bill length</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Method 1</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(species<span class="sc">==</span><span class="st">"Chinstrap"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(bill_length_mm)<span class="ot">-&gt;</span>x</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(species<span class="sc">==</span><span class="st">"Gentoo"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(bill_length_mm)<span class="ot">-&gt;</span>y</span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-11"><a href="#cb27-11" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(x, y, <span class="at">var.equal =</span> <span class="cn">TRUE</span>, <span class="at">alternative=</span><span class="st">"two.sided"</span>) <span class="co"># testing if they are different</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Two Sample t-test
+
+data:  x and y
+t = 2.7694, df = 189, p-value = 0.006176
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.3823625 2.2755285
+sample estimates:
+mean of x mean of y 
+ 48.83382  47.50488 </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(x, y, <span class="at">alternative=</span><span class="st">"greater"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Welch Two Sample t-test
+
+data:  x and y
+t = 2.706, df = 129.22, p-value = 0.003865
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.515293      Inf
+sample estimates:
+mean of x mean of y 
+ 48.83382  47.50488 </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(x, y, <span class="at">alternative=</span><span class="st">"less"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Welch Two Sample t-test
+
+data:  x and y
+t = 2.706, df = 129.22, p-value = 0.9961
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+     -Inf 2.142598
+sample estimates:
+mean of x mean of y 
+ 48.83382  47.50488 </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Method 2</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(species<span class="sc">!=</span><span class="st">"Adelie"</span>)<span class="ot">-&gt;</span>peng.t.test </span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">t.test</span>(bill_length_mm<span class="sc">~</span>species, <span class="at">var.equal=</span><span class="cn">TRUE</span>, <span class="at">data =</span> peng.t.test)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Two Sample t-test
+
+data:  bill_length_mm by species
+t = 2.7694, df = 189, p-value = 0.006176
+alternative hypothesis: true difference in means between group Chinstrap and group Gentoo is not equal to 0
+95 percent confidence interval:
+ 0.3823625 2.2755285
+sample estimates:
+mean in group Chinstrap    mean in group Gentoo 
+               48.83382                47.50488 </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>   <span class="fu">t.test</span>(bill_length_mm<span class="sc">~</span>species, <span class="at">var.equal=</span><span class="cn">FALSE</span>, <span class="at">data =</span> peng.t.test)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Welch Two Sample t-test
+
+data:  bill_length_mm by species
+t = 2.706, df = 129.22, p-value = 0.00773
+alternative hypothesis: true difference in means between group Chinstrap and group Gentoo is not equal to 0
+95 percent confidence interval:
+ 0.3572698 2.3006212
+sample estimates:
+mean in group Chinstrap    mean in group Gentoo 
+               48.83382                47.50488 </code></pre>
+</div>
+</div>
+</section>
+<section id="compare-more-than-two-groups" class="level2">
+<h2 class="anchored" data-anchor-id="compare-more-than-two-groups">Compare more than two groups</h2>
+<p><strong>ANOVA</strong> is used when you want to compare the means of three or more independent groups on a particular continuous variable. It tells you whether there’s an overall statistically significant difference among the group means.</p>
+<p>Let’s try to determine if there is a statistically significant difference in the mean <code>bill length</code> (bill_length_mm) among the different penguin species.</p>
+<ul>
+<li><p>Categorical Independent Variable (Factor): species (Adelie, Chinstrap, Gentoo) - 3 levels/groups</p></li>
+<li><p>Continuous Dependent Variable: bill_length_mm</p></li>
+</ul>
+<p>State the Hypotheses</p>
+<ul>
+<li>Null Hypothesis (H0): The mean bill length is the same across all penguin species (μ_Adelie = μ_Chinstrap = μ_Gentoo)</li>
+<li>Alternative Hypothesis (Ha): At least one penguin species has a different mean bill length from the others. (Not all means are equal)</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>anova_result <span class="ot">&lt;-</span> <span class="fu">aov</span>(bill_length_mm <span class="sc">~</span> species, <span class="at">data =</span> penguins)</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(anova_result)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>             Df Sum Sq Mean Sq F value Pr(&gt;F)    
+species       2   7194    3597   410.6 &lt;2e-16 ***
+Residuals   339   2970       9                   
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+2 observations deleted due to missingness</code></pre>
+</div>
+</div>
+<p>Visualise the data</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(species, bill_length_mm, <span class="at">color=</span>species, <span class="at">fill=</span>species))<span class="sc">+</span></span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_jitter</span>() <span class="sc">+</span></span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>(<span class="at">alpha=</span><span class="fl">0.5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Removed 2 rows containing non-finite outside the scale range
+(`stat_boxplot()`).</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Removed 2 rows containing missing values or values outside the scale range
+(`geom_point()`).</code></pre>
+</div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -586,249 +857,6 @@ Habitat      Black Red
 </div>
 </div>
 </div>
-<p>In a mosaic plot with <code>shade = TRUE</code>, blue colours indicate that the observed cell count is higher than expected under independence, while red indicates it is lower than expected. This helps identify which specific category combinations contribute most to any detected association. For example, the plot shows a strong positive association (blue) between Adelie penguins and Biscoe island, and Gentoo penguins and Torgersen island.</p>
-</section>
-<section id="chi-square-contingency-table-test" class="level2">
-<h2 class="anchored" data-anchor-id="chi-square-contingency-table-test">Chi-Square Contingency Table Test</h2>
-<p>The Pearson’s Chi-Square (chi-square) contingency table test is the most widely used method to evaluate whether there is a significant association between two or more categorical variables summarised in a contingency table.</p>
-<p>How the Test Works? The core idea of the Chi-Square test is to compare the observed frequencies in the contingency table (the actual counts from the data) to the expected frequencies that would be observed if the variables were truly independent (i.e., if there was no association).</p>
-<p>The test addresses the question of dependence between different kinds of outcomes or events by setting up a null hypothesis.</p>
-<p>• Null Hypothesis ((H_0)): The row and column variables (the two categorical variables) are independent of one another. The occurrence of one event does not depend on the other. • Alternative Hypothesis ((H_1)): The row and column variables are dependent; there is a significant association between the categories.</p>
-<p>Step 1: Calculate Expected Frequencies Under the null hypothesis of independence, the expected number of observations in each cell of the table is calculated. The logic is based on probability: if two events are independent, the probability of both occurring is the product of their individual probabilities. For any cell in the table, the expected value is calculated as: <span class="math display">\[ E = \frac{(\text{Row Total}) \times (\text{Column Total})}{\text{Grand Total}} \]</span> Let’s calculate the expected values for the ladybird colour by habitat</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: left;">Habitat</th>
-<th style="text-align: left;">Black</th>
-<th style="text-align: left;">Red</th>
-<th style="text-align: left;">Totals</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Rural</td>
-<td style="text-align: left;">30</td>
-<td style="text-align: left;">70</td>
-<td style="text-align: left;">100</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Industrial</td>
-<td style="text-align: left;">115</td>
-<td style="text-align: left;">85</td>
-<td style="text-align: left;">200</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Totals</strong></td>
-<td style="text-align: left;"><strong>145</strong></td>
-<td style="text-align: left;"><strong>155</strong></td>
-<td style="text-align: left;"><strong>300</strong></td>
-</tr>
-</tbody>
-</table>
-<p>• Expected (Rural, Black) = <span class="math display">\[(\frac{100 \times 145}{300} \approx 48.33)\]</span> • Expected (Rural, Red) =<span class="math display">\[ (\frac{100 \times 155}{300} \approx 51.67)\]</span> • Expected (Industrial, Black) = <span class="math display">\[(\frac{200 \times 145}{300} \approx 96.67)\]</span> • Expected (Industrial, Red) = <span class="math display">\[(\frac{200 \times 155}{300} \approx 103.33)\]</span></p>
-<p>Compare these to the observed counts (30, 70, 115, 85). There are differences, but are they large enough to be statistically significant?</p>
-<p>Step 2: Calculate the Chi-Square Test Statistic The Chi-Square test statistic chi^2 quantifies the overall discrepancy between the observed counts ((o)) and the expected counts ((e)) across all cells in the table. The formula is: <span class="math display">\[ \chi^2 = \sum{\frac{(o - e)^2}{e}} \]</span> The sum is taken over all cells in the contingency table. A larger chi² value indicates a greater mismatch between observed and expected counts, suggesting stronger evidence against the null hypothesis of independence.</p>
-<p>For a 2x2 table, there is a shortcut formula, but it doesn’t show the expected values: <span class="math display">\[ \chi^{2}=\frac{k(bc-ad)^{2}}{efgh} \]</span> where k is the grand total, a, b, c, d are the cell counts, and e, f, g, h are the row and column totals.</p>
-<p>Step 3: Determine the p-value The calculated chi^2 statistic is compared to a theoretical Chi-Square distribution to determine the p-value. The p-value is the probability of observing a chi^2 statistic as large as, or larger than, the one calculated from the data, assuming the null hypothesis of no association is true.</p>
-<p>• A low p-value (typically less than a chosen significance level like 0.05) indicates that the observed pattern is unlikely under the null hypothesis, providing evidence against the null hypothesis and suggesting a significant association. • A high p-value suggests the observed pattern is reasonably likely under the null hypothesis, meaning we fail to reject the null hypothesis; there is insufficient evidence to conclude a significant association.</p>
-<p>The Chi-Square distribution used depends on the degrees of freedom (df), which for a two-way contingency table is calculated as ((r-1) (c-1)), where (r) is the number of rows and (c) is the number of columns. For a 2x2 table, df = (2-1) * (2-1) = 1.</p>
-</section>
-<section id="assumptions-of-the-chi-square-test" class="level2">
-<h2 class="anchored" data-anchor-id="assumptions-of-the-chi-square-test">Assumptions of the Chi-Square Test</h2>
-<p>Like most statistical tests, the Chi-Square contingency test has assumptions. 1. Independent Observations: The counts in each cell must be independent. This means each observation should only contribute to one cell in the table, and the observations should not be related (e.g., repeated measurements on the same individuals are not independent). 2. Sufficiently Large Expected Counts: The expected counts (not the observed counts) should not be too low. A common rule of thumb is that all expected values should be greater than 5. If this assumption is violated, the p-values generated by the test can become unreliable. In such cases, Fisher’s exact test is a more appropriate alternative.</p>
-</section>
-<section id="performing-the-chi-square-test-in-r" class="level2">
-<h2 class="anchored" data-anchor-id="performing-the-chi-square-test-in-r">Performing the Chi-Square Test in R</h2>
-<p>The <code>chisq.test()</code> function in R performs the Chi-Square contingency table test. Its primary input is a contingency table object (like those created by <code>xtabs()</code> or <code>table()</code>). Let’s perform the test on the ladybird data:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ladybird_table_xtabs was created earlier using xtabs</span></span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="fu">chisq.test</span>(ladybird_table_xtabs)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>
-    Pearson's Chi-squared test with Yates' continuity correction
-
-data:  ladybird_table_xtabs
-X-squared = 19.103, df = 1, p-value = 1.239e-05</code></pre>
-</div>
-</div>
-<p>The output provides the test reminder, data used, the calculated chi-square statistic (X-squared), the degrees of freedom (df), and the p-value.</p>
-<p>Notice the output mentions “Yates’ continuity correction”. This correction is applied by default in R for 2x2 tables to provide more reliable p-values under certain circumstances. You can turn it off using correct = FALSE, but the default is generally safer for 2x2 tables.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Performing the test without Yates' correction (not recommended for 2x2)</span></span>
-<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="fu">chisq.test</span>(ladybird_table_xtabs, <span class="at">correct =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>
-    Pearson's Chi-squared test
-
-data:  ladybird_table_xtabs
-X-squared = 20.189, df = 1, p-value = 7.015e-06</code></pre>
-</div>
-</div>
-<p>The results are similar but slightly different. Stick with the default correct = TRUE for 2x2 tables. Interpreting the Output and Nature of Association The p-value from the <code>chisq.test()</code> tells you whether there is a statistically significant association between the variables. A p-value less than your chosen significance level (e.g., 0.05) leads you to reject the null hypothesis and conclude that there is a significant association.</p>
-<p>For the ladybird example, the p-value was very small (1.239e-05 with correction), which is much less than 0.05. We reject the null hypothesis and conclude there is a significant association between ladybird colour type and habitat. Merely stating that an association exists isn’t always sufficient. We should also describe the nature of the association. For 2x2 tables, this is relatively easy: black individuals are more likely to be found in industrial areas in the ladybird example. For larger tables, interpreting the association is harder. Visualisations (like mosaic plots) and examining the differences between observed and expected counts can help.</p>
-<p>A more formal way to investigate the nature of the association, especially for larger tables, is by examining the residuals for each cell. Pearson residuals (or standardized residuals) are calculated as: <span class="math display">\[ r = \frac{o - e}{\sqrt{e}} \]</span> Cells with large absolute residuals contribute most to the overall chi-square statistic. The sign of the residual indicates the direction of the association:</p>
-<p>• Positive residuals (often shown in blue in plots like corrplot) indicate an attraction or positive association between the corresponding row and column categories – the observed count is higher than expected. • Negative residuals (often shown in red) indicate a repulsion or negative association – the observed count is lower than expected. You can access the observed counts, expected counts, and residuals from the output of the <code>chisq.test()</code> function using the $ operator.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>ladybird_test_result <span class="ot">&lt;-</span> <span class="fu">chisq.test</span>(ladybird_table_xtabs)</span>
-<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Observed counts</span></span>
-<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>ladybird_test_result<span class="sc">$</span>observed</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>            Colour
-Habitat      Black Red
-  Industrial   115  85
-  Rural         30  70</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Expected counts</span></span>
-<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="fu">round</span>(ladybird_test_result<span class="sc">$</span>expected, <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>            Colour
-Habitat      Black    Red
-  Industrial 96.67 103.33
-  Rural      48.33  51.67</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Pearson residuals</span></span>
-<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="fu">round</span>(ladybird_test_result<span class="sc">$</span>residuals, <span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>            Colour
-Habitat       Black    Red
-  Industrial  1.865 -1.804
-  Rural      -2.637  2.551</code></pre>
-</div>
-</div>
-<p>Looking at the residuals, the positive residuals for (Industrial, Black) and (Rural, Red) indicate these combinations occur more often than expected under independence, while (Rural, Black) and (Industrial, Red) occur less often than expected. This confirms the conclusion that black forms are more frequent in industrial areas relative to red forms, compared to rural areas. The contribution of each cell to the total chi-square score can also be calculated ( (r^2 / ^2) ) to see which cells drive the significant result.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate cell contributions in percentage</span></span>
-<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>cell_contributions <span class="ot">&lt;-</span> <span class="dv">100</span> <span class="sc">*</span> ladybird_test_result<span class="sc">$</span>residuals<span class="sc">^</span><span class="dv">2</span> <span class="sc">/</span> ladybird_test_result<span class="sc">$</span>statistic</span>
-<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="fu">round</span>(cell_contributions, <span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>            Colour
-Habitat       Black    Red
-  Industrial 18.201 17.027
-  Rural      36.403 34.054</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualize contributions (requires corrplot package)</span></span>
-<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("corrplot")</span></span>
-<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(corrplot)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>corrplot 0.92 loaded</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">corrplot</span>(cell_contributions, <span class="at">is.cor =</span> <span class="cn">FALSE</span>, <span class="at">main =</span> <span class="st">"Cell Contributions to Chi-Square"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="week6_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>The plot shows that the Industrial/Black and Rural/Red cells contribute the most to the significant Chi-Square result. Accessing Test Results The result of <code>chisq.test()</code> is a list containing several components. You can access these using the $ operator: • statistic: The chi-square test statistic value. • parameter: The degrees of freedom. • p.value: The p-value of the test. • observed: The observed contingency table. • expected: The expected contingency table under (H_0). • residuals: The Pearson residuals for each cell.</p>
-</section>
-<section id="fishers-exact-test" class="level2">
-<h2 class="anchored" data-anchor-id="fishers-exact-test">Fisher’s Exact Test</h2>
-<p>When the assumption of sufficiently large expected counts for the Chi-Square test is not met (e.g., expected counts less than 5), Fisher’s exact test is a more reliable alternative. It calculates the exact probability of observing the given table (or a more extreme one) assuming independence, without relying on approximations.</p>
-<p>Fisher’s exact test is performed using the fisher.test() function in R. It also takes a contingency table as input. Let’s use the Titanic data example from the sources.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Manually create the Titanic sex vs survival table</span></span>
-<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>titanic_table <span class="ot">&lt;-</span> <span class="fu">as.table</span>(<span class="fu">matrix</span>(<span class="fu">c</span>(<span class="dv">156</span>, <span class="dv">307</span>, <span class="dv">708</span>, <span class="dv">142</span>), <span class="at">nrow =</span> <span class="dv">2</span>, <span class="at">byrow =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(titanic_table) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"no"</span>, <span class="st">"yes"</span>)</span>
-<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a><span class="fu">rownames</span>(titanic_table) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"female"</span>, <span class="st">"male"</span>)</span>
-<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>titanic_table</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>        no yes
-female 156 307
-male   708 142</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check expected counts for Chi-Square assumption</span></span>
-<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="fu">chisq.test</span>(titanic_table)<span class="sc">$</span>expected</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>             no      yes
-female 304.6702 158.3298
-male   559.3298 290.6702</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Expected counts are &gt; 5 here, so Chi-Square is appropriate, but Fisher's is also fine and often preferred computationally.</span></span>
-<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Perform Fisher's exact test</span></span>
-<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a><span class="fu">fisher.test</span>(titanic_table)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>
-    Fisher's Exact Test for Count Data
-
-data:  titanic_table
-p-value &lt; 2.2e-16
-alternative hypothesis: true odds ratio is not equal to 1
-95 percent confidence interval:
- 0.07759301 0.13384845
-sample estimates:
-odds ratio 
- 0.1021212 </code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Manually create the Titanic sex vs survival table</span></span>
-<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>titanic_table <span class="ot">&lt;-</span> <span class="fu">as.table</span>(<span class="fu">matrix</span>(<span class="fu">c</span>(<span class="dv">156</span>, <span class="dv">307</span>, <span class="dv">708</span>, <span class="dv">142</span>), <span class="at">nrow =</span> <span class="dv">2</span>, <span class="at">byrow =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(titanic_table) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"no"</span>, <span class="st">"yes"</span>)</span>
-<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a><span class="fu">rownames</span>(titanic_table) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"female"</span>, <span class="st">"male"</span>)</span>
-<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>titanic_table</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>        no yes
-female 156 307
-male   708 142</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check expected counts for Chi-Square assumption</span></span>
-<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="fu">chisq.test</span>(titanic_table)<span class="sc">$</span>expected</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>             no      yes
-female 304.6702 158.3298
-male   559.3298 290.6702</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Expected counts are &gt; 5 here, so Chi-Square is appropriate, but Fisher's is also fine and often preferred computationally.</span></span>
-<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Perform Fisher's exact test</span></span>
-<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a><span class="fu">fisher.test</span>(titanic_table)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>
-    Fisher's Exact Test for Count Data
-
-data:  titanic_table
-p-value &lt; 2.2e-16
-alternative hypothesis: true odds ratio is not equal to 1
-95 percent confidence interval:
- 0.07759301 0.13384845
-sample estimates:
-odds ratio 
- 0.1021212 </code></pre>
-</div>
-</div>
-<p>The output includes the p-value. It also conveniently provides an estimate of the odds ratio and its 95% confidence interval. The odds ratio is another way to quantify the strength and direction of the association.</p>
-<p>For the Titanic data, the odds ratio is about 0.10, indicating the odds of a male surviving were about one-tenth the odds of a female surviving. The confidence interval gives a range of plausible values for this odds ratio in the population. Fisher’s exact test is particularly recommended for 2x2 tables with small expected counts, but the <code>fisher.test()</code> function in R can handle larger tables as well, although it won’t calculate odds ratios for tables larger than 2x2.</p>
-</section>
-</section>
-<section id="exercises" class="level1">
-<h1>Exercises</h1>
-<p>Apply what you’ve learned to explore associations in different datasets.</p>
-<section id="exercise-1-car-characteristics" class="level3">
-<h3 class="anchored" data-anchor-id="exercise-1-car-characteristics">Exercise 1: Car Characteristics</h3>
-<p>The mtcars dataset contains various characteristics for different car models. We can treat some of these as categorical variables. Let’s investigate the relationship between the number of cylinders (cyl) and the transmission type (am, where 0 = automatic, 1 = manual). 1. Load the mtcars dataset. 2. Create a contingency table showing the frequencies of cyl by am. 3. Examine the expected counts for a Chi-Square test. Are the assumptions met (all expected values &gt; 5)? 4. Perform the appropriate hypothesis test (Chi-Square if assumptions met, otherwise Fisher’s exact test) to determine if there is a significant association between the number of cylinders and transmission type. 5. Interpret the results of the test, including the p-value and conclusion regarding the null hypothesis. 6. Based on the observed counts or residuals/contributions, describe the nature of any significant association found. For example, are cars with more cylinders more likely to have automatic or manual transmission?</p>
-</section>
-<section id="exercise-2-penguin-species-and-sex" class="level3">
-<h3 class="anchored" data-anchor-id="exercise-2-penguin-species-and-sex">Exercise 2: Penguin Species and Sex</h3>
-<p>The penguins dataset contains data on penguins from different islands.</p>
-<ol type="1">
-<li>Load the penguins dataset and ensure you handle any missing values in the species and sex columns.</li>
-<li>Create a contingency table showing the frequencies of species by sex.</li>
-<li>Create a mosaic plot of the contingency table, using shading (shade=TRUE) to visualise deviations from independence.</li>
-<li>Examine the expected counts for a Chi-Square test. Are the assumptions met?</li>
-<li>Perform the appropriate hypothesis test to determine if there is a significant association between penguin species and sex.</li>
-<li>Interpret the test results. If there is a significant association, use the mosaic plot or residuals to describe how the distribution of sexes differs among the species.</li>
-</ol>
-</section>
-<section id="refereces-for-this-class" class="level3">
-<h3 class="anchored" data-anchor-id="refereces-for-this-class">Refereces for this class</h3>
-<ol type="1">
-<li><p>Chapter 32 Contingency tables | APS 240: Data Analysis and Statistics with R</p></li>
-<li><p>Chi-Square Test of Independence in R - Easy Guides - Wiki - STHDA: <a href="https://www.sthda.com/english/wiki/chi-square-test-of-independence-in-r-easy-guides" class="uri">https://www.sthda.com/english/wiki/chi-square-test-of-independence-in-r-easy-guides</a></p></li>
-<li><p>Contingency Tables with R” uploaded on the YouTube channel “Gilles Lamothe: <a href="https://www.youtube.com/watch?v=kC1i8zB5w34" class="uri">https://www.youtube.com/watch?v=kC1i8zB5w34</a></p></li>
-<li><p>Performing a Chi Square contingency table test using R uploaded on the YouTube channel “KnowHow”: <a href="https://www.youtube.com/watch?v=V96b_Ksmb6I" class="uri">https://www.youtube.com/watch?v=V96b_Ksmb6I</a></p></li>
-<li><p>Tutorials using R: 7: Contingency analysis: <a href="https://www.zoology.ubc.ca/~whitlock/ABD/tutorials/r/tutorials_R_07-contingency-analysis.html" class="uri">https://www.zoology.ubc.ca/~whitlock/ABD/tutorials/r/tutorials_R_07-contingency-analysis.html</a></p></li>
-</ol>
 
 
 </section>
