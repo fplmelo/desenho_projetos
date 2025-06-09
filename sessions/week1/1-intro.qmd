@@ -135,7 +135,11 @@ Installation of the `rmarkdown` package will also install the `knitr` package so
 
 **And mathematical equations:**
 
-E = mc^2
+Just add one or two `$` "money" symbols fencing the expression. You can use online tools to build equations that will generate a universal code that if placed between `$`, will be translated into equations.
+
+```bash
+$$E = mc^2$$
+```
 
 $$E = mc^2$$
 
@@ -232,14 +236,14 @@ To get started, review the documentation for using one of the following publishi
 
 : {tbl-colwidths="\[30,70\]"}
 
-If you don't know which to choose, try [Quarto Pub](/docs/publishing/quarto-pub.qmd) which is a free service for publicly available content. If you are publishing to a destination not listed above, choose [Other Services](/docs/publishing/other.qmd).
+If you don't know which to choose, try [Quarto Pub](https://quarto.org/docs/publishing/quarto-pub.html) which is a free service for publicly available content. If you are publishing to a destination not listed above, choose [Other Services](/docs/publishing/other.qmd).
 
-These articles cover both straightforward direct publishing as well as Continuous Integration (CI) publishing with GitHub Actions. If you want to publish using CI and aren't using GitHub Actions, the article on [Publishing with CI](/docs/publishing/ci.qmd) provides additional details and documentation.
+These articles cover both straightforward direct publishing as well as Continuous Integration (CI) publishing with GitHub Actions. If you want to publish using CI and aren't using GitHub Actions, the article on [Publishing with CI](https://quarto.org/docs/publishing/other.html) provides additional details and documentation.
 
 
 ## Exercise
 
-Now create your own quarto workbook:
+**Now create your own quarto workbook:**
 
 1- Check this very simple tutorial
 
@@ -249,6 +253,6 @@ Now create your own quarto workbook:
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/hceM0-RuPwo" title="Using an attractive homepage template for a Quarto website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-3- Publish with the command 'quarto publish' in a terminal
+3- Publish your workbook using any of the tools above. I recommend either [Quarto Pub](https://quarto.org/docs/publishing/quarto-pub.html) or [GitHub Pages](https://quarto.org/docs/publishing/github-pages.html).
 
-4- Submit to the link to [NOW dropbox folder]()
+4- Submit the link of your workbook to our [NOW dropbox folder]()

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Felipe Melo">
-<meta name="dcterms.date" content="2025-06-08">
+<meta name="dcterms.date" content="2025-06-09">
 
 <title>Week 1 - Introduction to RMDA</title>
 <style>
@@ -313,7 +313,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 8, 2025</p>
+      <p class="date">June 9, 2025</p>
     </div>
   </div>
   
@@ -425,11 +425,12 @@ window.Quarto = {
 <h3 class="anchored" data-anchor-id="to-use-quarto-with-r-you-should-install-the-rmarkdown-r-package">To use Quarto with R, you should install the rmarkdown R package:</h3>
 <p>Installation of the <code>rmarkdown</code> package will also install the <code>knitr</code> package so you will have everything required to render documents containing R code.</p>
 <p><strong>And mathematical equations:</strong></p>
-<p>E = mc^2</p>
+<p>Just add one or two <code>$</code> “money” symbols fencing the expression. You can use online tools to build equations that will generate a universal code that if placed between <code>$</code>, will be translated into equations.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="va">$$</span><span class="ex">E</span> = mc^2<span class="va">$$</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><span class="math display">\[E = mc^2\]</span></p>
 <p><strong>You can add images too:</strong></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"https://quarto.org/quarto.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"https://quarto.org/quarto.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -478,7 +479,7 @@ Tip
 <ol start="2" type="1">
 <li>Run the following command to render the webpage:</li>
 </ol>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render webpage.qmd</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render webpage.qmd</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>This command will create an HTML file named <code>webpage.html</code> in the same directory.</p>
 </section>
 <section id="step-4-view-the-webpage" class="level3">
@@ -564,21 +565,21 @@ Tip
 </tr>
 </tbody>
 </table>
-<p>If you don’t know which to choose, try <a href="../../docs/publishing/quarto-pub.qmd">Quarto Pub</a> which is a free service for publicly available content. If you are publishing to a destination not listed above, choose <a href="../../docs/publishing/other.qmd">Other Services</a>.</p>
-<p>These articles cover both straightforward direct publishing as well as Continuous Integration (CI) publishing with GitHub Actions. If you want to publish using CI and aren’t using GitHub Actions, the article on <a href="../../docs/publishing/ci.qmd">Publishing with CI</a> provides additional details and documentation.</p>
+<p>If you don’t know which to choose, try <a href="https://quarto.org/docs/publishing/quarto-pub.html">Quarto Pub</a> which is a free service for publicly available content. If you are publishing to a destination not listed above, choose <a href="../../docs/publishing/other.qmd">Other Services</a>.</p>
+<p>These articles cover both straightforward direct publishing as well as Continuous Integration (CI) publishing with GitHub Actions. If you want to publish using CI and aren’t using GitHub Actions, the article on <a href="https://quarto.org/docs/publishing/other.html">Publishing with CI</a> provides additional details and documentation.</p>
 </section>
 </section>
 <section id="exercise-1" class="level2">
 <h2 class="anchored" data-anchor-id="exercise-1">Exercise</h2>
-<p>Now create your own quarto workbook:</p>
+<p><strong>Now create your own quarto workbook:</strong></p>
 <p>1- Check this very simple tutorial</p>
 <iframe width="853" height="480" src="https://www.youtube.com/embed/nuYNCPRf8Js" title="How to publish a website FOR FREE in under 60 seconds using Quarto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
 <p>2- Have some fun tweaking basics of your workbook</p>
 <iframe width="853" height="480" src="https://www.youtube.com/embed/hceM0-RuPwo" title="Using an attractive homepage template for a Quarto website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p>3- Publish with the command ‘quarto publish’ in a terminal</p>
-<p>4- Submit to the link to <a href="">NOW dropbox folder</a></p>
+<p>3- Publish your workbook using any of the tools above. I recommend either <a href="https://quarto.org/docs/publishing/quarto-pub.html">Quarto Pub</a> or <a href="https://quarto.org/docs/publishing/github-pages.html">GitHub Pages</a>.</p>
+<p>4- Submit the link of your workbook to our <a href="">NOW dropbox folder</a></p>
 
 
 </section>
