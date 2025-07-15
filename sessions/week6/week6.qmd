@@ -333,7 +333,109 @@ penguins %>%
 
 ```
 
+## Quiz on design of experiments (DOE)
 
+# Quiz: Design of Experiments
+
+::: {.callout-note}
+This quiz tests your understanding of common experimental designs. Select the best answer for each question.
+:::
+
+::: {.quiz .multiple-choice}
+
+### Question 1: True Experiment Elements
+
+> Which of the following are **key elements of a true experiment**s?
+
+- [ ] Manipulation of the dependent variable
+- [ ] Comparison between conditions exposed to different levels of the dependent variable
+- [ ] Manipulation of the independent variable, comparison between conditions exposed to different levels of the independent variable, and random assignment to these conditions
+- [ ] Measurement of the dependent variable only after exposure to the independent variable
+
+::: {.solution}
+A true experiment is considered the best way to maximise internal validity, and its **key elements include manipulation of the independent variable, comparison between conditions exposed to different levels of the independent variable, and random assignment to these conditions**.
+:::
+:::
+
+::: {.quiz .multiple-choice}
+
+### Question 2: Two-Group Design Measurement
+
+> In a simple **two-group experimental design**, when is the dependent variable typically measured to assess the difference between conditions?
+
+- [ ] Before participants are exposed to the independent variable
+- [ ] After exposure to the independent variable
+- [ ] Both before and after exposure to the independent variable
+- [ ] Only if the groups are known to be dissimilar before the experiment
+
+::: {.solution}
+In the two-group design, **the dependent variable is measured after exposure to the independent variable** to assess the difference between the conditions.
+:::
+:::
+
+::: {.quiz .multiple-choice}
+
+### Question 3: Purpose of Two-Group Pre-test Post-test Design
+
+> What is a primary reason for using a **two-group pre-test post-test design** instead of a simple two-group design?
+
+- [ ] To simplify the experimental procedure by reducing the number of measurements
+- [ ] To check if both groups were equally proficient on the dependent variable before treatment and to compare the size of increase or decrease in scores
+- [ ] To intentionally sensitise participants to the study's purpose 
+- [ ] To ensure that randomization always works, especially in small groups 
+
+::: {.solution}
+A two-group pre-test post-test design adds a pre-test of the dependent variable before exposure to the independent variable. This allows the researcher to **check whether groups were equally proficient before and to compare the size of the increase or decrease in scores** in the experimental and control conditions. It is especially useful when maturation is a plausible threat to internal validity.
+:::
+:::
+
+::: {.quiz .multiple-choice}
+
+### Question 4: Disadvantage of a Pre-test
+
+> Which of the following is a potential **unwanted effect or disadvantage of including a pre-test** in an experimental design?
+
+- [ ] Increased statistical power for detecting effects
+- [ ] Sensitisation of participants, leading to practice effects or alerting them to the study's purpose
+- [ ] Reduced internal validity due to better baseline understanding
+- [ ] The inability to compare changes in scores over time
+
+::: {.solution}
+Unfortunately, a pre-test can sometimes **sensitise participants**. This can result in a practice effect, leading to higher scores on the post-test, or it may alert participants to the purpose of the study. If this effect is stronger for one of the conditions, internal validity will be negatively affected.
+:::
+:::
+
+::: {.quiz .multiple-choice}
+
+### Question 5: Purpose of Solomon Four-Group Design
+
+> The **Solomon four-group design** is introduced as a way to address what specific issue?
+
+- [ ] The challenge of manipulating multiple independent variables simultaneously
+- [ ] The difficulty in finding enough participants for a two-group design
+- [ ] Unwanted effects of a pre-test
+- [ ] The need to conduct statistical tests more efficiently in R
+
+::: {.solution}
+The Solomon four-group design is a combination of the two-group design and the two-group pre-test post-test design. It is used to **take into account unwanted effects of a pre-test** by running the experimental and control conditions twice, once with a pre-test and once without.
+:::
+:::
+
+::: {.quiz .multiple-choice}
+
+### Question 6: Key Feature of Repeated Measures Design
+
+> What is the defining characteristic of a **repeated measures design** with one within-subjects factor?
+
+- [ ] Participants are randomly assigned to a single condition and remain in it throughout the study
+- [ ] Only a control group and an experimental group are used, with no pre-test
+- [ ] All participants are exposed to all levels of the independent variable (they experience all conditions)
+- [ ] Random assignment is applied to the conditions themselves, not the order of conditions [6]
+
+::: {.solution}
+In a repeated measures design with one within-subjects factor, **all participants are exposed to all levels of the independent variable; they experience all conditions**. The random assignment is applied to the order in which the conditions are experienced, rather than to the conditions themselves.
+:::
+:::
 
 
 

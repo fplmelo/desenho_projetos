@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Felipe Melo">
-<meta name="dcterms.date" content="2025-06-04">
+<meta name="dcterms.date" content="2025-06-09">
 
 <title>Week 6 - Mean Tests and Design of Experiments</title>
 <style>
@@ -271,6 +271,16 @@ window.Quarto = {
   </ul></li>
   <li><a href="#compare-two-groups" id="toc-compare-two-groups" class="nav-link" data-scroll-target="#compare-two-groups">Compare two groups</a></li>
   <li><a href="#compare-more-than-two-groups" id="toc-compare-more-than-two-groups" class="nav-link" data-scroll-target="#compare-more-than-two-groups">Compare more than two groups</a></li>
+  <li><a href="#quiz-on-design-of-experiments-doe" id="toc-quiz-on-design-of-experiments-doe" class="nav-link" data-scroll-target="#quiz-on-design-of-experiments-doe">Quiz on design of experiments (DOE)</a></li>
+  </ul></li>
+  <li><a href="#quiz-design-of-experiments" id="toc-quiz-design-of-experiments" class="nav-link" data-scroll-target="#quiz-design-of-experiments">Quiz: Design of Experiments</a>
+  <ul class="collapse">
+  <li><a href="#question-1-true-experiment-elements" id="toc-question-1-true-experiment-elements" class="nav-link" data-scroll-target="#question-1-true-experiment-elements">Question 1: True Experiment Elements</a></li>
+  <li><a href="#question-2-two-group-design-measurement" id="toc-question-2-two-group-design-measurement" class="nav-link" data-scroll-target="#question-2-two-group-design-measurement">Question 2: Two-Group Design Measurement</a></li>
+  <li><a href="#question-3-purpose-of-two-group-pre-test-post-test-design" id="toc-question-3-purpose-of-two-group-pre-test-post-test-design" class="nav-link" data-scroll-target="#question-3-purpose-of-two-group-pre-test-post-test-design">Question 3: Purpose of Two-Group Pre-test Post-test Design</a></li>
+  <li><a href="#question-4-disadvantage-of-a-pre-test" id="toc-question-4-disadvantage-of-a-pre-test" class="nav-link" data-scroll-target="#question-4-disadvantage-of-a-pre-test">Question 4: Disadvantage of a Pre-test</a></li>
+  <li><a href="#question-5-purpose-of-solomon-four-group-design" id="toc-question-5-purpose-of-solomon-four-group-design" class="nav-link" data-scroll-target="#question-5-purpose-of-solomon-four-group-design">Question 5: Purpose of Solomon Four-Group Design</a></li>
+  <li><a href="#question-6-key-feature-of-repeated-measures-design" id="toc-question-6-key-feature-of-repeated-measures-design" class="nav-link" data-scroll-target="#question-6-key-feature-of-repeated-measures-design">Question 6: Key Feature of Repeated Measures Design</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -298,7 +308,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 4, 2025</p>
+      <p class="date">June 9, 2025</p>
     </div>
   </div>
   
@@ -842,12 +852,10 @@ Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 <span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_jitter</span>() <span class="sc">+</span></span>
 <span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>(<span class="at">alpha=</span><span class="fl">0.5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>Warning: Removed 2 rows containing non-finite outside the scale range
-(`stat_boxplot()`).</code></pre>
+<pre><code>Warning: Removed 2 rows containing non-finite values (`stat_boxplot()`).</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>Warning: Removed 2 rows containing missing values or values outside the scale range
-(`geom_point()`).</code></pre>
+<pre><code>Warning: Removed 2 rows containing missing values (`geom_point()`).</code></pre>
 </div>
 <div class="cell-output-display">
 <div>
@@ -857,9 +865,118 @@ Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 </div>
 </div>
 </div>
-
-
 </section>
+<section id="quiz-on-design-of-experiments-doe" class="level2">
+<h2 class="anchored" data-anchor-id="quiz-on-design-of-experiments-doe">Quiz on design of experiments (DOE)</h2>
+</section>
+</section>
+<section id="quiz-design-of-experiments" class="level1">
+<h1>Quiz: Design of Experiments</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This quiz tests your understanding of common experimental designs. Select the best answer for each question.</p>
+</div>
+</div>
+<section id="question-1-true-experiment-elements" class="level3 quiz multiple-choice">
+<h3 class="anchored" data-anchor-id="question-1-true-experiment-elements">Question 1: True Experiment Elements</h3>
+<blockquote class="blockquote">
+<p>Which of the following are <strong>key elements of a true experiment</strong>s?</p>
+</blockquote>
+<ul class="task-list">
+<li><label><input type="checkbox">Manipulation of the dependent variable</label></li>
+<li><label><input type="checkbox">Comparison between conditions exposed to different levels of the dependent variable</label></li>
+<li><label><input type="checkbox">Manipulation of the independent variable, comparison between conditions exposed to different levels of the independent variable, and random assignment to these conditions</label></li>
+<li><label><input type="checkbox">Measurement of the dependent variable only after exposure to the independent variable</label></li>
+</ul>
+<div class="proof solution">
+<p><span class="proof-title"><em>Solution</em>. </span>A true experiment is considered the best way to maximise internal validity, and its <strong>key elements include manipulation of the independent variable, comparison between conditions exposed to different levels of the independent variable, and random assignment to these conditions</strong>.</p>
+</div>
+</section>
+<section id="question-2-two-group-design-measurement" class="level3 quiz multiple-choice">
+<h3 class="anchored" data-anchor-id="question-2-two-group-design-measurement">Question 2: Two-Group Design Measurement</h3>
+<blockquote class="blockquote">
+<p>In a simple <strong>two-group experimental design</strong>, when is the dependent variable typically measured to assess the difference between conditions?</p>
+</blockquote>
+<ul class="task-list">
+<li><label><input type="checkbox">Before participants are exposed to the independent variable</label></li>
+<li><label><input type="checkbox">After exposure to the independent variable</label></li>
+<li><label><input type="checkbox">Both before and after exposure to the independent variable</label></li>
+<li><label><input type="checkbox">Only if the groups are known to be dissimilar before the experiment</label></li>
+</ul>
+<div class="proof solution">
+<p><span class="proof-title"><em>Solution</em>. </span>In the two-group design, <strong>the dependent variable is measured after exposure to the independent variable</strong> to assess the difference between the conditions.</p>
+</div>
+</section>
+<section id="question-3-purpose-of-two-group-pre-test-post-test-design" class="level3 quiz multiple-choice">
+<h3 class="anchored" data-anchor-id="question-3-purpose-of-two-group-pre-test-post-test-design">Question 3: Purpose of Two-Group Pre-test Post-test Design</h3>
+<blockquote class="blockquote">
+<p>What is a primary reason for using a <strong>two-group pre-test post-test design</strong> instead of a simple two-group design?</p>
+</blockquote>
+<ul class="task-list">
+<li><label><input type="checkbox">To simplify the experimental procedure by reducing the number of measurements</label></li>
+<li><label><input type="checkbox">To check if both groups were equally proficient on the dependent variable before treatment and to compare the size of increase or decrease in scores</label></li>
+<li><label><input type="checkbox">To intentionally sensitise participants to the study’s purpose</label></li>
+<li><label><input type="checkbox">To ensure that randomization always works, especially in small groups</label></li>
+</ul>
+<div class="proof solution">
+<p><span class="proof-title"><em>Solution</em>. </span>A two-group pre-test post-test design adds a pre-test of the dependent variable before exposure to the independent variable. This allows the researcher to <strong>check whether groups were equally proficient before and to compare the size of the increase or decrease in scores</strong> in the experimental and control conditions. It is especially useful when maturation is a plausible threat to internal validity.</p>
+</div>
+</section>
+<section id="question-4-disadvantage-of-a-pre-test" class="level3 quiz multiple-choice">
+<h3 class="anchored" data-anchor-id="question-4-disadvantage-of-a-pre-test">Question 4: Disadvantage of a Pre-test</h3>
+<blockquote class="blockquote">
+<p>Which of the following is a potential <strong>unwanted effect or disadvantage of including a pre-test</strong> in an experimental design?</p>
+</blockquote>
+<ul class="task-list">
+<li><label><input type="checkbox">Increased statistical power for detecting effects</label></li>
+<li><label><input type="checkbox">Sensitisation of participants, leading to practice effects or alerting them to the study’s purpose</label></li>
+<li><label><input type="checkbox">Reduced internal validity due to better baseline understanding</label></li>
+<li><label><input type="checkbox">The inability to compare changes in scores over time</label></li>
+</ul>
+<div class="proof solution">
+<p><span class="proof-title"><em>Solution</em>. </span>Unfortunately, a pre-test can sometimes <strong>sensitise participants</strong>. This can result in a practice effect, leading to higher scores on the post-test, or it may alert participants to the purpose of the study. If this effect is stronger for one of the conditions, internal validity will be negatively affected.</p>
+</div>
+</section>
+<section id="question-5-purpose-of-solomon-four-group-design" class="level3 quiz multiple-choice">
+<h3 class="anchored" data-anchor-id="question-5-purpose-of-solomon-four-group-design">Question 5: Purpose of Solomon Four-Group Design</h3>
+<blockquote class="blockquote">
+<p>The <strong>Solomon four-group design</strong> is introduced as a way to address what specific issue?</p>
+</blockquote>
+<ul class="task-list">
+<li><label><input type="checkbox">The challenge of manipulating multiple independent variables simultaneously</label></li>
+<li><label><input type="checkbox">The difficulty in finding enough participants for a two-group design</label></li>
+<li><label><input type="checkbox">Unwanted effects of a pre-test</label></li>
+<li><label><input type="checkbox">The need to conduct statistical tests more efficiently in R</label></li>
+</ul>
+<div class="proof solution">
+<p><span class="proof-title"><em>Solution</em>. </span>The Solomon four-group design is a combination of the two-group design and the two-group pre-test post-test design. It is used to <strong>take into account unwanted effects of a pre-test</strong> by running the experimental and control conditions twice, once with a pre-test and once without.</p>
+</div>
+</section>
+<section id="question-6-key-feature-of-repeated-measures-design" class="level3 quiz multiple-choice">
+<h3 class="anchored" data-anchor-id="question-6-key-feature-of-repeated-measures-design">Question 6: Key Feature of Repeated Measures Design</h3>
+<blockquote class="blockquote">
+<p>What is the defining characteristic of a <strong>repeated measures design</strong> with one within-subjects factor?</p>
+</blockquote>
+<ul class="task-list">
+<li><label><input type="checkbox">Participants are randomly assigned to a single condition and remain in it throughout the study</label></li>
+<li><label><input type="checkbox">Only a control group and an experimental group are used, with no pre-test</label></li>
+<li><label><input type="checkbox">All participants are exposed to all levels of the independent variable (they experience all conditions)</label></li>
+<li><label><input type="checkbox">Random assignment is applied to the conditions themselves, not the order of conditions [6]</label></li>
+</ul>
+<div class="proof solution">
+<p><span class="proof-title"><em>Solution</em>. </span>In a repeated measures design with one within-subjects factor, <strong>all participants are exposed to all levels of the independent variable; they experience all conditions</strong>. The random assignment is applied to the order in which the conditions are experienced, rather than to the conditions themselves.</p>
+</div>
+</section>
+
+
 </section>
 
 </main> <!-- /main -->
