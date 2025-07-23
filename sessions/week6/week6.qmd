@@ -439,7 +439,7 @@ The Solomon four-group design is a combination of the two-group design and the t
 In a repeated measures design with one within-subjects factor, **all participants are exposed to all levels of the independent variable; they experience all conditions**. The random assignment is applied to the order in which the conditions are experienced, rather than to the conditions themselves.
 :::
 :::
-=======
+
 We can see visually that Adelie penguins have shorter bills, but how do we get a statistic confirmation on who differs from whom?
 
 **Post-hoc pairwise comparisons**
@@ -469,7 +469,6 @@ Easy to see now, that actually, all species differ in their bill length and ther
 | **Robustness**            | **Welch's is robust to unequal variances**. Generally robust to normality violations.             | Less robust to unequal variances with unbalanced sample sizes.                                                                     | Generally **more robust to assumption violations**.                                                                                 | Generally **more robust to assumption violations**. Can be unstable with heteroscedasticity.                           |
 | **Relationship**          | Special case of ANOVA when comparing two groups with equal variances. Subsumed under the General Linear Model.           | Generalisation of the t-test; related to linear regression. Subsumed under the General Linear Model.                 | Non-parametric alternative to t-test.                                                                                      | Non-parametric alternative to one-way ANOVA; extension of Wilcoxon.                                                     |
 
->>>>>>> a446cfe34e530e7d771b287e2ab14697dc55e7b4
 
 
 ## Exercises

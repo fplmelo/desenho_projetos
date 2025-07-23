@@ -65,5 +65,13 @@ Specific aspects to address during data exploration:
 
 ## 4 - Summarise your results
 
-Now, just write a paragraph commenting on your results and how these corroborate, or not, your hypothesis.
+Now, just write commenting on your results and how these corroborate, or not, your hypothesis. Connect your discourse with results (tables and figures).
+
+## 5 - Publish your work as a dynamic report using Quarto (either as a PDF or as a website).
+
+At this point and after working across all Module using a Quarto  Workbook, you must be able to publish your work as a dynamic report that makes me able to follow your woirkflor and check whther the learnign objective were achieved.
+
+## 6 - Submit it to NOW Dropbox 
+
+At NTU there is only one way to submit your work which is via DropBox. You can then just upload your PDF or use the comment box to paste the link to your work.
 
