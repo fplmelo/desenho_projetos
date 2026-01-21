@@ -6,8 +6,8 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.31">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
 
   <meta name="author" content="Felipe Melo">
   <title>2-Data Wrangling</title>
@@ -95,7 +95,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-c7001d6fbeb7715c64495cec7667eded.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-f363b37bf5b027d4403f78152e9ca7f5.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -239,12 +239,12 @@ Felipe Melo
 <section id="tibbles---click-on-the-title" class="slide level2">
 <h2><a href="https://tibble.tidyverse.org/">Tibbles</a> &lt;- click on the title</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" data-code-line-numbers="|,4,5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">library</span>(tidyverse)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" data-code-line-numbers="|,4,5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">library</span>(tidyverse)</span>
 <span id="cb1-2"><a></a><span class="fu">library</span>(palmerpenguins)</span>
 <span id="cb1-3"><a></a></span>
 <span id="cb1-4"><a></a><span class="fu">data</span>(<span class="st">"penguins"</span>)</span>
 <span id="cb1-5"><a></a>penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb1-6"><a></a>  <span class="fu">select</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-6"><a></a>  <span class="fu">select</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 344 × 5
    species island    bill_length_mm bill_depth_mm flipper_length_mm
@@ -292,8 +292,8 @@ Felipe Melo
 <li>“Take what is on the left and use it as the first argument on what comes next</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a>penguins <span class="sc">%&gt;%</span> <span class="co"># take the opbject penguins</span></span>
-<span id="cb3-2"><a></a>  <span class="fu">select</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>) <span class="co"># then, select the columns 1 to 3</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a>penguins <span class="sc">%&gt;%</span> <span class="co"># take the opbject penguins</span></span>
+<span id="cb3-2"><a></a>  <span class="fu">select</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>) <span class="co"># then, select the columns 1 to 3</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 344 × 3
    species island    bill_length_mm
@@ -339,13 +339,13 @@ Felipe Melo
 <section id="data-exploration" class="slide level2">
 <h2>Data exploration</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a>penguins <span class="sc">%&gt;%</span> <span class="co"># take the opbject penguins</span></span>
-<span id="cb5-2"><a></a>  <span class="fu">write.csv</span>(., <span class="st">"penguins.csv"</span>) <span class="co"># then, save as .csv</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a>penguins <span class="sc">%&gt;%</span> <span class="co"># take the opbject penguins</span></span>
+<span id="cb5-2"><a></a>  <span class="fu">write.csv</span>(., <span class="st">"penguins.csv"</span>) <span class="co"># then, save as .csv</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb6-2"><a></a>  <span class="fu">summary</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb6-2"><a></a>  <span class="fu">summary</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>      species          island    bill_length_mm  bill_depth_mm  
  Adelie   :152   Biscoe   :168   Min.   :32.10   Min.   :13.10  
@@ -370,8 +370,8 @@ Felipe Melo
 <section id="types-of-variable" class="slide level2">
 <h2>Types of variable</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb8-2"><a></a>  <span class="fu">str</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb8-2"><a></a>  <span class="fu">str</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>tibble [344 × 8] (S3: tbl_df/tbl/data.frame)
  $ species          : Factor w/ 3 levels "Adelie","Chinstrap",..: 1 1 1 1 1 1 1 1 1 1 ...
@@ -399,17 +399,17 @@ Felipe Melo
 <section id="summarising-data" class="slide level2">
 <h2>Summarising data</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a></a><span class="fu">library</span>(vtable)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a></a><span class="fu">library</span>(vtable)</span>
 <span id="cb10-2"><a></a><span class="fu">library</span>(gt)</span>
 <span id="cb10-3"><a></a></span>
 <span id="cb10-4"><a></a>penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb10-5"><a></a>  <span class="fu">vtable</span>(., <span class="at">lush =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb10-5"><a></a>  <span class="fu">vtable</span>(., <span class="at">lush =</span> <span class="cn">TRUE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 
 </section>
 <section id="summarising-data-output" class="slide level2 output-location-slide"><h2>Summarising data</h2><div class="cell output-location-slide">
 <div class="cell-output-display">
-<table class="table caption-top" data-quarto-postprocess="true" style="margin-left: auto; margin-right: auto;">
+<table class="table caption-top" style="margin-left: auto; margin-right: auto;">
 <caption>.</caption>
 <thead>
 <tr class="header">
@@ -484,13 +484,13 @@ Felipe Melo
 <h2>Summarising data</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a><span class="fu">library</span>(vtable)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a><span class="fu">library</span>(vtable)</span>
 <span id="cb11-2"><a></a><span class="fu">library</span>(gt)</span>
 <span id="cb11-3"><a></a></span>
 <span id="cb11-4"><a></a>penguins <span class="sc">%&gt;%</span> </span>
 <span id="cb11-5"><a></a>  <span class="fu">group_by</span>(species) <span class="sc">%&gt;%</span> </span>
 <span id="cb11-6"><a></a>  <span class="fu">na.omit</span>() <span class="sc">%&gt;%</span> </span>
-<span id="cb11-7"><a></a>  <span class="fu">summarise</span>(<span class="at">mean =</span> <span class="fu">mean</span>(bill_length_mm), <span class="at">sd=</span><span class="fu">sd</span>(bill_length_mm), <span class="at">n =</span> <span class="fu">n</span>())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb11-7"><a></a>  <span class="fu">summarise</span>(<span class="at">mean =</span> <span class="fu">mean</span>(bill_length_mm), <span class="at">sd=</span><span class="fu">sd</span>(bill_length_mm), <span class="at">n =</span> <span class="fu">n</span>())</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div><div class="column">
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 3 × 4
@@ -532,8 +532,8 @@ Felipe Melo
 <h2>Subset data</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb13-2"><a></a>  <span class="fu">select</span>(body_mass_g)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb13-2"><a></a>  <span class="fu">select</span>(body_mass_g)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div><div class="column">
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 344 × 1
@@ -557,13 +557,13 @@ Felipe Melo
 <h2>Subset data</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
 <span id="cb15-2"><a></a>  <span class="fu">filter</span>(species<span class="sc">==</span><span class="st">"Gentoo"</span>, </span>
 <span id="cb15-3"><a></a>         bill_length_mm <span class="sc">&gt;</span> <span class="dv">50</span>, </span>
 <span id="cb15-4"><a></a>         sex<span class="sc">==</span><span class="st">"male"</span>) <span class="sc">%&gt;%</span> </span>
 <span id="cb15-5"><a></a>  <span class="fu">select</span>(bill_length_mm, </span>
 <span id="cb15-6"><a></a>         bill_depth_mm) <span class="sc">%&gt;%</span> </span>
-<span id="cb15-7"><a></a>  <span class="fu">arrange</span>(bill_depth_mm)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb15-7"><a></a>  <span class="fu">arrange</span>(bill_depth_mm)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div><div class="column">
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 21 × 2
@@ -586,12 +586,12 @@ Felipe Melo
 <section id="add-new-columns" class="slide level2">
 <h2>Add new columns</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb17" data-code-line-numbers="6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17" data-code-line-numbers="6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
 <span id="cb17-2"><a></a>  <span class="fu">select</span>(bill_length_mm, </span>
 <span id="cb17-3"><a></a>         bill_depth_mm) <span class="sc">%&gt;%</span> </span>
 <span id="cb17-4"><a></a>  <span class="fu">mutate</span>(<span class="at">bill_volume=</span>bill_length_mm<span class="sc">+</span>bill_depth_mm) <span class="sc">%&gt;%</span> </span>
 <span id="cb17-5"><a></a>  <span class="fu">mutate</span>(<span class="at">log_bill_volume=</span><span class="fu">log</span>(bill_volume)) <span class="sc">%&gt;%</span> </span>
-<span id="cb17-6"><a></a>  <span class="fu">mutate</span>(<span class="at">bill_categ=</span><span class="fu">ifelse</span>(bill_volume<span class="sc">&lt;</span><span class="dv">60</span>, <span class="st">"small"</span>, <span class="st">"big"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb17-6"><a></a>  <span class="fu">mutate</span>(<span class="at">bill_categ=</span><span class="fu">ifelse</span>(bill_volume<span class="sc">&lt;</span><span class="dv">60</span>, <span class="st">"small"</span>, <span class="st">"big"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 344 × 5
    bill_length_mm bill_depth_mm bill_volume log_bill_volume bill_categ
@@ -614,12 +614,12 @@ Felipe Melo
 <h2>Reshape data <a href="https://github.com/rstudio/cheatsheets/blob/main/tidyr.pdf">Tidyr</a></h2>
 <p>Long format</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb19" data-code-line-numbers="6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19" data-code-line-numbers="6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
 <span id="cb19-2"><a></a>  <span class="fu">select</span>(bill_length_mm, </span>
 <span id="cb19-3"><a></a>         bill_depth_mm,</span>
 <span id="cb19-4"><a></a>         year) <span class="sc">%&gt;%</span> </span>
 <span id="cb19-5"><a></a>  <span class="fu">pivot_longer</span>(<span class="at">col=</span><span class="fu">c</span>(bill_length_mm<span class="sc">:</span>bill_depth_mm), </span>
-<span id="cb19-6"><a></a>               <span class="at">names_to =</span> <span class="st">"bill_feature"</span>, <span class="at">values_to =</span> <span class="st">"value"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb19-6"><a></a>               <span class="at">names_to =</span> <span class="st">"bill_feature"</span>, <span class="at">values_to =</span> <span class="st">"value"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 688 × 3
     year bill_feature   value
@@ -643,10 +643,10 @@ Felipe Melo
 <h2>Reshape data <a href="https://github.com/rstudio/cheatsheets/blob/main/tidyr.pdf">Tidyr</a></h2>
 <p>Wide format</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb21" data-code-line-numbers="6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21" data-code-line-numbers="6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
 <span id="cb21-2"><a></a>  <span class="fu">mutate</span>(<span class="at">row =</span> <span class="fu">row_number</span>()) <span class="sc">%&gt;%</span> <span class="co"># needed to add a rwoo number to identify each row as separate case</span></span>
 <span id="cb21-3"><a></a>  <span class="fu">select</span>(row, species, island, body_mass_g) <span class="sc">%&gt;%</span> </span>
-<span id="cb21-4"><a></a>  <span class="fu">pivot_wider</span>(<span class="at">names_from =</span> island, <span class="at">values_from =</span> body_mass_g)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb21-4"><a></a>  <span class="fu">pivot_wider</span>(<span class="at">names_from =</span> island, <span class="at">values_from =</span> body_mass_g)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 344 × 5
      row species Torgersen Biscoe Dream
@@ -881,7 +881,7 @@ Felipe Melo
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -993,13 +993,14 @@ Felipe Melo
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy

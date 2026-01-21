@@ -1,23 +1,22 @@
 ---
-title: "Research Methods & Data Analyses"
-title-block-banner: "#9e043d"
-subtitle: "Stats, Coding, Data Science and more"
-details: |
-  ARES40011 • Autumn 2025<br>School of Animal Rural and Environmental Sciences<br>Nottingham Trent University
+title: "Ecologia de Paisagens"
+#title-block-banner: "#9e043d"
+subtitle: "Biodiversidade, pessoas e processos no espaço"
+details: "BO-304 <br> 2026.1 <br> Centro de Biociências <br> Universidade Federal de Pernambuco"
 sidebar: false
 toc: false
-page-layout: full
+page-layout: article
 format:
   html:
     template-partials:
       - html/home/title-block.html
-course-logo: img/course_logo.png
+course-logo: img/logo_curso.png
 ---
 
 ::::::: home
 :::::: {.grid .course-details}
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
-### Instructor
+### Professor Responsável
 
 -   {{< fa user >}} [{{< var instructor.name >}}]({{< var instructor.url >}})
 -   {{< fa university >}} {{< var instructor.office >}}
@@ -26,7 +25,7 @@ course-logo: img/course_logo.png
 :::
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
-### Course details
+### Informação sobre o curso
 
 -   {{< fa calendar >}} {{< var course.days >}}
 -   {{< fa calendar-alt >}} {{< var course.dates >}}
@@ -35,17 +34,14 @@ course-logo: img/course_logo.png
 :::
 
 ::: {.g-col-12 .g-col-md-4 .contact-policy}
-### Contacting
+### Recursos on-line
 
-Doubts and enquires are preferably brought to tutorial sessions and shared in our dedicated [Teams Channel](https://teams.microsoft.com/v2/).
+Este curso se baseia em duas principais ferramentas: 1) Este Site e; 2) [Google Sala de Aula](https://classroom.google.com/c/NzkzMjczNzA0MDMz?cjc=womqndmt) onde as tarefas devem ser submetidas.
+
 :::
 ::::::
 :::::::
 
-## Welcome
+## Bem-vind@
 
-We hope this module will be an opportunity to enhance your critical and analytical skills, required for your future careers. This module is the only core module across all PG provision at ARES, reflecting its underpinning importance for your courses. It also gives you a great opportunity to meet colleagues with different interests and to broaden your own horizons.
 
-We have tried to make this module as accessible as possible, knowing that some of the content is challenging. We have based all materials in our own research expertise, we are not statisticians, rather we are statistic users, just like you!
-
-We are looking forward to meeting you all

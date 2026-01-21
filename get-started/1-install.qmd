@@ -1,6 +1,6 @@
 ---
-title: "Installing R and RStudio "
-subtitle: "RMDA ARES40011"
+title: "Instalando R e RStudio"
+subtitle: "BO 304 UFPE"
 author: "Felipe Melo"
 date: "last-modified"
 date-format: "long"
@@ -11,52 +11,52 @@ format:
 
 ![](/img/witches.png){fig-align="center" width="500"}
 
-[Artwork by \@allison_horst](https://twitter.com/allison_horst){style="text-align: center"}
+[Ilustração por \@allison_horst](https://twitter.com/allison_horst){style="text-align: center"}
 
 <br>
 
-### Tutorial: Installing R and RStudio
+### Tutorial: Instalando R e RStudio
 
-This tutorial will guide you through the process of installing **R**, the programming language, and **RStudio**, a popular integrated development environment (IDE) for R. **You must install R before installing RStudio**.
+Este tutorial irá guiá-lo através do processo de instalação do **R**, a linguagem de programação, e do **RStudio**, um ambiente de desenvolvimento integrado (IDE) popular para o R. **Você deve instalar o R antes de instalar o RStudio**.
 
-#### 1. Install R
+#### 1. Instalar o R
 
-R is available for download from the [official R website](https://www.r-project.org/). The specific steps depend on your operating system.
+O R está disponível para download no [site oficial do R](https://www.r-project.org/). Os passos específicos dependem do seu sistema operacional.
 
-**For Mac OS X**:
+**Para Mac OS X**:
 
--   Go to the official R website and select **"Download R for (Mac) OS X"**.
--   Look for the **most up-to-date version of R** (new versions are released frequently and appear towards the top of the page) and click the **`.pkg` file** to download it.
--   Open the downloaded **`.pkg` file** and follow the **standard instructions for installing applications on Mac OS X**.
--   **Drag and drop the R application into the `Applications` folder.**
+-   Vá ao site oficial do R e selecione **"Download R for (Mac) OS X"**.
+-   Procure pela **versão mais atualizada do R** (novas versões são lançadas frequentemente e aparecem no topo da página) e clique no arquivo **`.pkg`** para baixá-lo.
+-   Abra o arquivo **`.pkg`** baixado e siga as **instruções padrão para instalar aplicativos no Mac OS X**.
+-   **Arraste e solte o aplicativo R na pasta `Applications`.**
 
-**For Windows**:
+**Para Windows**:
 
--   Go to the official R website and select **"Download R for Windows"**.
--   Select **"base"**, as this is your first installation of R.
--   Follow the **standard instructions for installing programs for Windows**. If prompted to select "Customize Startup" or "Accept Default Startup Options", **choose the default options**.
+-   Vá ao site oficial do R e selecione **"Download R for Windows"**.
+-   Selecione **"base"**, já que esta é a sua primeira instalação do R.
+-   Siga as **instruções padrão para instalar programas no Windows**. Se solicitado a selecionar entre "Customize Startup" (Personalizar inicialização) ou "Accept Default Startup Options" (Aceitar opções padrão), **escolha as opções padrão**.
 
-**For Linux/Ubuntu**:
+**Para Linux/Ubuntu**:
 
--   Go to the official R website and select **"Download R for Linux"**.
--   Select the **"Ubuntu"** option.
--   Alternatively, select the **Linux package management system relevant to you if you are not using Ubuntu**.
+-   Vá ao site oficial do R e selecione **"Download R for Linux"**.
+-   Selecione a opção **"Ubuntu"**.
+-   Alternativamente, selecione o **sistema de gerenciamento de pacotes Linux relevante para você, caso não esteja usando Ubuntu**.
 
-#### 2. Install RStudio
+#### 2. Instalar o RStudio
 
-Once R is installed on your computer, you can proceed to install RStudio.
+Uma vez que o R esteja instalado em seu computador, você pode prosseguir com a instalação do RStudio.
 
--   Navigate to the [**Posit downloads page**](https://posit.co/download/rstudio-desktop/).
--   Scroll down to the **"All installers"** section of the page.
--   Find your operation system ![](img/rstudio.png)
--   Click on the linf to download and;
--   Follow the **standard installation instructions** for your operating system to install RStudio.
+-   Navegue até a [**página de downloads da Posit**](https://posit.co/download/rstudio-desktop/).
+-   Role a página até a seção **"All installers"** (Todos os instaladores).
+-   Encontre o seu sistema operacional ![](/img/rstudio.png)
+-   Clique no link para baixar e;
+-   Siga as **instruções padrão de instalação** do seu sistema operacional para instalar o RStudio.
 
-Once both R and RStudio are installed, you can launch RStudio. **It's important to open RStudio, not just R**, to access the integrated environment. You can usually find RStudio by searching on your desktop and it's recommended to pin the RStudio icon to your preferred location for easy access.
+Assim que o R e o RStudio estiverem instalados, você pode iniciar o RStudio. **É importante abrir o RStudio, e não apenas o R**, para acessar o ambiente integrado. Geralmente, você pode encontrar o RStudio pesquisando em sua área de trabalho e recomenda-se fixar o ícone do RStudio em seu local preferido para facilitar o acesso.
 
-Congratulations, you have now successfully installed R and RStudio! You are ready to begin your data science journey.
+Parabéns, você instalou o R e o RStudio com sucesso! Você está pronto para começar sua jornada na ciência de dados.
 
-## Video Tutorials
+## Tutoriais em Vídeo
 
 <iframe width="779" height="438" src="https://www.youtube.com/embed/aCUM4r1ONhg" title="Getting Started with RStudio and R | Part 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 

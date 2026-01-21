@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Felipe Melo">
-<meta name="dcterms.date" content="2025-05-30">
+<meta name="dcterms.date" content="2026-01-21">
 
-<title>Functions in R</title>
+<title>Funções em R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,14 +69,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta name="quarto:offset" content="../">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-b8b80a0e6c1bcf998906d62e76552870.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-d4b0c6867662daffec38d31234abbead.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -118,7 +119,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../img/ntu_logo.png" alt="NTU logo" class="navbar-logo">
+    <img src="../img/logo_branco_ufpe.png" alt="NTU logo" class="navbar-logo light-content">
+    <img src="../img/logo_branco_ufpe.png" alt="NTU logo" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -129,77 +131,60 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Home</span></a>
+<span class="menu-text">Início</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../syllabus.html"> 
-<span class="menu-text">Syllabus</span></a>
+<span class="menu-text">Programa</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../schedule.html"> 
-<span class="menu-text">Schedule</span></a>
+<span class="menu-text">Cronograma</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-get-started" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Get Started</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-comece-aqui" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Comece aqui</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-get-started">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-comece-aqui">    
         <li>
     <a class="dropdown-item" href="../get-started/1-install.html"><i class="bi bi-emoji-sunglasses-fill" role="img">
 </i> 
- <span class="dropdown-text">1 - Install R and Rstudio</span></a>
+ <span class="dropdown-text">1 - Instalar R &amp; Rstudio</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../get-started/2-basic-intro.html"><i class="bi bi-tools" role="img">
 </i> 
- <span class="dropdown-text">2 - Basic Introduction to R and Rstudio</span></a>
+ <span class="dropdown-text">2 - Introdução Básica ao R e Rstudio</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../get-started/3-syntax.html"><i class="bi bi-tools" role="img">
 </i> 
- <span class="dropdown-text">3 - Syntax &amp; Data Structures</span></a>
+ <span class="dropdown-text">3 - Sintaxe &amp; Estrutura de Dados</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../get-started/4-functions.html"><i class="bi bi-tools" role="img">
 </i> 
- <span class="dropdown-text">4 - Functions and Arguments</span></a>
+ <span class="dropdown-text">4 - Funções e Comandos</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../get-started/5-data.html"><i class="bi bi-tools" role="img">
 </i> 
- <span class="dropdown-text">5 - Reading data in R</span></a>
+ <span class="dropdown-text">5 - Dados em R</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="../sessions/index.html"> 
-<span class="menu-text">Content</span></a>
+<span class="menu-text">Todas as Aulas</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../resources/index.html"> 
-<span class="menu-text">Resources</span></a>
+<span class="menu-text">Recursos</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../assessment.html"> 
-<span class="menu-text">Assessment</span></a>
+<span class="menu-text">Tipo de Avaliação</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ntu-now-page" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">NTU NOW Page</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-ntu-now-page">    
-        <li>
-    <a class="dropdown-item" href="https://now.ntu.ac.uk/d2l/home/1048957#_"><i class="bi bi-house" role="img">
-</i> 
- <span class="dropdown-text">Main NOW Page</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://now.ntu.ac.uk/d2l/lms/dropbox/admin/folders_manage.d2l?ou=1048957"><i class="bi bi-dropbox" role="img">
-</i> 
- <span class="dropdown-text">Dropbox</span></a>
-  </li>  
-    </ul>
-  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools tools-wide">
@@ -219,14 +204,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
-  <li><a href="#functions-and-their-arguments" id="toc-functions-and-their-arguments" class="nav-link" data-scroll-target="#functions-and-their-arguments">Functions and their arguments</a>
+  <li><a href="#objetivos-de-aprendizagem" id="toc-objetivos-de-aprendizagem" class="nav-link active" data-scroll-target="#objetivos-de-aprendizagem">Objetivos de Aprendizagem</a></li>
+  <li><a href="#o-que-são-funções" id="toc-o-que-são-funções" class="nav-link" data-scroll-target="#o-que-são-funções">O que são funções?</a></li>
+  <li><a href="#usando-funções-integradas" id="toc-usando-funções-integradas" class="nav-link" data-scroll-target="#usando-funções-integradas">Usando funções integradas</a></li>
+  <li><a href="#argumentos-de-funções" id="toc-argumentos-de-funções" class="nav-link" data-scroll-target="#argumentos-de-funções">Argumentos de funções</a></li>
+  <li><a href="#obtendo-ajuda-sobre-funções" id="toc-obtendo-ajuda-sobre-funções" class="nav-link" data-scroll-target="#obtendo-ajuda-sobre-funções">Obtendo ajuda sobre funções</a></li>
+  <li><a href="#funções-aplicadas-a-vetores" id="toc-funções-aplicadas-a-vetores" class="nav-link" data-scroll-target="#funções-aplicadas-a-vetores">Funções aplicadas a vetores</a></li>
+  <li><a href="#escrevendo-suas-próprias-funções" id="toc-escrevendo-suas-próprias-funções" class="nav-link" data-scroll-target="#escrevendo-suas-próprias-funções">Escrevendo suas próprias funções</a>
   <ul class="collapse">
-  <li><a href="#what-are-functions" id="toc-what-are-functions" class="nav-link" data-scroll-target="#what-are-functions">What are functions?</a></li>
-  <li><a href="#basic-functions" id="toc-basic-functions" class="nav-link" data-scroll-target="#basic-functions">Basic functions</a></li>
-  <li><a href="#seeking-help-on-arguments-for-functions" id="toc-seeking-help-on-arguments-for-functions" class="nav-link" data-scroll-target="#seeking-help-on-arguments-for-functions">Seeking help on arguments for functions</a></li>
-  <li><a href="#user-defined-functions" id="toc-user-defined-functions" class="nav-link" data-scroll-target="#user-defined-functions">User-defined Functions</a></li>
+  <li><a href="#exemplo-simples" id="toc-exemplo-simples" class="nav-link" data-scroll-target="#exemplo-simples">Exemplo simples</a></li>
+  <li><a href="#função-com-múltiplos-argumentos" id="toc-função-com-múltiplos-argumentos" class="nav-link" data-scroll-target="#função-com-múltiplos-argumentos">Função com múltiplos argumentos</a></li>
   </ul></li>
+  <li><a href="#escopo-de-funções" id="toc-escopo-de-funções" class="nav-link" data-scroll-target="#escopo-de-funções">Escopo de funções</a></li>
+  <li><a href="#boas-práticas-ao-escrever-funções" id="toc-boas-práticas-ao-escrever-funções" class="nav-link" data-scroll-target="#boas-práticas-ao-escrever-funções">Boas práticas ao escrever funções</a></li>
+  <li><a href="#exercício" id="toc-exercício" class="nav-link" data-scroll-target="#exercício">Exercício</a></li>
   </ul>
 </nav>
     </div>
@@ -235,8 +226,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Functions in R</h1>
-<p class="subtitle lead">RMDA ARES40011</p>
+<h1 class="title">Funções em R</h1>
+<p class="subtitle lead">BO304</p>
 </div>
 
 
@@ -253,7 +244,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 30, 2025</p>
+      <p class="date">January 21, 2026</p>
     </div>
   </div>
   
@@ -265,116 +256,188 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Approximate time: 30 min</p>
-<section id="learning-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
+<p>Tempo aproximado: 60 min</p>
+<section id="objetivos-de-aprendizagem" class="level2">
+<h2 class="anchored" data-anchor-id="objetivos-de-aprendizagem">Objetivos de Aprendizagem</h2>
 <ul>
-<li>Describe and utilize functions in R.</li>
-<li>Modify default behavior of a function using arguments.</li>
-<li>Identify R-specific sources of obtaining more information about functions.</li>
-<li>Demonstrate how to create user-defined functions in R</li>
+<li>Descrever o que são funções em R.</li>
+<li>Usar funções integradas do R.</li>
+<li>Entender argumentos de funções.</li>
+<li>Escrever funções simples em R.</li>
 </ul>
 </section>
-<section id="functions-and-their-arguments" class="level2">
-<h2 class="anchored" data-anchor-id="functions-and-their-arguments">Functions and their arguments</h2>
-<section id="what-are-functions" class="level3">
-<h3 class="anchored" data-anchor-id="what-are-functions">What are functions?</h3>
-<p>A key feature of R is functions. Functions are <strong>“self contained” modules of code that accomplish a specific task</strong>. Functions usually take in some sort of data structure (value, vector, dataframe etc.), process it, and return a result.</p>
-<p>The general usage for a function is the name of the function followed by parentheses:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">function_name</span>(input)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>The input(s) are called <strong>arguments</strong>, which can include:</p>
-<ol type="1">
-<li>the physical object (any data structure) on which the function carries out a task</li>
-<li>specifications that alter the way the function operates (e.g.&nbsp;options)</li>
-</ol>
-<p>Not all functions take arguments, for example:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">getwd</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>However, most functions can take several arguments. If you don’t specify a required argument when calling the function, you will either receive an error or the function will fall back on using a <em>default</em>.</p>
-<p>The <strong>defaults</strong> represent standard values that the author of the function specified as being “good enough in standard cases”. An example would be what symbol to use in a plot. However, if you want something specific, simply change the argument yourself with a value of your choice.</p>
+<section id="o-que-são-funções" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-são-funções">O que são funções?</h2>
+<p>Uma característica fundamental do R é o uso extensivo de <strong>funções</strong>. Funções são blocos de código que executam uma tarefa específica. Elas permitem reutilizar código, tornando seus scripts mais curtos, claros e fáceis de manter.</p>
+<p>Uma função: - Recebe <strong>entradas</strong> (argumentos) - Executa um conjunto de instruções - Retorna um <strong>resultado</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/function.png" class="img-fluid figure-img"></p>
+<figcaption>função</figcaption>
+</figure>
+</div>
 </section>
-<section id="basic-functions" class="level3">
-<h3 class="anchored" data-anchor-id="basic-functions">Basic functions</h3>
-<p>We have already used a few examples of basic functions in the previous lessons i.e <code>getwd()</code>, <code>c()</code>, and <code>factor()</code>. These functions are available as part of R’s built in capabilities, and we will explore a few more of these base functions below.</p>
-<p>Let’s revisit a function that we have used previously to combine data <code>c()</code> into vectors. The <em>arguments</em> it takes is a collection of numbers, characters or strings (separated by a comma). The <code>c()</code> function performs the task of combining the numbers or characters into a single vector. You can also use the function to add elements to an existing vector:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>glengths <span class="ot">&lt;-</span> <span class="fu">c</span>(glengths, <span class="dv">90</span>) <span class="co"># adding at the end </span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>glengths <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">30</span>, glengths) <span class="co"># adding at the beginning</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>What happens here is that we take the original vector <code>glengths</code> (containing three elements), and we are adding another item to either end. We can do this over and over again to build a vector or a dataset.</p>
-<p>Since R is used for statistical computing, many of the base functions involve mathematical operations. One example would be the function <code>sqrt()</code>. The input/argument must be a number, and the output is the square root of that number. Let’s try finding the square root of 81:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sqrt</span>(<span class="dv">81</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Now what would happen if we <strong>called the function</strong> (e.g.&nbsp;ran the function), on a <em>vector of values</em> instead of a single value?</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sqrt</span>(glengths)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>In this case the task was performed on each individual value of the vector <code>glengths</code> and the respective results were displayed.</p>
-<p>Let’s try another function, this time using one that we can change some of the <em>options</em> (arguments that change the behavior of the function), for example <code>round</code>:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">round</span>(<span class="fl">3.14159</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>We can see that we get <code>3</code>. That’s because the default is to round to the nearest whole number. <strong>What if we want a different number of significant digits?</strong> Let’s first learn how to find available arguments for a function.</p>
+<section id="usando-funções-integradas" class="level2">
+<h2 class="anchored" data-anchor-id="usando-funções-integradas">Usando funções integradas</h2>
+<p>O R vem com milhares de funções integradas. Você já utilizou várias delas, mesmo sem perceber.</p>
+<p>Por exemplo:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sqrt</span>(<span class="dv">16</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 4</code></pre>
+</div>
+</div>
+<p>A função <code>sqrt()</code> recebe o argumento <code>16</code> e retorna a raiz quadrada.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">round</span>(<span class="fl">3.14159</span>, <span class="dv">2</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3.14</code></pre>
+</div>
+</div>
+<p>Aqui, <code>round()</code> recebe dois argumentos: - o número - o número de casas decimais</p>
 </section>
-<section id="seeking-help-on-arguments-for-functions" class="level3">
-<h3 class="anchored" data-anchor-id="seeking-help-on-arguments-for-functions">Seeking help on arguments for functions</h3>
-<p>The best way of finding out this information is to use the <code>?</code> followed by the name of the function. Doing this will open up the help manual in the bottom right panel of RStudio that will provide a description of the function, usage, arguments, details, and examples:</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>?round</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Alternatively, if you are familiar with the function but just need to remind yourself of the names of the arguments, you can use:</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">args</span>(round)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Even more useful is the <code>example()</code> function. This will allow you to run the examples section from the Online Help to see exactly how it works when executing the commands. Let’s try that for <code>round()</code>:</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">example</span>(<span class="st">"round"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>In our example, we can change the number of digits returned by <strong>adding an argument</strong>. We can type <code>digits=2</code> or however many we may want:</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">round</span>(<span class="fl">3.14159</span>, <span class="at">digits=</span><span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<blockquote class="blockquote">
-<p><em>NOTE:</em> If you provide the arguments in the exact same order as they are defined (in the help manual) you don’t have to name them:</p>
-<p>round(3.14159, 2)</p>
-<p>However, it’s usually not recommended practice because it involves a lot of memorization. In addition, it makes your code difficult to read for your future self and others, especially if your code includes functions that are not commonly used. (It’s however OK to not include the names of the arguments for basic functions like <code>mean</code>, <code>min</code>, etc…). Another advantage of naming arguments, is that the order doesn’t matter. This is useful when a function has many arguments.</p>
-</blockquote>
-<hr>
-<p><strong>Exercise</strong></p>
-<ol type="1">
-<li>Let’s use base R function to calculate <strong>mean</strong> value of the <code>glengths</code> vector. You might need to search online to find what function can perform this task.</li>
-<li>Create a new vector <code>test &lt;- c(1, NA, 2, 3, NA, 4)</code>. Use the same base R function from exercise 1 (with addition of proper argument), and calculate mean value of the <code>test</code> vector. The output should be <code>2.5</code>. &gt; <em>NOTE:</em> In R, missing values are represented by the symbol <code>NA</code> (not available). It’s a way to make sure that users know they have missing data, and make a conscious decision on how to deal with it. There are ways to ignore <code>NA</code> during statistical calculation, or to remove <code>NA</code> from the vector. If you want more information related to missing data or <code>NA</code> you can <a href="https://stats.oarc.ucla.edu/r/faq/how-does-r-handle-missing-values/">go to this page</a> (please note that there are many advanced concepts on that page that have not been covered in class).</li>
-<li>Another commonly used base function is <code>sort()</code>. Use this function to sort the <code>glengths</code> vector in <strong>descending</strong> order.</li>
-</ol>
-<hr>
+<section id="argumentos-de-funções" class="level2">
+<h2 class="anchored" data-anchor-id="argumentos-de-funções">Argumentos de funções</h2>
+<p>Funções podem ter <strong>argumentos obrigatórios</strong> e <strong>opcionais</strong>.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">log</span>(<span class="dv">100</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 4.60517</code></pre>
+</div>
+</div>
+<p>Por padrão, o logaritmo é calculado na base <em>e</em>. Podemos alterar isso:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">log</span>(<span class="dv">100</span>, <span class="at">base =</span> <span class="dv">10</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2</code></pre>
+</div>
+</div>
+<p>Também podemos especificar argumentos <strong>nomeados</strong> em qualquer ordem:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">log</span>(<span class="at">base =</span> <span class="dv">10</span>, <span class="at">x =</span> <span class="dv">100</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2</code></pre>
+</div>
+</div>
 </section>
-<section id="user-defined-functions" class="level3">
-<h3 class="anchored" data-anchor-id="user-defined-functions">User-defined Functions</h3>
-<p>One of the great strengths of R is the user’s ability to add functions. Sometimes there is a small task (or series of tasks) you need done and you find yourself having to repeat it multiple times. In these types of situations, it can be helpful to create your own custom function. The <strong>structure of a function is given below</strong>:</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>name_of_function <span class="ot">&lt;-</span> <span class="cf">function</span>(argument1, argument2) {</span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>    statements or code that does something</span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>(something)</span>
-<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="obtendo-ajuda-sobre-funções" class="level2">
+<h2 class="anchored" data-anchor-id="obtendo-ajuda-sobre-funções">Obtendo ajuda sobre funções</h2>
+<p>Existem várias formas de obter ajuda em R:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>?log</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>ou</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">help</span>(log)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Também é possível usar:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">args</span>(log)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>function (x, base = exp(1)) 
+NULL</code></pre>
+</div>
+</div>
+<p>Para ver os argumentos aceitos por uma função.</p>
+</section>
+<section id="funções-aplicadas-a-vetores" class="level2">
+<h2 class="anchored" data-anchor-id="funções-aplicadas-a-vetores">Funções aplicadas a vetores</h2>
+<p>Muitas funções em R são <strong>vetorizadas</strong>, ou seja, operam elemento a elemento em vetores.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>numbers <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">4</span>, <span class="dv">9</span>, <span class="dv">16</span>)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sqrt</span>(numbers)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 1 2 3 4</code></pre>
+</div>
+</div>
+</section>
+<section id="escrevendo-suas-próprias-funções" class="level2">
+<h2 class="anchored" data-anchor-id="escrevendo-suas-próprias-funções">Escrevendo suas próprias funções</h2>
+<p>Você pode criar suas próprias funções usando a função <code>function()</code>.</p>
+<p>Estrutura básica:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>nome_da_funcao <span class="ot">&lt;-</span> <span class="cf">function</span>(argumentos) {</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  <span class="co"># código</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(resultado)</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<section id="exemplo-simples" class="level3">
+<h3 class="anchored" data-anchor-id="exemplo-simples">Exemplo simples</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>square <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>  x<span class="sc">^</span><span class="dv">2</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="fu">square</span>(<span class="dv">4</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 16</code></pre>
+</div>
+</div>
+</section>
+<section id="função-com-múltiplos-argumentos" class="level3">
+<h3 class="anchored" data-anchor-id="função-com-múltiplos-argumentos">Função com múltiplos argumentos</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>power <span class="ot">&lt;-</span> <span class="cf">function</span>(base, <span class="at">exponent =</span> <span class="dv">2</span>) {</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>  base<span class="sc">^</span>exponent</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a><span class="fu">power</span>(<span class="dv">3</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 9</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu">power</span>(<span class="dv">3</span>, <span class="dv">3</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 27</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="escopo-de-funções" class="level2">
+<h2 class="anchored" data-anchor-id="escopo-de-funções">Escopo de funções</h2>
+<p>Variáveis criadas dentro de uma função existem <strong>apenas dentro dela</strong>.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>test_scope <span class="ot">&lt;-</span> <span class="cf">function</span>() {</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>  x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>  x</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a><span class="fu">test_scope</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 10</code></pre>
+</div>
+</div>
+<p>O segundo comando gera erro, pois <code>x</code> não existe fora da função.</p>
+</section>
+<section id="boas-práticas-ao-escrever-funções" class="level2">
+<h2 class="anchored" data-anchor-id="boas-práticas-ao-escrever-funções">Boas práticas ao escrever funções</h2>
 <ul>
-<li>First you give your function a name.</li>
-<li>Then you assign value to it, where the value is the function.</li>
+<li>Use nomes claros e descritivos</li>
+<li>Documente com comentários</li>
+<li>Faça uma função realizar <strong>uma única tarefa</strong></li>
+<li>Teste com diferentes entradas</li>
 </ul>
-<p>When <strong>defining the function</strong> you will want to provide the <strong>list of arguments required</strong> (inputs and/or options to modify behaviour of the function), and wrapped between curly brackets place the <strong>tasks that are being executed on/using those arguments</strong>. The argument(s) can be any type of object (like a scalar, a matrix, a dataframe, a vector, a logical, etc), and it’s not necessary to define what it is in any way.</p>
-<p>Finally, you can <strong>“return” the value of the object from the function</strong>, meaning pass the value of it into the global environment. The important idea behind functions is that objects that are created within the function are local to the environment of the function – they don’t exist outside of the function.</p>
-<p>Let’s try creating a simple example function. This function will take in a numeric value as input, and return the squared value.</p>
-<div class="sourceCode" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>square_it <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>    square <span class="ot">&lt;-</span> x <span class="sc">*</span> x</span>
-<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>(square)</span>
-<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Once you run the code, you should see a function named <code>square_it</code> in the Environment panel (located at the top right of Rstudio interface). Now, we can use this function as any other base R functions. We type out the name of the function, and inside the parentheses we provide a numeric value <code>x</code>:</p>
-<div class="sourceCode" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">square_it</span>(<span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Pretty simple, right? In this case, we only had one line of code that was run, but in theory you could have many lines of code to get obtain the final results that you want to “return” to the user.</p>
-<blockquote class="blockquote">
-<h4 id="do-i-always-have-to-return-something-at-the-end-of-the-function" class="anchored">Do I always have to <code>return()</code> something at the end of the function?</h4>
-<p>In the example above, we created a new variable called <code>square</code> inside the function, and then return the value of <code>square</code>. If you don’t use <code>return()</code>, by default R will return the value of the last line of code inside that function. That is to say, the following function will also work.</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>square_it <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
-<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>   x <span class="sc">*</span> x</span>
-<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>However, we <strong>recommend</strong> always using <code>return</code> at the end of a function as the best practice.</p>
-</blockquote>
-<p>We have only scratched the surface here when it comes to creating functions! We will revisit this in later lessons, but if interested you can also find more detailed information on this <a href="https://www.r-bloggers.com/how-to-write-and-debug-an-r-function/">R-bloggers site</a>, which is where we adapted this example from.</p>
+</section>
+<section id="exercício" class="level2">
+<h2 class="anchored" data-anchor-id="exercício">Exercício</h2>
+<p>Crie uma função chamada <code>mean_diff</code> que: - Receba dois vetores numéricos - Retorne a diferença entre suas médias</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>mean_diff <span class="ot">&lt;-</span> <span class="cf">function</span>(x, y) {</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mean</span>(x) <span class="sc">-</span> <span class="fu">mean</span>(y)</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a><span class="fu">mean_diff</span>(<span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>), <span class="fu">c</span>(<span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] -3</code></pre>
+</div>
+</div>
 <hr>
-<p><strong>Exercise</strong></p>
-<ol type="1">
-<li>Write a function called <code>multiply_it</code>, which takes two inputs: a numeric value <code>x</code>, and a numeric value <code>y</code>. The function will return the product of these two numeric values, which is <code>x * y</code>. For example, <code>multiply_it(x=4, y=6)</code> will return output <code>24</code>.</li>
-</ol>
-<hr>
-<p><em>This lesson has been developed by members of the teaching team at the <a href="http://bioinformatics.sph.harvard.edu/">Harvard Chan Bioinformatics Core (HBC)</a>. These are open access materials distributed under the terms of the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution license</a> (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</em></p>
-<ul>
-<li><em>The materials used in this lesson are adapted from work that is Copyright © Data Carpentry (http://datacarpentry.org/). All Data Carpentry instructional material is made available under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution license</a> (CC BY 4.0).</em></li>
-</ul>
+<p><em>Este material foi desenvolvido por membros da equipe de ensino do<br>
+<a href="http://bioinformatics.sph.harvard.edu/">Harvard Chan Bioinformatics Core (HBC)</a>.<br>
+Licença <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</a>.</em></p>
+<p><em>Os materiais utilizados nesta lição são adaptados de trabalhos da<br>
+<a href="http://datacarpentry.org/">Data Carpentry</a>, também sob licença CC BY 4.0.</em></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -429,13 +492,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -781,13 +845,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Content <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2025 by <a href="https://ecoaplic.org/">felipe Melo</a> <br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a></p>
+<p>Content <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2026 by <a href="https://ecoaplic.org/">felipe Melo</a> <br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/fplmelo/rmda_ntu">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></p>
+<p>Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/fplmelo/ecologia_paisagens">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></p>
 </div>
   </div>
 </footer>

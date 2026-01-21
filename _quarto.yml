@@ -8,49 +8,40 @@ execute:
 website:
   navbar:
     background: light
-    logo: img/ntu_logo.png
+    logo: img/logo_branco_ufpe.png
     logo-alt: "NTU logo"
     title: false
     collapse-below: lg
     left:
-      - text: "Home"
+      - text: "Início"
         href: index.qmd
-      - text: "Syllabus"
+      - text: "Programa"
         href: syllabus.qmd
-      - text: "Schedule"
+      - text: "Cronograma"
         href: schedule.qmd
-      - text: "Get Started"
+      - text: "Comece aqui"
         menu:
-          - text: "1 - Install R and Rstudio"
+          - text: "1 - Instalar R & Rstudio"
             icon: "emoji-sunglasses-fill"
             href: get-started/1-install.qmd
-          - text: "2 - Basic Introduction to R and Rstudio"
+          - text: "2 - Introdução Básica ao R e Rstudio"
             icon: "tools"
             href: get-started/2-basic-intro.qmd
-          - text: "3 - Syntax & Data Structures"
+          - text: "3 - Sintaxe & Estrutura de Dados"
             icon: "tools"
             href: get-started/3-syntax.qmd
-          - text: "4 - Functions and Arguments"
+          - text: "4 - Funções e Comandos"
             icon: "tools"
             href: get-started/4-functions.qmd
-          - text: "5 - Reading data in R"
+          - text: "5 - Dados em R"
             icon: "tools"
             href: get-started/5-data.qmd
-      - text: "Content"
+      - text: "Todas as Aulas"
         href: sessions/index.qmd
-      - text: "Resources"
+      - text: "Recursos"
         href: resources/index.qmd
-      - text: "Assessment"
+      - text: "Tipo de Avaliação"
         href: assessment.qmd
-      - text: "NTU NOW Page"
-        menu:
-          - text: "Main NOW Page"
-            icon: "house"
-            href: "https://now.ntu.ac.uk/d2l/home/1048957#_"
-          - text: "Dropbox"
-            icon: "dropbox"
-            href: "https://now.ntu.ac.uk/d2l/lms/dropbox/admin/folders_manage.d2l?ou=1048957"
-          
     tools:
       - icon: twitter
         href: https://twitter.com/quarto_pub

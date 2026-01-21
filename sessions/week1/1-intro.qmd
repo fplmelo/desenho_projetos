@@ -1,258 +1,68 @@
 ---
-title: "Week 1 - Introduction to RMDA"
-subtitle: "RMDA ARES40011"
+title: "Aula 1 - Apresentação do Curso em Ecologia de Paisagem"
+subtitle: "Bem-vindos ao Curso"
 author: "Felipe Melo"
 date: "last-modified"
 date-format: "long"
-filters:
-  - naquiz
 format:
   html:
     toc: true
-    toc-expanded: 3
-editor: 
-  markdown: 
-    wrap: sentence
+    number-sections: true
 ---
 
-# Module workflow
+## Boas-vindas
 
-![](/img/class-workflow.png)
+Olá! É um prazer ter você aqui para iniciarmos nossa jornada pela **Ecologia de Paisagem**. 
 
-Today you are going to understand how this modules works.
+Neste curso, vamos além do estudo de populações ou comunidades isoladas. Nosso olhar se volta para o "mosaico" da natureza. Vamos conversar sobre como a configuração espacial dos ecossistemas influencia os processos biológicos, a dispersão de espécies e a conservação da biodiversidade. 
 
+A ideia é que este seja um espaço de troca constante, onde a teoria se conecta com ferramentas práticas de análise espacial e desafios reais de manejo e restauração.
 
-# Preparation
-
-First, this is a asynchronous module delivered in using the concept of [FLEX modules](https://www.ntu.ac.uk/about-us/teaching/academic-development-and-quality/course-design/design-for-online-learning) held by NTU. The idea of having an asynchronous module for teaching stats and research methods makes sense because you'll need time to read and train both before and after the each main session and tutorials.
-
-
-# Lessons
-
-These comprise the slides and videos recorded by the tutor and introduce the objectives, learning outcomes and some demonstrations.
-
-## Slides
-
-{{< revealjs file="https://fplmelo.github.io/rmda_ntu/slides/01_intro_rmda.html#/title-slide" height="500px" class="ratio ratio-16x9" >}}
-
-## Videos
-
-# Exercise
-
-## Exercise 1 - Create your workbook
-
-## Introduction
-
-Quarto is a powerful tool for creating dynamic documents and websites. This tutorial will guide you through the process of creating a simple webpage using Quarto.
-
-## Prerequisites
-
-Before you begin, make sure you have the following installed:
-
-* **Quarto:** You can download and install Quarto from [quarto.org](https://quarto.org/docs/get-started/).
-* **Rstudio:** However, any text editor will work, such as VS Code, Sublime Text, or Notepad++.
-
-### Step 1: Create a New Quarto Document
-
-1.  Open your Rstudio
-2.  Navigate to 'File'->'new file'-> 'Quarto Document'.
-3.  Save it as `webpage.qmd` or any other name you prefer
-
-
-![](/img/quarto_new.png)
-
-
-### Step 2: Edit the Quarto Document
-
-1.  Open `webpage.qmd` in your text editor.
-2.  You'll see some default content, including a title and some example text.
-3.  Modify the content to create your webpage. For example:
-
-
-**Headers or YAML**
-An (optional) YAML header demarcated by three dashes (- - -) on either end.
-
-
-
-```yaml
 ---
-title: "Hello, Quarto"
-format: html
-editor: visual
+
+## Estrutura do Curso
+
+O curso está organizado em módulos que progridem desde os conceitos fundamentais até as aplicações práticas e análise de dados.
+
+
+
+### Módulo 1: Fundamentos
+- **Definições e Histórico:** O que define uma "paisagem" na ecologia?
+- **Teoria de Biogeografia de Ilhas vs. Metapopulações:** As bases clássicas.
+- **Escala e Percepção:** Como o grão e a extensão mudam nossa interpretação.
+
+### Módulo 2: Padrões e Processos
+- **Métricas de Paisagem:** Fragmentação, conectividade e isolamento.
+- **Dinâmica de Bordas:** Como o entorno afeta o interior dos remanescentes.
+- **Matriz Ecológica:** O papel das áreas antropizadas na movimentação das espécies.
+
+### Módulo 3: Aplicações e Prática
+- **Restauração de Paisagens:** Planejando corredores e trampolins (*stepping stones*).
+- **Serviços Ecossistêmicos:** A influência da paisagem na provisão de água e polinização.
+- **Laboratório de R:** Análise de métricas espaciais usando pacotes como `landscapemetrics`.
+
 ---
-```
 
-When rendered, the title, "Hello, Quarto", will appear at the top of the rendered document with a larger font size than the rest of the document. The other two YAML fields denote that the output should be in html format and the document should open in the visual editor by default.
+## Avaliação e Participação
 
-The basic syntax of YAML uses key-value pairs in the format key: value. Other YAML fields commonly found in headers of documents include metadata like author, subtitle, date as well as customization options like theme, fontcolor, fig-width, etc. You can find out about all available YAML fields for HTML documents here. The available YAML fields vary based on document format, e.g., see here for YAML fields for PDF documents and here for MS Word.
+A nossa avaliação será processual, focada no desenvolvimento da sua capacidade crítica e técnica.
 
-**Code chunks**
+| Atividade | Descrição | Peso |
+|:--- |:--- |:---:|
+| **Seminários de Discussão** | Debate de artigos clássicos e contemporâneos. | 30% |
+| **Exercícios Práticos** | Relatórios curtos baseados nas aulas práticas em R. | 30% |
+| **Projeto Final** | Elaboração de um plano de manejo ou restauração para uma paisagem real. | 40% |
 
-```markdown
+---
 
-## Welcome!
+## Dicas para o Sucesso no Curso
 
-This is my first webpage created with Quarto.
+1.  **Mantenha a curiosidade:** A ecologia de paisagem é visual. Comece a observar os mapas e fotos de satélite com um olhar crítico.
+2.  **Pratique o R:** Não deixe para aprender as ferramentas espaciais na última hora.
+3.  **Participe:** As melhores ideias surgem durante nossas discussões em aula.
 
-Here's a simple list:
+Estou à disposição para dúvidas. Vamos começar?
 
-* Item 1
-* Item 2
-* Item 3
+---
 
-```
-
-**You can also include code blocks:**
-
-Code blocks that use braces around the language name (e.g. ```{r}) are executable, and will be run by Quarto during render. Here is a simple example:
-
-## Example of graphics using R
-
-```{r}
-#| warning: false
-
-library(ggplot2)
-
-ggplot(airquality, aes(Temp, Ozone)) + 
-  geom_point() + 
-  geom_smooth(method = "loess")
-```
-
-
-
-You can produce a wide variety of output types from executable code blocks,including plots, tabular output from data frames, and plain text output (e.g. printing the results of statistical summaries). 
-
-### To use Quarto with R, you should install the rmarkdown R package:
-
-
-```{r}
-#| eval: false
-#| include: false
-install.packages("rmarkdown")
-```
-
-Installation of the `rmarkdown` package will also install the `knitr` package so you will have everything required to render documents containing R code.
-
-**And mathematical equations:**
-
-Just add one or two `$` "money" symbols fencing the expression. You can use online tools to build equations that will generate a universal code that if placed between `$`, will be translated into equations.
-
-```bash
-$$E = mc^2$$
-```
-
-$$E = mc^2$$
-
-**You can add images too:**
-
-```{r}
-knitr::include_graphics("https://quarto.org/quarto.png")
-```
-
-
-**Explanation of the code:**
-
-  * `---`
-    
-    `title: "My First Quarto Webpage"`
-    
-    `format: html`
-    
-    `--- `
-  
-  This is the YAML header, which sets the title of your webpage and specifies the output format (HTML in this case).
-  
-  * `## Welcome!` : This is a level 2 heading.
-    
-  * `* Item 1` : This creates a bulleted list.
-    
-  * ````{r}`: This begins a R code block.
-  
-:::callout-tip
-Use keyborad shrotcut `crtl+alt+i` to create a R code chunk
-:::
-    
-  * `$$E = mc^2$$`: This inserts a LaTeX equation.
-  
-  * `knitr::include_graphics("https://quarto.org/quarto.png")`: This includes an image from a URL.
-
-### Step 3: Render the Webpage
-
-1. Just click on **Render** button
-
-or
-
-2.  Run the following command to render the webpage:
-
-```bash
-quarto render webpage.qmd
-```
-
-This command will create an HTML file named `webpage.html` in the same directory.
-
-### Step 4: View the Webpage
-
-1.  Open `webpage.html` in your web browser.
-2.  You should see your webpage with the content you created.
-
-## Adding more content
-
-You can add more content to your webpage by editing `webpage.qmd`. Quarto supports various types of content, including:
-
-* **Headings:** Use `#`, `##`, `###`, etc. for different heading levels.
-* **Paragraphs:** Just type your text.
-* **Lists:** Use `*` or `-` for unordered lists, and `1.`, `2.`, etc. for ordered lists.
-* **Code Blocks:** Use ````{r}` to insert code blocks.
-* **Mathematical Equations:** Use `$$` for LaTeX equations.
-* **Images:** Use `![alt text](path/to/image.png)` or ````{r} knitr::include_graphics("path/to/image.png") ````.
-* **Links:** Use `[link text](url)`.
-* **Tables:** Use Markdown table syntax.
-
-## Further Exploration
-
-* Explore the Quarto documentation for more advanced features: [quarto.org](https://quarto.org/).
-* Experiment with different output formats, such as PDF or Word.
-* Learn about Quarto projects for creating multi-page websites.
-* Look into adding CSS and Javascript for styling and interactivity.
-
-## Publishing Basics
-### Overview
-
-There are a wide variety of ways to publish documents, presentations, and websites created using Quarto. Since content rendered with Quarto uses standard formats (HTML, PDFs, MS Word, etc.) it can be published anywhere. Additionally, there is a quarto publish command available for easy publishing to various popular services (GitHub, Netlify, Posit Connect, etc.) as well as various tools to make it easy to publish from a Continuous Integration (CI) system.
-
-Getting Started
-To get started, review the documentation for using one of the following publishing services:
-
-| Destination                            | Description                                                                                                                                                                                     |
-|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Quarto Pub](https://quarto.org/docs/publishing/quarto-pub.html)           | Publishing service for Quarto documents, websites, and books. Use Quarto Pub when you want a free, easy to use service for publicly available content.                                          |
-| [GitHub Pages](https://quarto.org/docs/publishing/github-pages.html)       | Publish content based on source code managed within a GitHub repository. Use GitHub Pages when the source code for your document or site is hosted on GitHub.                                   |     
-| [Posit Connect](https://quarto.org/docs/publishing/rstudio-connect.html) | Publishing platform for secure sharing of data products within an organization. Use Posit Connect when you want to publish content within an organization rather than on the public internet. |
-| [Posit Cloud](https://quarto.org/docs/publishing/netlify.html)       | Create data projects and publish results from your web browser. Use Posit Cloud when you want to organize all your static documents and interactive applications in one place.                  |
-| [Netlify](https://quarto.org/docs/publishing/netlify.html)                 | Professional web publishing platform. Use Netlify when you want support for custom domains, authentication, previewing branches, and other more advanced capabilities.                          | 
-| [Confluence](https://quarto.org/docs/publishing/confluence.html)         | Publishing platform for supporting team collaboration. Use Confluence to share documents in team Spaces.                                                            |
-| [Hugging Face Spaces](https://quarto.org/docs/publishing/hugging-face.html)       | Publishing platform specializing in learning models and datasets. Use Hugging Face Spaces when you want to share Quarto documents together with associated machine learning models and/or datasets.                      |
-| [Other Services](https://quarto.org/docs/publishing/other.html)            | Content rendered with Quarto uses standard formats (HTML, PDFs, MS Word, etc.) that can be published anywhere. Use this if none of the methods above meets your requirements.               |
-
-: {tbl-colwidths="\[30,70\]"}
-
-If you don't know which to choose, try [Quarto Pub](https://quarto.org/docs/publishing/quarto-pub.html) which is a free service for publicly available content. If you are publishing to a destination not listed above, choose [Other Services](/docs/publishing/other.qmd).
-
-These articles cover both straightforward direct publishing as well as Continuous Integration (CI) publishing with GitHub Actions. If you want to publish using CI and aren't using GitHub Actions, the article on [Publishing with CI](https://quarto.org/docs/publishing/other.html) provides additional details and documentation.
-
-
-## Exercise
-
-**Now create your own quarto workbook:**
-
-1- Check this very simple tutorial
-
-<iframe width="853" height="480" src="https://www.youtube.com/embed/nuYNCPRf8Js" title="How to publish a website FOR FREE in under 60 seconds using Quarto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-2- Have some fun tweaking basics of your workbook
-
-<iframe width="853" height="480" src="https://www.youtube.com/embed/hceM0-RuPwo" title="Using an attractive homepage template for a Quarto website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-3- Publish your workbook using any of the tools above. I recommend either [Quarto Pub](https://quarto.org/docs/publishing/quarto-pub.html) or [GitHub Pages](https://quarto.org/docs/publishing/github-pages.html).
-
-4- Submit the link of your workbook to our [NOW dropbox folder]()
+> *Este curso segue os princípios da ciência aberta e colaborativa.*

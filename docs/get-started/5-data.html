@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Felipe Melo">
-<meta name="dcterms.date" content="2025-05-30">
+<meta name="dcterms.date" content="2026-01-21">
 
-<title>Reading in and inspecting data</title>
+<title>Leitura e inspeção de dados</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,14 +69,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta name="quarto:offset" content="../">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-b8b80a0e6c1bcf998906d62e76552870.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-d4b0c6867662daffec38d31234abbead.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -118,7 +119,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../img/ntu_logo.png" alt="NTU logo" class="navbar-logo">
+    <img src="../img/logo_branco_ufpe.png" alt="NTU logo" class="navbar-logo light-content">
+    <img src="../img/logo_branco_ufpe.png" alt="NTU logo" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -129,77 +131,60 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Home</span></a>
+<span class="menu-text">Início</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../syllabus.html"> 
-<span class="menu-text">Syllabus</span></a>
+<span class="menu-text">Programa</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../schedule.html"> 
-<span class="menu-text">Schedule</span></a>
+<span class="menu-text">Cronograma</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-get-started" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Get Started</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-comece-aqui" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Comece aqui</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-get-started">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-comece-aqui">    
         <li>
     <a class="dropdown-item" href="../get-started/1-install.html"><i class="bi bi-emoji-sunglasses-fill" role="img">
 </i> 
- <span class="dropdown-text">1 - Install R and Rstudio</span></a>
+ <span class="dropdown-text">1 - Instalar R &amp; Rstudio</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../get-started/2-basic-intro.html"><i class="bi bi-tools" role="img">
 </i> 
- <span class="dropdown-text">2 - Basic Introduction to R and Rstudio</span></a>
+ <span class="dropdown-text">2 - Introdução Básica ao R e Rstudio</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../get-started/3-syntax.html"><i class="bi bi-tools" role="img">
 </i> 
- <span class="dropdown-text">3 - Syntax &amp; Data Structures</span></a>
+ <span class="dropdown-text">3 - Sintaxe &amp; Estrutura de Dados</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../get-started/4-functions.html"><i class="bi bi-tools" role="img">
 </i> 
- <span class="dropdown-text">4 - Functions and Arguments</span></a>
+ <span class="dropdown-text">4 - Funções e Comandos</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../get-started/5-data.html"><i class="bi bi-tools" role="img">
 </i> 
- <span class="dropdown-text">5 - Reading data in R</span></a>
+ <span class="dropdown-text">5 - Dados em R</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="../sessions/index.html"> 
-<span class="menu-text">Content</span></a>
+<span class="menu-text">Todas as Aulas</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../resources/index.html"> 
-<span class="menu-text">Resources</span></a>
+<span class="menu-text">Recursos</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../assessment.html"> 
-<span class="menu-text">Assessment</span></a>
+<span class="menu-text">Tipo de Avaliação</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ntu-now-page" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">NTU NOW Page</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-ntu-now-page">    
-        <li>
-    <a class="dropdown-item" href="https://now.ntu.ac.uk/d2l/home/1048957#_"><i class="bi bi-house" role="img">
-</i> 
- <span class="dropdown-text">Main NOW Page</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://now.ntu.ac.uk/d2l/lms/dropbox/admin/folders_manage.d2l?ou=1048957"><i class="bi bi-dropbox" role="img">
-</i> 
- <span class="dropdown-text">Dropbox</span></a>
-  </li>  
-    </ul>
-  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools tools-wide">
@@ -219,17 +204,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
-  <li><a href="#reading-data-into-r" id="toc-reading-data-into-r" class="nav-link" data-scroll-target="#reading-data-into-r">Reading data into R</a>
+  <li><a href="#objetivos-de-aprendizagem" id="toc-objetivos-de-aprendizagem" class="nav-link active" data-scroll-target="#objetivos-de-aprendizagem">Objetivos de Aprendizagem</a></li>
+  <li><a href="#leitura-de-dados-no-r" id="toc-leitura-de-dados-no-r" class="nav-link" data-scroll-target="#leitura-de-dados-no-r">Leitura de dados no R</a>
   <ul class="collapse">
-  <li><a href="#the-basics" id="toc-the-basics" class="nav-link" data-scroll-target="#the-basics">The basics</a></li>
-  <li><a href="#metadata" id="toc-metadata" class="nav-link" data-scroll-target="#metadata">Metadata</a></li>
-  <li><a href="#the-read.csv-function" id="toc-the-read.csv-function" class="nav-link" data-scroll-target="#the-read.csv-function">The <code>read.csv()</code> function</a></li>
-  <li><a href="#create-a-data-frame-by-reading-in-the-file" id="toc-create-a-data-frame-by-reading-in-the-file" class="nav-link" data-scroll-target="#create-a-data-frame-by-reading-in-the-file">Create a data frame by reading in the file</a></li>
+  <li><a href="#o-básico" id="toc-o-básico" class="nav-link" data-scroll-target="#o-básico">O básico</a></li>
+  <li><a href="#metadados" id="toc-metadados" class="nav-link" data-scroll-target="#metadados">Metadados</a></li>
+  <li><a href="#a-função-read.csv" id="toc-a-função-read.csv" class="nav-link" data-scroll-target="#a-função-read.csv">A função <code>read.csv()</code></a></li>
+  <li><a href="#criando-um-data-frame-a-partir-do-arquivo" id="toc-criando-um-data-frame-a-partir-do-arquivo" class="nav-link" data-scroll-target="#criando-um-data-frame-a-partir-do-arquivo">Criando um data frame a partir do arquivo</a></li>
   </ul></li>
-  <li><a href="#inspecting-data-structures" id="toc-inspecting-data-structures" class="nav-link" data-scroll-target="#inspecting-data-structures">Inspecting data structures</a>
+  <li><a href="#inspeção-de-estruturas-de-dados" id="toc-inspeção-de-estruturas-de-dados" class="nav-link" data-scroll-target="#inspeção-de-estruturas-de-dados">Inspeção de estruturas de dados</a>
   <ul class="collapse">
-  <li><a href="#list-of-functions-for-data-inspection" id="toc-list-of-functions-for-data-inspection" class="nav-link" data-scroll-target="#list-of-functions-for-data-inspection">List of functions for data inspection</a></li>
+  <li><a href="#lista-de-funções-para-inspeção-de-dados" id="toc-lista-de-funções-para-inspeção-de-dados" class="nav-link" data-scroll-target="#lista-de-funções-para-inspeção-de-dados">Lista de funções para inspeção de dados</a></li>
   </ul></li>
   <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">***</a></li>
   </ul>
@@ -240,8 +225,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Reading in and inspecting data</h1>
-<p class="subtitle lead">RMDA ARES40011</p>
+<h1 class="title">Leitura e inspeção de dados</h1>
+<p class="subtitle lead">BO304</p>
 </div>
 
 
@@ -258,7 +243,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 30, 2025</p>
+      <p class="date">January 21, 2026</p>
     </div>
   </div>
   
@@ -270,40 +255,40 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="learning-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
+<section id="objetivos-de-aprendizagem" class="level2">
+<h2 class="anchored" data-anchor-id="objetivos-de-aprendizagem">Objetivos de Aprendizagem</h2>
 <ul>
-<li>Demonstrate how to read existing data into R</li>
-<li>Utilize base R functions to inspect data structures</li>
+<li>Demonstrar como ler dados existentes no R</li>
+<li>Utilizar funções base do R para inspecionar estruturas de dados</li>
 </ul>
 </section>
-<section id="reading-data-into-r" class="level2">
-<h2 class="anchored" data-anchor-id="reading-data-into-r">Reading data into R</h2>
-<section id="the-basics" class="level3">
-<h3 class="anchored" data-anchor-id="the-basics">The basics</h3>
-<p>Regardless of the specific analysis in R we are performing, we usually need to bring data in for any analysis being done in R, so learning how to read in data is a crucial component of learning to use R.</p>
-<p>Many functions exist to read data in, and the function in R you use will depend on the file format being read in. Below we have a table with some examples of functions that can be used for importing some common text data types (plain text).</p>
+<section id="leitura-de-dados-no-r" class="level2">
+<h2 class="anchored" data-anchor-id="leitura-de-dados-no-r">Leitura de dados no R</h2>
+<section id="o-básico" class="level3">
+<h3 class="anchored" data-anchor-id="o-básico">O básico</h3>
+<p>Independentemente da análise específica que estamos realizando no R, geralmente precisamos importar dados para qualquer análise. Por isso, aprender como ler dados é um componente crucial do aprendizado em R.</p>
+<p>Existem muitas funções para importar dados, e a função utilizada dependerá do formato do arquivo. Abaixo está uma tabela com exemplos de funções usadas para importar tipos comuns de dados em texto (texto simples).</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 14%">
+<col style="width: 35%">
+<col style="width: 13%">
 <col style="width: 25%">
 <col style="width: 26%">
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Data type</th>
-<th style="text-align: left;">Extension</th>
-<th style="text-align: left;">Function</th>
-<th style="text-align: left;">Package</th>
+<th style="text-align: left;">Tipo de dado</th>
+<th style="text-align: left;">Extensão</th>
+<th style="text-align: left;">Função</th>
+<th style="text-align: left;">Pacote</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Comma separated values</td>
+<td style="text-align: left;">Valores separados por vírgula</td>
 <td style="text-align: left;">csv</td>
 <td style="text-align: left;"><code>read.csv()</code></td>
-<td style="text-align: left;">utils (default)</td>
+<td style="text-align: left;">utils (padrão)</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"></td>
@@ -312,13 +297,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td style="text-align: left;">readr (tidyverse)</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Tab separated values</td>
+<td style="text-align: left;">Valores separados por tabulação</td>
 <td style="text-align: left;">tsv</td>
 <td style="text-align: left;"><code>read_tsv()</code></td>
 <td style="text-align: left;">readr</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Other delimited formats</td>
+<td style="text-align: left;">Outros formatos delimitados</td>
 <td style="text-align: left;">txt</td>
 <td style="text-align: left;"><code>read.table()</code></td>
 <td style="text-align: left;">utils</td>
@@ -337,36 +322,36 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tr>
 </tbody>
 </table>
-<p>For example, if we have text file where the columns are separated by commas (comma-separated values or comma-delimited), you could use the function <code>read.csv</code>. However, if the data are separated by a different delimiter in a text file (e.g.&nbsp;“:”, “;”, ” “,”), you could use the generic <code>read.table</code> function and specify the delimiter (<code>sep = " "</code>) as an argument in the function.</p>
+<p>Por exemplo, se tivermos um arquivo de texto onde as colunas são separadas por vírgulas (comma-separated values), podemos usar a função <code>read.csv</code>. No entanto, se os dados forem separados por outro delimitador (por exemplo, “:”, “;”, ” “,”), podemos usar a função genérica <code>read.table</code> e especificar o delimitador (<code>sep = " "</code>).</p>
 <blockquote class="blockquote">
-<p>Note: The <code>"\t"</code> delimiter is shorthand for tab.</p>
+<p>Nota: o delimitador <code>"\t"</code> é uma abreviação para tabulação (tab).</p>
 </blockquote>
-<p>In the above table we refer to base R functions as being contained in the “utils” package. In addition to base R functions, we have also listed functions from some other packages that can be used to import data, specifically the “readr” package that installs when you install the “tidyverse” suite of packages.</p>
-<p>In addition to plain text files, you can also import data from other statistical analysis packages and Excel using functions from different packages.</p>
+<p>Na tabela acima, nos referimos às funções base do R como pertencentes ao pacote “utils”. Além das funções base, também listamos funções de outros pacotes que podem ser usadas para importar dados, especificamente o pacote “readr”, que é instalado junto com o conjunto de pacotes “tidyverse”.</p>
+<p>Além de arquivos de texto simples, também é possível importar dados de outros softwares estatísticos e do Excel usando funções de diferentes pacotes.</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
+<col style="width: 30%">
 <col style="width: 14%">
-<col style="width: 25%">
+<col style="width: 28%">
 <col style="width: 26%">
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Data type</th>
-<th style="text-align: left;">Extension</th>
-<th style="text-align: left;">Function</th>
-<th style="text-align: left;">Package</th>
+<th style="text-align: left;">Tipo de dado</th>
+<th style="text-align: left;">Extensão</th>
+<th style="text-align: left;">Função</th>
+<th style="text-align: left;">Pacote</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Stata version 13-14</td>
+<td style="text-align: left;">Stata versão 13–14</td>
 <td style="text-align: left;">dta</td>
 <td style="text-align: left;"><code>readdta()</code></td>
 <td style="text-align: left;">haven</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Stata version 7-12</td>
+<td style="text-align: left;">Stata versão 7–12</td>
 <td style="text-align: left;">dta</td>
 <td style="text-align: left;"><code>read.dta()</code></td>
 <td style="text-align: left;">foreign</td>
@@ -391,167 +376,116 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tr>
 </tbody>
 </table>
-<p>Note, that these lists are not comprehensive, and may other functions exist for importing data. Once you have been using R for a bit, maybe you will have a preference for which functions you prefer to use for which data type.</p>
+<p>Note que essas listas não são exaustivas, e outras funções podem existir para importar dados. Com o tempo, você provavelmente desenvolverá preferência por determinadas funções para cada tipo de dado.</p>
 </section>
-<section id="metadata" class="level3">
-<h3 class="anchored" data-anchor-id="metadata">Metadata</h3>
-<p>When working with large datasets, you will very likely be working with “metadata” file which contains the information about each sample in your dataset.</p>
+<section id="metadados" class="level3">
+<h3 class="anchored" data-anchor-id="metadados">Metadados</h3>
+<p>Ao trabalhar com grandes conjuntos de dados, é muito provável que você utilize um arquivo de <strong>metadados</strong>, que contém informações sobre cada amostra do conjunto de dados.</p>
 <p><img src="../img/metadata_view.png" width="400"></p>
-<p>The metadata is very important information and we encourage you to think about creating a document with as much metadata you can record before you bring the data into R. <a href="https://datamanagement.hms.harvard.edu/metadata-overview">Here is some additional reading on metadata</a> from the <a href="https://datamanagement.hms.harvard.edu/">HMS Data Management Working Group</a>.</p>
+<p>Os metadados são informações extremamente importantes, e recomendamos que você pense em criar um documento contendo o máximo de metadados possível antes de importar os dados para o R.<br>
+<a href="https://datamanagement.hms.harvard.edu/metadata-overview">Aqui está uma leitura adicional sobre metadados</a> do <a href="https://datamanagement.hms.harvard.edu/">HMS Data Management Working Group</a>.</p>
 </section>
-<section id="the-read.csv-function" class="level3">
-<h3 class="anchored" data-anchor-id="the-read.csv-function">The <code>read.csv()</code> function</h3>
-<p>Let’s bring in the metadata file we downloaded earlier (<code>mouse_exp_design.csv</code> or <code>mouse_exp_design.txt</code>) using the <code>read.csv</code> function.</p>
-<p>First, check the arguments for the function using the <code>?</code> to ensure that you are entering all the information appropriately:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>?read.csv</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="a-função-read.csv" class="level3">
+<h3 class="anchored" data-anchor-id="a-função-read.csv">A função <code>read.csv()</code></h3>
+<p>Vamos importar o arquivo de metadados que baixamos anteriormente (<code>mouse_exp_design.csv</code> ou <code>mouse_exp_design.txt</code>) usando a função <code>read.csv</code>.</p>
+<p>Primeiro, verifique os argumentos da função usando <code>?</code> para garantir que está fornecendo todas as informações corretamente:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>?read.csv</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p><img src="../img/read.table-help.png" width="450"></p>
-<p>The first thing you will notice is that you’ve pulled up the documentation for <code>read.table()</code>, this is because that is the parent function and all the other functions are in the same family.</p>
-<p>The next item on the documentation page is the function <strong>Description</strong>, which specifies that the output of this set of functions is going to be a <strong>data frame</strong> - “<em>Reads a file in table format and <strong>creates a data frame from it</strong>, with cases corresponding to lines and variables to fields in the file.</em>”</p>
-<p>In usage, all of the arguments listed for <code>read.table()</code> are the default values for all of the family members unless otherwise specified for a given function. Let’s take a look at 2 examples: 1. <strong>The separator</strong> - * in the case of <code>read.table()</code> it is <code>sep = ""</code> (space or tab) * whereas for <code>read.csv()</code> it is <code>sep = ","</code> (a comma). 2. <strong>The <code>header</code></strong> - This argument refers to the column headers that may (<code>TRUE</code>) or may not (<code>FALSE</code>) exist <strong>in the plain text file you are reading in</strong>. * in the case of <code>read.table()</code> it is <code>header = FALSE</code> (by default, it assumes you do not have column names) * whereas for <code>read.csv()</code> it is <code>header = TRUE</code> (by default, it assumes that all your columns have names listed).</p>
-<p><strong><em>The take-home from the “Usage” section for <code>read.csv()</code> is that it has one mandatory argument, the path to the file and filename in quotations; in our case that is <code>data/mouse_exp_design.csv</code> or <code>data/mouse_exp_design.txt</code>.</em></strong></p>
+<p>A primeira coisa que você irá notar é que a documentação exibida é da função <code>read.table()</code>. Isso ocorre porque ela é a função “pai”, e todas as outras funções pertencem à mesma família.</p>
+<p>O próximo item da documentação é a <strong>Descrição</strong>, que especifica que a saída dessas funções será um <strong>data frame</strong> —<br>
+“<em>Lê um arquivo em formato de tabela e <strong>cria um data frame a partir dele</strong>, com casos correspondendo às linhas e variáveis aos campos do arquivo.</em>”</p>
+<p>Na seção <em>Usage</em>, todos os argumentos listados para <code>read.table()</code> são os valores padrão para todos os membros da família, a menos que sejam especificados de outra forma. Vamos ver dois exemplos:</p>
+<ol type="1">
+<li><strong>Separador</strong>
+<ul>
+<li><code>read.table()</code> → <code>sep = ""</code> (espaço ou tabulação)</li>
+<li><code>read.csv()</code> → <code>sep = ","</code> (vírgula)</li>
+</ul></li>
+<li><strong>Cabeçalho (<code>header</code>)</strong>
+<ul>
+<li><code>read.table()</code> → <code>header = FALSE</code></li>
+<li><code>read.csv()</code> → <code>header = TRUE</code></li>
+</ul></li>
+</ol>
+<p><strong><em>A principal conclusão da seção “Usage” para <code>read.csv()</code> é que ela possui um único argumento obrigatório: o caminho e o nome do arquivo entre aspas.</em></strong></p>
 <blockquote class="blockquote">
-<h4 id="the-stringsasfactors-argument" class="anchored">The <code>stringsAsFactors</code> argument</h4>
-<p>Note that the <code>read.table {utils}</code> family of functions has an argument called <code>stringsAsFactors</code>, which by default is set to FALSE (you can double check this by searching the Help tab for <code>read.table</code> or running <code>?read.table</code> in the console).</p>
-<p>If <code>stringsAsFactors = TRUE</code>, any function in this family of functions will coerce <code>character</code> columns in the data you are reading in to <code>factor</code> columns (i.e., coerce from <code>vector</code> to <code>factor</code>) in the resulting data frame.</p>
-<p>If you want to maintain the <code>character vector</code> data structure (e.g., for gene names), you will want to make sure that <code>stringsAsFactors = FALSE</code>.</p>
+<h4 id="o-argumento-stringsasfactors" class="anchored">O argumento <code>stringsAsFactors</code></h4>
+<p>As funções da família <code>read.table {utils}</code> possuem o argumento <code>stringsAsFactors</code>, que por padrão é <code>FALSE</code>.</p>
+<p>Se <code>stringsAsFactors = TRUE</code>, colunas do tipo <code>character</code> serão convertidas em <code>factor</code>.</p>
+<p>Se você deseja manter colunas como vetores de caracteres (por exemplo, nomes de genes), certifique-se de que <code>stringsAsFactors = FALSE</code>.</p>
 </blockquote>
 <hr>
 </section>
-<section id="create-a-data-frame-by-reading-in-the-file" class="level3">
-<h3 class="anchored" data-anchor-id="create-a-data-frame-by-reading-in-the-file">Create a data frame by reading in the file</h3>
-<p>At this point, please check the extension for the <code>mouse_exp_design</code> file within your <code>data</code> folder. You will have to type it accordingly within the <code>read.csv()</code> function.</p>
-<blockquote class="blockquote">
-<p><code>read.csv</code> is not fussy about extensions for plain text files, so even though the file we are reading in is a comma-separated value file, it will be read in properly even with a <code>.txt</code> extension.</p>
-</blockquote>
-<p>Let’s read in the <code>mouse_exp_design</code> file and create a new data frame called <code>metadata</code>.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>metadata <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="at">file=</span><span class="st">"data/mouse_exp_design.csv"</span>)</span>
+<section id="criando-um-data-frame-a-partir-do-arquivo" class="level3">
+<h3 class="anchored" data-anchor-id="criando-um-data-frame-a-partir-do-arquivo">Criando um data frame a partir do arquivo</h3>
+<p>Verifique a extensão do arquivo <code>mouse_exp_design</code> dentro da pasta <code>data</code>.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>metadata <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="at">file=</span><span class="st">"data/mouse_exp_design.csv"</span>)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># OR </span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># metadata &lt;- read.csv(file="data/mouse_exp_design.txt")</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># OU</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># metadata &lt;- read.csv(file="data/mouse_exp_design.txt")</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <blockquote class="blockquote">
-<p><strong>NOTE:</strong> RStudio supports the automatic completion of code using the <kbd>Tab</kbd> key. This is especially helpful for when reading in files to ensure the correct file path. The tab completion feature also provides a shortcut to listing objects, and inline help for functions. <strong>Tab completion is your friend!</strong> We encourage you to use it whenever possible.</p>
+<p><strong>NOTA:</strong> O RStudio oferece autocompletar com a tecla <kbd>Tab</kbd>. Use sempre que possível.</p>
 </blockquote>
 <details>
 <summary>
-<b>Click here to see how to import data using the <kbd>Import Dataset</kbd> button</b>
+<b>Clique aqui para ver como importar dados usando o botão <kbd>Import Dataset</kbd></b>
 </summary>
-<br>You can also use the <kbd>Import Dataset</kbd> button in your Environment pane to import data. This option is not as appealing because it can lack reproducibility if not documented properly, but it can be helpful when getting started. In order to use the <kbd>Import Dataset</kbd>:<br><br>
-<ol>
-<li>
-Left-click the <kbd>Import Dataset</kbd> button in the Environment pane
-</li>
-<li>
-Left-click <kbd>From Text (base…)</kbd>
-</li>
-<li>
-Navigate to the file you would like to import and select <kbd>Open</kbd>
-</li>
-<li>
-Type the name you would like the imported object to be called in the <code>Name</code> textbox.
-</li>
-<li>
-Select the delimiter that your file is using in the <code>Separator</code> dropdown menu
-</li>
-<li>
-Left-click <kbd>Import</kbd>
-</li>
-</ol>
-These steps are summarized in the GIF below:<br><br> <img src="../img/Import_dataset.gif" width="1000"><br><br> Now the dataset has been imported into your environment.<br><br>
-<blockquote class="blockquote">
-Note: If you are going to use this method, it could impact the reproducibility of your work, because the steps to do that import are not recorded anywhere. If you are going to use this method of importing data, it is <b><i>STRONGLY RECOMMENDED</i></b> that you copy the command that read the dataset in and is present in the console to an Rscript file. In the future, you can run that line of code from the Rscript file to recreate the data object.
-</blockquote>
-<hr>
+<br> Você também pode usar o botão <kbd>Import Dataset</kbd> no painel Environment.<br><br> <img src="../img/Import_dataset.gif" width="1000"><br><br>
 </details>
-<p>Go to your Global environment and click on the name of the data frame you just created.</p>
 <p><img src="../img/metadata_env.png" width="300"></p>
-<p>When you do this the metadata table will pop up on the top left hand corner of RStudio, right next to the R script.</p>
 <p><img src="../img/metadata_display.png" width="300"></p>
-<p>You should see a subtle coloring (blue-gray) of the first row and first column, the rest of the table will have a white background. This is because your first row and first columns have different properties than the rest of the table, they are the names of the rows and columns respectively.</p>
 <p><img src="../img/metadata_display_row_cols.png" width="300"></p>
-<p>Earlier we noted that the file we just read in had column names (first row of values) and how <code>read.csv()</code> deals with “headers”. In addition to column headers, <code>read.csv()</code> also assumes that the first column contains the row names. Not all functions in the <code>read.table()</code> family of functions will do this and depending on which one you use, you may have to specify an additional argument to properly assign the row names and column names.</p>
-<blockquote class="blockquote">
-<p>Row names and column names are really handy when subsetting data structures and they are also helpful to identify samples or genes. We almost always use them with data frames.</p>
-</blockquote>
 <hr>
-<p><strong>Exercise 1</strong></p>
+<p><strong>Exercício 1</strong></p>
 <ol type="1">
-<li>Download <a href="https://github.com/hbctraining/Intro-to-R-flipped/raw/master/data/project-summary.txt">this tab-delimited <code>.txt</code> file</a> and save it in your project’s <code>data</code> folder.</li>
-<li>Read it in to R using <code>read.table()</code> with the approriate arguments and store it as the variable <code>proj_summary</code>. To figure out the appropriate arguments to use with <code>read.table()</code>, keep the following in mind:
-<ul>
-<li>all the columns in the input text file have column name/headers</li>
-<li>you want the first column of the text file to be used as row names (hint: look up the input for the <code>row.names =</code> argument in <code>read.table()</code>)</li>
-</ul></li>
-<li>Display the contents of <code>proj_summary</code> in your console</li>
+<li>Baixe <a href="https://github.com/hbctraining/Intro-to-R-flipped/raw/master/data/project-summary.txt">este arquivo <code>.txt</code></a> e salve na pasta <code>data</code>.</li>
+<li>Leia o arquivo usando <code>read.table()</code> e salve como <code>proj_summary</code>.</li>
+<li>Exiba o conteúdo no console.</li>
 </ol>
 <hr>
 </section>
 </section>
-<section id="inspecting-data-structures" class="level2">
-<h2 class="anchored" data-anchor-id="inspecting-data-structures">Inspecting data structures</h2>
-<p>There are a wide selection of base functions in R that are useful for inspecting your data and summarizing it. Let’s use the <code>metadata</code> file that we created to test out data inspection functions.</p>
-<p>Take a look at the dataframe by typing out the variable name <code>metadata</code> and pressing return; the variable contains information describing the samples in our study. Each row holds information for a single sample, and the columns contain categorical information about the sample <code>genotype</code>(WT or KO), <code>celltype</code> (typeA or typeB), and <code>replicate number</code> (1,2, or 3).</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>metadata</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>genotype celltype replicate</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>sample1        Wt    typeA      <span class="dv">1</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>sample2        Wt    typeA      <span class="dv">2</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>sample3        Wt    typeA      <span class="dv">3</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>sample4        KO    typeA      <span class="dv">1</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>sample5        KO    typeA      <span class="dv">2</span></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>sample6        KO    typeA      <span class="dv">3</span></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>sample7        Wt    typeB      <span class="dv">1</span></span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>sample8        Wt    typeB      <span class="dv">2</span></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>sample9        Wt    typeB      <span class="dv">3</span></span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>sample10       KO    typeB      <span class="dv">1</span></span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>sample11       KO    typeB      <span class="dv">2</span></span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>sample12       KO    typeB      <span class="dv">3</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Suppose we had a larger file, we might not want to display all the contents in the console. Instead we could check the top (the first 6 lines) of this <code>data.frame</code> using the function <code>head()</code>:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(metadata)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<section id="list-of-functions-for-data-inspection" class="level3">
-<h3 class="anchored" data-anchor-id="list-of-functions-for-data-inspection">List of functions for data inspection</h3>
-<p>We already saw how the functions <code>head()</code> and <code>str()</code> (in the releveling section) can be useful to check the content and the structure of a <code>data.frame</code>. Below is a non-exhaustive list of functions to get a sense of the content/structure of data. The list has been divided into functions that work on all types of objects, some that work only on vectors/factors (1 dimensional objects), and others that work on data frames and matrices (2 dimensional objects).</p>
-<p>We have some exercises below that will allow you to gain more familiarity with these. You will definitely be using some of them in the next few homework sections.</p>
+<section id="inspeção-de-estruturas-de-dados" class="level2">
+<h2 class="anchored" data-anchor-id="inspeção-de-estruturas-de-dados">Inspeção de estruturas de dados</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>metadata</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(metadata)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="lista-de-funções-para-inspeção-de-dados" class="level3">
+<h3 class="anchored" data-anchor-id="lista-de-funções-para-inspeção-de-dados">Lista de funções para inspeção de dados</h3>
 <ul>
-<li><p>All data structures - content display:</p>
+<li><p><strong><code>str()</code></strong></p></li>
+<li><p><strong><code>class()</code></strong></p></li>
+<li><p><strong><code>summary()</code></strong></p></li>
+<li><p><strong><code>head()</code></strong></p></li>
+<li><p><strong><code>tail()</code></strong></p></li>
+<li><p>Vetores e fatores:</p>
 <ul>
-<li><strong><code>str()</code>:</strong> compact display of data contents (similar to what you see in the Global environment)</li>
+<li><strong><code>length()</code></strong></li>
 </ul></li>
-<li><p><strong><code>class()</code>:</strong> displays the data type for vectors (e.g.&nbsp;character, numeric, etc.) and data structure for dataframes, matrices, lists</p></li>
-<li><p><strong><code>summary()</code>:</strong> detailed display of the contents of a given object, including descriptive statistics, frequencies</p></li>
-<li><p><strong><code>head()</code>:</strong> prints the first 6 entries (elements for 1-D objects, rows for 2-D objects)</p></li>
-<li><p><strong><code>tail()</code>:</strong> prints the last 6 entries (elements for 1-D objects, rows for 2-D objects)</p></li>
-<li><p>Vector and factor variables:</p>
+<li><p>Data frames e matrizes:</p>
 <ul>
-<li><strong><code>length()</code>:</strong> returns the number of elements in a vector or factor</li>
+<li><strong><code>dim()</code></strong></li>
+<li><strong><code>nrow()</code></strong></li>
+<li><strong><code>ncol()</code></strong></li>
+<li><strong><code>rownames()</code></strong></li>
+<li><strong><code>colnames()</code></strong></li>
 </ul></li>
-<li><p>Dataframe and matrix variables:</p>
-<ul>
-<li><strong><code>dim()</code>:</strong> returns dimensions of the dataset (number_of_rows, number_of_columns) [Note, row numbers will always be displayed before column numbers in R]</li>
-</ul></li>
-<li><p><strong><code>nrow()</code>:</strong> returns the number of rows in the dataset</p></li>
-<li><p><strong><code>ncol()</code>:</strong> returns the number of columns in the dataset</p></li>
-<li><p><strong><code>rownames()</code>:</strong> returns the row names in the dataset<br>
-</p></li>
-<li><p><strong><code>colnames()</code>:</strong> returns the column names in the dataset</p></li>
 </ul>
 <hr>
-<p><strong>Exercise 2</strong></p>
+<p><strong>Exercício 2</strong></p>
 <ul>
-<li>Use the <code>class()</code> function on <code>glengths</code> and <code>metadata</code>, how does the output differ between the two?</li>
-<li>Use the <code>summary()</code> function on the <code>proj_summary</code> dataframe, what is the median “rRNA_rate”?</li>
-<li>How long is the <code>samplegroup</code> factor?</li>
-<li>What are the dimensions of the <code>proj_summary</code> dataframe?</li>
-<li>When you use the <code>rownames()</code> function on <code>metadata</code>, what is the <em>data structure</em> of the output?</li>
-<li>[Optional] How many elements in (how long is) the output of <code>colnames(proj_summary)</code>? Don’t count, but use another function to determine this.</li>
+<li>Use <code>class()</code> em <code>glengths</code> e <code>metadata</code></li>
+<li>Use <code>summary()</code> em <code>proj_summary</code></li>
+<li>Qual o comprimento de <code>samplegroup</code>?</li>
+<li>Quais as dimensões de <code>proj_summary</code>?</li>
+<li>Qual a estrutura de <code>rownames(metadata)</code>?</li>
+<li>[Opcional] Quantos elementos existem em <code>colnames(proj_summary)</code>?</li>
 </ul>
 </section>
 </section>
 <section id="section" class="level2">
 <h2 class="anchored" data-anchor-id="section">***</h2>
-<p><em>This lesson has been developed by members of the teaching team at the <a href="http://bioinformatics.sph.harvard.edu/">Harvard Chan Bioinformatics Core (HBC)</a>. These are open access materials distributed under the terms of the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution license</a> (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</em></p>
-<ul>
-<li><em>The materials used in this lesson are adapted from work that is Copyright © Data Carpentry (http://datacarpentry.org/). All Data Carpentry instructional material is made available under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution license</a> (CC BY 4.0).</em></li>
-</ul>
+<p><em>Material desenvolvido pelo <a href="http://bioinformatics.sph.harvard.edu/">Harvard Chan Bioinformatics Core (HBC)</a>, licenciado sob <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</em></p>
+<p><em>Conteúdo adaptado de materiais da <a href="http://datacarpentry.org/">Data Carpentry</a>, também sob licença CC BY 4.0.</em></p>
 
 
 </section>
@@ -608,13 +542,14 @@ Note: If you are going to use this method, it could impact the reproducibility o
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -960,13 +895,13 @@ Note: If you are going to use this method, it could impact the reproducibility o
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Content <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2025 by <a href="https://ecoaplic.org/">felipe Melo</a> <br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a></p>
+<p>Content <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2026 by <a href="https://ecoaplic.org/">felipe Melo</a> <br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/fplmelo/rmda_ntu">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></p>
+<p>Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/fplmelo/ecologia_paisagens">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></p>
 </div>
   </div>
 </footer>

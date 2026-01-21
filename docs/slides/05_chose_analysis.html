@@ -6,8 +6,8 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.31">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
 
   <meta name="author" content="Felipe Melo">
   <title>5-Choosing the right analysis</title>
@@ -95,7 +95,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-c7001d6fbeb7715c64495cec7667eded.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-f363b37bf5b027d4403f78152e9ca7f5.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -237,11 +237,11 @@ Felipe Melo
 <section id="check-your-variables" class="slide level2">
 <h2>Check your variables</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">library</span>(palmerpenguins)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">library</span>(palmerpenguins)</span>
 <span id="cb1-2"><a></a><span class="fu">library</span>(tidyverse)</span>
 <span id="cb1-3"><a></a></span>
 <span id="cb1-4"><a></a>penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb1-5"><a></a>  <span class="fu">glimpse</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-5"><a></a>  <span class="fu">glimpse</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Rows: 344
 Columns: 8
@@ -260,14 +260,14 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
 <h2>Is there an association between “Species” and “Sex”?</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
 <span id="cb3-2"><a></a>  <span class="fu">na.omit</span>() <span class="sc">%&gt;%</span> </span>
 <span id="cb3-3"><a></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(</span>
 <span id="cb3-4"><a></a>    <span class="at">x=</span> species, </span>
 <span id="cb3-5"><a></a>    <span class="at">color=</span>sex, </span>
 <span id="cb3-6"><a></a>    <span class="at">fill=</span>sex))<span class="sc">+</span></span>
 <span id="cb3-7"><a></a>  <span class="fu">geom_bar</span>(<span class="at">position =</span> <span class="st">"dodge"</span>)<span class="ot">-&gt;</span> cat_x_cat</span>
-<span id="cb3-8"><a></a>cat_x_cat</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-8"><a></a>cat_x_cat</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div><div class="column">
 <div class="cell-output-display">
 <div>
@@ -282,7 +282,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
 <h2>How species differ in bill length?</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
 <span id="cb4-2"><a></a>  <span class="fu">na.omit</span>() <span class="sc">%&gt;%</span> </span>
 <span id="cb4-3"><a></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(</span>
 <span id="cb4-4"><a></a>    <span class="at">x=</span> species, </span>
@@ -291,7 +291,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
 <span id="cb4-7"><a></a>    <span class="at">fill=</span>species))<span class="sc">+</span></span>
 <span id="cb4-8"><a></a>  <span class="fu">geom_boxplot</span>(<span class="at">alpha=</span><span class="fl">0.7</span>)<span class="ot">-&gt;</span> cat_x_num</span>
 <span id="cb4-9"><a></a></span>
-<span id="cb4-10"><a></a>cat_x_num</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-10"><a></a>cat_x_num</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div><div class="column">
 <div class="cell-output-display">
 <div>
@@ -306,7 +306,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
 <h2>What is the relationship between bill leght and flipper lenght?</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
 <span id="cb5-2"><a></a>  <span class="fu">na.omit</span>() <span class="sc">%&gt;%</span> </span>
 <span id="cb5-3"><a></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(</span>
 <span id="cb5-4"><a></a>    <span class="at">x=</span> bill_length_mm, </span>
@@ -314,7 +314,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
 <span id="cb5-6"><a></a>    <span class="at">color=</span>species))<span class="sc">+</span></span>
 <span id="cb5-7"><a></a>  <span class="fu">geom_point</span>()<span class="ot">-&gt;</span> num_x_num</span>
 <span id="cb5-8"><a></a></span>
-<span id="cb5-9"><a></a>num_x_num</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-9"><a></a>num_x_num</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div><div class="column">
 <div class="cell-output-display">
 <div>
@@ -329,7 +329,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
 <h2>Can body mass predict sex?</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
 <span id="cb6-2"><a></a>  <span class="fu">na.omit</span>() <span class="sc">%&gt;%</span> </span>
 <span id="cb6-3"><a></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(</span>
 <span id="cb6-4"><a></a>    <span class="at">x=</span> body_mass_g, </span>
@@ -337,7 +337,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
 <span id="cb6-6"><a></a>    <span class="at">color=</span>species))<span class="sc">+</span></span>
 <span id="cb6-7"><a></a>  <span class="fu">geom_point</span>()<span class="ot">-&gt;</span> num_x_cat</span>
 <span id="cb6-8"><a></a></span>
-<span id="cb6-9"><a></a>num_x_cat</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-9"><a></a>num_x_cat</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div><div class="column">
 <div class="cell-output-display">
 <div>
@@ -416,7 +416,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
 <h2>Let’s code it</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a><span class="fu">tibble</span>(</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a><span class="fu">tibble</span>(</span>
 <span id="cb7-2"><a></a>  <span class="at">party =</span> <span class="fu">c</span>(<span class="st">"tories"</span>, <span class="st">"labours"</span>, <span class="st">"socialists"</span>, <span class="st">"reform uk"</span>),</span>
 <span id="cb7-3"><a></a>  <span class="at">pro_refugees =</span> <span class="fu">c</span>(<span class="dv">12</span>, <span class="dv">55</span>, <span class="dv">65</span>, <span class="dv">5</span>),</span>
 <span id="cb7-4"><a></a>  <span class="at">anti_refugees =</span> <span class="fu">c</span>(<span class="dv">68</span>, <span class="dv">45</span>, <span class="dv">2</span>, <span class="dv">87</span>)) <span class="sc">|&gt;</span> </span>
@@ -427,7 +427,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
 <span id="cb7-9"><a></a>  <span class="fu">mutate</span>(<span class="at">value=</span><span class="fu">rep</span>(<span class="dv">1</span>, <span class="dv">339</span>)) <span class="sc">|&gt;</span> </span>
 <span id="cb7-10"><a></a>  <span class="fu">summarise</span>(<span class="at">n =</span> dplyr<span class="sc">::</span><span class="fu">n</span>(), <span class="at">.by =</span> <span class="fu">c</span>(party, stance)) <span class="ot">-&gt;</span> refugee</span>
 <span id="cb7-11"><a></a></span>
-<span id="cb7-12"><a></a>refugee</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb7-12"><a></a>refugee</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div><div class="column fragment">
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 8 × 3
@@ -452,10 +452,10 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
 <h2>Let’s test it</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a></a>refugee <span class="sc">|&gt;</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a></a>refugee <span class="sc">|&gt;</span> </span>
 <span id="cb9-2"><a></a>  <span class="fu">pivot_wider</span>(<span class="at">names_from =</span> stance, <span class="at">values_from =</span> n) <span class="sc">|&gt;</span> <span class="co"># make it iinto a contingency table</span></span>
 <span id="cb9-3"><a></a>  <span class="fu">select</span>(<span class="sc">-</span>party) <span class="sc">|&gt;</span> <span class="co"># remove first column</span></span>
-<span id="cb9-4"><a></a>  <span class="fu">chisq.test</span>() <span class="co"># run the test</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-4"><a></a>  <span class="fu">chisq.test</span>() <span class="co"># run the test</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div><div class="column">
 <div class="cell-output cell-output-stdout">
 <pre><code>
@@ -499,11 +499,11 @@ X-squared = 166.17, df = 3, p-value &lt; 2.2e-16</code></pre>
 <div class="column">
 <p>Graph</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a>penguins <span class="sc">|&gt;</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a>penguins <span class="sc">|&gt;</span> </span>
 <span id="cb11-2"><a></a>  <span class="fu">na.omit</span>() <span class="sc">|&gt;</span> </span>
 <span id="cb11-3"><a></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(sex,bill_length_mm, <span class="at">color=</span>sex, <span class="at">fill=</span>sex))<span class="sc">+</span></span>
 <span id="cb11-4"><a></a>  <span class="fu">geom_jitter</span>(<span class="at">size=</span><span class="dv">2</span>)<span class="sc">+</span></span>
-<span id="cb11-5"><a></a>  <span class="fu">geom_boxplot</span>(<span class="at">alpha=</span><span class="fl">0.7</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb11-5"><a></a>  <span class="fu">geom_boxplot</span>(<span class="at">alpha=</span><span class="fl">0.7</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure>
@@ -515,7 +515,7 @@ X-squared = 166.17, df = 3, p-value &lt; 2.2e-16</code></pre>
 </div><div class="column">
 <p>T-test</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a></a><span class="fu">summary</span>(<span class="fu">lm</span>(bill_length_mm<span class="sc">~</span>sex, <span class="at">data=</span>penguins))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a></a><span class="fu">summary</span>(<span class="fu">lm</span>(bill_length_mm<span class="sc">~</span>sex, <span class="at">data=</span>penguins))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 Call:
@@ -848,7 +848,7 @@ F-statistic: 44.45 on 1 and 331 DF,  p-value: 1.094e-10</code></pre>
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -960,13 +960,14 @@ F-statistic: 44.45 on 1 and 331 DF,  p-value: 1.094e-10</code></pre>
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy

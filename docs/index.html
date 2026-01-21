@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research Methods &amp; Data Analyses</title>
+<title>Ecologia de Paisagens</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,14 +32,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b8b80a0e6c1bcf998906d62e76552870.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d4b0c6867662daffec38d31234abbead.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -69,25 +70,20 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<style>
-
-      .quarto-title-block .quarto-title-banner {
-        background: #9e043d;
-      }
-</style>
 
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./img/ntu_logo.png" alt="NTU logo" class="navbar-logo">
+    <img src="./img/logo_branco_ufpe.png" alt="NTU logo" class="navbar-logo light-content">
+    <img src="./img/logo_branco_ufpe.png" alt="NTU logo" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -98,77 +94,60 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
+<span class="menu-text">Início</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./syllabus.html"> 
-<span class="menu-text">Syllabus</span></a>
+<span class="menu-text">Programa</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./schedule.html"> 
-<span class="menu-text">Schedule</span></a>
+<span class="menu-text">Cronograma</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-get-started" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Get Started</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-comece-aqui" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Comece aqui</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-get-started">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-comece-aqui">    
         <li>
     <a class="dropdown-item" href="./get-started/1-install.html"><i class="bi bi-emoji-sunglasses-fill" role="img">
 </i> 
- <span class="dropdown-text">1 - Install R and Rstudio</span></a>
+ <span class="dropdown-text">1 - Instalar R &amp; Rstudio</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./get-started/2-basic-intro.html"><i class="bi bi-tools" role="img">
 </i> 
- <span class="dropdown-text">2 - Basic Introduction to R and Rstudio</span></a>
+ <span class="dropdown-text">2 - Introdução Básica ao R e Rstudio</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./get-started/3-syntax.html"><i class="bi bi-tools" role="img">
 </i> 
- <span class="dropdown-text">3 - Syntax &amp; Data Structures</span></a>
+ <span class="dropdown-text">3 - Sintaxe &amp; Estrutura de Dados</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./get-started/4-functions.html"><i class="bi bi-tools" role="img">
 </i> 
- <span class="dropdown-text">4 - Functions and Arguments</span></a>
+ <span class="dropdown-text">4 - Funções e Comandos</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./get-started/5-data.html"><i class="bi bi-tools" role="img">
 </i> 
- <span class="dropdown-text">5 - Reading data in R</span></a>
+ <span class="dropdown-text">5 - Dados em R</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="./sessions/index.html"> 
-<span class="menu-text">Content</span></a>
+<span class="menu-text">Todas as Aulas</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./resources/index.html"> 
-<span class="menu-text">Resources</span></a>
+<span class="menu-text">Recursos</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./assessment.html"> 
-<span class="menu-text">Assessment</span></a>
+<span class="menu-text">Tipo de Avaliação</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ntu-now-page" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">NTU NOW Page</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-ntu-now-page">    
-        <li>
-    <a class="dropdown-item" href="https://now.ntu.ac.uk/d2l/home/1048957#_"><i class="bi bi-house" role="img">
-</i> 
- <span class="dropdown-text">Main NOW Page</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://now.ntu.ac.uk/d2l/lms/dropbox/admin/folders_manage.d2l?ou=1048957"><i class="bi bi-dropbox" role="img">
-</i> 
- <span class="dropdown-text">Dropbox</span></a>
-  </li>  
-    </ul>
-  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools tools-wide">
@@ -180,29 +159,29 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block"><h1 class="course-title title display-7">
-            Research Methods &amp; Data Analyses
-        </h1></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="course-title title display-7">
+            Ecologia de Paisagens
+        </h1></header>
 
 <div class="grid title-block">
     <div class="course-details-title-block g-col-12 g-col-sm-8 order-2 order-sm-1 text-center text-sm-start">
         
         <div class="course-subtitle">
-            <p>Stats, Coding, Data Science and more</p>
+            <p>Biodiversidade, pessoas e processos no espaço</p>
         </div>
         <div class="course-meta">
-            <p></p><p>ARES40011 • Autumn 2025<br>School of Animal Rural and Environmental Sciences<br>Nottingham Trent University</p><p></p>
+            <p>BO-304 <br> 2026.1 <br> Centro de Biociências <br> Universidade Federal de Pernambuco</p>
         </div>
     </div>
     <div class="g-col-12 g-col-sm-4 order-1 order-sm-2">
       <div class="grid" style="--bs-columns: 5;">
         <div class="g-col-1 g-col-sm-0"></div>
-        <div class="g-col-3 g-col-sm-5"><img src="img/course_logo.png" class="img-fluid"></div>
+        <div class="g-col-3 g-col-sm-5"><img src="img/logo_curso.png" class="img-fluid"></div>
         <div class="g-col-1 g-col-sm-0"></div>
       </div>
     </div>
@@ -211,35 +190,32 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="home">
 <div class="grid course-details">
-<section id="instructor" class="level3 g-col-12 g-col-sm-6 g-col-md-4">
-<h3 class="anchored" data-anchor-id="instructor">Instructor</h3>
+<section id="professor-responsável" class="level3 g-col-12 g-col-sm-6 g-col-md-4">
+<h3 class="anchored" data-anchor-id="professor-responsável">Professor Responsável</h3>
 <ul>
 <li><i class="fa-solid fa-user" aria-label="user"></i> <a href="https://ecoaplic.org/">Dr.&nbsp;Felipe Melo</a></li>
-<li><i class="fa-solid fa-university" aria-label="university"></i> Brachenhurst Campus. Southill building, room 372 (1st floor)</li>
-<li><i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:felipe.melo@nt.ac.uk">felipe.melo@nt.ac.uk</a></li>
+<li><i class="fa-solid fa-university" aria-label="university"></i> Departamento do Botânica, Centro de Biociências</li>
+<li><i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:felipe.plmelo@ufpe.br">felipe.plmelo@ufpe.br</a></li>
 <li><i class="fa-brands fa-bluesky"></i> <a href="https://bsky.app/profile/fplmelo.bsky.social">Bluesky</a></li>
 </ul>
 </section>
-<section id="course-details" class="level3 g-col-12 g-col-sm-6 g-col-md-4">
-<h3 class="anchored" data-anchor-id="course-details">Course details</h3>
+<section id="informação-sobre-o-curso" class="level3 g-col-12 g-col-sm-6 g-col-md-4">
+<h3 class="anchored" data-anchor-id="informação-sobre-o-curso">Informação sobre o curso</h3>
 <ul>
-<li><i class="fa-solid fa-calendar" aria-label="calendar"></i> Any day</li>
-<li><i class="fa-solid fa-calendar-alt" aria-label="calendar-alt"></i> September 26–December 16, 2025</li>
-<li><i class="fa-solid fa-clock" aria-label="clock"></i> Asynchronous</li>
-<li><i class="fa-solid fa-location-dot" aria-label="location-dot"></i> Anywhere</li>
+<li><i class="fa-solid fa-calendar" aria-label="calendar"></i> Quinta-feira</li>
+<li><i class="fa-solid fa-calendar-alt" aria-label="calendar-alt"></i> 2026.1</li>
+<li><i class="fa-solid fa-clock" aria-label="clock"></i> 10-13h</li>
+<li><i class="fa-solid fa-location-dot" aria-label="location-dot"></i> à confirmar</li>
 </ul>
 </section>
-<section id="contacting" class="level3 g-col-12 g-col-md-4 contact-policy">
-<h3 class="anchored" data-anchor-id="contacting">Contacting</h3>
-<p>Doubts and enquires are preferably brought to tutorial sessions and shared in our dedicated <a href="https://teams.microsoft.com/v2/">Teams Channel</a>.</p>
+<section id="recursos-on-line" class="level3 g-col-12 g-col-md-4 contact-policy">
+<h3 class="anchored" data-anchor-id="recursos-on-line">Recursos on-line</h3>
+<p>Este curso se baseia em duas principais ferramentas: 1) Este Site e; 2) <a href="https://classroom.google.com/c/NzkzMjczNzA0MDMz?cjc=womqndmt">Google Sala de Aula</a> onde as tarefas devem ser submetidas.</p>
 </section>
 </div>
 </div>
-<section id="welcome" class="level2">
-<h2 class="anchored" data-anchor-id="welcome">Welcome</h2>
-<p>We hope this module will be an opportunity to enhance your critical and analytical skills, required for your future careers. This module is the only core module across all PG provision at ARES, reflecting its underpinning importance for your courses. It also gives you a great opportunity to meet colleagues with different interests and to broaden your own horizons.</p>
-<p>We have tried to make this module as accessible as possible, knowing that some of the content is challenging. We have based all materials in our own research expertise, we are not statisticians, rather we are statistic users, just like you!</p>
-<p>We are looking forward to meeting you all</p>
+<section id="bem-vind" class="level2">
+<h2 class="anchored" data-anchor-id="bem-vind">Bem-vind@</h2>
 
 
 </section>
@@ -296,13 +272,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -648,13 +625,13 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Content <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2025 by <a href="https://ecoaplic.org/">felipe Melo</a> <br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a></p>
+<p>Content <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2026 by <a href="https://ecoaplic.org/">felipe Melo</a> <br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/fplmelo/rmda_ntu">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></p>
+<p>Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/fplmelo/ecologia_paisagens">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></p>
 </div>
   </div>
 </footer>

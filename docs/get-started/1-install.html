@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Felipe Melo">
-<meta name="dcterms.date" content="2025-05-30">
+<meta name="dcterms.date" content="2026-01-20">
 
-<title>Installing R and RStudio</title>
+<title>Instalando R e RStudio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -34,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="../">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-b8b80a0e6c1bcf998906d62e76552870.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-d4b0c6867662daffec38d31234abbead.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -83,7 +84,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../img/ntu_logo.png" alt="NTU logo" class="navbar-logo">
+    <img src="../img/logo_branco_ufpe.png" alt="NTU logo" class="navbar-logo light-content">
+    <img src="../img/logo_branco_ufpe.png" alt="NTU logo" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -94,77 +96,60 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Home</span></a>
+<span class="menu-text">Início</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../syllabus.html"> 
-<span class="menu-text">Syllabus</span></a>
+<span class="menu-text">Programa</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../schedule.html"> 
-<span class="menu-text">Schedule</span></a>
+<span class="menu-text">Cronograma</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-get-started" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Get Started</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-comece-aqui" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Comece aqui</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-get-started">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-comece-aqui">    
         <li>
     <a class="dropdown-item" href="../get-started/1-install.html"><i class="bi bi-emoji-sunglasses-fill" role="img">
 </i> 
- <span class="dropdown-text">1 - Install R and Rstudio</span></a>
+ <span class="dropdown-text">1 - Instalar R &amp; Rstudio</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../get-started/2-basic-intro.html"><i class="bi bi-tools" role="img">
 </i> 
- <span class="dropdown-text">2 - Basic Introduction to R and Rstudio</span></a>
+ <span class="dropdown-text">2 - Introdução Básica ao R e Rstudio</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../get-started/3-syntax.html"><i class="bi bi-tools" role="img">
 </i> 
- <span class="dropdown-text">3 - Syntax &amp; Data Structures</span></a>
+ <span class="dropdown-text">3 - Sintaxe &amp; Estrutura de Dados</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../get-started/4-functions.html"><i class="bi bi-tools" role="img">
 </i> 
- <span class="dropdown-text">4 - Functions and Arguments</span></a>
+ <span class="dropdown-text">4 - Funções e Comandos</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../get-started/5-data.html"><i class="bi bi-tools" role="img">
 </i> 
- <span class="dropdown-text">5 - Reading data in R</span></a>
+ <span class="dropdown-text">5 - Dados em R</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="../sessions/index.html"> 
-<span class="menu-text">Content</span></a>
+<span class="menu-text">Todas as Aulas</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../resources/index.html"> 
-<span class="menu-text">Resources</span></a>
+<span class="menu-text">Recursos</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../assessment.html"> 
-<span class="menu-text">Assessment</span></a>
+<span class="menu-text">Tipo de Avaliação</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ntu-now-page" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">NTU NOW Page</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-ntu-now-page">    
-        <li>
-    <a class="dropdown-item" href="https://now.ntu.ac.uk/d2l/home/1048957#_"><i class="bi bi-house" role="img">
-</i> 
- <span class="dropdown-text">Main NOW Page</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://now.ntu.ac.uk/d2l/lms/dropbox/admin/folders_manage.d2l?ou=1048957"><i class="bi bi-dropbox" role="img">
-</i> 
- <span class="dropdown-text">Dropbox</span></a>
-  </li>  
-    </ul>
-  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools tools-wide">
@@ -184,8 +169,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#tutorial-installing-r-and-rstudio" id="toc-tutorial-installing-r-and-rstudio" class="nav-link active" data-scroll-target="#tutorial-installing-r-and-rstudio">Tutorial: Installing R and RStudio</a></li>
-  <li><a href="#video-tutorials" id="toc-video-tutorials" class="nav-link" data-scroll-target="#video-tutorials">Video Tutorials</a></li>
+  <li><a href="#tutorial-instalando-r-e-rstudio" id="toc-tutorial-instalando-r-e-rstudio" class="nav-link active" data-scroll-target="#tutorial-instalando-r-e-rstudio">Tutorial: Instalando R e RStudio</a></li>
+  <li><a href="#tutoriais-em-vídeo" id="toc-tutoriais-em-vídeo" class="nav-link" data-scroll-target="#tutoriais-em-vídeo">Tutoriais em Vídeo</a></li>
   </ul>
 </nav>
     </div>
@@ -194,8 +179,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Installing R and RStudio</h1>
-<p class="subtitle lead">RMDA ARES40011</p>
+<h1 class="title">Instalando R e RStudio</h1>
+<p class="subtitle lead">BO 304 UFPE</p>
 </div>
 
 
@@ -212,7 +197,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 30, 2025</p>
+      <p class="date">January 20, 2026</p>
     </div>
   </div>
   
@@ -229,50 +214,50 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="../img/witches.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
 </figure>
 </div>
-<p><a href="https://twitter.com/allison_horst" style="text-align: center">Artwork by @allison_horst</a></p>
+<p><a href="https://twitter.com/allison_horst" style="text-align: center">Ilustração por @allison_horst</a></p>
 <p><br></p>
-<section id="tutorial-installing-r-and-rstudio" class="level3">
-<h3 class="anchored" data-anchor-id="tutorial-installing-r-and-rstudio">Tutorial: Installing R and RStudio</h3>
-<p>This tutorial will guide you through the process of installing <strong>R</strong>, the programming language, and <strong>RStudio</strong>, a popular integrated development environment (IDE) for R. <strong>You must install R before installing RStudio</strong>.</p>
-<section id="install-r" class="level4">
-<h4 class="anchored" data-anchor-id="install-r">1. Install R</h4>
-<p>R is available for download from the <a href="https://www.r-project.org/">official R website</a>. The specific steps depend on your operating system.</p>
-<p><strong>For Mac OS X</strong>:</p>
+<section id="tutorial-instalando-r-e-rstudio" class="level3">
+<h3 class="anchored" data-anchor-id="tutorial-instalando-r-e-rstudio">Tutorial: Instalando R e RStudio</h3>
+<p>Este tutorial irá guiá-lo através do processo de instalação do <strong>R</strong>, a linguagem de programação, e do <strong>RStudio</strong>, um ambiente de desenvolvimento integrado (IDE) popular para o R. <strong>Você deve instalar o R antes de instalar o RStudio</strong>.</p>
+<section id="instalar-o-r" class="level4">
+<h4 class="anchored" data-anchor-id="instalar-o-r">1. Instalar o R</h4>
+<p>O R está disponível para download no <a href="https://www.r-project.org/">site oficial do R</a>. Os passos específicos dependem do seu sistema operacional.</p>
+<p><strong>Para Mac OS X</strong>:</p>
 <ul>
-<li>Go to the official R website and select <strong>“Download R for (Mac) OS X”</strong>.</li>
-<li>Look for the <strong>most up-to-date version of R</strong> (new versions are released frequently and appear towards the top of the page) and click the <strong><code>.pkg</code> file</strong> to download it.</li>
-<li>Open the downloaded <strong><code>.pkg</code> file</strong> and follow the <strong>standard instructions for installing applications on Mac OS X</strong>.</li>
-<li><strong>Drag and drop the R application into the <code>Applications</code> folder.</strong></li>
+<li>Vá ao site oficial do R e selecione <strong>“Download R for (Mac) OS X”</strong>.</li>
+<li>Procure pela <strong>versão mais atualizada do R</strong> (novas versões são lançadas frequentemente e aparecem no topo da página) e clique no arquivo <strong><code>.pkg</code></strong> para baixá-lo.</li>
+<li>Abra o arquivo <strong><code>.pkg</code></strong> baixado e siga as <strong>instruções padrão para instalar aplicativos no Mac OS X</strong>.</li>
+<li><strong>Arraste e solte o aplicativo R na pasta <code>Applications</code>.</strong></li>
 </ul>
-<p><strong>For Windows</strong>:</p>
+<p><strong>Para Windows</strong>:</p>
 <ul>
-<li>Go to the official R website and select <strong>“Download R for Windows”</strong>.</li>
-<li>Select <strong>“base”</strong>, as this is your first installation of R.</li>
-<li>Follow the <strong>standard instructions for installing programs for Windows</strong>. If prompted to select “Customize Startup” or “Accept Default Startup Options”, <strong>choose the default options</strong>.</li>
+<li>Vá ao site oficial do R e selecione <strong>“Download R for Windows”</strong>.</li>
+<li>Selecione <strong>“base”</strong>, já que esta é a sua primeira instalação do R.</li>
+<li>Siga as <strong>instruções padrão para instalar programas no Windows</strong>. Se solicitado a selecionar entre “Customize Startup” (Personalizar inicialização) ou “Accept Default Startup Options” (Aceitar opções padrão), <strong>escolha as opções padrão</strong>.</li>
 </ul>
-<p><strong>For Linux/Ubuntu</strong>:</p>
+<p><strong>Para Linux/Ubuntu</strong>:</p>
 <ul>
-<li>Go to the official R website and select <strong>“Download R for Linux”</strong>.</li>
-<li>Select the <strong>“Ubuntu”</strong> option.</li>
-<li>Alternatively, select the <strong>Linux package management system relevant to you if you are not using Ubuntu</strong>.</li>
+<li>Vá ao site oficial do R e selecione <strong>“Download R for Linux”</strong>.</li>
+<li>Selecione a opção <strong>“Ubuntu”</strong>.</li>
+<li>Alternativamente, selecione o <strong>sistema de gerenciamento de pacotes Linux relevante para você, caso não esteja usando Ubuntu</strong>.</li>
 </ul>
 </section>
-<section id="install-rstudio" class="level4">
-<h4 class="anchored" data-anchor-id="install-rstudio">2. Install RStudio</h4>
-<p>Once R is installed on your computer, you can proceed to install RStudio.</p>
+<section id="instalar-o-rstudio" class="level4">
+<h4 class="anchored" data-anchor-id="instalar-o-rstudio">2. Instalar o RStudio</h4>
+<p>Uma vez que o R esteja instalado em seu computador, você pode prosseguir com a instalação do RStudio.</p>
 <ul>
-<li>Navigate to the <a href="https://posit.co/download/rstudio-desktop/"><strong>Posit downloads page</strong></a>.</li>
-<li>Scroll down to the <strong>“All installers”</strong> section of the page.</li>
-<li>Find your operation system <img src="img/rstudio.png" class="img-fluid"></li>
-<li>Click on the linf to download and;</li>
-<li>Follow the <strong>standard installation instructions</strong> for your operating system to install RStudio.</li>
+<li>Navegue até a <a href="https://posit.co/download/rstudio-desktop/"><strong>página de downloads da Posit</strong></a>.</li>
+<li>Role a página até a seção <strong>“All installers”</strong> (Todos os instaladores).</li>
+<li>Encontre o seu sistema operacional <img src="../img/rstudio.png" class="img-fluid"></li>
+<li>Clique no link para baixar e;</li>
+<li>Siga as <strong>instruções padrão de instalação</strong> do seu sistema operacional para instalar o RStudio.</li>
 </ul>
-<p>Once both R and RStudio are installed, you can launch RStudio. <strong>It’s important to open RStudio, not just R</strong>, to access the integrated environment. You can usually find RStudio by searching on your desktop and it’s recommended to pin the RStudio icon to your preferred location for easy access.</p>
-<p>Congratulations, you have now successfully installed R and RStudio! You are ready to begin your data science journey.</p>
+<p>Assim que o R e o RStudio estiverem instalados, você pode iniciar o RStudio. <strong>É importante abrir o RStudio, e não apenas o R</strong>, para acessar o ambiente integrado. Geralmente, você pode encontrar o RStudio pesquisando em sua área de trabalho e recomenda-se fixar o ícone do RStudio em seu local preferido para facilitar o acesso.</p>
+<p>Parabéns, você instalou o R e o RStudio com sucesso! Você está pronto para começar sua jornada na ciência de dados.</p>
 </section>
 </section>
-<section id="video-tutorials" class="level2">
-<h2 class="anchored" data-anchor-id="video-tutorials">Video Tutorials</h2>
+<section id="tutoriais-em-vídeo" class="level2">
+<h2 class="anchored" data-anchor-id="tutoriais-em-vídeo">Tutoriais em Vídeo</h2>
 <iframe width="779" height="438" src="https://www.youtube.com/embed/aCUM4r1ONhg" title="Getting Started with RStudio and R | Part 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
 <iframe width="779" height="438" src="https://www.youtube.com/embed/FIrsOBy5k58" title="RStudio for the Total Beginner" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
@@ -333,13 +318,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -685,13 +671,13 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Content <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2025 by <a href="https://ecoaplic.org/">felipe Melo</a> <br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a></p>
+<p>Content <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2026 by <a href="https://ecoaplic.org/">felipe Melo</a> <br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/fplmelo/rmda_ntu">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></p>
+<p>Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/fplmelo/ecologia_paisagens">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></p>
 </div>
   </div>
 </footer>
