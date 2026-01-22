@@ -6,6 +6,8 @@ title-block-banner: "#9e043d"
 format:
   html:
     toc: true
+    language: 
+      toc-title-website: "Nesta página"
 ---
 
 

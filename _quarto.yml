@@ -9,13 +9,13 @@ website:
   navbar:
     background: light
     logo: img/logo_branco_ufpe.png
-    logo-alt: "NTU logo"
+    logo-alt: "UFPE logo"
     title: false
     collapse-below: lg
     left:
       - text: "Início"
         href: index.qmd
-      - text: "Programa"
+      - text: "Objetivos"
         href: syllabus.qmd
       - text: "Cronograma"
         href: schedule.qmd

@@ -1,5 +1,5 @@
 ---
-title: "Estrutura do Curso: Ecologia da Paisagem"
+title: "Estrutura do Curso & Origens da Ecologia da Paisagem"
 subtitle: "Bacharelado em Ciências Biológicas - UFPE"
 author: "Felipe Melo"
 format: 
@@ -8,54 +8,117 @@ format:
     transition: fade
     slide-number: true
     incremental: true
+    chalkboard: true
+    scrollable: true
 lang: pt
 ---
 
 ## Objetivos do Curso
 
-*   Compreender a ecologia da paisagem como o estudo da **heterogeneidade espacial** e suas causas e consequências biológicas [1, 2].
-*   Analisar as inter-relações entre o **homem e seu espaço de vida**, abordando aspectos naturais e culturais [3, 4].
-*   Capacitar o aluno no uso de **métodos quantitativos** e ferramentas de SIG para análise espacial [5, 6].
-*   Aplicar conceitos de conectividade e dinâmica de manchas para a **conservação da biodiversidade** [7, 8].
-*   Desenvolver habilidades profissionais em **comunicação científica** e elaboração de projetos independentes [9, 10].
+*   Compreender a ecologia da paisagem como o estudo da **heterogeneidade espacial** e suas causas e consequências biológicas
+*   Analisar as inter-relações entre o **homem e seu espaço de vida**, abordando aspectos naturais e culturais
+*   Capacitar o aluno no uso de **métodos quantitativos** e ferramentas de SIG para análise espacial
+*   Aplicar conceitos de conectividade e dinâmica de manchas para a **conservação da biodiversidade** 
+*   Desenvolver habilidades profissionais em **comunicação científica** e elaboração de projetos independentes 
 
-## Módulos 1 a 4: Fundamentos e Métricas
+## Orgiens da Ecologia de Paisagem{.center}
 
-*   **Encontro 1:** Introdução e o paradigma "padrão-processo" como base da disciplina [11, 12].
-*   **Encontro 2:** A questão da **escala** e os domínios de percepção das espécies [13, 14].
-*   **Encontro 3:** Estrutura da paisagem: dinâmica de **manchas (patches), corredores e matriz** [15, 16].
-*   **Encontro 4:** Métricas da paisagem e quantificação da heterogeneidade com pacotes em **R (ex: landscapemetrics)** [17, 18].
+##  Carl Troll (1899-1975)
 
-## Módulos 5 a 8: Métodos e Processos
+:::{.columns}
+:::{.column}
 
-*   **Encontro 5:** Sensoriamento Remoto e SIG aplicados ao mapeamento de habitats e variabilidade espectral (SVI) [19, 20].
-*   **Encontro 6:** **Fragmentação Florestal**: perda de habitat e mudanças nos padrões espaciais [6, 8].
-*   **Encontro 7:** **Conectividade Ecológica**: uso de corredores e trampolins ecológicos (*stepping stones*) para fluxo gênico [21, 22].
-*   **Encontro 8:** Distúrbios e **legados históricos** na configuração da paisagem atual [23, 24].
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Carl_Th._Troll.jpg/250px-Carl_Th._Troll.jpg)
 
-## Módulos 9 a 12: Interações e Aplicações
+:::
 
-*   **Encontro 9:** Interação Organismo-Paisagem: como a avifauna e outros grupos respondem à configuração do habitat [25, 26].
-*   **Encontro 10:** **Modelagem de Paisagens**: introdução a modelos de mudança de uso do solo e modelos neutros [27, 28].
-*   **Encontro 11:** **Serviços Ecossistêmicos** e o papel da Gestão Integrada de Paisagens (GIP) [29, 30].
-*   **Encontro 12:** **Sessão de Encerramento (Inspire Session)**: apresentações rápidas de projetos finais no formato *lightning talks* [31, 32].
+:::{.column}
+- Carl Troll foi um geógrafo alemão.
+- Fusionou conceitos de Geografia e Ecologia
+- Criou o termo "Ecologia de Paisagem"
+- Pavimentou o caminho para o que hoje conhecemos como uma disciplina com duas principais "escolas"
+  - Europeia
+  - Estadunidense
+:::
+:::
 
-## Metodologia e Ferramentas
+## Escolas da Ecologia de Paisagem
 
-*   **Linguagem R:** Utilizada para análises estatísticas espaciais e processamento de dados [33, 34].
-*   **GIS/SIG:** Uso do plugin **Patch Analyst** e processamento de imagens de satélite Sentinel-2 [6, 35].
-*   **Inteligência Artificial:** Exploração de plataformas como **SpatChat** para análise de conectividade via linguagem natural [33, 36].
-*   **Atividades Práticas:** Exercícios de laboratório focados na resolução de problemas reais de manejo [37, 38].
+| Característica | Abordagem Geográfica (Escola Europeia) | Abordagem Ecológica (Escola Norte-Americana) |
+| :--- | :--- | :--- |
+| **Origem Histórica** | Consolidada por volta de **1940**, liderada por **Carl Troll**. | Surgiu na década de **1980**, com foco em ecologia espacial. |
+| **Definição de Paisagem** | Entidade **espacial e visual total** do "espaço vivido pelo homem". | Área **espacialmente heterogênea** ou mosaico de ecossistemas interativos. |
+| **Foco Principal** | **Holístico** e centrado na sociedade; foco na gestão de paisagens. | Centrado na **ecologia**; busca entender a relação entre o **padrão e o processo**. |
+| **Tipo de Paisagem** | Predominância de **paisagens culturais** e antropizadas. | Foco em **paisagens naturais** ou fragmentos de hábitat. |
+| **Escala de Análise** | Prioritariamente **macro-escalas** espaciais e temporais. | Escala funcional, definida conforme a **percepção da espécie** em estudo. |
+| **Aplicação** | Voltada para o **planejamento territorial** e ordenamento do território. | Voltada para a **conservação da biodiversidade** e manejo de habitats. |
 
-## Avaliação Acadêmica
 
-1.  **Exercícios de Laboratório (30-40%):** Relatórios concisos sobre métricas, modelagem e conectividade [39, 40].
-2.  **Participação em Discussões (10%):** Síntese e debate semanal de artigos científicos da literatura primária [1, 41].
-3.  **Projeto Independente (35-40%):** Desenvolvimento de uma proposta de pesquisa aplicada a paisagens locais, incluindo relatório escrito e apresentação oral [42, 43].
-    *   O formato segue as diretrizes da revista *Landscape Ecology* [32, 44].
+## Uma Síntese Transdisciplinar
 
-## Integridade Acadêmica e IA
+A Ecologia de Paisagem pode ser definida como:
 
-*   **Uso Ético:** O uso de IA é permitido para auxílio em **código computacional**, mas deve ser obrigatoriamente reconhecido em todo material submetido [45].
-*   **Proibições:** É proibido o uso de ferramentas de IA para a escrita de ensaios, síntese de leituras ou respostas críticas [46].
-*   **Foco:** O curso prioriza o desenvolvimento do **pensamento crítico original** e habilidades de escrita autênticas [45].
+> "A ciência que estuda a **heterogeneidade espacial** e a interação entre **padrões e processos** ecológicos em múltiplas escalas, integrando as dimensões **ecológicas** (fluxo de energia e espécies) e **humanas** (influência cultural e gestão territorial) para compreender a dinâmica de mosaicos ambientais."
+
+
+
+## Os Pilares da Definição Unificada
+
+1.  **Estrutura (O Mosaico):** Refere-se à configuração espacial (fragmentos, corredores e matriz). 
+2.  **Função (O Fluxo):** Analisa como o padrão espacial influencia o que acontece nas paisagens
+3.  **Mudança (A Dinâmica):** Foca na evolução da paisagem ao longo do tempo
+
+
+
+##
+
+![](/img/frag.gif)
+
+## O mosaico heterogêneo
+
+![](/img/frag2.png){fig-align="center"}
+
+## Padrões na paisagem
+
+![](/img/padroes.gif){fig-align="center"}
+
+## O conceito de "escala"
+
+![](/img/escala.png){fig-align="center"}
+
+## Resolução (grão) e Extensão
+
+![](/img/grain.png){fig-align="center"}
+
+
+## Resolução (grão) e Extensão
+
+![](/img/escala2.png){fig-align="center"}
+
+## Escala de percepção
+
+
+![](/img/percepcao.png){fig-align="left" width=60%}
+
+![](/img/jaguar.jpg){.absolute top="10%" right="5%"}
+
+![](/img/bird.png){.absolute top="50%" right="5%" width=20%}
+
+## Escala do "efeito"
+
+![](/img/scale_effect.png){fig-align="center" width=65%}
+
+[Moraga et al (2019)](https://doi.org/10.1007/s10980-019-00808-9)
+
+## O que devemos saber hoje
+
+- Definir Ecologia de Paisagem
+- Entender os "pilares" de uma abordagem de paisagem
+- Saber o que é 'escala' e 'resolução'
+
+## FIM
+
+
+
+
+

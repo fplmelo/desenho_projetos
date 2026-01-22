@@ -1,12 +1,16 @@
 ---
 title: "Week 2 - Data Wrangling & Research Questions"
-subtitle: "RMDA ARES40011"
+subtitle: "Ecologia da Paisagem - Bacharelado em Ciências Biológicas (UFPE)"
 author: "Felipe Melo"
 date: "last-modified"
 date-format: "long"
+filters:
+  - naquiz
 format:
   html:
     toc: true
+    toc-expanded: 3
+    toc-title: "Nesta página"
 ---
 
 ![](/img/dplyr_wrangling.png){width="500"}

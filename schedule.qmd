@@ -1,18 +1,14 @@
 ---
-title: "Programa"
-format: html
+title: "Cronograma de Aulas"
+title-block-banner: "#9e043d"
+format:
+  html:
+    toc: true
+    language: 
+      toc-title-website: "Nesta página"
 ---
 
-## Resumo geral
 
-Ementa do Curso: Ecologia de Paisagens (45h)
-
-## Objetivo
-
-Capacitar o aluno a interpretar a heterogeneidade espacial e a aplicar ferramentas de análise para a conservação e o planejamento territorial.
-
-
-## Cronograma de Aulas
 
 ### Módulo I: Fundamentos e Estrutura (12h)
 

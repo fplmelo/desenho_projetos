@@ -6,8 +6,8 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.8.25">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.32">
 
   <meta name="author" content="Felipe Melo">
   <title>10-Logistic Models</title>
@@ -95,7 +95,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-f363b37bf5b027d4403f78152e9ca7f5.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-c7001d6fbeb7715c64495cec7667eded.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -240,8 +240,8 @@ Felipe Melo
 <section id="logistic-model" class="slide level2">
 <h2>Logistic Model</h2>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a>m1<span class="ot">&lt;-</span><span class="fu">glm</span>(sex<span class="sc">~</span>body_mass_g,<span class="at">family=</span> <span class="st">"binomial"</span>,<span class="at">data =</span> penguins)</span>
-<span id="cb1-2"><a></a><span class="fu">summary</span>(m1)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a>m1<span class="ot">&lt;-</span><span class="fu">glm</span>(sex<span class="sc">~</span>body_mass_g,<span class="at">family=</span> <span class="st">"binomial"</span>,<span class="at">data =</span> penguins)</span>
+<span id="cb1-2"><a></a><span class="fu">summary</span>(m1)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 Call:
@@ -268,7 +268,7 @@ Number of Fisher Scoring iterations: 4</code></pre>
 <section id="understanding-the-outputs" class="slide level2">
 <h2>Understanding the outputs</h2>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a><span class="fu">summary</span>(m1)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a><span class="fu">summary</span>(m1)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 Call:
@@ -360,9 +360,9 @@ Number of Fisher Scoring iterations: 4</code></pre>
 <section id="deviance-pseudo-r²" class="slide level2">
 <h2>Deviance &amp; Pseudo-R²</h2>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a>null<span class="ot">&lt;-</span>m1<span class="sc">$</span>null.deviance<span class="sc">/-</span><span class="dv">2</span></span>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a>null<span class="ot">&lt;-</span>m1<span class="sc">$</span>null.deviance<span class="sc">/-</span><span class="dv">2</span></span>
 <span id="cb7-2"><a></a>model<span class="ot">&lt;-</span>m1<span class="sc">$</span>deviance<span class="sc">/-</span><span class="dv">2</span></span>
-<span id="cb7-3"><a></a>(null<span class="sc">-</span>model)<span class="sc">/</span>null</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb7-3"><a></a>(null<span class="sc">-</span>model)<span class="sc">/</span>null</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.1407346</code></pre>
 </div>
@@ -409,9 +409,9 @@ Number of Fisher Scoring iterations: 7</code></pre>
 <section id="deviance-pseudo-r²-1" class="slide level2">
 <h2>Deviance &amp; Pseudo-R²</h2>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a></a>null2<span class="ot">&lt;-</span>m2<span class="sc">$</span>null.deviance<span class="sc">/-</span><span class="dv">2</span></span>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a></a>null2<span class="ot">&lt;-</span>m2<span class="sc">$</span>null.deviance<span class="sc">/-</span><span class="dv">2</span></span>
 <span id="cb10-2"><a></a>model2<span class="ot">&lt;-</span>m2<span class="sc">$</span>deviance<span class="sc">/-</span><span class="dv">2</span></span>
-<span id="cb10-3"><a></a>(null2<span class="sc">-</span>model2)<span class="sc">/</span>null2</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb10-3"><a></a>(null2<span class="sc">-</span>model2)<span class="sc">/</span>null2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.7277702</code></pre>
 </div>
@@ -424,12 +424,12 @@ Fair enough
 <section id="final-model" class="slide level2">
 <h2>Final Model</h2>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a></a>m3<span class="ot">&lt;-</span><span class="fu">glm</span>(sex<span class="sc">~</span>bill_length_mm<span class="sc">+</span></span>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a></a>m3<span class="ot">&lt;-</span><span class="fu">glm</span>(sex<span class="sc">~</span>bill_length_mm<span class="sc">+</span></span>
 <span id="cb12-2"><a></a>          bill_depth_mm<span class="sc">+</span></span>
 <span id="cb12-3"><a></a>          body_mass_g, </span>
 <span id="cb12-4"><a></a>        <span class="at">family =</span> <span class="st">"binomial"</span>, </span>
 <span id="cb12-5"><a></a>        <span class="at">data=</span>penguins)</span>
-<span id="cb12-6"><a></a><span class="fu">summary</span>(m3)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb12-6"><a></a><span class="fu">summary</span>(m3)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 Call:
@@ -459,9 +459,9 @@ Number of Fisher Scoring iterations: 7</code></pre>
 <section id="deviance-pseudo-r²-2" class="slide level2">
 <h2>Deviance &amp; Pseudo-R²</h2>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a></a>null3<span class="ot">&lt;-</span>m3<span class="sc">$</span>null.deviance<span class="sc">/-</span><span class="dv">2</span></span>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a></a>null3<span class="ot">&lt;-</span>m3<span class="sc">$</span>null.deviance<span class="sc">/-</span><span class="dv">2</span></span>
 <span id="cb14-2"><a></a>model3<span class="ot">&lt;-</span>m3<span class="sc">$</span>deviance<span class="sc">/-</span><span class="dv">2</span></span>
-<span id="cb14-3"><a></a>(null3<span class="sc">-</span>model3)<span class="sc">/</span>null3</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb14-3"><a></a>(null3<span class="sc">-</span>model3)<span class="sc">/</span>null3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.6536294</code></pre>
 </div>
@@ -486,10 +486,10 @@ Still fair enough
 <section id="example-1---penguins-sex-1" class="slide level2">
 <h2>Example 1 - Penguin’s sex</h2>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a></a>penguins <span class="sc">%&gt;%</span> </span>
 <span id="cb16-2"><a></a>  <span class="fu">mutate</span>(<span class="at">size=</span><span class="fu">ifelse</span>(body_mass_g<span class="sc">&gt;</span><span class="dv">4202</span>, <span class="st">"large"</span>, <span class="st">"small"</span>))<span class="ot">-&gt;</span>penguins2</span>
 <span id="cb16-3"><a></a></span>
-<span id="cb16-4"><a></a>  <span class="fu">xtabs</span>(<span class="sc">~</span>size<span class="sc">+</span>sex, <span class="at">data=</span>penguins2)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb16-4"><a></a>  <span class="fu">xtabs</span>(<span class="sc">~</span>size<span class="sc">+</span>sex, <span class="at">data=</span>penguins2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>       sex
 size    female male
@@ -498,15 +498,15 @@ size    female male
 </div>
 </div>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a></a>(<span class="dv">53</span><span class="sc">/</span><span class="dv">92</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a></a>(<span class="dv">53</span><span class="sc">/</span><span class="dv">92</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.576087</code></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a></a>(<span class="dv">112</span><span class="sc">/</span><span class="dv">76</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a></a>(<span class="dv">112</span><span class="sc">/</span><span class="dv">76</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1.473684</code></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a></a>(<span class="dv">53</span><span class="sc">/</span><span class="dv">92</span>)<span class="sc">/</span>(<span class="dv">112</span><span class="sc">/</span><span class="dv">76</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a></a>(<span class="dv">53</span><span class="sc">/</span><span class="dv">92</span>)<span class="sc">/</span>(<span class="dv">112</span><span class="sc">/</span><span class="dv">76</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.3909161</code></pre>
 </div>
@@ -722,7 +722,7 @@ size    female male
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -834,14 +834,13 @@ size    female male
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-          const outerScaffold = trigger.parentElement.cloneNode(true);
-          const codeEl = outerScaffold.querySelector('code');
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
+            const codeEl = trigger.previousElementSibling.cloneNode(true);
+            for (const childEl of codeEl.children) {
+              if (isCodeAnnotation(childEl)) {
+                childEl.remove();
+              }
             }
-          }
-          return codeEl.innerText;
+            return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy
