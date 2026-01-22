@@ -16,6 +16,9 @@ format:
 
 Foto: Paisagem fragmentada na Usina Serra Grande, Ibateguara, Alagoas.
 
+
+
+
 ## Introdução às Origens da Ecologia da Paisagem
 
 A ecologia da paisagem surgiu como uma disciplina interdisciplinar que combina a **abordagem espacial da geografia com o estudo funcional da ecologia** [[1]](#ref1). O termo foi cunhado em 1939 pelo biogeógrafo alemão **Carl Troll**, que se inspirou no potencial da análise de fotografias aéreas para entender as inter-relações entre o ambiente e os seres vivos [[2]](#ref2), [[3]](#ref3).
