@@ -3630,7 +3630,7 @@
     "href": "sessions/index.html",
     "title": "Content",
     "section": "",
-    "text": "Aula 1 - Apresentação do Curso em Ecologia de Paisagem\n\n\n\n\n\n\nFelipe Melo\n\n\nJan 21, 2026\n\n\n\n\n\n\n\n\n\n\n\nWeek 2 - Data Wrangling & Research Questions\n\n\n\n\n\n\nFelipe Melo\n\n\nJan 20, 2026\n\n\n\n\n\n\n\n\n\n\n\nWeek 3 - Data Visualisation & Scientific Hypotheses\n\n\n\n\n\n\nFelipe Melo\n\n\nJan 20, 2026\n\n\n\n\n\n\n\n\n\n\n\nWeek 4 - Choosing the right analyses & Hypothetical-Deductive reasoning\n\n\n\n\n\n\nFelipe Melo\n\n\nJan 20, 2026\n\n\n\n\n\n\n\n\n\n\n\nWeek 5 - Analysing Categorical Data - Frequency Tests and Contingency Tables\n\n\n\n\n\n\nFelipe Melo\n\n\nJan 20, 2026\n\n\n\n\n\n\n\n\n\n\n\nWeek 6 - Mean Tests and Design of Experiments\n\n\n\n\n\n\nFelipe Melo\n\n\nJan 20, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Semana 1: Origens e Conceitos de Escala\n\n\n\n\n\n\nPrograma da Disciplina\n\n\n\n\n\n\n\n\n\n\n\nWeek 2 - Data Wrangling & Research Questions\n\n\n\n\n\n\nFelipe Melo\n\n\nJan 20, 2026\n\n\n\n\n\n\n\n\n\n\n\nWeek 3 - Data Visualisation & Scientific Hypotheses\n\n\n\n\n\n\nFelipe Melo\n\n\nJan 20, 2026\n\n\n\n\n\n\n\n\n\n\n\nWeek 4 - Choosing the right analyses & Hypothetical-Deductive reasoning\n\n\n\n\n\n\nFelipe Melo\n\n\nJan 20, 2026\n\n\n\n\n\n\n\n\n\n\n\nWeek 5 - Analysing Categorical Data - Frequency Tests and Contingency Tables\n\n\n\n\n\n\nFelipe Melo\n\n\nJan 20, 2026\n\n\n\n\n\n\n\n\n\n\n\nWeek 6 - Mean Tests and Design of Experiments\n\n\n\n\n\n\nFelipe Melo\n\n\nJan 20, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "sessions/week6/week6.html",
@@ -3915,9 +3915,9 @@
   {
     "objectID": "sessions/week1/1-intro.html",
     "href": "sessions/week1/1-intro.html",
-    "title": "Aula 1 - Apresentação do Curso em Ecologia de Paisagem",
+    "title": "Semana 1: Origens e Conceitos de Escala",
     "section": "",
-    "text": "Olá! É um prazer ter você aqui para iniciarmos nossa jornada pela Ecologia de Paisagem.\nNeste curso, vamos além do estudo de populações ou comunidades isoladas. Nosso olhar se volta para o “mosaico” da natureza. Vamos conversar sobre como a configuração espacial dos ecossistemas influencia os processos biológicos, a dispersão de espécies e a conservação da biodiversidade.\nA ideia é que este seja um espaço de troca constante, onde a teoria se conecta com ferramentas práticas de análise espacial e desafios reais de manejo e restauração."
+    "text": "A ecologia da paisagem surgiu como uma disciplina interdisciplinar que combina a abordagem espacial da geografia com o estudo funcional da ecologia [1]. O termo foi cunhado em 1939 pelo biogeógrafo alemão Carl Troll, que se inspirou no potencial da análise de fotografias aéreas para entender as inter-relações entre o ambiente e os seres vivos [2], [3].\nHistoricamente, a disciplina consolidou-se através de duas frentes principais: 1. Abordagem Geográfica: Focada no “espaço vivido pelo homem”, priorizando o planejamento territorial e a gestão de paisagens culturais [4]. 2. Abordagem Ecológica: Enfatiza o efeito da estrutura espacial sobre os processos biológicos e a conservação da biodiversidade [4], [5].\nA paisagem é definida modernamente como um mosaico heterogêneo formado por unidades interativas, onde a heterogeneidade existe para pelo menos um fator, segundo um observador e em uma escala específica [1], [6]."
   },
   {
     "objectID": "sessions/week1/1-intro.html#boas-vindas",
@@ -3995,5 +3995,75 @@
     "title": "Estrutura do Curso: Ecologia da Paisagem",
     "section": "Integridade Acadêmica e IA",
     "text": "Integridade Acadêmica e IA\n\nUso Ético: O uso de IA é permitido para auxílio em código computacional, mas deve ser obrigatoriamente reconhecido em todo material submetido [45].\nProibições: É proibido o uso de ferramentas de IA para a escrita de ensaios, síntese de leituras ou respostas críticas [46].\nFoco: O curso prioriza o desenvolvimento do pensamento crítico original e habilidades de escrita autênticas [45]."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#introdução-o-que-é-escala",
+    "href": "sessions/week1/1-intro.html#introdução-o-que-é-escala",
+    "title": "Escala e Percepção na Ecologia da Paisagem",
+    "section": "",
+    "text": "Na ecologia da paisagem, a paisagem é definida como um mosaico heterogêneo formado por unidades interativas [1, 2]. No entanto, a forma como essa heterogeneidade é percebida depende inteiramente da escala de observação [3, 4]. Um erro comum é definir a paisagem apenas por critérios humanos; na realidade, cada espécie ou processo ecológico possui sua própria “escala de percepção” [5, 6]."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#grão-vs.-extensão-os-componentes-da-escala",
+    "href": "sessions/week1/1-intro.html#grão-vs.-extensão-os-componentes-da-escala",
+    "title": "Escala e Percepção na Ecologia da Paisagem",
+    "section": "Grão vs. Extensão: Os Componentes da Escala",
+    "text": "Grão vs. Extensão: Os Componentes da Escala\nPara quantificar o padrão espacial, devemos distinguir dois componentes vitais:\n\nGrão (ou Resolução): Refere-se à menor unidade de representação espacial ou à unidade mínima de informação [6, 7]. Em dados de satélite, como o Sentinel-2, o grão pode ser de 10 metros [8].\nExtensão: Indica as dimensões totais da área de estudo ou o tamanho da “janela” de observação [6, 7].\n\nA distinção é vital: À medida que o grão aumenta (torna-se mais grosseiro), detalhes finos da paisagem são perdidos, o que pode mascarar a percepção de processos biológicos importantes [6, 9].\n\n[INSERIR FIGURA 1: Gráfico comparativo mostrando uma mesma paisagem mapeada com grãos diferentes (ex: 1m vs. 30m vs. 1km) para ilustrar a perda de detalhes estruturais]."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#a-escala-de-percepção-a-lente-das-espécies",
+    "href": "sessions/week1/1-intro.html#a-escala-de-percepção-a-lente-das-espécies",
+    "title": "Escala e Percepção na Ecologia da Paisagem",
+    "section": "A Escala de Percepção: A Lente das Espécies",
+    "text": "A Escala de Percepção: A Lente das Espécies\nA paisagem não é uma entidade fixa; ela é dependente do observador [1, 10]. Enquanto a abordagem geográfica foca no espaço vivido pelo homem e em macro-escalas, a abordagem ecológica define a escala conforme a espécie em estudo [11, 12].\n\nExemplos de Percepção Biológica\n\nMicro-organismos vs. Grandes Mamíferos: Para um inseto que vive em musgos, um mosaico complexo pode existir em apenas alguns centímetros quadrados [13]. Já para uma onça-parda (Puma concolor), a escala de percepção abrange quilômetros quadrados para suprir suas necessidades de área de vida [14].\nCapacidade de Dispersão: Espécies com baixa mobilidade percebem a paisagem de forma local. Espécies com alta mobilidade, como aves de dossel, conseguem atravessar matrizes e percebem a conectividade em escalas muito mais amplas [15].\n\n\n[INSERIR GRÁFICO 1: “Escala de Efeito”. Um gráfico mostrando como a correlação entre a abundância de uma espécie e a cobertura florestal varia conforme o raio de análise (extensão) aumenta, revelando o ponto exato onde a espécie melhor responde ao ambiente]. [16]"
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#por-que-isso-é-importante-para-a-conservação",
+    "href": "sessions/week1/1-intro.html#por-que-isso-é-importante-para-a-conservação",
+    "title": "Escala e Percepção na Ecologia da Paisagem",
+    "section": "Por Que Isso é Importante para a Conservação?",
+    "text": "Por Que Isso é Importante para a Conservação?\nIdentificar a “escala de efeito” correta é crucial para modelos de distribuição de espécies e planos de manejo [16]. Se planejarmos a conservação de uma ave de sub-bosque (altamente sensível) usando métricas baseadas na percepção de um tucano (menos sensível e mais móvel), o plano falhará em garantir a conectividade funcional para a espécie mais vulnerável [17, 18].\n\nO Paradigma Padrão-Processo\nO funcionamento de uma unidade da paisagem depende das interações horizontais com as unidades vizinhas [19]. Esse paradigma padrão-processo afirma que o arranjo espacial dita os processos ecológicos, mas esse padrão só é visível se estivermos observando na escala correta [5, 20]."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#conclusão",
+    "href": "sessions/week1/1-intro.html#conclusão",
+    "title": "Escala e Percepção na Ecologia da Paisagem",
+    "section": "Conclusão",
+    "text": "Conclusão\nA paisagem é, em última análise, uma síntese dos sistemas ecológicos e culturais vistos através de uma “lente única” [10, 21]. Para o biólogo, o desafio não é encontrar a “escala certa” universal, mas sim entender como a descrição do sistema muda através das escalas para os diferentes organismos estudados [22]."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#introdução-às-origens-da-ecologia-da-paisagem",
+    "href": "sessions/week1/1-intro.html#introdução-às-origens-da-ecologia-da-paisagem",
+    "title": "Semana 1: Origens e Conceitos de Escala",
+    "section": "",
+    "text": "A ecologia da paisagem surgiu como uma disciplina interdisciplinar que combina a abordagem espacial da geografia com o estudo funcional da ecologia [1]. O termo foi cunhado em 1939 pelo biogeógrafo alemão Carl Troll, que se inspirou no potencial da análise de fotografias aéreas para entender as inter-relações entre o ambiente e os seres vivos [2], [3].\nHistoricamente, a disciplina consolidou-se através de duas frentes principais: 1. Abordagem Geográfica: Focada no “espaço vivido pelo homem”, priorizando o planejamento territorial e a gestão de paisagens culturais [4]. 2. Abordagem Ecológica: Enfatiza o efeito da estrutura espacial sobre os processos biológicos e a conservação da biodiversidade [4], [5].\nA paisagem é definida modernamente como um mosaico heterogêneo formado por unidades interativas, onde a heterogeneidade existe para pelo menos um fator, segundo um observador e em uma escala específica [1], [6]."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#o-paradigma-padrão-processo",
+    "href": "sessions/week1/1-intro.html#o-paradigma-padrão-processo",
+    "title": "Semana 1: Origens e Conceitos de Escala",
+    "section": "O Paradigma Padrão-Processo",
+    "text": "O Paradigma Padrão-Processo\nO núcleo pedagógico da disciplina reside no paradigma “padrão-processo”, que afirma que o arranjo espacial dos elementos de uma paisagem dita significativamente os processos ecológicos que nela ocorrem [7], [8]. Entender como a “mancha” (patchiness) influencia a biodiversidade e a propagação de distúrbios é um dos objetivos centrais desta semana [9]."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#o-conceito-de-escala-grão-e-extensão",
+    "href": "sessions/week1/1-intro.html#o-conceito-de-escala-grão-e-extensão",
+    "title": "Semana 1: Origens e Conceitos de Escala",
+    "section": "O Conceito de Escala: Grão e Extensão",
+    "text": "O Conceito de Escala: Grão e Extensão\nPara quantificar padrões espaciais, é vital distinguir os componentes da escala [5]:\n\nGrão (ou Resolução): Refere-se à menor unidade de representação espacial (ex: o tamanho do pixel de 10m do satélite Sentinel-2) [10], [11].\nExtensão: Indica as dimensões totais da área de estudo ou a “janela” de observação [5], [11].\n\nÀ medida que o grão aumenta, detalhes finos da paisagem são perdidos, o que pode causar o “efeito de transmutação”, onde as propriedades do sistema mudam conforme a escala de análise [11]."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#escala-de-percepção-a-lente-biológica",
+    "href": "sessions/week1/1-intro.html#escala-de-percepção-a-lente-biológica",
+    "title": "Semana 1: Origens e Conceitos de Escala",
+    "section": "Escala de Percepção: A Lente Biológica",
+    "text": "Escala de Percepção: A Lente Biológica\nA paisagem não é definida apenas por critérios humanos. Cada espécie possui sua própria “escala de percepção”, baseada em suas características ecológicas, como tamanho do território e capacidade de locomoção [5], [6].\n\nExemplo Prático: Enquanto um pequeno inseto percebe a heterogeneidade em manchas de gramíneas em poucos metros quadrados, uma onça-parda (Puma concolor) percebe a paisagem em escalas geográficas amplas de quilômetros quadrados [5], [6].\n\nIdentificar a “escala de efeito” — o ponto onde a relação entre a biodiversidade e a paisagem é mais forte — é crucial para modelos precisos de conservação [12], [13]."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#referências-bibliográficas",
+    "href": "sessions/week1/1-intro.html#referências-bibliográficas",
+    "title": "Semana 1: Origens e Conceitos de Escala",
+    "section": "Referências Bibliográficas",
+    "text": "Referências Bibliográficas\n[1] Metzger, J. P. (2001). O que é ecologia de paisagens? Biota Neotropica.\n[2] Rocha, C. H., et al. (1997). Ecologia da paisagem e manejo sustentável dos recursos naturais. Geografia.\n[3] Troll, C. (1971). Landscape ecology (geo-ecology) and biogeocenology: a terminological study. Geoforum.\n[4] Rossi, L. C., et al. (2020). Structural Vegetation Index (SVI) as a proxy for habitat complexity. Remote Sensing in Ecology and Conservation.\n[5] Metzger, J. P. (2001). Referência bibliográfica interna sobre Escala de Percepção. Biota Neotropica.\n[6] Arquitetura da Paisagem: Do Padrão à Gestão Integrada. Programa do Curso UFPE.\n[7] Turner, M. G., & Gardner, R. H. (2015). Landscape Ecology in Theory and Practice. Springer.\n[8] Global Landscape Ecology Education: A Comprehensive Analysis. (2026). Report on Pedagogical Infrastructure.\n[9] ETHx: Landscape Ecology (2026). Course Foundations and Drivers of Landscape Patterns. edX Platform.\n[10] Markham, K., et al. (2023). A review of methods for scaling remotely sensed data. Landscape Ecology.\n[11] Bissonette, J. A. (1997). Scale-sensitive ecological properties. In: Wildlife and Landscape Ecology. Springer.\n[12] IALE-North America (2026). Workshop: MultiScaleR: Approachable Multiscale Ecological Modeling in R.\n[13] Fletcher, R. J., et al. (2023). Addressing the problem of scale that emerges with habitat fragmentation. Global Ecology and Biogeography."
   }
 ]
