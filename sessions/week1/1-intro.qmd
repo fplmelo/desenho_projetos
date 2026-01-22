@@ -1,13 +1,13 @@
 ---
 title: "Semana 1: Origens e Conceitos de Escala"
 subtitle: "Ecologia da Paisagem - Bacharelado em Ciências Biológicas (UFPE)"
-author: "Programa da Disciplina"
+author: "Felipe Melo"
 format: 
   html:
     toc: true
-    theme: cosmo
     self-contained: true
 lang: pt
+title-block-banner: "#990000"
 ---
 
 ## Introdução às Origens da Ecologia da Paisagem
