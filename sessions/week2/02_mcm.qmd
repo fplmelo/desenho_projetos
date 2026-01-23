@@ -17,7 +17,11 @@ format:
 
 **Objetivo Central:** Capacitar o aluno a identificar e descrever a estrutura da paisagem através dos elementos do modelo clássico (PCM) e compreender as origens e consequências da heterogeneidade espacial para diferentes organismos.
 
----
+## Slides desta aula
+
+Tela cheia [CLIQUE AQUI](https://fplmelo.github.io/ecologia_paisagem/slides/aula2_modelo.html#/title-slide) e depois pressione 'f'
+
+<iframe class="slide-deck" src="https://fplmelo.github.io/ecologia_paisagem/slides/aula2_modelo.html#/title-slide" width="700px" height="500px"></iframe>
 
 ## Resumos dos Principais Pontos
 
