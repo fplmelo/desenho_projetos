@@ -17,6 +17,12 @@ format:
 Foto: Paisagem fragmentada na Usina Serra Grande, Ibateguara, Alagoas.
 
 
+## Slides desta aula
+
+Tela cheia [CLIQUE AQUI](https://fplmelo.github.io/ecologia_paisagem/slides/aula1_apresentacao.html#/title-slide) e depois pressione 'f'
+
+<iframe class="slide-deck" src="https://fplmelo.github.io/ecologia_paisagem/slides/aula1_apresentacao.html#/title-slide" width="700px" height="500px"></iframe>
+
 
 
 ## Introdução às Origens da Ecologia da Paisagem
