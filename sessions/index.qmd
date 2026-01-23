@@ -1,5 +1,5 @@
 ---
-title: "Content"
+title: "Conteúdo"
 title-block-banner: "#990000"
 listing:
   contents: /
