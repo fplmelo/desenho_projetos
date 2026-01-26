@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
+
+  <meta name="author" content="Felipe Melo">
+  <title>Fundamentos e Paradigmas Científicos</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Fundamentos e Paradigmas Científicos</h1>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Felipe Melo 
+</div>
+</div>
+</div>
+
+</section>
+<section id="abertura" class="slide level2">
+<h2>Abertura</h2>
+<ul>
+<li class="fragment">Boas-vindas ao curso.</li>
+<li class="fragment">O Encontro 1 foca na <strong>Filosofia da Ciência</strong>.</li>
+<li class="fragment">Objetivo: Compreender como o conhecimento é construído e validado.</li>
+<li class="fragment">A ciência não é apenas técnica, mas fundamentada em protocolos e linguagem.</li>
+</ul>
+</section>
+<section id="a-mais-antiga-busca-da-humanidade" class="slide level2">
+<h2>A mais antiga busca da Humanidade</h2>
+<div class="columns">
+<div class="column">
+<ul>
+<li><p>Conhecer a <strong>verdade</strong> e a <strong>realidade</strong></p></li>
+<li><p>Emprego de diversos métodos</p></li>
+<li><p>A <strong>ciência</strong> é um método</p></li>
+</ul>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://s1.static.brasilescola.uol.com.br/be/2023/03/ilustracao-traz-as-etapas-do-metodo-cientifico-com-uma-cientista-negra-fazendo-cada-processo.jpg"></p>
+<figcaption>https://brasilescola.uol.com.br/quimica/metodo-cientifico.htm</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="a-jornada-científica" class="slide level2">
+<h2>A Jornada Científica</h2>
+<div class="columns">
+<div class="column">
+<ul>
+<li class="fragment">Iniciar na pesquisa exige compreender procedimentos essenciais</li>
+<li class="fragment">Necessidade de assimilar requisitos técnicos e teóricos</li>
+<li class="fragment">Ter discernimento para superar obstáculos complexos ao longo do percurso</li>
+</ul>
+</div><div class="column">
+<p><img data-src="https://faculty.cc.gatech.edu/~turk/science_125/science_125.gif" style="width:80.0%"></p>
+</div></div>
+</section>
+<section id="o-que-é-ciência-etimologia" class="slide level2">
+<h2>O que é Ciência? (Etimologia)</h2>
+<ul>
+<li>Vem do latim <em>scientia</em>: significa <strong>conhecimento</strong> ou <strong>sabedoria</strong></li>
+<li>Baseia-se em um corpo de princípios e teorias organizadas</li>
+<li>É uma construção metódica e sistemática sobre um objeto de estudo</li>
+</ul>
+
+<img data-src="https://i0.wp.com/allinonehighschool.com/wp-content/uploads/2018/01/scientificmethod2.png" class="quarto-figure quarto-figure-center r-stretch" style="width:150.0%"></section>
+<section id="ciência-como-especialização" class="slide level2">
+<h2>Ciência como Especialização</h2>
+<div class="columns">
+<div class="column">
+<ul>
+<li><p>Refinamento de potenciais comuns a todos</p></li>
+<li><p>“Hipertrofia de capacidades que todos têm” (Rubem Alves)</p></li>
+<li><p>Tendência à especialização: conhecer cada vez mais de cada vez menos</p></li>
+</ul>
+</div><div class="column">
+<iframe width="1128" height="635" src="https://www.youtube.com/embed/EWwhQB3TKXA" title="Contact - Opening Scene (HD)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+</div></div>
+</section>
+<section id="ciência-vs.-senso-comum" class="slide level2">
+<h2>Ciência vs.&nbsp;Senso Comum</h2>
+<div class="columns">
+<div class="column">
+<h3 id="senso-comun">Senso Comun</h3>
+<ul>
+<li>O <strong>senso comum</strong> é o conhecimento adquirido no convívio social (família, amigos, rua)</li>
+<li><strong>Senso Comum</strong>: Formado por sentimentos, desejos, crenças e misticismo</li>
+</ul>
+</div><div class="column">
+<h3 id="ciência">Ciência</h3>
+<ul>
+<li><strong>Ciência</strong>: Formada através da “razão-pura” e de forma metodologicamente rigorosa</li>
+<li>A <strong>ciência</strong> busca excluir emoções e crenças religiosas do contexto investigativo</li>
+</ul>
+</div></div>
+</section>
+<section id="ambos-buscam-compreender-o-mundo-para-a-sobrevivência-e-bem-estar" class="slide level2 center">
+<h2>Ambos buscam compreender o mundo para a sobrevivência e bem-estar</h2>
+</section>
+<section id="a-reificação-do-método" class="slide level2">
+<h2>A reificação do método</h2>
+<div class="columns">
+<div class="column">
+<ul>
+<li>O <strong>método</strong> definie ciência</li>
+<li>Oferece uma dimensão <strong>pública</strong>, <strong>coletiva</strong> e <strong>sistemática</strong></li>
+<li>Precisão, replicação, objetividade</li>
+</ul>
+</div><div class="column">
+<p><img data-src="https://www.simplypsychology.org/wp-content/uploads/scientific-method.jpg"></p>
+</div></div>
+</section>
+<section id="ciência-como-fenômeno-social" class="slide level2">
+<h2>Ciência como fenômeno social</h2>
+<div class="columns">
+<div class="column">
+<ul>
+<li>Rede de trocas e interpretações entre pesquisadores</li>
+<li>Iniciar uma pesquisa é “entrar em uma conversa que já dura algum tempo”</li>
+<li>Exige domínio da linguagem do campo e das referências principais</li>
+</ul>
+</div><div class="column">
+<p><img data-src="https://media.gettyimages.com/id/814283064/vector/scientific-debate.jpg?s=1024x1024&amp;w=gi&amp;k=20&amp;c=GfHXAqiuBH8h9AAE-KTFQCpIDGPcSpz7KyHrnUIV9kg="></p>
+</div></div>
+</section>
+<section id="ciência-um-campo-de-batalha" class="slide level2">
+<h2>Ciência: Um campo de batalha</h2>
+
+<img data-src="https://skepticalscience.com/pics/climate-summit.jpg" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="a-natureza-provisória-do-conhecimento" class="slide level2">
+<h2>A Natureza Provisória do Conhecimento</h2>
+<ul>
+<li>Declarações científicas não (deveriam) reivindicam certeza absoluta</li>
+<li>Baseiam-se na “melhor” evidência presente para determinar o que é <strong>mais provável</strong></li>
+<li>O conhecimento é provisório e cercado por graus de incerteza</li>
+</ul>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+
+<img data-src="https://weadapt.org/wp-content/uploads/2023/04/ipcc_scenarios.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="por-uma-atitude-científica" class="slide level2">
+<h2>Por uma atitude científica</h2>
+<ul>
+<li>Abertura às <strong>críticas</strong></li>
+<li>Busca por explicações que se aproximem da <strong>realidade das pessoas</strong></li>
+<li>O <strong>método</strong> é o caminho para o sucesso na elaboração de teorias</li>
+</ul>
+</section>
+<section id="fim-da-parte-i" class="slide level2 center">
+<h2>Fim da parte I</h2>
+</section>
+<section id="slide-13-dimensões-do-desenho-de-pesquisa" class="slide level2">
+<h2>Slide 13: Dimensões do Desenho de Pesquisa</h2>
+<ul>
+<li><strong>Dimensão Ampla</strong>: Diálogo teórico e associações filosóficas/metateóricas [15].</li>
+<li><strong>Dimensão Prática</strong>: Procedimentos, coleta e análise de dados [15, 16].</li>
+<li>O desenho deve convencer uma audiência de céticos sobre a segurança das conclusões [17].</li>
+</ul>
+</section>
+<section id="slide-14-metateoria-e-filosofia-da-ciência" class="slide level2">
+<h2>Slide 14: Metateoria e Filosofia da Ciência</h2>
+<ul>
+<li>A metateoria lida com os elementos constitutivos da atividade científica [18].</li>
+<li>Avalia a capacidade dos procedimentos gerarem conhecimento válido [19].</li>
+<li>Suscita comprometimentos filosóficos em qualquer aplicação de método [20].</li>
+</ul>
+</section>
+<section id="slide-15-o-papel-do-paradigma" class="slide level2">
+<h2>Slide 15: O Papel do Paradigma</h2>
+<ul>
+<li>Fornece o conjunto de teorias e problemas diretrizes [10].</li>
+<li>Define o que é <strong>racional</strong> e <strong>possível</strong> investigar cientificamente [10].</li>
+<li>Condiciona as formas de saber, muitas vezes de forma inconsciente [21].</li>
+</ul>
+</section>
+<section id="slide-16-bases-epistemológicas-e-ontológicas" class="slide level2">
+<h2>Slide 16: Bases Epistemológicas e Ontológicas</h2>
+<ul>
+<li>Toda metodologia está vinculada a pressupostos filosóficos [19, 22].</li>
+<li>As respostas a questões ontológicas e epistemológicas determinam o método [22].</li>
+<li>Pesquisadores experientes e neófitos enfrentam o desafio de definir esses critérios [23].</li>
+</ul>
+</section>
+<section id="slide-17-o-que-é-ontologia" class="slide level2">
+<h2>Slide 17: O que é Ontologia?</h2>
+<ul>
+<li>Teoria sobre a natureza ou essência do fenômeno investigado [20, 24].</li>
+<li>Questiona: O que existe? Qual a natureza do objeto? [20].</li>
+<li>Na pesquisa qualitativa, foca em múltiplas realidades socialmente construídas [24].</li>
+</ul>
+</section>
+<section id="slide-18-o-que-é-epistemologia" class="slide level2">
+<h2>Slide 18: O que é Epistemologia?</h2>
+<ul>
+<li>Conhecida como “Teoria do Conhecimento” [20].</li>
+<li>Trata da natureza e das formas de como o conhecimento é adquirido [24].</li>
+<li>Questiona como o saber pode ser comunicado a outros seres humanos [24].</li>
+</ul>
+</section>
+<section id="slide-19-a-questão-axiológica" class="slide level2">
+<h2>Slide 19: A Questão Axiológica</h2>
+<ul>
+<li>Trata do papel dos <strong>valores</strong> na pesquisa [25].</li>
+<li>Reconhece que a pesquisa é influenciada por tradições e ambientes [25].</li>
+<li>O pesquisador deve discutir abertamente os valores que determinam sua narrativa [25].</li>
+</ul>
+</section>
+<section id="slide-20-o-contínuo-naturalismo-vs.-construtivismo" class="slide level2">
+<h2>Slide 20: O Contínuo Naturalismo vs.&nbsp;Construtivismo</h2>
+<ul>
+<li>Dois extremos que surgem das respostas às questões metateóricas [26].</li>
+<li>Posições intermediárias matizam as críticas de cada extremo [27].</li>
+<li>Importância da coerência interna entre posição filosófica e escolha metodológica [27].</li>
+</ul>
+</section>
+<section id="slide-21-pressupostos-do-naturalismo" class="slide level2">
+<h2>Slide 21: Pressupostos do Naturalismo</h2>
+<ul>
+<li>O mundo é real e consiste em entidades particulares individuais [26].</li>
+<li>Esses componentes interagem de forma regular e padronizada [26].</li>
+<li>Humanos experimentam essas interações através da percepção sensorial [26].</li>
+</ul>
+</section>
+<section id="slide-22-epistemologia-e-ontologia-naturalista" class="slide level2">
+<h2>Slide 22: Epistemologia e Ontologia Naturalista</h2>
+<ul>
+<li><strong>Ontologia</strong>: Realidade formada por unidades atomizadas que existem independente do observador [28].</li>
+<li><strong>Epistemologia</strong>: Conhecimento acumulado <em>a posteriori</em> sobre associações [28].</li>
+<li><strong>Metodologia</strong>: Busca identificar regularidades do mundo real [28].</li>
+</ul>
+</section>
+<section id="slide-23-pressupostos-do-construtivismo" class="slide level2">
+<h2>Slide 23: Pressupostos do Construtivismo</h2>
+<ul>
+<li>Duvida da existência de regularidades sociais similares às naturais [29].</li>
+<li>Percepções humanas reconstroem a realidade social por meio de significados [29].</li>
+<li>Fenômenos sociais e históricos são produções coletivas [29].</li>
+</ul>
+</section>
+<section id="slide-24-epistemologia-e-ontologia-construtivista" class="slide level2">
+<h2>Slide 24: Epistemologia e Ontologia Construtivista</h2>
+<ul>
+<li><strong>Ontologia</strong>: Múltiplas realidades e significados dependentes do olhar do investigador [24].</li>
+<li><strong>Epistemologia</strong>: Visão do conhecimento como pessoal, subjetivo e único [24].</li>
+<li>Exige envolvimento e interdependência entre pesquisador e participantes [24].</li>
+</ul>
+</section>
+<section id="slide-25-objetividade-e-distanciamento" class="slide level2">
+<h2>Slide 25: Objetividade e Distanciamento</h2>
+<ul>
+<li>Debate sobre a possibilidade de capturar informações sem interferência do observador [30].</li>
+<li><strong>Extremo 1</strong>: Observador perfeitamente distante e observações objetivas [30].</li>
+<li><strong>Extremo 2</strong>: Distanciamento impossível; o observador está imerso no mundo social [30].</li>
+</ul>
+</section>
+<section id="slide-26-subjetividade-dos-atores-sociais" class="slide level2">
+<h2>Slide 26: Subjetividade dos Atores Sociais</h2>
+<ul>
+<li>Importância da subjetividade na construção do mundo social [30].</li>
+<li>O mundo depende apenas de ações objetivas ou de significados humanos? [30].</li>
+<li>Teorias variam no grau de importância atribuído a essa característica [31].</li>
+</ul>
+</section>
+<section id="slide-27-a-perspectiva-de-émile-durkheim" class="slide level2">
+<h2>Slide 27: A Perspectiva de Émile Durkheim</h2>
+<ul>
+<li>Acredita na possibilidade de determinar <strong>objetivamente</strong> os fenômenos sociais [32].</li>
+<li>Condições sociais têm existência objetiva acima dos indivíduos [32, 33].</li>
+<li>Foca em fatores causais que não se reduzem ao nível individual [33].</li>
+</ul>
+</section>
+<section id="slide-28-a-perspectiva-de-max-weber" class="slide level2">
+<h2>Slide 28: A Perspectiva de Max Weber</h2>
+<ul>
+<li>Foca em explicações baseadas em <strong>significados e intenções</strong> [34].</li>
+<li>Objeto básico: comportamento social intencional com significado subjetivo [34].</li>
+<li>O ordenamento do mundo se dá pela habilidade humana de interpretá-lo intelectualmente [35].</li>
+</ul>
+</section>
+<section id="slide-29-o-embate-durkheim-vs.-weber" class="slide level2">
+<h2>Slide 29: O Embate Durkheim vs.&nbsp;Weber</h2>
+<ul>
+<li><strong>Durkheim</strong>: Enfatiza o lado do objeto na relação objetivo-subjetivo [34].</li>
+<li><strong>Weber</strong>: Estressa o lado subjetivo e a parcialidade do observador [34, 35].</li>
+<li>Conflito clássico que molda as escolas de pensamento nas ciências sociais [36].</li>
+</ul>
+</section>
+<section id="slide-30-o-realismo-na-ciência" class="slide level2">
+<h2>Slide 30: O Realismo na Ciência</h2>
+<ul>
+<li>Enfatiza que a pesquisa se dá a partir dos elementos do objeto e da pergunta [37].</li>
+<li>O desenho depende da construção teórica e da relação entre objeto e mundo [37].</li>
+<li>Pesquisador deve conjugar dimensão empírica e teórica [37].</li>
+</ul>
+</section>
+<section id="slide-31-o-pragmatismo" class="slide level2">
+<h2>Slide 31: O Pragmatismo</h2>
+<ul>
+<li>Rejeita a ideia de um “mundo real” acessível por um único método científico [38].</li>
+<li>Comprometimento com a <strong>incerteza</strong>: conhecimento é relativo e transitório [39].</li>
+<li>O importante é se a pesquisa contribui para encontrar o que o pesquisador quer saber [39, 40].</li>
+</ul>
+</section>
+<section id="slide-32-thomas-kuhn-e-a-ciência-normal" class="slide level2">
+<h2>Slide 32: Thomas Kuhn e a Ciência Normal</h2>
+<ul>
+<li><strong>Ciência Normal</strong>: Trabalho científico baseado em regras e práticas consensuais [41].</li>
+<li>Fase em que pressupostos de uma disciplina funcionam para todos os cientistas [41].</li>
+<li>O paradigma define o que é racional investigar [10].</li>
+</ul>
+</section>
+<section id="slide-33-anomalias-e-crise" class="slide level2">
+<h2>Slide 33: Anomalias e Crise</h2>
+<ul>
+<li><strong>Anomalias</strong>: Ocorrências que não podem ser explicadas pelo paradigma vigente [42].</li>
+<li>Acúmulo de anomalias gera a fase de “pesquisa extraordinária” [41].</li>
+<li>Começa a pesar contra o paradigma atual, gerando instabilidade [41].</li>
+</ul>
+</section>
+<section id="slide-34-revoluções-científicas" class="slide level2">
+<h2>Slide 34: Revoluções Científicas</h2>
+<ul>
+<li>O conhecimento não é linear, mas ocorre por “mudanças de paradigma” [10].</li>
+<li>Adoção de um novo paradigma atrai seguidores e enfrenta resistência [41].</li>
+<li>O triunfo de uma nova verdade ocorre quando a geração antiga desaparece [43].</li>
+</ul>
+</section>
+<section id="slide-35-consequências-da-revolução" class="slide level2">
+<h2>Slide 35: Consequências da Revolução</h2>
+<ul>
+<li>O novo paradigma torna-se dominante e é tratado como “normal” [41].</li>
+<li>Manuais didáticos passam a ensiná-lo, obscurecendo o processo revolucionário [41].</li>
+<li>O paradigma é um fenômeno emergente de fatores sociais e científicos [43].</li>
+</ul>
+</section>
+<section id="slide-36-exemplos-de-mudanças-de-paradigma" class="slide level2">
+<h2>Slide 36: Exemplos de Mudanças de Paradigma</h2>
+<ul>
+<li>Cosmologia Ptolomaica para Copernicana [44].</li>
+<li>Mecânica Aristotélica para Mecânica Clássica [44].</li>
+<li>Teleologia para Seleção Natural (Darwin) [44].</li>
+<li>Éter luminífero para radiação eletromagnética [44].</li>
+</ul>
+</section>
+<section id="slide-37-paradigmas-e-ciências-sociais" class="slide level2">
+<h2>Slide 37: Paradigmas e Ciências Sociais</h2>
+<ul>
+<li>Kuhn limitou suas teorias às ciências naturais (“ciências maduras”) [45].</li>
+<li>Excluiu explicitamente as ciências sociais (“protociências”) [45].</li>
+<li>No entanto, seu modelo é amplamente aplicado em economia e humanidades hoje [45].</li>
+</ul>
+</section>
+<section id="slide-38-imre-lakatos-e-programas-de-pesquisa" class="slide level2">
+<h2>Slide 38: Imre Lakatos e Programas de Pesquisa</h2>
+<ul>
+<li>Propõe a coexistência de diferentes programas de pesquisa [46].</li>
+<li><strong>Hipóteses Centrais</strong>: Pressupostos teóricos que sustentam o programa (não testáveis diretamente) [46].</li>
+<li><strong>Cinturão Protetor</strong>: Hipóteses auxiliares passíveis de refutação e descarte [46].</li>
+</ul>
+</section>
+<section id="slide-39-síntese-da-relação-metateórica" class="slide level2">
+<h2>Slide 39: Síntese da Relação Metateórica</h2>
+<ul>
+<li>Ontologia e Epistemologia alicerçam as teorias [47, 48].</li>
+<li>Teorias guiam os métodos de análise e tipos de explicação [47].</li>
+<li>Esse conjunto completo conduz à metodologia e ao desenho de pesquisa final [47].</li>
+</ul>
+</section>
+<section id="slide-40-conclusão-do-encontro-1" class="slide level2">
+<h2>Slide 40: Conclusão do Encontro 1</h2>
+<ul>
+<li>A filosofia da ciência não é apenas debate abstrato; ela molda a prática [48, 49].</li>
+<li>Compreender paradigmas evita a acomodação em modelos insustentáveis [50].</li>
+<li>Próximo Encontro: Lógica, Indução, Dedução e Falseabilidade.</li>
+</ul>
+
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

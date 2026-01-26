@@ -381,8 +381,8 @@
     "objectID": "example_presentation.html#a-basic-example",
     "href": "example_presentation.html#a-basic-example",
     "title": "Quiz example",
-    "section": "A basic example",
-    "text": "A basic example\n\nBill Gates was the founder of:\n\n\n\n\n ✗Apple\n\n\n ✓Microsoft\n\n\n ✗Facebook\n\n\n ✗Google"
+    "section": "",
+    "text": "Bill Gates was the founder of:\n\n\n\n\n ✗Apple\n\n\n ✓Microsoft\n\n\n ✗Facebook\n\n\n ✗Google"
   },
   {
     "objectID": "example_presentation.html#a-quiz-with-a-clear-answer-button",
@@ -431,7 +431,7 @@
     "href": "example.html#a-quiz-with-additional-information-in-callouts",
     "title": "Quiz example",
     "section": "A quiz with additional information in callouts",
-    "text": "A quiz with additional information in callouts\n\nBill Gates was the founder of:\n\n\n\n\n ✗Apple\n\n\n ✓Microsoft\n\n\n ✗Facebook\n\n\n ✗Google\n\n\nClear answer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nThe company name starts with an ‘M’…\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\nBill Gates and Paul Allen founded Microsoft on April 4, 1975."
+    "text": "A quiz with additional information in callouts\n\nBill Gates was the founder of:\n\n\n\n\n ✗Apple\n\n\n ✓Microsoft\n\n\n ✗Facebook\n\n\n ✗Google\n\n\nClear answer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipHint\n\n\n\n\n\nThe company name starts with an ‘M’…\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\nBill Gates and Paul Allen founded Microsoft on April 4, 1975."
   },
   {
     "objectID": "assessment.html",
@@ -501,7 +501,7 @@
     "href": "schedule.html",
     "title": "Cronograma de Aulas",
     "section": "",
-    "text": "Semana 1: Origens da Ecologia de Paisagens e o conceito de Escala (Grão e Extensão).\nSemana 2: O Modelo Mancha-Corredor-Matriz e o conceito de Heterogeneidade.\nSemana 3: Dinâmica de Perturbação: Como eventos naturais e antrópicos moldam o mosaico.\nSemana 4: Teoria de Biogeografia de Ilhas e sua aplicação em paisagens fragmentadas."
+    "text": "A ciência como fenômeno social e a teoria dos paradigmas de Thomas Kuhn: ciência normal, anomalias e revoluções científicas.\nDiscussão sobre objetividade e subjetividade no distanciamento do observador e o papel da percepção humana na construção da realidade.\nBases epistemológicas e ontológicas da pesquisa: naturalismo versus construtivismo.\n\n\n\n\n\nDiferenciação entre o método indutivo (do específico para o geral) e o método dedutivo (teste de hipóteses a partir da teoria).\nO papel da falseabilidade em Popper e os programas de pesquisa de Lakatos.\nA relação entre teoria, explicação e causalidade na ciência.\n\n\n\n\n\n\n\n\nA arte de elaborar uma pergunta de pesquisa: clareza, relevância e o uso do acrônimo FINGER (Viável, Interessante, Novo, Ético e Relevante).\nElementos obrigatórios de um projeto: delimitação do tema, problematização, justificativa e definição de objetivos gerais e específicos.\nReferencial teórico: como realizar uma revisão de literatura que demonstre o “estado da arte” e sustente as hipóteses.\n\n\n\n\n\nEscolha do método: pesquisa com N-grande (orientada por variáveis e busca de efeitos médios) versus pesquisa com N-pequeno (orientada por casos e profundidade).\nTécnicas de coleta de dados (experimentos, observação e amostragem) e estratégias de rigor como a triangulação.\nÉtica em pesquisa: os princípios de beneficência, justiça e respeito às pessoas; a importância do Consentimento Livre e Esclarecido (TCLE).\n\n\n\n\n\n\n\n\nEstrutura do artigo científico: elementos pré-textuais (título estratégico, abstract e palavras-chave) e textuais (introdução, desenvolvimento/metodologia e conclusão).\nO processo de retextualização e a voz do autor: como transformar dados em argumentos convincentes e originais.\nPadronização (ABNT e normas internacionais) e a importância da precisão nas citações e referências.\n\n\n\n\n\nElaboração de propostas de financiamento: descrição detalhada de recursos humanos, materiais e financeiros.\nEstratégias de revisão por pares (peer review): como responder a revisores e aumentar as chances de aceitação.\nCritérios de transparência e replicabilidade na divulgação dos resultados.\n\n\n\n\n\n\n\nFormulação de uma pergunta de pesquisa sólida baseada nos critérios FINGER.\nApresentação de um esboço de projeto (incluindo cronograma e recursos necessários).\nRedação de um resumo (abstract) seguindo as normas de concisão e clareza para publicação."
   },
   {
     "objectID": "schedule.html#módulo-iv-ecologia-política-e-gestão-12h",
@@ -2558,8 +2558,8 @@
     "objectID": "slides/aula1_apresentacao.html#objetivos-do-curso",
     "href": "slides/aula1_apresentacao.html#objetivos-do-curso",
     "title": "Estrutura do Curso & Origens da Ecologia da Paisagem",
-    "section": "Objetivos do Curso",
-    "text": "Objetivos do Curso\n\nCompreender a ecologia da paisagem como o estudo da heterogeneidade espacial e suas causas e consequências biológicas\nAnalisar as inter-relações entre o homem e seu espaço de vida, abordando aspectos naturais e culturais\nCapacitar o aluno no uso de métodos quantitativos e ferramentas de SIG para análise espacial\nAplicar conceitos de conectividade e dinâmica de manchas para a conservação da biodiversidade\nDesenvolver habilidades profissionais em comunicação científica e elaboração de projetos independentes"
+    "section": "",
+    "text": "Compreender a ecologia da paisagem como o estudo da heterogeneidade espacial e suas causas e consequências biológicas\nAnalisar as inter-relações entre o homem e seu espaço de vida, abordando aspectos naturais e culturais\nCapacitar o aluno no uso de métodos quantitativos e ferramentas de SIG para análise espacial\nAplicar conceitos de conectividade e dinâmica de manchas para a conservação da biodiversidade\nDesenvolver habilidades profissionais em comunicação científica e elaboração de projetos independentes"
   },
   {
     "objectID": "slides/aula1_apresentacao.html#módulos-1-a-4-fundamentos-e-métricas",
@@ -3686,7 +3686,7 @@
     "href": "workbook/workbook.html#your-workbook",
     "title": "Tutorial: Getting Started with a Quarto Webpage",
     "section": "Your workbook",
-    "text": "Your workbook\nWhile learning stats and coding, you’ll also learn how to build and publish simple websites using R and RStudio. This website is vital for you learning during this module. This is going to be your live coursebook.\nSee some examples how NTU students used this for the summative last year:\n\nExample 1\nExample 2\n\n\n\n\n\n\n\nInvest on your worbook\n\n\n\nYour workbook is going to be your “best friend” during this module. There you can experiment, create personal notes and gather bibliography. It works like a paper notebook, but it is a website."
+    "text": "Your workbook\nWhile learning stats and coding, you’ll also learn how to build and publish simple websites using R and RStudio. This website is vital for you learning during this module. This is going to be your live coursebook.\nSee some examples how NTU students used this for the summative last year:\n\nExample 1\nExample 2\n\n\n\n\n\n\n\nTipInvest on your worbook\n\n\n\nYour workbook is going to be your “best friend” during this module. There you can experiment, create personal notes and gather bibliography. It works like a paper notebook, but it is a website."
   },
   {
     "objectID": "workbook/workbook.html#prerequisites",
@@ -3817,14 +3817,14 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "\n            Ecologia de Paisagens\n        ",
+    "title": "\n            Desenho de Projetos\n        ",
     "section": "",
-    "text": "Biodiversidade, pessoas e processos no espaço\n        \n        \n            BO-304  2026.1  Centro de Biociências  Universidade Federal de Pernambuco"
+    "text": "Iniciando sua jornada pela Pós-Graduação\n        \n        \n            2026.1  PPGBV/PPGEtno  Universidade Federal de Pernambuco"
   },
   {
     "objectID": "index.html#bem-vind",
     "href": "index.html#bem-vind",
-    "title": "\n            Ecologia de Paisagens\n        ",
+    "title": "\n            Desenho de Projetos\n        ",
     "section": "Bem-vind@",
     "text": "Bem-vind@"
   },
@@ -3936,9 +3936,9 @@
   {
     "objectID": "sessions/index.html",
     "href": "sessions/index.html",
-    "title": "Content",
+    "title": "Conteúdo",
     "section": "",
-    "text": "Semana 1: Origens e Conceitos de Escala\n\n\n\n\n\n\nFelipe Melo\n\n\n\n\n\n\n\n\n\n\n\nSemana 2: O Modelo Mancha-Corredor-Matriz e a Heterogeneidade\n\n\n\n\n\n\nFelipe Melo\n\n\nJan 23, 2026\n\n\n\n\n\n\n\n\n\n\n\nWeek 3 - Data Visualisation & Scientific Hypotheses\n\n\n\n\n\n\nFelipe Melo\n\n\nJan 22, 2026\n\n\n\n\n\n\n\n\n\n\n\nWeek 4 - Choosing the right analyses & Hypothetical-Deductive reasoning\n\n\n\n\n\n\nFelipe Melo\n\n\nJan 22, 2026\n\n\n\n\n\n\n\n\n\n\n\nWeek 5 - Analysing Categorical Data - Frequency Tests and Contingency Tables\n\n\n\n\n\n\nFelipe Melo\n\n\nJan 22, 2026\n\n\n\n\n\n\n\n\n\n\n\nWeek 6 - Mean Tests and Design of Experiments\n\n\n\n\n\n\nFelipe Melo\n\n\nJan 22, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Semana 1: Origens e Conceitos de Escala\n\n\n\n\n\n\nFelipe Melo\n\n\n\n\n\n\n\n\n\n\n\nSemana 2: O Modelo Mancha-Corredor-Matriz e a Heterogeneidade\n\n\n\n\n\n\nFelipe Melo\n\n\nJan 26, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "sessions/week1/1-intro.html",
@@ -3985,7 +3985,7 @@
   {
     "objectID": "slides/aula1_apresentacao.html",
     "href": "slides/aula1_apresentacao.html",
-    "title": "Estrutura do Curso: Ecologia da Paisagem",
+    "title": "Estrutura do Curso & Origens da Ecologia da Paisagem",
     "section": "",
     "text": "Compreender a ecologia da paisagem como o estudo da heterogeneidade espacial e suas causas e consequências biológicas\nAnalisar as inter-relações entre o homem e seu espaço de vida, abordando aspectos naturais e culturais\nCapacitar o aluno no uso de métodos quantitativos e ferramentas de SIG para análise espacial\nAplicar conceitos de conectividade e dinâmica de manchas para a conservação da biodiversidade\nDesenvolver habilidades profissionais em comunicação científica e elaboração de projetos independentes"
   },
@@ -4092,7 +4092,7 @@
     "href": "slides/aula1_apresentacao.html#escala-do-efeito",
     "title": "Estrutura do Curso & Origens da Ecologia da Paisagem",
     "section": "Escala do “efeito”",
-    "text": "Escala do “efeito”\n\nMoraga et al (2019)"
+    "text": "Escala do “efeito”\n\n\n\n\n\nMoraga et al (2019)"
   },
   {
     "objectID": "slides/aula1_apresentacao.html#o-que-devemos-saber-hoje",
@@ -4140,8 +4140,8 @@
     "objectID": "slides/aula2_modelo.html#objetivos-da-aula",
     "href": "slides/aula2_modelo.html#objetivos-da-aula",
     "title": "O Modelo Mancha-Corredor-Matriz e a Heterogeneidade",
-    "section": "Objetivos da Aula",
-    "text": "Objetivos da Aula\n\nDefinir a paisagem sob a ótica funcional da ecologia.\nCompreender os elementos fundamentais do modelo: Mancha, Corredor e Matriz.\nAnalisar as fontes de heterogeneidade espacial e suas consequências biológicas.\nDiferenciar conectividade estrutural de funcional no mosaico."
+    "section": "",
+    "text": "Definir a paisagem sob a ótica funcional da ecologia.\nCompreender os elementos fundamentais do modelo: Mancha, Corredor e Matriz.\nAnalisar as fontes de heterogeneidade espacial e suas consequências biológicas.\nDiferenciar conectividade estrutural de funcional no mosaico."
   },
   {
     "objectID": "slides/aula2_modelo.html#o-que-é-uma-paisagem",
@@ -4282,5 +4282,439 @@
     "title": "Semana 2: O Modelo Mancha-Corredor-Matriz e a Heterogeneidade",
     "section": "Referências Bibliográficas",
     "text": "Referências Bibliográficas\n 1. Metzger, J. P. (2001). O que é ecologia de paisagens? Biota Neotropica.\n 2. Rocha, C. H., et al. (1997). Ecologia da paisagem e manejo sustentável dos recursos naturais. Geografia."
+  },
+  {
+    "objectID": "example_presentation.html",
+    "href": "example_presentation.html",
+    "title": "Quiz example",
+    "section": "",
+    "text": "Bill Gates was the founder of:\n\n\n\n\n ✗Apple\n\n\n ✓Microsoft\n\n\n ✗Facebook\n\n\n ✗Google"
+  },
+  {
+    "objectID": "slides/aula2_modelo.html",
+    "href": "slides/aula2_modelo.html",
+    "title": "O Modelo Mancha-Corredor-Matriz e a Heterogeneidade",
+    "section": "",
+    "text": "Definir a paisagem sob a ótica funcional da ecologia.\nCompreender os elementos fundamentais do modelo: Mancha, Corredor e Matriz.\nAnalisar as fontes de heterogeneidade espacial e suas consequências biológicas.\nDiferenciar conectividade estrutural de funcional no mosaico."
+  },
+  {
+    "objectID": "schedule.html#cronograma-do-curso",
+    "href": "schedule.html#cronograma-do-curso",
+    "title": "Cronograma de Aulas",
+    "section": "",
+    "text": "A ciência como fenômeno social e a teoria dos paradigmas de Thomas Kuhn: ciência normal, anomalias e revoluções científicas.\nDiscussão sobre objetividade e subjetividade no distanciamento do observador e o papel da percepção humana na construção da realidade.\nBases epistemológicas e ontológicas da pesquisa: naturalismo versus construtivismo.\n\n\n\n\n\nDiferenciação entre o método indutivo (do específico para o geral) e o método dedutivo (teste de hipóteses a partir da teoria).\nO papel da falseabilidade em Popper e os programas de pesquisa de Lakatos.\nA relação entre teoria, explicação e causalidade na ciência.\n\n\n\n\n\n\n\n\nA arte de elaborar uma pergunta de pesquisa: clareza, relevância e o uso do acrônimo FINGER (Viável, Interessante, Novo, Ético e Relevante).\nElementos obrigatórios de um projeto: delimitação do tema, problematização, justificativa e definição de objetivos gerais e específicos.\nReferencial teórico: como realizar uma revisão de literatura que demonstre o “estado da arte” e sustente as hipóteses.\n\n\n\n\n\nEscolha do método: pesquisa com N-grande (orientada por variáveis e busca de efeitos médios) versus pesquisa com N-pequeno (orientada por casos e profundidade).\nTécnicas de coleta de dados (experimentos, observação e amostragem) e estratégias de rigor como a triangulação.\nÉtica em pesquisa: os princípios de beneficência, justiça e respeito às pessoas; a importância do Consentimento Livre e Esclarecido (TCLE).\n\n\n\n\n\n\n\n\nEstrutura do artigo científico: elementos pré-textuais (título estratégico, abstract e palavras-chave) e textuais (introdução, desenvolvimento/metodologia e conclusão).\nO processo de retextualização e a voz do autor: como transformar dados em argumentos convincentes e originais.\nPadronização (ABNT e normas internacionais) e a importância da precisão nas citações e referências.\n\n\n\n\n\nElaboração de propostas de financiamento: descrição detalhada de recursos humanos, materiais e financeiros.\nEstratégias de revisão por pares (peer review): como responder a revisores e aumentar as chances de aceitação.\nCritérios de transparência e replicabilidade na divulgação dos resultados.\n\n\n\n\n\n\n\nFormulação de uma pergunta de pesquisa sólida baseada nos critérios FINGER.\nApresentação de um esboço de projeto (incluindo cronograma e recursos necessários).\nRedação de um resumo (abstract) seguindo as normas de concisão e clareza para publicação."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#abertura",
+    "href": "slides/aula_1_fundamentos.html#abertura",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Abertura",
+    "text": "Abertura\n\nBoas-vindas ao curso.\nO Encontro 1 foca na Filosofia da Ciência.\nObjetivo: Compreender como o conhecimento é construído e validado.\nA ciência não é apenas técnica, mas fundamentada em protocolos e linguagem."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-2-o-propósito-da-humanidade",
+    "href": "slides/aula_1_fundamentos.html#slide-2-o-propósito-da-humanidade",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 2: O Propósito da Humanidade",
+    "text": "Slide 2: O Propósito da Humanidade\n\nA busca constante por conhecer a verdade e a realidade [2].\nEmprego de diversos métodos para adquirir esse conhecimento [2].\nA pesquisa científica é uma escolha específica para entender uma realidade determinada [2]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-3-o-desafio-da-jornada-científica",
+    "href": "slides/aula_1_fundamentos.html#slide-3-o-desafio-da-jornada-científica",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 3: O Desafio da Jornada Científica",
+    "text": "Slide 3: O Desafio da Jornada Científica\n\nIniciar na pesquisa exige compreender procedimentos essenciais [2].\nNecessidade de assimilar requisitos técnicos e teóricos [2].\nTer discernimento para superar obstáculos complexos ao longo do percurso [2]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-4-o-que-é-ciência-etimologia",
+    "href": "slides/aula_1_fundamentos.html#slide-4-o-que-é-ciência-etimologia",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 4: O que é Ciência? (Etimologia)",
+    "text": "Slide 4: O que é Ciência? (Etimologia)\n\nVem do latim scientia: significa conhecimento ou sabedoria\nBaseia-se em um corpo de princípios e teorias organizadas\nÉ uma construção metódica e sistemática sobre um objeto de estudo"
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-5-ciência-como-especialização",
+    "href": "slides/aula_1_fundamentos.html#slide-5-ciência-como-especialização",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 5: Ciência como Especialização",
+    "text": "Slide 5: Ciência como Especialização\n\nA ciência é vista como um refinamento de potenciais comuns a todos [4].\n“Hipertrofia de capacidades que todos têm” (Rubem Alves) [4].\nTendência à especialização: conhecer cada vez mais de cada vez menos [4]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-6-ciência-vs.-senso-comum",
+    "href": "slides/aula_1_fundamentos.html#slide-6-ciência-vs.-senso-comum",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 6: Ciência vs. Senso Comum",
+    "text": "Slide 6: Ciência vs. Senso Comum\n\nO senso comum é o conhecimento adquirido no convívio social (família, amigos, rua) [5].\nA ciência é considerada uma “metamorfose” do senso comum [5].\nAmbos buscam compreender o mundo para a sobrevivência e bem-estar [6]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-7-diferenças-fundamentais",
+    "href": "slides/aula_1_fundamentos.html#slide-7-diferenças-fundamentais",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 7: Diferenças Fundamentais",
+    "text": "Slide 7: Diferenças Fundamentais\n\nSenso Comum: Formado por sentimentos, desejos, crenças e misticismo [7].\nCiência: Formada através da razão e de forma metodologicamente rigorosa [7].\nA ciência busca excluir emoções e crenças religiosas do contexto investigativo [7]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-8-o-rigor-metodológico",
+    "href": "slides/aula_1_fundamentos.html#slide-8-o-rigor-metodológico",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 8: O Rigor Metodológico",
+    "text": "Slide 8: O Rigor Metodológico\n\nA ciência se diferencia de outras formas de saber pelo seu método rigoroso [8].\nPossui uma dimensão pública, coletiva e sistemática [8].\nPreocupação central com a fidelidade das informações e pretensão de explicar fenômenos [8]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-9-conhecimento-científico-como-produção-coletiva",
+    "href": "slides/aula_1_fundamentos.html#slide-9-conhecimento-científico-como-produção-coletiva",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 9: Conhecimento Científico como Produção Coletiva",
+    "text": "Slide 9: Conhecimento Científico como Produção Coletiva\n\nResultado de uma rede de trocas e interpretações entre pesquisadores [9].\nIniciar uma pesquisa é “entrar em uma conversa que já dura algum tempo” [9].\nExige domínio da linguagem do campo e das referências principais [9]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-10-ciência-um-campo-de-luta",
+    "href": "slides/aula_1_fundamentos.html#slide-10-ciência-um-campo-de-luta",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 10: Ciência: Um Campo de Luta",
+    "text": "Slide 10: Ciência: Um Campo de Luta\n\nA ciência não é apenas um acúmulo linear de “verdades” [4, 10].\nÉ um campo aberto de disputa entre teorias e princípios [4].\nAvança por meio de rupturas e mudanças de concepção de mundo [10]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-11-a-natureza-providória-do-conhecimento",
+    "href": "slides/aula_1_fundamentos.html#slide-11-a-natureza-providória-do-conhecimento",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 11: A Natureza Providória do Conhecimento",
+    "text": "Slide 11: A Natureza Providória do Conhecimento\n\nDeclarações científicas não reivindicam certeza absoluta [11].\nBaseiam-se na evidência presente para determinar o que é mais provável [11].\nO conhecimento é provisório e cercado por graus de incerteza [12]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-12-a-atitude-científica",
+    "href": "slides/aula_1_fundamentos.html#slide-12-a-atitude-científica",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 12: A Atitude Científica",
+    "text": "Slide 12: A Atitude Científica\n\nSubstituição da mitologia e explicações místicas pela razão [13].\nBusca por explicações que se aproximem da realidade das pessoas [3].\nO método é o caminho para o sucesso na elaboração de teorias [14]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-13-dimensões-do-desenho-de-pesquisa",
+    "href": "slides/aula_1_fundamentos.html#slide-13-dimensões-do-desenho-de-pesquisa",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 13: Dimensões do Desenho de Pesquisa",
+    "text": "Slide 13: Dimensões do Desenho de Pesquisa\n\nDimensão Ampla: Diálogo teórico e associações filosóficas/metateóricas [15].\nDimensão Prática: Procedimentos, coleta e análise de dados [15, 16].\nO desenho deve convencer uma audiência de céticos sobre a segurança das conclusões [17]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-14-metateoria-e-filosofia-da-ciência",
+    "href": "slides/aula_1_fundamentos.html#slide-14-metateoria-e-filosofia-da-ciência",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 14: Metateoria e Filosofia da Ciência",
+    "text": "Slide 14: Metateoria e Filosofia da Ciência\n\nA metateoria lida com os elementos constitutivos da atividade científica [18].\nAvalia a capacidade dos procedimentos gerarem conhecimento válido [19].\nSuscita comprometimentos filosóficos em qualquer aplicação de método [20]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-15-o-papel-do-paradigma",
+    "href": "slides/aula_1_fundamentos.html#slide-15-o-papel-do-paradigma",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 15: O Papel do Paradigma",
+    "text": "Slide 15: O Papel do Paradigma\n\nFornece o conjunto de teorias e problemas diretrizes [10].\nDefine o que é racional e possível investigar cientificamente [10].\nCondiciona as formas de saber, muitas vezes de forma inconsciente [21]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-16-bases-epistemológicas-e-ontológicas",
+    "href": "slides/aula_1_fundamentos.html#slide-16-bases-epistemológicas-e-ontológicas",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 16: Bases Epistemológicas e Ontológicas",
+    "text": "Slide 16: Bases Epistemológicas e Ontológicas\n\nToda metodologia está vinculada a pressupostos filosóficos [19, 22].\nAs respostas a questões ontológicas e epistemológicas determinam o método [22].\nPesquisadores experientes e neófitos enfrentam o desafio de definir esses critérios [23]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-17-o-que-é-ontologia",
+    "href": "slides/aula_1_fundamentos.html#slide-17-o-que-é-ontologia",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 17: O que é Ontologia?",
+    "text": "Slide 17: O que é Ontologia?\n\nTeoria sobre a natureza ou essência do fenômeno investigado [20, 24].\nQuestiona: O que existe? Qual a natureza do objeto? [20].\nNa pesquisa qualitativa, foca em múltiplas realidades socialmente construídas [24]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-18-o-que-é-epistemologia",
+    "href": "slides/aula_1_fundamentos.html#slide-18-o-que-é-epistemologia",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 18: O que é Epistemologia?",
+    "text": "Slide 18: O que é Epistemologia?\n\nConhecida como “Teoria do Conhecimento” [20].\nTrata da natureza e das formas de como o conhecimento é adquirido [24].\nQuestiona como o saber pode ser comunicado a outros seres humanos [24]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-19-a-questão-axiológica",
+    "href": "slides/aula_1_fundamentos.html#slide-19-a-questão-axiológica",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 19: A Questão Axiológica",
+    "text": "Slide 19: A Questão Axiológica\n\nTrata do papel dos valores na pesquisa [25].\nReconhece que a pesquisa é influenciada por tradições e ambientes [25].\nO pesquisador deve discutir abertamente os valores que determinam sua narrativa [25]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-20-o-contínuo-naturalismo-vs.-construtivismo",
+    "href": "slides/aula_1_fundamentos.html#slide-20-o-contínuo-naturalismo-vs.-construtivismo",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 20: O Contínuo Naturalismo vs. Construtivismo",
+    "text": "Slide 20: O Contínuo Naturalismo vs. Construtivismo\n\nDois extremos que surgem das respostas às questões metateóricas [26].\nPosições intermediárias matizam as críticas de cada extremo [27].\nImportância da coerência interna entre posição filosófica e escolha metodológica [27]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-21-pressupostos-do-naturalismo",
+    "href": "slides/aula_1_fundamentos.html#slide-21-pressupostos-do-naturalismo",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 21: Pressupostos do Naturalismo",
+    "text": "Slide 21: Pressupostos do Naturalismo\n\nO mundo é real e consiste em entidades particulares individuais [26].\nEsses componentes interagem de forma regular e padronizada [26].\nHumanos experimentam essas interações através da percepção sensorial [26]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-22-epistemologia-e-ontologia-naturalista",
+    "href": "slides/aula_1_fundamentos.html#slide-22-epistemologia-e-ontologia-naturalista",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 22: Epistemologia e Ontologia Naturalista",
+    "text": "Slide 22: Epistemologia e Ontologia Naturalista\n\nOntologia: Realidade formada por unidades atomizadas que existem independente do observador [28].\nEpistemologia: Conhecimento acumulado a posteriori sobre associações [28].\nMetodologia: Busca identificar regularidades do mundo real [28]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-23-pressupostos-do-construtivismo",
+    "href": "slides/aula_1_fundamentos.html#slide-23-pressupostos-do-construtivismo",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 23: Pressupostos do Construtivismo",
+    "text": "Slide 23: Pressupostos do Construtivismo\n\nDuvida da existência de regularidades sociais similares às naturais [29].\nPercepções humanas reconstroem a realidade social por meio de significados [29].\nFenômenos sociais e históricos são produções coletivas [29]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-24-epistemologia-e-ontologia-construtivista",
+    "href": "slides/aula_1_fundamentos.html#slide-24-epistemologia-e-ontologia-construtivista",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 24: Epistemologia e Ontologia Construtivista",
+    "text": "Slide 24: Epistemologia e Ontologia Construtivista\n\nOntologia: Múltiplas realidades e significados dependentes do olhar do investigador [24].\nEpistemologia: Visão do conhecimento como pessoal, subjetivo e único [24].\nExige envolvimento e interdependência entre pesquisador e participantes [24]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-25-objetividade-e-distanciamento",
+    "href": "slides/aula_1_fundamentos.html#slide-25-objetividade-e-distanciamento",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 25: Objetividade e Distanciamento",
+    "text": "Slide 25: Objetividade e Distanciamento\n\nDebate sobre a possibilidade de capturar informações sem interferência do observador [30].\nExtremo 1: Observador perfeitamente distante e observações objetivas [30].\nExtremo 2: Distanciamento impossível; o observador está imerso no mundo social [30]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-26-subjetividade-dos-atores-sociais",
+    "href": "slides/aula_1_fundamentos.html#slide-26-subjetividade-dos-atores-sociais",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 26: Subjetividade dos Atores Sociais",
+    "text": "Slide 26: Subjetividade dos Atores Sociais\n\nImportância da subjetividade na construção do mundo social [30].\nO mundo depende apenas de ações objetivas ou de significados humanos? [30].\nTeorias variam no grau de importância atribuído a essa característica [31]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-27-a-perspectiva-de-émile-durkheim",
+    "href": "slides/aula_1_fundamentos.html#slide-27-a-perspectiva-de-émile-durkheim",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 27: A Perspectiva de Émile Durkheim",
+    "text": "Slide 27: A Perspectiva de Émile Durkheim\n\nAcredita na possibilidade de determinar objetivamente os fenômenos sociais [32].\nCondições sociais têm existência objetiva acima dos indivíduos [32, 33].\nFoca em fatores causais que não se reduzem ao nível individual [33]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-28-a-perspectiva-de-max-weber",
+    "href": "slides/aula_1_fundamentos.html#slide-28-a-perspectiva-de-max-weber",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 28: A Perspectiva de Max Weber",
+    "text": "Slide 28: A Perspectiva de Max Weber\n\nFoca em explicações baseadas em significados e intenções [34].\nObjeto básico: comportamento social intencional com significado subjetivo [34].\nO ordenamento do mundo se dá pela habilidade humana de interpretá-lo intelectualmente [35]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-29-o-embate-durkheim-vs.-weber",
+    "href": "slides/aula_1_fundamentos.html#slide-29-o-embate-durkheim-vs.-weber",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 29: O Embate Durkheim vs. Weber",
+    "text": "Slide 29: O Embate Durkheim vs. Weber\n\nDurkheim: Enfatiza o lado do objeto na relação objetivo-subjetivo [34].\nWeber: Estressa o lado subjetivo e a parcialidade do observador [34, 35].\nConflito clássico que molda as escolas de pensamento nas ciências sociais [36]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-30-o-realismo-na-ciência",
+    "href": "slides/aula_1_fundamentos.html#slide-30-o-realismo-na-ciência",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 30: O Realismo na Ciência",
+    "text": "Slide 30: O Realismo na Ciência\n\nEnfatiza que a pesquisa se dá a partir dos elementos do objeto e da pergunta [37].\nO desenho depende da construção teórica e da relação entre objeto e mundo [37].\nPesquisador deve conjugar dimensão empírica e teórica [37]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-31-o-pragmatismo",
+    "href": "slides/aula_1_fundamentos.html#slide-31-o-pragmatismo",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 31: O Pragmatismo",
+    "text": "Slide 31: O Pragmatismo\n\nRejeita a ideia de um “mundo real” acessível por um único método científico [38].\nComprometimento com a incerteza: conhecimento é relativo e transitório [39].\nO importante é se a pesquisa contribui para encontrar o que o pesquisador quer saber [39, 40]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-32-thomas-kuhn-e-a-ciência-normal",
+    "href": "slides/aula_1_fundamentos.html#slide-32-thomas-kuhn-e-a-ciência-normal",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 32: Thomas Kuhn e a Ciência Normal",
+    "text": "Slide 32: Thomas Kuhn e a Ciência Normal\n\nCiência Normal: Trabalho científico baseado em regras e práticas consensuais [41].\nFase em que pressupostos de uma disciplina funcionam para todos os cientistas [41].\nO paradigma define o que é racional investigar [10]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-33-anomalias-e-crise",
+    "href": "slides/aula_1_fundamentos.html#slide-33-anomalias-e-crise",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 33: Anomalias e Crise",
+    "text": "Slide 33: Anomalias e Crise\n\nAnomalias: Ocorrências que não podem ser explicadas pelo paradigma vigente [42].\nAcúmulo de anomalias gera a fase de “pesquisa extraordinária” [41].\nComeça a pesar contra o paradigma atual, gerando instabilidade [41]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-34-revoluções-científicas",
+    "href": "slides/aula_1_fundamentos.html#slide-34-revoluções-científicas",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 34: Revoluções Científicas",
+    "text": "Slide 34: Revoluções Científicas\n\nO conhecimento não é linear, mas ocorre por “mudanças de paradigma” [10].\nAdoção de um novo paradigma atrai seguidores e enfrenta resistência [41].\nO triunfo de uma nova verdade ocorre quando a geração antiga desaparece [43]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-35-consequências-da-revolução",
+    "href": "slides/aula_1_fundamentos.html#slide-35-consequências-da-revolução",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 35: Consequências da Revolução",
+    "text": "Slide 35: Consequências da Revolução\n\nO novo paradigma torna-se dominante e é tratado como “normal” [41].\nManuais didáticos passam a ensiná-lo, obscurecendo o processo revolucionário [41].\nO paradigma é um fenômeno emergente de fatores sociais e científicos [43]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-36-exemplos-de-mudanças-de-paradigma",
+    "href": "slides/aula_1_fundamentos.html#slide-36-exemplos-de-mudanças-de-paradigma",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 36: Exemplos de Mudanças de Paradigma",
+    "text": "Slide 36: Exemplos de Mudanças de Paradigma\n\nCosmologia Ptolomaica para Copernicana [44].\nMecânica Aristotélica para Mecânica Clássica [44].\nTeleologia para Seleção Natural (Darwin) [44].\nÉter luminífero para radiação eletromagnética [44]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-37-paradigmas-e-ciências-sociais",
+    "href": "slides/aula_1_fundamentos.html#slide-37-paradigmas-e-ciências-sociais",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 37: Paradigmas e Ciências Sociais",
+    "text": "Slide 37: Paradigmas e Ciências Sociais\n\nKuhn limitou suas teorias às ciências naturais (“ciências maduras”) [45].\nExcluiu explicitamente as ciências sociais (“protociências”) [45].\nNo entanto, seu modelo é amplamente aplicado em economia e humanidades hoje [45]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-38-imre-lakatos-e-programas-de-pesquisa",
+    "href": "slides/aula_1_fundamentos.html#slide-38-imre-lakatos-e-programas-de-pesquisa",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 38: Imre Lakatos e Programas de Pesquisa",
+    "text": "Slide 38: Imre Lakatos e Programas de Pesquisa\n\nPropõe a coexistência de diferentes programas de pesquisa [46].\nHipóteses Centrais: Pressupostos teóricos que sustentam o programa (não testáveis diretamente) [46].\nCinturão Protetor: Hipóteses auxiliares passíveis de refutação e descarte [46]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-39-síntese-da-relação-metateórica",
+    "href": "slides/aula_1_fundamentos.html#slide-39-síntese-da-relação-metateórica",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 39: Síntese da Relação Metateórica",
+    "text": "Slide 39: Síntese da Relação Metateórica\n\nOntologia e Epistemologia alicerçam as teorias [47, 48].\nTeorias guiam os métodos de análise e tipos de explicação [47].\nEsse conjunto completo conduz à metodologia e ao desenho de pesquisa final [47]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-40-conclusão-do-encontro-1",
+    "href": "slides/aula_1_fundamentos.html#slide-40-conclusão-do-encontro-1",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 40: Conclusão do Encontro 1",
+    "text": "Slide 40: Conclusão do Encontro 1\n\nA filosofia da ciência não é apenas debate abstrato; ela molda a prática [48, 49].\nCompreender paradigmas evita a acomodação em modelos insustentáveis [50].\nPróximo Encontro: Lógica, Indução, Dedução e Falseabilidade."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#propósito-da-humanidade",
+    "href": "slides/aula_1_fundamentos.html#propósito-da-humanidade",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Propósito da Humanidade",
+    "text": "Propósito da Humanidade\n\n\n\nConhecer a verdade e a realidade\nEmprego de diversos métodos\nA ciência é um método"
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#a-mais-antiga-busca-da-humanidade",
+    "href": "slides/aula_1_fundamentos.html#a-mais-antiga-busca-da-humanidade",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "A mais antiga busca da Humanidade",
+    "text": "A mais antiga busca da Humanidade\n\n\n\nConhecer a verdade e a realidade\nEmprego de diversos métodos\nA ciência é um método\n\n\n\n\n\nhttps://brasilescola.uol.com.br/quimica/metodo-cientifico.htm"
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#o-desafio-da-jornada-científica",
+    "href": "slides/aula_1_fundamentos.html#o-desafio-da-jornada-científica",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "O Desafio da Jornada Científica",
+    "text": "O Desafio da Jornada Científica\n\n\n\nIniciar na pesquisa exige compreender procedimentos essenciais\nNecessidade de assimilar requisitos técnicos e teóricos\nTer discernimento para superar obstáculos complexos ao longo do percurso"
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#a-jornada-científica",
+    "href": "slides/aula_1_fundamentos.html#a-jornada-científica",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "A Jornada Científica",
+    "text": "A Jornada Científica\n\n\n\nIniciar na pesquisa exige compreender procedimentos essenciais\nNecessidade de assimilar requisitos técnicos e teóricos\nTer discernimento para superar obstáculos complexos ao longo do percurso"
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#que-é-ciência-etimologia",
+    "href": "slides/aula_1_fundamentos.html#que-é-ciência-etimologia",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "que é Ciência? (Etimologia)",
+    "text": "que é Ciência? (Etimologia)\n\nVem do latim scientia: significa conhecimento ou sabedoria\nBaseia-se em um corpo de princípios e teorias organizadas\nÉ uma construção metódica e sistemática sobre um objeto de estudo"
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#o-que-é-ciência-etimologia",
+    "href": "slides/aula_1_fundamentos.html#o-que-é-ciência-etimologia",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "O que é Ciência? (Etimologia)",
+    "text": "O que é Ciência? (Etimologia)\n\nVem do latim scientia: significa conhecimento ou sabedoria\nBaseia-se em um corpo de princípios e teorias organizadas\nÉ uma construção metódica e sistemática sobre um objeto de estudo"
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#ciência-como-especialização",
+    "href": "slides/aula_1_fundamentos.html#ciência-como-especialização",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Ciência como Especialização",
+    "text": "Ciência como Especialização\n\n\n\nRefinamento de potenciais comuns a todos\n“Hipertrofia de capacidades que todos têm” (Rubem Alves)\nTendência à especialização: conhecer cada vez mais de cada vez menos"
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#ciência-vs.-senso-comum",
+    "href": "slides/aula_1_fundamentos.html#ciência-vs.-senso-comum",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Ciência vs. Senso Comum",
+    "text": "Ciência vs. Senso Comum\n\n\nSenso Comun\n\nO senso comum é o conhecimento adquirido no convívio social (família, amigos, rua)\nSenso Comum: Formado por sentimentos, desejos, crenças e misticismo\n\n\nCiência\n\nCiência: Formada através da “razão-pura” e de forma metodologicamente rigorosa\nA ciência busca excluir emoções e crenças religiosas do contexto investigativo"
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#diferenças-fundamentais",
+    "href": "slides/aula_1_fundamentos.html#diferenças-fundamentais",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "## Diferenças Fundamentais",
+    "text": "## Diferenças Fundamentais\n\nCiência: Formada através da razão e de forma metodologicamente rigorosa [7].\nA ciência busca excluir emoções e crenças religiosas do contexto investigativo [7]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#ambos-buscam-compreender-o-mundo-para-a-sobrevivência-e-bem-estar",
+    "href": "slides/aula_1_fundamentos.html#ambos-buscam-compreender-o-mundo-para-a-sobrevivência-e-bem-estar",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Ambos buscam compreender o mundo para a sobrevivência e bem-estar",
+    "text": "Ambos buscam compreender o mundo para a sobrevivência e bem-estar"
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#a-reificação-do-método",
+    "href": "slides/aula_1_fundamentos.html#a-reificação-do-método",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "A reificação do método",
+    "text": "A reificação do método\n\n\n\nO método definie ciência\nOferece uma dimensão pública, coletiva e sistemática\nPrecisão, replicação, objetividade"
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#ciência-como-fenômeno-social",
+    "href": "slides/aula_1_fundamentos.html#ciência-como-fenômeno-social",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Ciência como fenômeno social",
+    "text": "Ciência como fenômeno social\n\n\n\nRede de trocas e interpretações entre pesquisadores\nIniciar uma pesquisa é “entrar em uma conversa que já dura algum tempo”\nExige domínio da linguagem do campo e das referências principais"
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#ciência-um-campo-de-luta",
+    "href": "slides/aula_1_fundamentos.html#ciência-um-campo-de-luta",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Ciência: Um Campo de Luta",
+    "text": "Ciência: Um Campo de Luta"
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#slide-11-a-natureza-provisória-do-conhecimento",
+    "href": "slides/aula_1_fundamentos.html#slide-11-a-natureza-provisória-do-conhecimento",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Slide 11: A Natureza Provisória do Conhecimento",
+    "text": "Slide 11: A Natureza Provisória do Conhecimento\n\nDeclarações científicas não reivindicam certeza absoluta [11].\nBaseiam-se na evidência presente para determinar o que é mais provável [11].\nO conhecimento é provisório e cercado por graus de incerteza [12]."
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#ciência-um-campo-de-batalha",
+    "href": "slides/aula_1_fundamentos.html#ciência-um-campo-de-batalha",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Ciência: Um campo de batalha",
+    "text": "Ciência: Um campo de batalha"
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#a-natureza-provisória-do-conhecimento",
+    "href": "slides/aula_1_fundamentos.html#a-natureza-provisória-do-conhecimento",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "A Natureza Provisória do Conhecimento",
+    "text": "A Natureza Provisória do Conhecimento\n\nDeclarações científicas não (deveriam) reivindicam certeza absoluta\nBaseiam-se na “melhor” evidência presente para determinar o que é mais provável\nO conhecimento é provisório e cercado por graus de incerteza"
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#section",
+    "href": "slides/aula_1_fundamentos.html#section",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "",
+    "text": "{.fig-align=center}"
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#por-uma-atitude-científica",
+    "href": "slides/aula_1_fundamentos.html#por-uma-atitude-científica",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Por uma atitude científica",
+    "text": "Por uma atitude científica\n\nAbertura às críticas\nBusca por explicações que se aproximem da realidade das pessoas\nO método é o caminho para o sucesso na elaboração de teorias"
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html#fim-da-parte-i",
+    "href": "slides/aula_1_fundamentos.html#fim-da-parte-i",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "Fim da parte I",
+    "text": "Fim da parte I"
   }
 ]

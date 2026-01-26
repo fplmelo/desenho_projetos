@@ -1,0 +1,277 @@
+---
+title: "Fundamentos e Paradigmas Científicos"
+author: "Felipe Melo"
+subtitle: ""
+format: revealjs
+editor: source
+#footer: "Metodologia e Prática da Pesquisa Científica - PPGBV/UFPE"
+chalkboard: true
+
+---
+
+## Abertura
+:::{.incremental}
+- Boas-vindas ao curso.
+- O Encontro 1 foca na **Filosofia da Ciência**.
+- Objetivo: Compreender como o conhecimento é construído e validado.
+- A ciência não é apenas técnica, mas fundamentada em protocolos e linguagem.
+:::
+
+## A mais antiga busca da Humanidade
+
+:::: {.columns}
+::: {.column}
+- Conhecer a **verdade** e a **realidade**
+
+- Emprego de diversos métodos
+
+- A **ciência** é um método
+:::
+::: {.column}
+
+![https://brasilescola.uol.com.br/quimica/metodo-cientifico.htm](https://s1.static.brasilescola.uol.com.br/be/2023/03/ilustracao-traz-as-etapas-do-metodo-cientifico-com-uma-cientista-negra-fazendo-cada-processo.jpg)
+
+:::
+::::
+
+## A Jornada Científica
+:::{.columns}
+:::{.column}
+:::{.incremental}
+- Iniciar na pesquisa exige compreender procedimentos essenciais
+- Necessidade de assimilar requisitos técnicos e teóricos 
+- Ter discernimento para superar obstáculos complexos ao longo do percurso 
+:::
+:::
+:::{.column}
+
+![](https://faculty.cc.gatech.edu/~turk/science_125/science_125.gif){width="80%"}
+:::
+:::
+
+## O que é Ciência? (Etimologia)
+- Vem do latim *scientia*: significa **conhecimento** ou **sabedoria** 
+- Baseia-se em um corpo de princípios e teorias organizadas 
+- É uma construção metódica e sistemática sobre um objeto de estudo 
+
+![](https://i0.wp.com/allinonehighschool.com/wp-content/uploads/2018/01/scientificmethod2.png){fig-align="center" width="150%"}
+
+## Ciência como Especialização
+:::{.columns}
+:::{.column}
+- Refinamento de potenciais comuns a todos 
+
+- "Hipertrofia de capacidades que todos têm" (Rubem Alves) 
+
+- Tendência à especialização: conhecer cada vez mais de cada vez menos 
+:::
+:::{.column}
+
+<iframe width="1128" height="635" src="https://www.youtube.com/embed/EWwhQB3TKXA" title="Contact - Opening Scene (HD)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+:::
+:::
+
+## Ciência vs. Senso Comum
+:::{.columns}
+:::{.column}
+
+### Senso Comun
+- O **senso comum** é o conhecimento adquirido no convívio social (família, amigos, rua)
+-  **Senso Comum**: Formado por sentimentos, desejos, crenças e misticismo
+:::
+:::{.column}
+
+### Ciência
+
+- **Ciência**: Formada através da "razão-pura" e de forma metodologicamente rigorosa 
+- A **ciência** busca excluir emoções e crenças religiosas do contexto investigativo
+:::
+:::
+## Ambos buscam compreender o mundo para a sobrevivência e bem-estar{.center}
+
+
+## A reificação do método
+:::{.columns}
+:::{.column}
+- O **método** definie ciência
+- Oferece uma dimensão **pública**, **coletiva** e **sistemática** 
+- Precisão, replicação, objetividade 
+:::
+:::{.column}
+
+![](https://www.simplypsychology.org/wp-content/uploads/scientific-method.jpg)
+:::
+:::
+
+## Ciência como fenômeno social
+:::{.columns}
+:::{.column}
+- Rede de trocas e interpretações entre pesquisadores 
+- Iniciar uma pesquisa é "entrar em uma conversa que já dura algum tempo" 
+- Exige domínio da linguagem do campo e das referências principais
+:::
+:::{.column}
+![](https://media.gettyimages.com/id/814283064/vector/scientific-debate.jpg?s=1024x1024&w=gi&k=20&c=GfHXAqiuBH8h9AAE-KTFQCpIDGPcSpz7KyHrnUIV9kg=)
+:::
+:::
+
+## Ciência: Um campo de batalha
+
+![](https://skepticalscience.com/pics/climate-summit.jpg){fig-align=center}
+
+## A Natureza Provisória do Conhecimento
+- Declarações científicas não (deveriam) reivindicam certeza absoluta 
+- Baseiam-se na "melhor" evidência presente para determinar o que é **mais provável**
+- O conhecimento é provisório e cercado por graus de incerteza
+
+## 
+![](https://weadapt.org/wp-content/uploads/2023/04/ipcc_scenarios.png){fig-align=center}
+
+## Por uma atitude científica
+- Abertura às **críticas**
+- Busca por explicações que se aproximem da **realidade das pessoas**
+- O **método** é o caminho para o sucesso na elaboração de teorias
+
+## Fim da parte I{.center}
+
+## Slide 13: Dimensões do Desenho de Pesquisa
+- **Dimensão Ampla**: Diálogo teórico e associações filosóficas/metateóricas [15].
+- **Dimensão Prática**: Procedimentos, coleta e análise de dados [15, 16].
+- O desenho deve convencer uma audiência de céticos sobre a segurança das conclusões [17].
+
+## Slide 14: Metateoria e Filosofia da Ciência
+- A metateoria lida com os elementos constitutivos da atividade científica [18].
+- Avalia a capacidade dos procedimentos gerarem conhecimento válido [19].
+- Suscita comprometimentos filosóficos em qualquer aplicação de método [20].
+
+## Slide 15: O Papel do Paradigma
+- Fornece o conjunto de teorias e problemas diretrizes [10].
+- Define o que é **racional** e **possível** investigar cientificamente [10].
+- Condiciona as formas de saber, muitas vezes de forma inconsciente [21].
+
+## Slide 16: Bases Epistemológicas e Ontológicas
+- Toda metodologia está vinculada a pressupostos filosóficos [19, 22].
+- As respostas a questões ontológicas e epistemológicas determinam o método [22].
+- Pesquisadores experientes e neófitos enfrentam o desafio de definir esses critérios [23].
+
+## Slide 17: O que é Ontologia?
+- Teoria sobre a natureza ou essência do fenômeno investigado [20, 24].
+- Questiona: O que existe? Qual a natureza do objeto? [20].
+- Na pesquisa qualitativa, foca em múltiplas realidades socialmente construídas [24].
+
+## Slide 18: O que é Epistemologia?
+- Conhecida como "Teoria do Conhecimento" [20].
+- Trata da natureza e das formas de como o conhecimento é adquirido [24].
+- Questiona como o saber pode ser comunicado a outros seres humanos [24].
+
+## Slide 19: A Questão Axiológica
+- Trata do papel dos **valores** na pesquisa [25].
+- Reconhece que a pesquisa é influenciada por tradições e ambientes [25].
+- O pesquisador deve discutir abertamente os valores que determinam sua narrativa [25].
+
+## Slide 20: O Contínuo Naturalismo vs. Construtivismo
+- Dois extremos que surgem das respostas às questões metateóricas [26].
+- Posições intermediárias matizam as críticas de cada extremo [27].
+- Importância da coerência interna entre posição filosófica e escolha metodológica [27].
+
+## Slide 21: Pressupostos do Naturalismo
+- O mundo é real e consiste em entidades particulares individuais [26].
+- Esses componentes interagem de forma regular e padronizada [26].
+- Humanos experimentam essas interações através da percepção sensorial [26].
+
+## Slide 22: Epistemologia e Ontologia Naturalista
+- **Ontologia**: Realidade formada por unidades atomizadas que existem independente do observador [28].
+- **Epistemologia**: Conhecimento acumulado *a posteriori* sobre associações [28].
+- **Metodologia**: Busca identificar regularidades do mundo real [28].
+
+## Slide 23: Pressupostos do Construtivismo
+- Duvida da existência de regularidades sociais similares às naturais [29].
+- Percepções humanas reconstroem a realidade social por meio de significados [29].
+- Fenômenos sociais e históricos são produções coletivas [29].
+
+## Slide 24: Epistemologia e Ontologia Construtivista
+- **Ontologia**: Múltiplas realidades e significados dependentes do olhar do investigador [24].
+- **Epistemologia**: Visão do conhecimento como pessoal, subjetivo e único [24].
+- Exige envolvimento e interdependência entre pesquisador e participantes [24].
+
+## Slide 25: Objetividade e Distanciamento
+- Debate sobre a possibilidade de capturar informações sem interferência do observador [30].
+- **Extremo 1**: Observador perfeitamente distante e observações objetivas [30].
+- **Extremo 2**: Distanciamento impossível; o observador está imerso no mundo social [30].
+
+## Slide 26: Subjetividade dos Atores Sociais
+- Importância da subjetividade na construção do mundo social [30].
+- O mundo depende apenas de ações objetivas ou de significados humanos? [30].
+- Teorias variam no grau de importância atribuído a essa característica [31].
+
+## Slide 27: A Perspectiva de Émile Durkheim
+- Acredita na possibilidade de determinar **objetivamente** os fenômenos sociais [32].
+- Condições sociais têm existência objetiva acima dos indivíduos [32, 33].
+- Foca em fatores causais que não se reduzem ao nível individual [33].
+
+## Slide 28: A Perspectiva de Max Weber
+- Foca em explicações baseadas em **significados e intenções** [34].
+- Objeto básico: comportamento social intencional com significado subjetivo [34].
+- O ordenamento do mundo se dá pela habilidade humana de interpretá-lo intelectualmente [35].
+
+## Slide 29: O Embate Durkheim vs. Weber
+- **Durkheim**: Enfatiza o lado do objeto na relação objetivo-subjetivo [34].
+- **Weber**: Estressa o lado subjetivo e a parcialidade do observador [34, 35].
+- Conflito clássico que molda as escolas de pensamento nas ciências sociais [36].
+
+## Slide 30: O Realismo na Ciência
+- Enfatiza que a pesquisa se dá a partir dos elementos do objeto e da pergunta [37].
+- O desenho depende da construção teórica e da relação entre objeto e mundo [37].
+- Pesquisador deve conjugar dimensão empírica e teórica [37].
+
+## Slide 31: O Pragmatismo
+- Rejeita a ideia de um "mundo real" acessível por um único método científico [38].
+- Comprometimento com a **incerteza**: conhecimento é relativo e transitório [39].
+- O importante é se a pesquisa contribui para encontrar o que o pesquisador quer saber [39, 40].
+
+## Slide 32: Thomas Kuhn e a Ciência Normal
+- **Ciência Normal**: Trabalho científico baseado em regras e práticas consensuais [41].
+- Fase em que pressupostos de uma disciplina funcionam para todos os cientistas [41].
+- O paradigma define o que é racional investigar [10].
+
+## Slide 33: Anomalias e Crise
+- **Anomalias**: Ocorrências que não podem ser explicadas pelo paradigma vigente [42].
+- Acúmulo de anomalias gera a fase de "pesquisa extraordinária" [41].
+- Começa a pesar contra o paradigma atual, gerando instabilidade [41].
+
+## Slide 34: Revoluções Científicas
+- O conhecimento não é linear, mas ocorre por "mudanças de paradigma" [10].
+- Adoção de um novo paradigma atrai seguidores e enfrenta resistência [41].
+- O triunfo de uma nova verdade ocorre quando a geração antiga desaparece [43].
+
+## Slide 35: Consequências da Revolução
+- O novo paradigma torna-se dominante e é tratado como "normal" [41].
+- Manuais didáticos passam a ensiná-lo, obscurecendo o processo revolucionário [41].
+- O paradigma é um fenômeno emergente de fatores sociais e científicos [43].
+
+## Slide 36: Exemplos de Mudanças de Paradigma
+- Cosmologia Ptolomaica para Copernicana [44].
+- Mecânica Aristotélica para Mecânica Clássica [44].
+- Teleologia para Seleção Natural (Darwin) [44].
+- Éter luminífero para radiação eletromagnética [44].
+
+## Slide 37: Paradigmas e Ciências Sociais
+- Kuhn limitou suas teorias às ciências naturais ("ciências maduras") [45].
+- Excluiu explicitamente as ciências sociais ("protociências") [45].
+- No entanto, seu modelo é amplamente aplicado em economia e humanidades hoje [45].
+
+## Slide 38: Imre Lakatos e Programas de Pesquisa
+- Propõe a coexistência de diferentes programas de pesquisa [46].
+- **Hipóteses Centrais**: Pressupostos teóricos que sustentam o programa (não testáveis diretamente) [46].
+- **Cinturão Protetor**: Hipóteses auxiliares passíveis de refutação e descarte [46].
+
+## Slide 39: Síntese da Relação Metateórica
+- Ontologia e Epistemologia alicerçam as teorias [47, 48].
+- Teorias guiam os métodos de análise e tipos de explicação [47].
+- Esse conjunto completo conduz à metodologia e ao desenho de pesquisa final [47].
+
+## Slide 40: Conclusão do Encontro 1
+- A filosofia da ciência não é apenas debate abstrato; ela molda a prática [48, 49].
+- Compreender paradigmas evita a acomodação em modelos insustentáveis [50].
+- Próximo Encontro: Lógica, Indução, Dedução e Falseabilidade.

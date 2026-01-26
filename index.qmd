@@ -1,8 +1,8 @@
 ---
-title: "Ecologia de Paisagens"
+title: "Desenho de Projetos"
 #title-block-banner: "#9e043d"
-subtitle: "Biodiversidade, pessoas e processos no espaço"
-details: "BO-304 <br> 2026.1 <br> Centro de Biociências <br> Universidade Federal de Pernambuco"
+subtitle: "Iniciando sua jornada pela Pós-Graduação"
+details: "2026.1 <br> PPGBV/PPGEtno <br> Universidade Federal de Pernambuco"
 sidebar: false
 toc: false
 page-layout: article

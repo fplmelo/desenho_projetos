@@ -14,9 +14,9 @@ instructor:
 course:
   number: "BO304"
   semester: "2026.1"
-  days: "Quinta-feira"
-  time: "10-13h"
-  location: "à confirmar"
+  days: "Segundas-feiras e Quartas-feiras"
+  time: "8-12h  & 14-18h"
+  location: "PPGBV"
   dates: "2026.1"
   github: "https://github.com/fplmelo/ecologia_paisagens"
   url: "https://fplmelo.github.io/ecologia_paisagens/"

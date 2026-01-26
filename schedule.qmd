@@ -10,58 +10,72 @@ format:
 
 
 
-### Módulo I: Fundamentos e Estrutura (12h)
+## Cronograma do Curso
 
-- Semana 1: Origens da Ecologia de Paisagens e o conceito de Escala (Grão e Extensão).
+### Módulo 1: Filosofia da Ciência (Encontros 1 e 2)
 
-- Semana 2: O Modelo Mancha-Corredor-Matriz e o conceito de Heterogeneidade.
+#### Encontro 1: Fundamentos e Paradigmas Científicos
 
-- Semana 3: Dinâmica de Perturbação: Como eventos naturais e antrópicos moldam o mosaico.
+* A ciência como fenômeno social e a teoria dos paradigmas de Thomas Kuhn: ciência normal, anomalias e revoluções científicas.
+  
+* Discussão sobre objetividade e subjetividade no distanciamento do observador e o papel da percepção humana na construção da realidade.
+    
+* Bases epistemológicas e ontológicas da pesquisa: naturalismo versus construtivismo.
 
-- Semana 4: Teoria de Biogeografia de Ilhas e sua aplicação em paisagens fragmentadas.
+#### Encontro 2: Lógica e Métodos de Abordagem
 
-### Módulo II: Processos e Fluxos (12h)
+* Diferenciação entre o método indutivo (do específico para o geral) e o método dedutivo (teste de hipóteses a partir da teoria).
 
-- Semana 5: Efeito de Borda: Mudanças bióticas e abióticas nas interfaces.
+* O papel da falseabilidade em Popper e os programas de pesquisa de Lakatos.
 
-- Semana 6: Conectividade Ecológica vs. Conexidade Física.
+* A relação entre teoria, explicação e causalidade na ciência.
 
-- Semana 7: Dinâmicas de Metapopulações e a importância da Matriz na permeabilidade.
+### Módulo 2: Elaboração de Projetos de Pesquisa (Encontros 3 e 4)
 
-- Semana 8: Fluxos de energia e ciclagem de nutrientes no nível de paisagem.
+#### Encontro 3: A Pergunta de Pesquisa e a Estrutura do Projeto
 
-### Módulo III: Métricas e Análise Espacial (9h)
-Abordagem prática e quantitativa (pode ser realizada em laboratório).
+* A arte de elaborar uma pergunta de pesquisa: clareza, relevância e o uso do acrônimo FINGER (Viável, Interessante, Novo, Ético e Relevante).
 
-- Semana 9: Tipos de Métricas: Composição (o que há) vs. Configuração (como está arranjado).
+* Elementos obrigatórios de um projeto: delimitação do tema, problematização, justificativa e definição de objetivos gerais e específicos.
 
-- Semana 10: Prática de SIG: Introdução ao cálculo de índices (Área, Isolamento, Forma) via software (QGIS/R).
+* Referencial teórico: como realizar uma revisão de literatura que demonstre o "estado da arte" e sustente as hipóteses.
 
-- Semana 11: Interpretação de dados: O que as métricas nos dizem sobre a saúde do ecossistema?
+#### Encontro 4: Delineamento Metodológico e Ética
 
-## Módulo IV: Ecologia Política e Gestão (12h)
-A dimensão humana e o planejamento.
+* Escolha do método: pesquisa com N-grande (orientada por variáveis e busca de efeitos médios) versus pesquisa com N-pequeno (orientada por casos e profundidade).
 
-- Semana 12: Ecologia Política: Conflitos de terra, poder e a construção social da paisagem.
+* Técnicas de coleta de dados (experimentos, observação e amostragem) e estratégias de rigor como a triangulação.
 
-- Semana 13: Planejamento Territorial: Áreas Protegidas, Corredores de Biodiversidade e o Código Florestal.
+* Ética em pesquisa: os princípios de beneficência, justiça e respeito às pessoas; a importância do Consentimento Livre e Esclarecido (TCLE).
 
-- Semana 14: Restauração em Nível de Paisagem e Serviços Ecossistêmicos.
+### Módulo 3: Escrita de Manuscritos e Propostas de Financiamento (Encontros 5 e 6)
 
-- Semana 15: Apresentação de Projeto Final: Diagnóstico e Proposta para uma Paisagem Real.
+#### Encontro 5: Escrita Científica de Alto Impacto
 
-## Dinâmica do curso
+* Estrutura do artigo científico: elementos pré-textuais (título estratégico, abstract e palavras-chave) e textuais (introdução, desenvolvimento/metodologia e conclusão).
 
-Prática Integrada: As métricas não são ensinadas apenas como matemática, mas aplicadas diretamente na análise de um estudo de caso que será usado no projeto final.
+* O processo de retextualização e a voz do autor: como transformar dados em argumentos convincentes e originais.
 
-Foco na Ecologia Política: Em vez de uma unidade puramente teórica, a Ecologia Política é discutida através de estudos de caso brasileiros (ex: expansão da fronteira agrícola ou urbanização).
+* Padronização (ABNT e normas internacionais) e a importância da precisão nas citações e referências.
 
-## Critérios de Avaliação
-- Atividades Práticas (30%): Relatórios de análise de métricas espaciais.
+#### Encontro 6: Financiamento e Divulgação Científica
+    
+* Elaboração de propostas de financiamento: descrição detalhada de recursos humanos, materiais e financeiros.
+ 
+* Estratégias de revisão por pares (peer review): como responder a revisores e aumentar as chances de aceitação.
+ 
+* Critérios de transparência e replicabilidade na divulgação dos resultados.
 
-- Participação em Seminários (20%): Discussão sobre textos de Ecologia Política.
+--- 
 
-- Projeto de Paisagem (50%): Um trabalho escrito e apresentação onde o aluno identifica um problema de fragmentação em uma área real e propõe soluções baseadas em métricas e políticas públicas.
+### Critérios de Avaliação
+
+1. Formulação de uma pergunta de pesquisa sólida baseada nos critérios FINGER.
+
+2. Apresentação de um esboço de projeto (incluindo cronograma e recursos necessários).
+
+3. Redação de um resumo (abstract) seguindo as normas de concisão e clareza para publicação.
+
 
 
 
