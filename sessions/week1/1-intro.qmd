@@ -14,7 +14,7 @@ format:
 
 ## Slides desta aula
 
-<iframe name="aula-1" width="600px" height="400px" src="https://fplmelo.github.io/desenho_projetos/slides/aula1_fundamentos.html#/title-slide" scrolling="no" marginwidth="0" marginheight="0" style="border:0px none #ffffff;"></iframe>
+<iframe name="aula-1" width="600px" height="400px" src="https://fplmelo.github.io/desenho_projetos/slides/aula_1_fundamentos.html#/title-slide" scrolling="no" marginwidth="0" marginheight="0" style="border:0px none #ffffff;"></iframe>
 
 ## 1. Ciência vs. Senso Comum
 A ciência é uma **metamorfose do senso comum**, refinando capacidades que todos possuímos [1]. Enquanto o senso comum é formado por sentimentos e misticismo, a ciência exige **razão e rigor metodológico** para excluir a subjetividade do pesquisador [2, 3].
@@ -52,8 +52,6 @@ O desenho de pesquisa é o plano para usar evidências para fazer inferências [
 
 ## Referências Principais (Links Ativos)
 
-*   [**Kuhn: paradigmas científicos**](https://ensaioenotas.com/2022/11/03/kuhn-paradigmas-cientificos/) - Resumo sobre a Estrutura das Revoluções Científicas [5].
-*   [**Desenho de Pesquisa (Glauco Peres da Silva)**](https://repositorio.enap.gov.br/handle/1/3277) - Manual completo sobre lógica e desenho nas ciências sociais [25, 26].
-*   [**Critérios de Rigor na Pesquisa Qualitativa (Herivelto Moreira)**](https://periodicos.utfpr.edu.br/rbect/article/view/6977) - Discussão sobre validade e credibilidade [27, 28].
-*   [**Metodologia da Pesquisa Científica (Campus Virtual Fiocruz)**](https://campusvirtual.fiocruz.br/portal/) - Fundamentos aplicados à saúde pública [29, 30].
-*   [**A Arte de Elaborar uma Pergunta de Pesquisa (Nursing)**](https://www.nursing.com.br) - Guia sobre critérios FINGER e clareza científica [31, 32].
+*   [**Kuhn: paradigmas científicos**](https://ensaiosenotas.com/2022/11/03/kuhn/) - Resumo sobre a Estrutura das Revoluções Científicas 
+*   [**A estrutura das revoluções científicas**](https://ppec.ufms.br/files/2020/10/A-estrutura-das-revolu%C3%A7%C3%B5es-cient%C3%ADficas-Kuhn.pdf) - Livro clássico de autoria de Thomas Khun
+*   [**Verbete Wikipedia sobre o livro de Thomas Khun**](https://pt.wikipedia.org/wiki/A_Estrutura_das_Revolu%C3%A7%C3%B5es_Cient%C3%ADficas) - Verbete introdutório às ideias de Thomas Khun sobre o desenvolvimento da Ciência

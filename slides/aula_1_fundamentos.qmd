@@ -7,6 +7,8 @@ editor: source
 #footer: "Metodologia e Prática da Pesquisa Científica - PPGBV/UFPE"
 chalkboard: true
 scrollable: true
+fullscreen: true
+
 
 ---
 
