@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Felipe Melo">
-<meta name="dcterms.date" content="2026-01-26">
+<meta name="dcterms.date" content="2026-01-27">
 
-<title>Semana 2: O Modelo Mancha-Corredor-Matriz e a Heterogeneidade</title>
+<title>Semana 2: Lógica e Métodos de Abordagem</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -74,6 +74,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -138,15 +167,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#plano-de-aula-semana-2" id="toc-plano-de-aula-semana-2" class="nav-link active" data-scroll-target="#plano-de-aula-semana-2">Plano de Aula: Semana 2</a></li>
-  <li><a href="#slides-desta-aula" id="toc-slides-desta-aula" class="nav-link" data-scroll-target="#slides-desta-aula">Slides desta aula</a></li>
-  <li><a href="#resumos-dos-principais-pontos" id="toc-resumos-dos-principais-pontos" class="nav-link" data-scroll-target="#resumos-dos-principais-pontos">Resumos dos Principais Pontos</a>
+  <li><a href="#indução-vs.-dedução-as-engrenagens-do-pensamento" id="toc-indução-vs.-dedução-as-engrenagens-do-pensamento" class="nav-link active" data-scroll-target="#indução-vs.-dedução-as-engrenagens-do-pensamento">1. Indução vs.&nbsp;Dedução: As Engrenagens do Pensamento</a>
   <ul class="collapse">
-  <li><a href="#o-modelo-mancha-corredor-matriz-pcm" id="toc-o-modelo-mancha-corredor-matriz-pcm" class="nav-link" data-scroll-target="#o-modelo-mancha-corredor-matriz-pcm">1. O Modelo Mancha-Corredor-Matriz (PCM)</a></li>
-  <li><a href="#o-conceito-de-heterogeneidade" id="toc-o-conceito-de-heterogeneidade" class="nav-link" data-scroll-target="#o-conceito-de-heterogeneidade">2. O Conceito de Heterogeneidade</a></li>
-  <li><a href="#a-paisagem-sob-a-lente-do-organismo" id="toc-a-paisagem-sob-a-lente-do-organismo" class="nav-link" data-scroll-target="#a-paisagem-sob-a-lente-do-organismo">3. A Paisagem sob a Lente do Organismo</a></li>
+  <li><a href="#método-indutivo-do-específico-para-o-geral" id="toc-método-indutivo-do-específico-para-o-geral" class="nav-link" data-scroll-target="#método-indutivo-do-específico-para-o-geral">Método Indutivo (Do Específico para o Geral)</a></li>
+  <li><a href="#método-dedutivo-do-geral-para-o-específico" id="toc-método-dedutivo-do-geral-para-o-específico" class="nav-link" data-scroll-target="#método-dedutivo-do-geral-para-o-específico">Método Dedutivo (Do Geral para o Específico)</a></li>
   </ul></li>
-  <li><a href="#referências-bibliográficas" id="toc-referências-bibliográficas" class="nav-link" data-scroll-target="#referências-bibliográficas">Referências Bibliográficas</a></li>
+  <li><a href="#a-filosofia-da-ciência-popper-e-lakatos" id="toc-a-filosofia-da-ciência-popper-e-lakatos" class="nav-link" data-scroll-target="#a-filosofia-da-ciência-popper-e-lakatos">2. A Filosofia da Ciência: Popper e Lakatos</a>
+  <ul class="collapse">
+  <li><a href="#karl-popper-e-a-falseabilidade" id="toc-karl-popper-e-a-falseabilidade" class="nav-link" data-scroll-target="#karl-popper-e-a-falseabilidade">Karl Popper e a Falseabilidade</a></li>
+  <li><a href="#imre-lakatos-e-os-programas-de-pesquisa" id="toc-imre-lakatos-e-os-programas-de-pesquisa" class="nav-link" data-scroll-target="#imre-lakatos-e-os-programas-de-pesquisa">Imre Lakatos e os Programas de Pesquisa</a></li>
+  </ul></li>
+  <li><a href="#teoria-explicação-e-causalidade" id="toc-teoria-explicação-e-causalidade" class="nav-link" data-scroll-target="#teoria-explicação-e-causalidade">3. Teoria, Explicação e Causalidade</a></li>
+  <li><a href="#referências-sugeridas" id="toc-referências-sugeridas" class="nav-link" data-scroll-target="#referências-sugeridas">Referências Sugeridas</a></li>
   </ul>
 </nav>
     </div>
@@ -155,8 +187,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Semana 2: O Modelo Mancha-Corredor-Matriz e a Heterogeneidade</h1>
-<p class="subtitle lead">Ecologia da Paisagem - Bacharelado em Ciências Biológicas (UFPE)</p>
+<h1 class="title">Semana 2: Lógica e Métodos de Abordagem</h1>
+<p class="subtitle lead">PPGBV (UFPE)</p>
 </div>
 
 
@@ -173,7 +205,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 26, 2026</p>
+      <p class="date">January 27, 2026</p>
     </div>
   </div>
   
@@ -185,82 +217,71 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="plano-de-aula-semana-2" class="level2">
-<h2 class="anchored" data-anchor-id="plano-de-aula-semana-2">Plano de Aula: Semana 2</h2>
-<p><strong>Objetivo Central:</strong> Capacitar o aluno a identificar e descrever a estrutura da paisagem através dos elementos do modelo clássico (PCM) e compreender as origens e consequências da heterogeneidade espacial para diferentes organismos.</p>
-</section>
-<section id="slides-desta-aula" class="level2">
-<h2 class="anchored" data-anchor-id="slides-desta-aula">Slides desta aula</h2>
-<p>Tela cheia <a href="https://fplmelo.github.io/ecologia_paisagem/slides/aula2_modelo.html#/title-slide">CLIQUE AQUI</a> e depois pressione ‘f’</p>
-<iframe class="slide-deck" src="https://fplmelo.github.io/ecologia_paisagem/slides/aula2_modelo.html#/title-slide" width="700px" height="500px">
-</iframe>
-</section>
-<section id="resumos-dos-principais-pontos" class="level2">
-<h2 class="anchored" data-anchor-id="resumos-dos-principais-pontos">Resumos dos Principais Pontos</h2>
-<section id="o-modelo-mancha-corredor-matriz-pcm" class="level3">
-<h3 class="anchored" data-anchor-id="o-modelo-mancha-corredor-matriz-pcm">1. O Modelo Mancha-Corredor-Matriz (PCM)</h3>
-<p>Este é o modelo mais utilizado para representar a estrutura da paisagem, permitindo que ela seja medida, comparada e monitorada ao longo do tempo <a href="#ref1">1</a>, .</p>
+<section id="indução-vs.-dedução-as-engrenagens-do-pensamento" class="level2">
+<h2 class="anchored" data-anchor-id="indução-vs.-dedução-as-engrenagens-do-pensamento">1. Indução vs.&nbsp;Dedução: As Engrenagens do Pensamento</h2>
+<p>A ciência se move através de dois caminhos lógicos principais para conectar fatos e teorias.</p>
+<section id="método-indutivo-do-específico-para-o-geral" class="level3">
+<h3 class="anchored" data-anchor-id="método-indutivo-do-específico-para-o-geral">Método Indutivo (Do Específico para o Geral)</h3>
+<p>A indução parte da observação sistemática de casos particulares para formular uma lei universal. É a base do empirismo.</p>
 <ul>
-<li><p><strong>Mancha (Patch):</strong> Uma área quase homogênea que difere do seu entorno. Seu tamanho, forma e origem (tipo de distúrbio) determinam a estabilidade e a dinâmica das espécies que nela residem <a href="#ref1">1</a>, <a href="#ref2">2</a>.</p></li>
-<li><p><strong>Corredor (Corridor):</strong> Uma faixa linear de vegetação ou habitat que se distingue da matriz e conecta duas ou mais manchas, facilitando fluxos biológicos <a href="#ref1">1</a>, <a href="#ref2">2</a>.</p></li>
-<li><p><strong>Matriz (Matrix):</strong> O elemento espacialmente mais extenso e inter-relacionado. É o componente que controla a dinâmica da paisagem, influenciando fluxos de nutrientes, energia e movimento de espécies <a href="#ref2">2</a>.</p></li>
-<li><p><strong>Borda (Edge):</strong> É o ecótono entre hábitat e não hábitat e por sua natureza, é considerado um háitat de “menor qualidade” em comparação à mancha e “melhor” que a matriz <a href="#ref2">2</a>.</p></li>
+<li><strong>Lógica:</strong> Observação <span class="math inline">\(\rightarrow\)</span> Padrão <span class="math inline">\(\rightarrow\)</span> Hipótese <span class="math inline">\(\rightarrow\)</span> Teoria.</li>
+<li><strong>Exemplo:</strong> “O cisne A é branco, o cisne B é branco, o cisne C é branco… logo, todos os cisnes são brancos.”</li>
+<li><strong>Crítica:</strong> A indução nunca oferece certeza absoluta, pois um caso futuro pode contradizer a regra (o famoso problema do cisne negro). Tampouco oferece uma explicação sobre o “por quê” os cisnes são brancos ou negros. A indução, visa localizar padrões primeiro e sem seguida desenvolver uma explicação. No entanto, esse caminho pode ser perigoso, pois explicações expúrias e não-refutáveis costumam aparecer como “fortes” candidatas.</li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../img/corredor.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../img/paisagem.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
 </section>
-<section id="o-conceito-de-heterogeneidade" class="level3">
-<h3 class="anchored" data-anchor-id="o-conceito-de-heterogeneidade">2. O Conceito de Heterogeneidade</h3>
-<p>A paisagem é, por definição, um mosaico heterogêneo <a href="#ref1">1</a>. Essa heterogeneidade não é estática; ela varia conforme o tempo e o observador <a href="#ref1">1</a>, .</p>
-<p><strong>Principais Fontes de Heterogeneidade:</strong></p>
-<ol type="1">
-<li><strong>Ambiente Físico:</strong> Variações geológicas, topográficas (relevo) e tipos de solo que criam nichos diferenciados <a href="#ref2">2</a>.</li>
-</ol>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../img/himalaya.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<ol start="2" type="1">
-<li><strong>Regime de Distúrbios Naturais:</strong> Eventos como fogo, tempestades e pragas que “quebram” a continuidade da vegetação <a href="#ref1">1</a>, <a href="#ref2">2</a>.</li>
-</ol>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../img/lidar_amazon.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<ol start="3" type="1">
-<li><strong>Perturbações Antrópicas:</strong> Ação humana através do desmatamento, construção de estradas e agricultura, que fragmentam habitats naturais e inserem novos elementos no mosaico.</li>
-</ol>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../img/cad_caatinga.png" class="img-fluid figure-img"></p>
-<figcaption>https://www.nature.com/articles/s41598-023-45571-9</figcaption>
-</figure>
-</div>
-</section>
-<section id="a-paisagem-sob-a-lente-do-organismo" class="level3">
-<h3 class="anchored" data-anchor-id="a-paisagem-sob-a-lente-do-organismo">3. A Paisagem sob a Lente do Organismo</h3>
-<p>A distinção entre o que é “mancha” e o que é “matriz” depende da espécie estudada. O que para um humano é uma matriz de pastagem intransponível, para um tamanduá pode ser um habitat preferencial . Portanto, o manejo da paisagem deve considerar a <strong>conectividade funcional</strong> (capacidade real de movimento) e não apenas a disposição física dos elementos <a href="#ref2">2</a>.</p>
-<p>###4 Conectividade Funcional</p>
-<p>A <strong>conectividade funcional</strong> refere-se à <strong>capacidade real de movimento</strong> dos organismos através dos elementos da paisagem. Diferente da conectividade estrutural, que foca apenas na disposição física e espacial das manchas, a funcional considera a <strong>interação ecológica</strong> entre a espécie e a páisagem</p>
-<p>Essa conectividade depende de fatores específicos do organismo, como sua <strong>capacidade de dispersão</strong>, escala de percepção e o nível de <strong>permeabilidade da matriz</strong> para aquele grupo. Manter fluxos funcionais é vital para garantir o <strong>fluxo gênico</strong> e mitigar os efeitos do isolamento, prevenindo a extinção de populações sensíveis em paisagens fragmentadas.</p>
-<p><img src="../../img/urban.png" class="img-fluid"> <em>Ilustração dos cinco tipos gerais de métricas e abordagens de conectividade utilizados na literatura em ecossistemas urbanos. (A) A conectividade estrutural conceitualiza manchas discretas em uma matriz uniforme de não-habitat e tipicamente mede distâncias euclidianas entre manchas de habitat natural ou a quantidade de habitat dentro de uma zona de amortecimento (buffer) ao redor de uma mancha focal. Métricas estruturais não tentam capturar variações específicas de espécies ou processos. (B) A conectividade de rede em grafos representa as manchas como nós e as ligações entre elas (ex: lacunas transponíveis ou corredores) como arestas em uma rede, assumindo que o movimento pode ocorrer apenas entre manchas ligadas por essas arestas. Métricas baseadas em grafos podem incorporar informações específicas das espécies, como o uso da distância de dispersão para determinar quais pares de manchas estão vinculados. (C) As métricas de conectividade potencial incorporam explicitamente informações específicas das espécies, como distâncias presumidas de movimento ou dispersão, para ponderar as conexões possíveis entre manchas para os táxons focais. (D) A conectividade funcional conceitualiza paisagens heterogêneas com custos ou resistências específicos para as espécies de acordo com os tipos de cobertura, baseando-se no quanto uma célula de raster daquele tipo impede o movimento ou aumenta o risco de mortalidade. (E) A conectividade real pode ser estimada a partir do movimento empírico de indivíduos, do sucesso de dispersão ou do fluxo gênico registrado entre populações. A validação dos outros quatro tipos de conectividade é melhor realizada utilizando dados de conectividade real.</em></p>
+<section id="método-dedutivo-do-geral-para-o-específico" class="level3">
+<h3 class="anchored" data-anchor-id="método-dedutivo-do-geral-para-o-específico">Método Dedutivo (Do Geral para o Específico)</h3>
+<p>Parte de uma premissa maior (teoria) para prever um fenômeno particular. Se a premissa for verdadeira e a lógica correta, a conclusão é necessariamente verdadeira.</p>
+<ul>
+<li><strong>Lógica:</strong> Teoria <span class="math inline">\(\rightarrow\)</span> Hipótese <span class="math inline">\(\rightarrow\)</span> Observação <span class="math inline">\(\rightarrow\)</span> Confirmação.</li>
+<li><strong>Exemplo:</strong> “Todos os metais conduzem eletricidade (premissa). O ferro é um metal. Logo, o ferro conduz eletricidade.” Note que nesse caso, a premissa baseada na teoria da condutividade dos metais, cria uma expectativa lógica que, se cumprida, fortalece a teoria.</li>
+</ul>
 <hr>
 </section>
 </section>
-<section id="referências-bibliográficas" class="level2">
-<h2 class="anchored" data-anchor-id="referências-bibliográficas">Referências Bibliográficas</h2>
-<p><a name="ref1"></a> <a href="http://www.biotaneotropica.org.br/v1n12/pt/abstract?thematic-review+BN00701122001">1. Metzger, J. P. (2001). O que é ecologia de paisagens? <em>Biota Neotropica</em>.</a></p>
-<p><a name="ref2"></a> <a href="https://revistas.ufpr.br/geografia/article/view/5101">2. Rocha, C. H., et al.&nbsp;(1997). Ecologia da paisagem e manejo sustentável dos recursos naturais. <em>Geografia</em>.</a></p>
+<section id="a-filosofia-da-ciência-popper-e-lakatos" class="level2">
+<h2 class="anchored" data-anchor-id="a-filosofia-da-ciência-popper-e-lakatos">2. A Filosofia da Ciência: Popper e Lakatos</h2>
+<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLa5M_vDknaS3Y_eBhucqROmYt7C_uir6yQjon18ZU5_jL7QfqAedlNga7MiIB9DwHAd0i-NLw7ZA_qzQEWo2c31gmby4ZX9PFA3kfWzxtkA&amp;s=10.png" class="img-fluid"></p>
+<section id="karl-popper-e-a-falseabilidade" class="level3">
+<h3 class="anchored" data-anchor-id="karl-popper-e-a-falseabilidade">Karl Popper e a Falseabilidade</h3>
+<p>Para Popper, uma teoria só é científica se puder ser <strong>refutada</strong>. O cientista não deve buscar “provar que está certo” (verificação), mas sim tentar “provar que está errado”.</p>
+<ul>
+<li><strong>Conceito:</strong> A ciência progride por “conjecturas e refutações”. Se uma teoria resiste ao teste de falseamento, ela é considerada “corroborada” (temporariamente aceita), mas nunca “verdadeira” de forma definitiva.</li>
+</ul>
+<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR0P92ne29NWAAOyGOJ17Xig94l2Mg0WUnYqjflTcgFQq9c2QdZseGKdj3CS33kcMwKPsUO0Mhtrr6X_0G7mEcOjWBWnuQeXOJkxCm13sZuQ&amp;s=10.png" class="img-fluid"></p>
+</section>
+<section id="imre-lakatos-e-os-programas-de-pesquisa" class="level3">
+<h3 class="anchored" data-anchor-id="imre-lakatos-e-os-programas-de-pesquisa">Imre Lakatos e os Programas de Pesquisa</h3>
+<p>Lakatos suaviza o rigor de Popper. Ele argumenta que os cientistas não descartam uma teoria ao primeiro erro. Ele propõe a estrutura do <strong>Programa de Pesquisa</strong>:</p>
+<ol type="1">
+<li><strong>Núcleo Duro (Hard Core):</strong> As premissas fundamentais da teoria que não podem ser alteradas.</li>
+<li><strong>Cinturão Protetor:</strong> Hipóteses auxiliares que podem ser ajustadas ou substituídas para proteger o núcleo duro de anomalias.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="teoria-explicação-e-causalidade" class="level2">
+<h2 class="anchored" data-anchor-id="teoria-explicação-e-causalidade">3. Teoria, Explicação e Causalidade</h2>
+<p>A ciência não quer apenas descrever <em>o que</em> acontece, mas explicar <em>por que</em> acontece.</p>
+<ul>
+<li><strong>Teoria:</strong> Um sistema logicamente estruturado que explica um conjunto de fenômenos.</li>
+<li><strong>Explicação:</strong> O ato de conectar um evento a uma lei geral.</li>
+<li><strong>Causalidade:</strong> A relação entre uma causa (variável independente) e um efeito (variável dependente).
+<ul>
+<li><em>Nota:</em> Correlação não é causalidade. O fato de duas coisas crescerem juntas não significa que uma causa a outra.</li>
+</ul></li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Exemplo Prático:</strong> &gt; Na economia, a teoria da oferta e demanda explica por que os preços sobem. Se a oferta cai (causa), o preço sobe (efeito). Testamos essa causalidade através de dados empíricos usando o método dedutivo.</p>
+</blockquote>
+<hr>
+</section>
+<section id="referências-sugeridas" class="level2">
+<h2 class="anchored" data-anchor-id="referências-sugeridas">Referências Sugeridas</h2>
+<ul>
+<li>POPPER, Karl. <em>A Lógica da Pesquisa Científica</em>.</li>
+<li>LAKATOS, Imre. <em>A Metodologia dos Programas de Pesquisa Científica</em>.</li>
+</ul>
 
 
 </section>

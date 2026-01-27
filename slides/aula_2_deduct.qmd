@@ -1,0 +1,112 @@
+---
+title: "Aula 2 - Lógica e Métodos de Abordagem"
+subtitle: "Desenho de Projetos PPGBV-UFPE"
+author: "Felipe Melo"
+format: 
+  revealjs:
+    theme: default
+    transition: slide
+    scrollable: true
+    fullscreen: true
+---
+
+## Slide 1: Introdução
+* O que define o conhecimento científico?
+* A importância do método na Biologia.
+* Visão geral: Indução, Dedução, Popper e Lakatos.
+
+## Slide 2: O Pensamento Científico
+* Ciência não é apenas acúmulo de dados.
+* É a construção de modelos explicativos.
+* Relação entre o observador e o fenômeno biológico.
+
+## Slide 3: Método Indutivo (Do Específico ao Geral)
+* Baseado na experiência sensorial e repetição.
+* Acúmulo de evidências particulares para gerar leis.
+* **Exemplo:** Observação de padrões de migração de aves.
+
+## Slide 4: Exemplo Biológico: Indução
+* Observação: A planta *A* cresce mais com nitrogênio.
+* Observação: A planta *B* cresce mais com nitrogênio.
+* Conclusão Indutiva: "O nitrogênio é essencial para o crescimento de todas as plantas".
+
+## Slide 5: Críticas à Indução
+* O problema da generalização.
+* Podemos observar todos os casos possíveis na natureza?
+* A indução oferece probabilidade, não certeza absoluta.
+
+## Slide 6: Método Deduutivo (Do Geral ao Específico)
+* Parte de premissas ou teorias já estabelecidas.
+* Testa a validade em casos específicos.
+* Estrutura clássica do silogismo aplicado à genética.
+
+## Slide 7: Exemplo Biológico: Dedução
+* Premissa Maior: Todos os mamíferos possuem glândulas mamárias.
+* Premissa Menor: O ornitorrinco é um mamífero.
+* Conclusão: O ornitorrinco possui glândulas mamárias.
+
+## Slide 8: Comparativo: Indução vs. Dedução
+| Característica | Indução | Dedução |
+| :--- | :--- | :--- |
+| Ponto de partida | Observação | Teoria/Lei |
+| Objetivo | Criar novas leis | Testar previsões |
+| Força | Descoberta | Rigor Lógico |
+
+## Slide 9: Karl Popper e o Racionalismo Crítico
+* Crítica ao indutivismo.
+* A ciência não busca a "verdade", mas a eliminação do erro.
+* O conceito de **Assimetria Lógica**.
+
+## Slide 10: O Princípio da Falseabilidade
+* Uma teoria só é científica se puder ser testada e refutada.
+* Se não pode ser provada falsa, é dogma ou pseudociência.
+* "O conhecimento progride por conjecturas e refutações".
+
+## Slide 11: Exemplo: Falseabilidade na Evolução
+* Hipótese: "A seleção natural molda as adaptações".
+* Teste: Encontrar um mecanismo biológico complexo que não poderia ter evoluído gradualmente.
+* Resultado: Se encontrado, a teoria deve ser revisada ou descartada.
+
+## Slide 12: Imre Lakatos e os Programas de Pesquisa
+* Crítica ao "falsacionismo ingênuo" de Popper.
+* A ciência não descarta teorias instantaneamente após uma falha.
+* Conceito de estrutura rígida vs. flexível.
+
+## Slide 13: O Núcleo Duro (Hard Core)
+* São as leis fundamentais de uma teoria.
+* Exemplo na Biologia: O Dogma Central da Biologia Molecular (DNA -> RNA -> Proteína).
+* Não é questionado enquanto o programa for "progressivo".
+
+## Slide 14: O Cinturão Protetor
+* Hipóteses auxiliares que protegem o núcleo.
+* Exemplo: Vírus de RNA (Retrotranscrição). 
+* Em vez de abandonar o Dogma Central, expandimos o cinturão protetor para incluir a transcriptase reversa.
+
+## Slide 15: Programas Progressivos vs. Degenerativos
+* **Progressivo:** Leva à descoberta de fatos novos.
+* **Degenerativo:** Apenas tenta explicar falhas sem gerar novas previsões.
+
+## Slide 16: Teoria e Explicação Científica
+* Explicar não é descrever.
+* Uma boa explicação biológica conecta o evento a um mecanismo.
+* Exemplo: Por que as folhas caem no outono? (Mecanismo hormonal/fotoperíodo).
+
+## Slide 17: Causalidade na Ciência
+* Estabelecer relações de causa e efeito.
+* Critérios de causalidade (Temporalidade, Plausibilidade Biológica).
+* $Causa \rightarrow Efeito$.
+
+## Slide 18: Correlação vs. Causalidade
+* Duas variáveis podem variar juntas sem que uma cause a outra.
+* Exemplo: Consumo de sorvete e queimaduras de sol.
+* Variável de confusão: O Sol (Calor).
+
+## Slide 19: Síntese do Encontro
+* A ciência biológica usa a indução para gerar ideias e a dedução para testá-las.
+* Popper nos lembra de sermos críticos.
+* Lakatos nos mostra como as teorias evoluem sem desmoronar.
+
+## Slide 20: Conclusão e Próximos Passos
+* Como aplicar isso no seu projeto de pesquisa?
+* Próxima aula: Elaboração de Problemas e Hipóteses.
+* Perguntas?

@@ -14,7 +14,7 @@ format:
 
 ## Slides desta aula
 
-<iframe name="aula-1" width="600px" height="400px" src="https://fplmelo.github.io/desenho_projetos/slides/aula_1_fundamentos.html#/title-slide" scrolling="no" marginwidth="0" marginheight="0" style="border:0px none #ffffff;"></iframe>
+<iframe name="aula-1" width="700px" height="400px" src="https://fplmelo.github.io/desenho_projetos/slides/aula_1_fundamentos.html#/title-slide" scrolling="no" marginwidth="0" marginheight="0" style="border:0px none #ffffff;"></iframe>
 
 ## 1. Ciência vs. Senso Comum
 A ciência é uma **metamorfose do senso comum**, refinando capacidades que todos possuímos [1]. Enquanto o senso comum é formado por sentimentos e misticismo, a ciência exige **razão e rigor metodológico** para excluir a subjetividade do pesquisador [2, 3].

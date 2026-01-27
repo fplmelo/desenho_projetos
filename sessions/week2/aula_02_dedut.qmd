@@ -1,0 +1,70 @@
+---
+title: "Semana 2: Lógica e Métodos de Abordagem"
+subtitle: "PPGBV (UFPE)"
+author: "Felipe Melo"
+date: "last-modified"
+date-format: "long"
+filters:
+  - naquiz
+format:
+  html:
+    toc: true
+    toc-expanded: 3
+    toc-title: "Nesta página"
+---
+
+
+## 1. Indução vs. Dedução: As Engrenagens do Pensamento
+
+A ciência se move através de dois caminhos lógicos principais para conectar fatos e teorias.
+
+### Método Indutivo (Do Específico para o Geral)
+A indução parte da observação sistemática de casos particulares para formular uma lei universal. É a base do empirismo.
+
+* **Lógica:** Observação $\rightarrow$ Padrão $\rightarrow$ Hipótese $\rightarrow$ Teoria.
+* **Exemplo:** "O cisne A é branco, o cisne B é branco, o cisne C é branco... logo, todos os cisnes são brancos."
+* **Crítica:** A indução nunca oferece certeza absoluta, pois um caso futuro pode contradizer a regra (o famoso problema do cisne negro). Tampouco oferece uma explicação sobre o "por quê" os cisnes são brancos ou negros. A indução, visa localizar padrões primeiro e sem seguida desenvolver uma explicação. No entanto, esse caminho pode ser perigoso, pois explicações expúrias e não-refutáveis costumam aparecer como "fortes" candidatas.
+
+### Método Dedutivo (Do Geral para o Específico)
+Parte de uma premissa maior (teoria) para prever um fenômeno particular. Se a premissa for verdadeira e a lógica correta, a conclusão é necessariamente verdadeira.
+
+* **Lógica:** Teoria $\rightarrow$ Hipótese $\rightarrow$ Observação $\rightarrow$ Confirmação.
+* **Exemplo:** "Todos os metais conduzem eletricidade (premissa). O ferro é um metal. Logo, o ferro conduz eletricidade." Note que nesse caso, a premissa baseada na teoria da condutividade dos metais, cria uma expectativa lógica que, se cumprida, fortalece a teoria. 
+
+---
+
+## 2. A Filosofia da Ciência: Popper e Lakatos
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLa5M_vDknaS3Y_eBhucqROmYt7C_uir6yQjon18ZU5_jL7QfqAedlNga7MiIB9DwHAd0i-NLw7ZA_qzQEWo2c31gmby4ZX9PFA3kfWzxtkA&s=10)
+
+### Karl Popper e a Falseabilidade
+Para Popper, uma teoria só é científica se puder ser **refutada**. O cientista não deve buscar "provar que está certo" (verificação), mas sim tentar "provar que está errado". 
+
+* **Conceito:** A ciência progride por "conjecturas e refutações". Se uma teoria resiste ao teste de falseamento, ela é considerada "corroborada" (temporariamente aceita), mas nunca "verdadeira" de forma definitiva.
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR0P92ne29NWAAOyGOJ17Xig94l2Mg0WUnYqjflTcgFQq9c2QdZseGKdj3CS33kcMwKPsUO0Mhtrr6X_0G7mEcOjWBWnuQeXOJkxCm13sZuQ&s=10)
+
+### Imre Lakatos e os Programas de Pesquisa
+Lakatos suaviza o rigor de Popper. Ele argumenta que os cientistas não descartam uma teoria ao primeiro erro. Ele propõe a estrutura do **Programa de Pesquisa**:
+
+1.  **Núcleo Duro (Hard Core):** As premissas fundamentais da teoria que não podem ser alteradas.
+2.  **Cinturão Protetor:** Hipóteses auxiliares que podem ser ajustadas ou substituídas para proteger o núcleo duro de anomalias.
+
+---
+
+## 3. Teoria, Explicação e Causalidade
+
+A ciência não quer apenas descrever *o que* acontece, mas explicar *por que* acontece.
+
+* **Teoria:** Um sistema logicamente estruturado que explica um conjunto de fenômenos.
+* **Explicação:** O ato de conectar um evento a uma lei geral.
+* **Causalidade:** A relação entre uma causa (variável independente) e um efeito (variável dependente). 
+    * *Nota:* Correlação não é causalidade. O fato de duas coisas crescerem juntas não significa que uma causa a outra.
+
+> **Exemplo Prático:** > Na economia, a teoria da oferta e demanda explica por que os preços sobem. Se a oferta cai (causa), o preço sobe (efeito). Testamos essa causalidade através de dados empíricos usando o método dedutivo.
+
+---
+
+## Referências Sugeridas
+* POPPER, Karl. *A Lógica da Pesquisa Científica*.
+* LAKATOS, Imre. *A Metodologia dos Programas de Pesquisa Científica*.
