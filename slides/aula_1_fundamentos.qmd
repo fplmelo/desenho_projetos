@@ -245,58 +245,73 @@ scrollable: true
 ![](https://media.newyorker.com/photos/5bec3b509eb94330e7b483ef/master/pass/DC111418.jpg){fig-align=center width=250%}
 
 
-## Slide 30: O Realismo na Ciência
-- Enfatiza que a pesquisa se dá a partir dos elementos do objeto e da pergunta [37].
-- O desenho depende da construção teórica e da relação entre objeto e mundo [37].
-- Pesquisador deve conjugar dimensão empírica e teórica [37].
+## O realismo na ciência
+- O projeto depende da construção teórica e da relação entre objeto e mundo 
+- O pesquisador deve conjugar dimensões empírica e teórica
 
-## Slide 31: O Pragmatismo
-- Rejeita a ideia de um "mundo real" acessível por um único método científico [38].
-- Comprometimento com a **incerteza**: conhecimento é relativo e transitório [39].
-- O importante é se a pesquisa contribui para encontrar o que o pesquisador quer saber [39, 40].
+![](https://nyc.scienceforthepeople.org/wp-content/uploads/2017/12/SftP_banner_crop.png)
 
-## Slide 32: Thomas Kuhn e a Ciência Normal
-- **Ciência Normal**: Trabalho científico baseado em regras e práticas consensuais [41].
-- Fase em que pressupostos de uma disciplina funcionam para todos os cientistas [41].
-- O paradigma define o que é racional investigar [10].
+## O Pragmatismo
+- Rejeita a ideia de um "mundo real" acessível por um único método científico 
+- Comprometimento com a **incerteza**: conhecimento é relativo e transitório 
+- O importante é se a pesquisa contribui para encontrar o que o pesquisador quer saber
 
-## Slide 33: Anomalias e Crise
-- **Anomalias**: Ocorrências que não podem ser explicadas pelo paradigma vigente [42].
-- Acúmulo de anomalias gera a fase de "pesquisa extraordinária" [41].
-- Começa a pesar contra o paradigma atual, gerando instabilidade [41].
 
-## Slide 34: Revoluções Científicas
-- O conhecimento não é linear, mas ocorre por "mudanças de paradigma" [10].
-- Adoção de um novo paradigma atrai seguidores e enfrenta resistência [41].
-- O triunfo de uma nova verdade ocorre quando a geração antiga desaparece [43].
+## Thomas Kuhn e a Ciência Normal
+:::{.columns}
+:::{.column}
+- **Ciência Normal**: baseada em regras e práticas consensuais 
+- Fase em que pressupostos de uma disciplina funcionam para todos os cientistas 
+- O paradigma define o que é racional investigar 
+:::
+:::{.column}
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Thomas-kuhn-portrait.png">{.width=90%}
+:::
+:::
 
-## Slide 35: Consequências da Revolução
-- O novo paradigma torna-se dominante e é tratado como "normal" [41].
-- Manuais didáticos passam a ensiná-lo, obscurecendo o processo revolucionário [41].
-- O paradigma é um fenômeno emergente de fatores sociais e científicos [43].
+## Anomalias e Crise
+:::{.columns}
+:::{.column}
+- **Anomalias**: Ocorrências que não podem ser explicadas pelo paradigma vigente 
+- Acúmulo de anomalias gera a fase de "pesquisa extraordinária" 
+- Começa a pesar contra o paradigma atual, gerando instabilidade
+:::
+:::{.column}
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbvNTAErleQqLbaFHYw7eCoVwqxjlqRrIeaQ&s){width=200%}
+:::
+:::
 
-## Slide 36: Exemplos de Mudanças de Paradigma
-- Cosmologia Ptolomaica para Copernicana [44].
-- Mecânica Aristotélica para Mecânica Clássica [44].
-- Teleologia para Seleção Natural (Darwin) [44].
-- Éter luminífero para radiação eletromagnética [44].
+## Revoluções Científicas
+- O conhecimento não é linear, mas ocorre por "mudanças de paradigma" 
+- Adoção de um novo paradigma atrai seguidores e enfrenta resistência 
+- O triunfo de uma nova verdade é uma **revolução** 
 
-## Slide 37: Paradigmas e Ciências Sociais
-- Kuhn limitou suas teorias às ciências naturais ("ciências maduras") [45].
-- Excluiu explicitamente as ciências sociais ("protociências") [45].
-- No entanto, seu modelo é amplamente aplicado em economia e humanidades hoje [45].
+## Dialética das revoluções científicas
+- O novo paradigma torna-se dominante e é tratado como "normal" 
+- Manuais didáticos passam a ensiná-lo, obscurecendo o processo revolucionário 
+- O paradigma é um fenômeno emergente de fatores sociais e científicos 
 
-## Slide 38: Imre Lakatos e Programas de Pesquisa
-- Propõe a coexistência de diferentes programas de pesquisa [46].
-- **Hipóteses Centrais**: Pressupostos teóricos que sustentam o programa (não testáveis diretamente) [46].
-- **Cinturão Protetor**: Hipóteses auxiliares passíveis de refutação e descarte [46].
+## O que aconteceria se o negacionismo científico tivesse triunfado durante o COVID?{.center}
 
-## Slide 39: Síntese da Relação Metateórica
-- Ontologia e Epistemologia alicerçam as teorias [47, 48].
-- Teorias guiam os métodos de análise e tipos de explicação [47].
-- Esse conjunto completo conduz à metodologia e ao desenho de pesquisa final [47].
+## Programas de pesquisa
 
-## Slide 40: Conclusão do Encontro 1
-- A filosofia da ciência não é apenas debate abstrato; ela molda a prática [48, 49].
-- Compreender paradigmas evita a acomodação em modelos insustentáveis [50].
-- Próximo Encontro: Lógica, Indução, Dedução e Falseabilidade.
+:::{.columns}
+:::{.column}
+- **Hipóteses Centrais**: Pressupostos teóricos que sustentam o programa (não testáveis diretamente) 
+- **Cinturão Protetor**: Hipóteses auxiliares passíveis de refutação e descarte 
+:::
+:::{.column}
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5VkRhDQC7-MuQPRqCyHEfMJO4kivLtbi3OrQXeUE7G-JUBmLxN49ErGcHqlh9T_ucbnIdknoaAq3qjWW4XmL812dNvZ9plYfyQbBrj5Y&s=10)
+:::
+:::
+
+## Em spintese...
+- Ontologia e Epistemologia alicerçam as teorias 
+- Teorias guiam os métodos de análise e tipos de explicação 
+- Esse conjunto completo conduz à metodologia e ao desenho de pesquisa final
+
+## Conclusão 
+- A filosofia da ciência não é apenas debate abstrato; ela molda a prática 
+- Compreender paradigmas evita a acomodação em modelos insustentáveis 
+
+## Você esperava que fazer ciência era assim?{.center}
