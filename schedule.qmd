@@ -10,7 +10,6 @@ format:
 
 
 
-## Cronograma do Curso
 
 ### Módulo 1: Filosofia da Ciência (Encontros 1 e 2)
 

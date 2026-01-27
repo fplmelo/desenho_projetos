@@ -1,6 +1,6 @@
 ---
-title: "Semana 1: Origens e Conceitos de Escala"
-subtitle: "Ecologia da Paisagem - Bacharelado em Ciências Biológicas (UFPE)"
+title: "Aula 1: Fundamentos e Paradigmas Científicos"
+subtitle: "PPGBV UFPE"
 author: "Felipe Melo"
 date-format: "long"
 filters:
@@ -12,65 +12,48 @@ format:
     toc-title: "Nesta página"
 ---
 
-![](/img/paisagem.png){width="500"}
-
-Foto: Paisagem fragmentada na Usina Serra Grande, Ibateguara, Alagoas.
-
-
 ## Slides desta aula
 
-Tela cheia [CLIQUE AQUI](https://fplmelo.github.io/ecologia_paisagem/slides/aula1_apresentacao.html#/title-slide) e depois pressione 'f'
+<iframe name="aula-1" width="600px" height="400px" src="https://fplmelo.github.io/desenho_projetos/slides/aula1_fundamentos.html#/title-slide" scrolling="no" marginwidth="0" marginheight="0" style="border:0px none #ffffff;"></iframe>
 
-<iframe class="slide-deck" src="https://fplmelo.github.io/ecologia_paisagem/slides/aula1_apresentacao.html#/title-slide" width="700px" height="500px"></iframe>
+## 1. Ciência vs. Senso Comum
+A ciência é uma **metamorfose do senso comum**, refinando capacidades que todos possuímos [1]. Enquanto o senso comum é formado por sentimentos e misticismo, a ciência exige **razão e rigor metodológico** para excluir a subjetividade do pesquisador [2, 3].
 
+*   **Exemplo:** O senso comum utiliza um chá baseado na tradição familiar para curar dor de estômago. A ciência investiga os compostos químicos da planta, realiza testes controlados e isola variáveis para validar a eficácia [2, 4].
 
+## 2. Paradigmas e Revoluções (Thomas Kuhn)
+O conhecimento científico não avança de forma linear, mas por **rupturas disruptivas** chamadas mudanças de paradigma [5].
+*   **Ciência Normal:** Fase de estabilidade onde os cientistas trabalham sob as mesmas regras e pressupostos [6].
+*   **Anomalias e Crise:** Surgem fatos que o paradigma atual não consegue explicar, gerando instabilidade [6].
+*   **Revolução Científica:** Adoção de um novo paradigma que resolve as anomalias anteriores [6].
 
-## Introdução às Origens da Ecologia da Paisagem
+*   **Exemplo:** A transição da **cosmologia ptolomaica** (Terra como centro) para a **copernicana** (Sol como centro) [7].
 
-A ecologia da paisagem surgiu como uma disciplina interdisciplinar que combina a **abordagem espacial da geografia com o estudo funcional da ecologia** [[1]](#ref1). O termo foi cunhado em 1939 pelo biogeógrafo alemão **Carl Troll**, que se inspirou no potencial da análise de fotografias aéreas para entender as inter-relações entre o ambiente e os seres vivos [[2]](#ref2), [[3]](#ref3).
+## 3. Bases Epistemológicas e Ontológicas
+Toda pesquisa está ancorada em compromissos filosóficos que determinam o método [8].
+*   **Ontologia:** Trata da natureza da realidade. Questiona: "O que existe?" [9, 10].
+*   **Epistemologia:** Trata de como adquirimos conhecimento. Questiona: "Como posso conhecer o mundo?" [10, 11].
 
-Historicamente, a disciplina consolidou-se através de duas frentes principais:
-1.  **Abordagem Geográfica:** Focada no "espaço vivido pelo homem", priorizando o planejamento territorial e a gestão de paisagens culturais [[4]](#ref4).
-2.  **Abordagem Ecológica:** Enfatiza o efeito da estrutura espacial sobre os processos biológicos e a conservação da biodiversidade [[4]](#ref4).
+*   **Exemplo:** Um pesquisador decide se a "pobreza" é uma variável numérica objetiva (renda) ou uma construção social baseada em percepções e estigmas [12, 13].
 
-A paisagem é definida como um **mosaico heterogêneo** formado por unidades interativas, onde a heterogeneidade existe para pelo menos um fator, segundo um observador e em uma escala específica [[1]](#ref1).
+## 4. O Contínuo Naturalismo vs. Construtivismo
+Essas posições definem como o pesquisador se relaciona com o objeto de estudo [14, 15].
+*   **Naturalismo (Positivismo):** O mundo é real e independente do observador. Foca em regularidades e leis gerais [14, 16].
+*   **Construtivismo (Interpretativismo):** A realidade é uma construção social. O conhecimento é subjetivo e depende da interação entre pesquisador e participante [10, 17].
 
-## O Paradigma Padrão-Processo
+*   **Exemplo:** No **Naturalismo**, o pesquisador observa a ebulição da água sem interferir, apenas mensurando. No **Construtivismo**, o pesquisador participa de uma comunidade para entender os significados que os membros atribuem aos seus rituais [18, 19].
 
-O núcleo pedagógico desta disciplina se baseia no paradigma **"padrão-processo"**, que afirma que o arranjo espacial dos elementos de uma paisagem dita significativamente os processos ecológicos que nela ocorrem [[7]](#ref7). 
-
-## O Conceito de Escala: Grão e Extensão
-
-Para quantificar padrões espaciais, é vital distinguir os componentes da escala [[5]](#ref5):
-
-*   **Grão (ou Resolução):** Refere-se à menor unidade de representação espacial (ex: o tamanho do pixel de 10m do satélite Sentinel-2) [[11]](#ref11).
-*   **Extensão:** Indica as dimensões totais da área de estudo ou a "janela" de observação [[11]](#ref11).
-
-À medida que o grão aumenta, detalhes finos da paisagem são perdidos, o que pode causar o **"efeito de transmutação"**, onde as propriedades do sistema mudam conforme a escala de análise [[11]](#ref11).
-
-## Escala de Percepção: A Lente Biológica
-
-A paisagem não é definida apenas por critérios humanos. Cada espécie possui sua própria **"escala de percepção"**, baseada em suas características ecológicas, como tamanho do território e capacidade de locomoção. 
-
-> **Exemplo Prático:** 
-> Enquanto um pequeno inseto percebe a heterogeneidade em manchas de gramíneas em poucos metros quadrados, uma onça-parda (*Puma concolor*) percebe a paisagem em escalas geográficas amplas de quilômetros quadrados [[5]](#ref5), [[6]](#ref6).
-
-Identificar a **"escala de efeito"** — o ponto onde a relação entre a biodiversidade e a paisagem é mais forte — é crucial para modelos precisos de conservação [[13]](#ref13).
+## 5. Rigor e Dimensões do Desenho de Pesquisa
+O desenho de pesquisa é o plano para usar evidências para fazer inferências [20]. Ele deve convencer uma audiência de **céticos** de que as decisões tomadas são seguras [21].
+*   **Dimensão Ampla:** Diálogo teórico e bases metateóricas [22, 23].
+*   **Dimensão Prática:** Procedimentos técnicos de coleta e análise [22, 24].
 
 ---
 
-## Referências Bibliográficas
+## Referências Principais (Links Ativos)
 
-<a name="ref1"></a>[1] [Metzger, J. P. (2001). O que é ecologia de paisagens? *Biota Neotropica*.](https://www.scielo.br/j/bn/a/Jbchd6rjY35PGkY5BHPz63S/?format=html&lang=pt)
-
-<a name="ref2"></a>[2] [Rocha, C. H., et al. (1997). Ecologia da paisagem e manejo sustentável dos recursos naturais. *Geografia*.](https://www.periodicos.rc.biblioteca.unesp.br/index.php/ageteo/article/view/14887/11526)
-
-<a name="ref3"></a>[3] [Troll, C. (1971). Landscape ecology (geo-ecology) and biogeocenology: a terminological study. *Geoforum*.](https://doi.org/10.1016/0016-7185(71)90029-7)
-
-<a name="ref4"></a>[4] [Rossi, L. C., et al. (2020). Structural Vegetation Index (SVI) as a proxy for habitat complexity. *Remote Sensing in Ecology and Conservation*.](https://doi.org/10.1002/rse2.130)
-
-<a name="ref7"></a>[7] [Turner, M. G., & Gardner, R. H. (2015). *Landscape Ecology in Theory and Practice*. Springer.](https://doi.org/10.1007/978-1-4939-2794-4); [link alternativo](https://www.andreasaltelli.eu/file/repository/Landscape_Ecology_in_Theory_and_Practice_.pdf)
-
-<a name="ref11"></a>[11] [Bissonette, J. A. (1997). Scale-sensitive ecological properties. In: *Wildlife and Landscape Ecology*. Springer.](https://doi.org/10.1007/978-1-4612-1918-7_1)
-
-<a name="ref13"></a>[13] [Fletcher, R. J., et al. (2023). Addressing the problem of scale that emerges with habitat fragmentation. *Global Ecology and Biogeography*.](https://doi.org/10.1111/geb.13658)
+*   [**Kuhn: paradigmas científicos**](https://ensaioenotas.com/2022/11/03/kuhn-paradigmas-cientificos/) - Resumo sobre a Estrutura das Revoluções Científicas [5].
+*   [**Desenho de Pesquisa (Glauco Peres da Silva)**](https://repositorio.enap.gov.br/handle/1/3277) - Manual completo sobre lógica e desenho nas ciências sociais [25, 26].
+*   [**Critérios de Rigor na Pesquisa Qualitativa (Herivelto Moreira)**](https://periodicos.utfpr.edu.br/rbect/article/view/6977) - Discussão sobre validade e credibilidade [27, 28].
+*   [**Metodologia da Pesquisa Científica (Campus Virtual Fiocruz)**](https://campusvirtual.fiocruz.br/portal/) - Fundamentos aplicados à saúde pública [29, 30].
+*   [**A Arte de Elaborar uma Pergunta de Pesquisa (Nursing)**](https://www.nursing.com.br) - Guia sobre critérios FINGER e clareza científica [31, 32].
