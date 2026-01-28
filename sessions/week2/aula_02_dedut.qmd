@@ -13,6 +13,13 @@ format:
     toc-title: "Nesta página"
 ---
 
+![](https://s1.static.brasilescola.uol.com.br/be/2023/03/ilustracao-traz-as-etapas-do-metodo-cientifico-com-uma-cientista-negra-fazendo-cada-processo.jpg)
+
+
+## Slides deste aula
+
+<iframe name="aula-1" width="700px" height="400px" src="https://fplmelo.github.io/desenho_projetos/slides/aula_2_deduct.html#/title-slide" scrolling="no" marginwidth="0" marginheight="0" style="border:0px none #ffffff;"></iframe>
+
 
 ## 1. Indução vs. Dedução: As Engrenagens do Pensamento
 
@@ -24,6 +31,18 @@ A indução parte da observação sistemática de casos particulares para formul
 * **Lógica:** Observação $\rightarrow$ Padrão $\rightarrow$ Hipótese $\rightarrow$ Teoria.
 * **Exemplo:** "O cisne A é branco, o cisne B é branco, o cisne C é branco... logo, todos os cisnes são brancos."
 * **Crítica:** A indução nunca oferece certeza absoluta, pois um caso futuro pode contradizer a regra (o famoso problema do cisne negro). Tampouco oferece uma explicação sobre o "por quê" os cisnes são brancos ou negros. A indução, visa localizar padrões primeiro e sem seguida desenvolver uma explicação. No entanto, esse caminho pode ser perigoso, pois explicações expúrias e não-refutáveis costumam aparecer como "fortes" candidatas.
+
+### O Caminho Indutivo (Observação de Campo)
+É muito comum na zoologia e botânica. Partimos de observações repetidas na natureza para inferir uma regra biológica.
+
+* **Exemplo:** Um botânico observa que a espécie de orquídea *X* em dez florestas diferentes só floresce acima de 1.000 metros de altitude. Ele induz que "a altitude é o gatilho para a floração desta espécie".
+* **Raciocínio:** Amostras Particulares $\rightarrow$ Generalização.
+
+### O Caminho Dedutivo (Experimental)
+Muito utilizado na genética e microbiologia. Partimos de uma lei biológica conhecida para prever um resultado específico.
+
+* **Exemplo:** Sabendo que a Antibióticos inibem a síntese da parede celular bacteriana (Teoria Geral), o pesquisador deduz que, ao aplicar Penicilina na cultura da bactéria *Staphylococcus* (Caso Específico), a colônia morrerá.
+* **Raciocínio:** Lei Geral $\rightarrow$ Hipótese $\rightarrow$ Teste.
 
 ### Método Dedutivo (Do Geral para o Específico)
 Parte de uma premissa maior (teoria) para prever um fenômeno particular. Se a premissa for verdadeira e a lógica correta, a conclusão é necessariamente verdadeira.

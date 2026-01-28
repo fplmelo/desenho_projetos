@@ -10,103 +10,195 @@ format:
     fullscreen: true
 ---
 
-## Slide 1: Introdução
+## Introdução
 * O que define o conhecimento científico?
 * A importância do método na Biologia.
 * Visão geral: Indução, Dedução, Popper e Lakatos.
 
-## Slide 2: O Pensamento Científico
+## O Pensamento Científico
+:::{.columns}
+:::{.column}
+
 * Ciência não é apenas acúmulo de dados.
 * É a construção de modelos explicativos.
 * Relação entre o observador e o fenômeno biológico.
 
-## Slide 3: Método Indutivo (Do Específico ao Geral)
-* Baseado na experiência sensorial e repetição.
-* Acúmulo de evidências particulares para gerar leis.
-* **Exemplo:** Observação de padrões de migração de aves.
+:::
+:::{.column}
 
-## Slide 4: Exemplo Biológico: Indução
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9AmvTWQ76z-CvqjeUJvalk0CsurXgDG3jMg&s){width=150%}
+
+:::
+:::
+
+## Imagine um(a) cientista...{.center}
+
+##
+:::{.columns}
+:::{.column}
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYu0QP_9IQFupE28e0Ie8tPc6oXBC4kg0amQ&s){width=200%}
+:::
+:::{.column}
+![](https://previews.123rf.com/images/brgfx/brgfx2302/brgfx230201005/199188662-scientist-girl-cartoon-character-illustration.jpg){width=60%}
+:::
+:::
+
+## Inspiração vs. Transpiração
+
+![](https://www2.recife.pe.gov.br/sites/default/files/styles/imagem_slide_home/public/poesia_8498221206_5fd3634d4b_k_0.jpg?itok=yMUIniFf)
+
+# Ciência de aprende!{.center}
+
+## Método Indutivo (Do Específico ao Geral)
+:::{.columns}
+:::{.column}
+* Baseado na experiência sensorial e repetição
+* Acúmulo de evidências particulares para gerar leis
+* **Exemplo:** Crianças que observam seu entorno
+
+:::
+
+:::{.column}
+![](https://assets.brasildefato.com.br/2024/09/image_processing20200811-7169-l0ose9.jpeg)
+:::
+:::
+
+## Mas, também funciona para a ciência
 * Observação: A planta *A* cresce mais com nitrogênio.
 * Observação: A planta *B* cresce mais com nitrogênio.
 * Conclusão Indutiva: "O nitrogênio é essencial para o crescimento de todas as plantas".
 
-## Slide 5: Críticas à Indução
+![](https://t4.ftcdn.net/jpg/05/60/65/39/360_F_560653975_MQIwalA4OG70OUCB1XVadJAafjV1djOv.jpg){fig-align=center}
+
+## Várias sistemas de conhecimento 
+
+- Astronomia Maia
+- Medicina Antiga
+- Agricultura Antiga
+- Engenharia 
+- Sistemas Tradicionais de Saber
+
+## Tentativa & Erro
+
+![](https://cdn.mos.cms.futurecdn.net/CgHGeUHnz6RfbfA9NYmZCZ.jpeg)
+
+## O problema da Indução
 * O problema da generalização.
 * Podemos observar todos os casos possíveis na natureza?
-* A indução oferece probabilidade, não certeza absoluta.
+* A indução oferece probabilidade, não explicação.
 
-## Slide 6: Método Deduutivo (Do Geral ao Específico)
+## Método Dedutivo
 * Parte de premissas ou teorias já estabelecidas.
 * Testa a validade em casos específicos.
-* Estrutura clássica do silogismo aplicado à genética.
 
-## Slide 7: Exemplo Biológico: Dedução
+![](https://rm-15da4.kxcdn.com/wp-content/uploads/2014/10/Deductive-Approach-Deductive-Reasoning-1.png)
+
+
+## Exemplo Biológico: Dedução
+:::{.columns}
+:::{.column}
 * Premissa Maior: Todos os mamíferos possuem glândulas mamárias.
 * Premissa Menor: O ornitorrinco é um mamífero.
 * Conclusão: O ornitorrinco possui glândulas mamárias.
 
-## Slide 8: Comparativo: Indução vs. Dedução
+:::
+:::{.column}
+![](https://s3.static.brasilescola.uol.com.br/exercicios/2025/09/ornitorrinco-caracteristicas.jpg)
+:::
+:::
+
+## Comparativo: Indução vs. Dedução
 | Característica | Indução | Dedução |
 | :--- | :--- | :--- |
 | Ponto de partida | Observação | Teoria/Lei |
 | Objetivo | Criar novas leis | Testar previsões |
 | Força | Descoberta | Rigor Lógico |
 
-## Slide 9: Karl Popper e o Racionalismo Crítico
+![](https://sites.ualberta.ca/~obilash/Images/inductivedeductive.gif){fig-align=center}
+
+## Karl Popper e o Racionalismo Crítico
 * Crítica ao indutivismo.
 * A ciência não busca a "verdade", mas a eliminação do erro.
-* O conceito de **Assimetria Lógica**.
+* O conceito de **Assimetria Lógica**
+  - Falsificação > Verificação
 
-## Slide 10: O Princípio da Falseabilidade
+## O Princípio da Falseabilidade
+:::{.columns}
+:::{.column}
 * Uma teoria só é científica se puder ser testada e refutada.
-* Se não pode ser provada falsa, é dogma ou pseudociência.
-* "O conhecimento progride por conjecturas e refutações".
+* Se não pode ser provada falsa, dogma ou pseudociência.
+:::
+:::{.column}
 
-## Slide 11: Exemplo: Falseabilidade na Evolução
+![](https://www.simplypsychology.org/wp-content/uploads/inductive-deductive.jpg)
+:::
+:::
+
+
+## Exemplo: Falseabilidade na Evolução
 * Hipótese: "A seleção natural molda as adaptações".
-* Teste: Encontrar um mecanismo biológico complexo que não poderia ter evoluído gradualmente.
+* Para falsear: Encontrar um mecanismo biológico não sujeito à seleção.
 * Resultado: Se encontrado, a teoria deve ser revisada ou descartada.
 
-## Slide 12: Imre Lakatos e os Programas de Pesquisa
-* Crítica ao "falsacionismo ingênuo" de Popper.
-* A ciência não descarta teorias instantaneamente após uma falha.
+## 
+![](https://i.ytimg.com/vi/p-YgtOT9IWU/maxresdefault.jpg)
+
+## Imre Lakatos e os Programas de Pesquisa
+* Crítica ao "falseacionismo ingênuo" de Popper
+* A ciência não descarta teorias facilmente após uma falha
 * Conceito de estrutura rígida vs. flexível.
 
-## Slide 13: O Núcleo Duro (Hard Core)
-* São as leis fundamentais de uma teoria.
-* Exemplo na Biologia: O Dogma Central da Biologia Molecular (DNA -> RNA -> Proteína).
-* Não é questionado enquanto o programa for "progressivo".
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFA-uScj6ldqwgiIqlJ5FPKx8p_Xg1w1VjbQ&s){width=80%}
 
-## Slide 14: O Cinturão Protetor
+## O Núcleo Duro (Hard Core)
+:::{.columns}
+:::{;column}
+* São as leis fundamentais de uma teoria
+* Exemplo na Biologia: O Dogma Central da Biologia Molecular (DNA -> RNA -> Proteína)
+* Não é questionado enquanto o programa for "progressivo"
+:::
+:::{.column}
+![](https://static.todamateria.com.br/upload/ce/nt/centraldogma-0.jpg)
+:::
+:::
+
+## O Cinturão Protetor
+:::{.columns}
+:::{.column}
 * Hipóteses auxiliares que protegem o núcleo.
 * Exemplo: Vírus de RNA (Retrotranscrição). 
-* Em vez de abandonar o Dogma Central, expandimos o cinturão protetor para incluir a transcriptase reversa.
+:::
+:::{.column}
 
-## Slide 15: Programas Progressivos vs. Degenerativos
-* **Progressivo:** Leva à descoberta de fatos novos.
-* **Degenerativo:** Apenas tenta explicar falhas sem gerar novas previsões.
+![](https://s2.static.brasilescola.uol.com.br/be/2023/02/retrovirus-estrutura.jpg)
+:::
+:::
 
-## Slide 16: Teoria e Explicação Científica
+
+## Teoria e Explicação Científica
 * Explicar não é descrever.
 * Uma boa explicação biológica conecta o evento a um mecanismo.
 * Exemplo: Por que as folhas caem no outono? (Mecanismo hormonal/fotoperíodo).
 
-## Slide 17: Causalidade na Ciência
-* Estabelecer relações de causa e efeito.
-* Critérios de causalidade (Temporalidade, Plausibilidade Biológica).
+## Sua vez...{.center}
+
+## Causalidade na Ciência
+
 * $Causa \rightarrow Efeito$.
 
-## Slide 18: Correlação vs. Causalidade
-* Duas variáveis podem variar juntas sem que uma cause a outra.
-* Exemplo: Consumo de sorvete e queimaduras de sol.
-* Variável de confusão: O Sol (Calor).
+![](https://www.scribbr.de/wp-content/uploads/2021/08/01-correlation-types-1024x415.png)
 
-## Slide 19: Síntese do Encontro
-* A ciência biológica usa a indução para gerar ideias e a dedução para testá-las.
+## Correlação vs. Causalidade
+* Duas variáveis podem variar juntas sem que uma cause a outra.
+
+![](https://www.scribbr.de/wp-content/uploads/2021/08/01-correlation-types-1024x415.png)
+
+## Resumo de hoje
+* A ciência usa a indução para gerar ideias e a dedução para testá-las.
 * Popper nos lembra de sermos críticos.
 * Lakatos nos mostra como as teorias evoluem sem desmoronar.
 
-## Slide 20: Conclusão e Próximos Passos
+## Próximos Passos
 * Como aplicar isso no seu projeto de pesquisa?
 * Próxima aula: Elaboração de Problemas e Hipóteses.
 * Perguntas?

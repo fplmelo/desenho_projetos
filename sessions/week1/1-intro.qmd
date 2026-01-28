@@ -12,6 +12,9 @@ format:
     toc-title: "Nesta página"
 ---
 
+![](https://i.ytimg.com/vi/2WmPiRvAzvU/maxresdefault.jpg)
+
+
 ## Slides desta aula
 
 <iframe name="aula-1" width="700px" height="400px" src="https://fplmelo.github.io/desenho_projetos/slides/aula_1_fundamentos.html#/title-slide" scrolling="no" marginwidth="0" marginheight="0" style="border:0px none #ffffff;"></iframe>
