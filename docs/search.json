@@ -102,7 +102,7 @@
     "href": "sessions/index.html",
     "title": "Conteúdo",
     "section": "",
-    "text": "Aula 1: Fundamentos e Paradigmas Científicos\n\n\n\n\n\n\nFelipe Melo\n\n\n\n\n\n\n\n\n\n\n\nSemana 2: Lógica e Métodos de Abordagem\n\n\n\n\n\n\nFelipe Melo\n\n\nJan 28, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Aula 1: Fundamentos e Paradigmas Científicos\n\n\n\n\n\n\nFelipe Melo\n\n\n\n\n\n\n\n\n\n\n\nAula 2: Lógica e Métodos de Abordagem\n\n\n\n\n\n\nFelipe Melo\n\n\nJan 28, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "slides/aula_1_fundamentos.html#abertura",
@@ -975,35 +975,35 @@
   {
     "objectID": "sessions/week2/aula_02_dedut.html#slides-deste-aula",
     "href": "sessions/week2/aula_02_dedut.html#slides-deste-aula",
-    "title": "Semana 2: Lógica e Métodos de Abordagem",
+    "title": "Aula 2: Lógica e Métodos de Abordagem",
     "section": "Slides deste aula",
     "text": "Slides deste aula"
   },
   {
     "objectID": "sessions/week2/aula_02_dedut.html#indução-vs.-dedução-as-engrenagens-do-pensamento",
     "href": "sessions/week2/aula_02_dedut.html#indução-vs.-dedução-as-engrenagens-do-pensamento",
-    "title": "Semana 2: Lógica e Métodos de Abordagem",
+    "title": "Aula 2: Lógica e Métodos de Abordagem",
     "section": "1. Indução vs. Dedução: As Engrenagens do Pensamento",
     "text": "1. Indução vs. Dedução: As Engrenagens do Pensamento\nA ciência se move através de dois caminhos lógicos principais para conectar fatos e teorias.\n\nMétodo Indutivo (Do Específico para o Geral)\nA indução parte da observação sistemática de casos particulares para formular uma lei universal. É a base do empirismo.\n\nLógica: Observação \\(\\rightarrow\\) Padrão \\(\\rightarrow\\) Hipótese \\(\\rightarrow\\) Teoria.\nExemplo: “O cisne A é branco, o cisne B é branco, o cisne C é branco… logo, todos os cisnes são brancos.”\nCrítica: A indução nunca oferece certeza absoluta, pois um caso futuro pode contradizer a regra (o famoso problema do cisne negro). Tampouco oferece uma explicação sobre o “por quê” os cisnes são brancos ou negros. A indução, visa localizar padrões primeiro e sem seguida desenvolver uma explicação. No entanto, esse caminho pode ser perigoso, pois explicações expúrias e não-refutáveis costumam aparecer como “fortes” candidatas.\n\n\n\nO Caminho Indutivo (Observação de Campo)\nÉ muito comum na zoologia e botânica. Partimos de observações repetidas na natureza para inferir uma regra biológica.\n\nExemplo: Um botânico observa que a espécie de orquídea X em dez florestas diferentes só floresce acima de 1.000 metros de altitude. Ele induz que “a altitude é o gatilho para a floração desta espécie”.\nRaciocínio: Amostras Particulares \\(\\rightarrow\\) Generalização.\n\n\n\nO Caminho Dedutivo (Experimental)\nMuito utilizado na genética e microbiologia. Partimos de uma lei biológica conhecida para prever um resultado específico.\n\nExemplo: Sabendo que a Antibióticos inibem a síntese da parede celular bacteriana (Teoria Geral), o pesquisador deduz que, ao aplicar Penicilina na cultura da bactéria Staphylococcus (Caso Específico), a colônia morrerá.\nRaciocínio: Lei Geral \\(\\rightarrow\\) Hipótese \\(\\rightarrow\\) Teste.\n\n\n\nMétodo Dedutivo (Do Geral para o Específico)\nParte de uma premissa maior (teoria) para prever um fenômeno particular. Se a premissa for verdadeira e a lógica correta, a conclusão é necessariamente verdadeira.\n\nLógica: Teoria \\(\\rightarrow\\) Hipótese \\(\\rightarrow\\) Observação \\(\\rightarrow\\) Confirmação.\nExemplo: “Todos os metais conduzem eletricidade (premissa). O ferro é um metal. Logo, o ferro conduz eletricidade.” Note que nesse caso, a premissa baseada na teoria da condutividade dos metais, cria uma expectativa lógica que, se cumprida, fortalece a teoria."
   },
   {
     "objectID": "sessions/week2/aula_02_dedut.html#a-filosofia-da-ciência-popper-e-lakatos",
     "href": "sessions/week2/aula_02_dedut.html#a-filosofia-da-ciência-popper-e-lakatos",
-    "title": "Semana 2: Lógica e Métodos de Abordagem",
+    "title": "Aula 2: Lógica e Métodos de Abordagem",
     "section": "2. A Filosofia da Ciência: Popper e Lakatos",
     "text": "2. A Filosofia da Ciência: Popper e Lakatos\n\n\nKarl Popper e a Falseabilidade\nPara Popper, uma teoria só é científica se puder ser refutada. O cientista não deve buscar “provar que está certo” (verificação), mas sim tentar “provar que está errado”.\n\nConceito: A ciência progride por “conjecturas e refutações”. Se uma teoria resiste ao teste de falseamento, ela é considerada “corroborada” (temporariamente aceita), mas nunca “verdadeira” de forma definitiva.\n\n\n\n\nImre Lakatos e os Programas de Pesquisa\nLakatos suaviza o rigor de Popper. Ele argumenta que os cientistas não descartam uma teoria ao primeiro erro. Ele propõe a estrutura do Programa de Pesquisa:\n\nNúcleo Duro (Hard Core): As premissas fundamentais da teoria que não podem ser alteradas.\nCinturão Protetor: Hipóteses auxiliares que podem ser ajustadas ou substituídas para proteger o núcleo duro de anomalias."
   },
   {
     "objectID": "sessions/week2/aula_02_dedut.html#teoria-explicação-e-causalidade",
     "href": "sessions/week2/aula_02_dedut.html#teoria-explicação-e-causalidade",
-    "title": "Semana 2: Lógica e Métodos de Abordagem",
+    "title": "Aula 2: Lógica e Métodos de Abordagem",
     "section": "3. Teoria, Explicação e Causalidade",
     "text": "3. Teoria, Explicação e Causalidade\nA ciência não quer apenas descrever o que acontece, mas explicar por que acontece.\n\nTeoria: Um sistema logicamente estruturado que explica um conjunto de fenômenos.\nExplicação: O ato de conectar um evento a uma lei geral.\nCausalidade: A relação entre uma causa (variável independente) e um efeito (variável dependente).\n\nNota: Correlação não é causalidade. O fato de duas coisas crescerem juntas não significa que uma causa a outra.\n\n\n\nExemplo Prático: &gt; Na economia, a teoria da oferta e demanda explica por que os preços sobem. Se a oferta cai (causa), o preço sobe (efeito). Testamos essa causalidade através de dados empíricos usando o método dedutivo."
   },
   {
     "objectID": "sessions/week2/aula_02_dedut.html#referências-sugeridas",
     "href": "sessions/week2/aula_02_dedut.html#referências-sugeridas",
-    "title": "Semana 2: Lógica e Métodos de Abordagem",
+    "title": "Aula 2: Lógica e Métodos de Abordagem",
     "section": "Referências Sugeridas",
     "text": "Referências Sugeridas\n\nPOPPER, Karl. A Lógica da Pesquisa Científica.\nLAKATOS, Imre. A Metodologia dos Programas de Pesquisa Científica."
   },

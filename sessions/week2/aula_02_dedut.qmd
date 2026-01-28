@@ -1,5 +1,5 @@
 ---
-title: "Semana 2: Lógica e Métodos de Abordagem"
+title: "Aula 2: Lógica e Métodos de Abordagem"
 subtitle: "PPGBV (UFPE)"
 author: "Felipe Melo"
 date: "last-modified"
