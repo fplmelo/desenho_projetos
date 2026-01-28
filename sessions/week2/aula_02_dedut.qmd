@@ -13,7 +13,8 @@ format:
     toc-title: "Nesta página"
 ---
 
-![](https://s1.static.brasilescola.uol.com.br/be/2023/03/ilustracao-traz-as-etapas-do-metodo-cientifico-com-uma-cientista-negra-fazendo-cada-processo.jpg)
+![](/img/metodos.jpg)
+
 
 
 ## Slides deste aula

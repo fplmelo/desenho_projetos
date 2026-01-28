@@ -12,7 +12,7 @@ format:
     toc-title: "Nesta página"
 ---
 
-![](https://i.ytimg.com/vi/2WmPiRvAzvU/maxresdefault.jpg)
+![](/img/paradigma.png)
 
 
 ## Slides desta aula
