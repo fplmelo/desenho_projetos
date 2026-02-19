@@ -1,0 +1,338 @@
+---
+title: "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto"
+subtitle: "PPGBV - UFPE"
+format: 
+  revealjs:
+    theme: default
+    transition: fade
+    slide-number: true
+    chalkboard: true
+---
+
+## Introdução 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Boas-vindas à semana 2.
+- Foco: Pergunta e Projeto.
+- Alinhamento com o PPGBV.
+- Bases da pesquisa científica.
+:::
+::: {.column width="50%"}
+<!-- [INSERIR IMAGEM: Capa do curso ou logo UFPE] -->
+:::
+::::::::::::::
+
+## O Propósito da Pesquisa
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Busca pela verdade e realidade
+- Escolha metodológica consciente 
+- Especialização do senso comum 
+- Construção metódica e racional 
+:::
+::: {.column width="50%"}
+
+![](https://static.wixstatic.com/media/f6e653_d69c8f92d7a94318b4ea6054695317b7~mv2.png/v1/fill/w_740,h_377,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/f6e653_d69c8f92d7a94318b4ea6054695317b7~mv2.png)
+:::
+::::::::::::::
+
+## Desafios iniciais
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Complexidade da pesquisa
+- Superação de obstáculos técnicos 
+- Exigência de discernimento aguçado
+- Assimilação de requisitos formais (estrutura)
+:::
+::: {.column width="50%"}
+<!-- [INSERIR IMAGEM: Metáfora de labirinto ou caminho] -->
+:::
+::::::::::::::
+
+## Centralidade da pergunta
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![](https://i0.wp.com/programatcc.com.br/wp-content/uploads/2019/03/metodo-cientifico2.jpg?w=583&ssl=1){width=80%}
+:::
+::: {.column width="50%"}
+- Alicerce de todo o edifício 
+- Chama que ilumina a descoberta
+- Guia para coleta e análise 
+- Determina qualidade e aplicabilidade 
+:::
+::::::::::::::
+
+## Risco de falha
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![](https://i0.wp.com/programatcc.com.br/wp-content/uploads/2019/03/metodo-cientifico2.jpg?w=583&ssl=1){width=80%}
+:::
+::: {.column width="50%"}
+- Pergunta mal elaborada gera erro
+- Risco de "bancarrota" da pesquisa
+- Decisões confusas e imprecisas
+- Falta de clareza informativa
+:::
+::::::::::::::
+
+## O acrônimo FINGER
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![](https://i.pinimg.com/originals/f8/72/c0/f872c08c80ab2c5925ed382d232b8e4b.jpg)
+:::
+::: {.column width="50%"}
+- Guia para pergunta sólida 
+- Critérios de valoração essenciais
+- Centro de todas as etapas 
+- Discussão conjunta com orientador 
+:::
+::::::::::::::
+
+## F - Feasible (Factível)
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Acesso a participantes/espécimes 
+- Formação técnica  
+- Custos razoáveis e financiáveis 
+- Tempo de conclusão viável 
+:::
+::: {.column width="50%"}
+![](https://static0.cbrimages.com/wordpress/wp-content/uploads/2022/12/avatar-2-3.jpg?w=1200&h=675&fit=crop)
+:::
+::::::::::::::
+
+## I - Interesting (Interessante)
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Resposta gera interesse científico 
+- Motivação para o pesquisador 
+- Resolve problemas insolúveis 
+- Desvela novas percepções 
+:::
+::: {.column width="50%"}
+![](https://www.bardram.net/wp-content/uploads/2017/12/fish-2.png)
+:::
+::::::::::::::
+
+## N - Novel (Novo, Original)
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Fornece novos achados 
+- Amplia o saber existente 
+- Refuta resultados anteriores 
+- Foco em lacunas de evidência
+:::
+::: {.column width="50%"}
+![](https://thumbs.dreamstime.com/b/ilustra%C3%A7%C3%A3o-dos-desenhos-animados-do-banho-de-nata%C3%A7%C3%A3o-de-archimedes-eureka-60611794.jpg)
+:::
+::::::::::::::
+
+## G/E - Good & Ethical (Boa e Ética)
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![](https://eupercebo.unb.br/wp-content/uploads/2019/12/Etica_na_pesquisa_envolvendo_seres_humanos.png)
+:::
+::: {.column width="50%"}
+- Alinhamento com seu plano de carreira 
+- Risco baixo/aceitável  
+- Condução ética 
+- Respeito à bioética 
+:::
+::::::::::::::
+
+## R - Relevant (Relevante)
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![](https://unicamp.br/unicamp/sites/default/files/inline-images/1%20Lab.de%20Fibra%20%C3%93tica-perri-16-05-07%20DSC_0093%20%281%29.JPG)
+:::
+::: {.column width="50%"}
+- Melhora o conhecimento científico 
+- Orienta políticas e práticas 
+- Impacto real na sociedade 
+- Justifica o investimento público 
+:::
+::::::::::::::
+
+## Parte 2{.center}
+
+## Delimitação do tema
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![](https://c8.alamy.com/comp/2GPN4BH/science-and-a-magnifying-glass-on-english-word-science-to-symbolize-studying-examining-or-searching-for-an-explanation-and-answers-related-to-a-conce-2GPN4BH.jpg)
+:::
+::: {.column width="50%"}
+- Seleção de tópico focalizado
+- Evita abrangência excessiva 
+- Divisão por tempo e espaço
+- Define o "ponto de vista"
+:::
+::::::::::::::
+
+## Problematização
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Transformação do tema em dúvida
+- Conhecimento das divergências
+- Marcos de singularidade
+
+:::
+::: {.column width="50%"}
+![](https://media.istockphoto.com/id/814283064/vector/scientific-debate.jpg?s=170667a&w=0&k=20&c=VqZ3LRFgYt61UH_Grh6mSASG62p4rK8puF_iPG5tLMg=)
+:::
+::::::::::::::
+
+## Hipóteses
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Suposição provisória de resposta
+- Guia para o planejamento prático
+- Testável e passível de verificação 
+- Relação provável entre variáveis
+:::
+::: {.column width="50%"}
+<!-- [INSERIR IMAGEM: Fluxograma de hipótese (Se X, então Y)] -->
+:::
+::::::::::::::
+
+## 15. Definição de Objetivos
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Define a natureza do trabalho [28].
+- Responde "para que" e "para quem" [29].
+- Devem ser claros e diretos [30].
+- Delimitam o material a coletar [28].
+:::
+::: {.column width="50%"}
+<!-- [INSERIR IMAGEM: Alvo ou bandeira de chegada] -->
+:::
+::::::::::::::
+
+## 16. Objetivo Geral
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+<!-- [INSERIR IMAGEM: Visão panorâmica ou binóculo] -->
+:::
+::: {.column width="50%"}
+- Visão global e abrangente [28].
+- Conteúdo intrínseco do fenômeno [28].
+- Propósito central da pesquisa [31].
+- Indica a meta final do aluno [31].
+:::
+::::::::::::::
+
+## 17. Objetivos Específicos
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+<!-- [INSERIR IMAGEM: Engrenagens ou etapas de uma escada] -->
+:::
+::: {.column width="50%"}
+- Caráter concreto e instrumental [31].
+- Auxilia no alcance do geral [31].
+- Aplicação em situações particulares [31].
+- Identifica novos aspectos do problema [31].
+:::
+::::::::::::::
+
+## 18. Justificativa
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+<!-- [INSERIR IMAGEM: Martelo de juiz ou selo de legitimidade] -->
+:::
+::: {.column width="50%"}
+- Razões teóricas e práticas [30].
+- Demonstra pertinência e interesse [30].
+- Enfatiza estágio atual da teoria [20].
+- Evita citações diretas [32].
+:::
+::::::::::::::
+
+## 19. Referencial Teórico
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Suporte e fundamentação básica [33].
+- Não é um glossário de termos [34].
+- Texto dissertativo e conectado [34].
+- Construção de moldura conceitual [34].
+:::
+::: {.column width="50%"}
+<!-- [INSERIR IMAGEM: Estante de livros ou rede de conceitos] -->
+:::
+::::::::::::::
+
+## 20. O Estado da Arte
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Desenvolvimento atual da ciência [35].
+- Mapeia tendências e hiatos [10].
+- Identifica excelência no assunto [35].
+- Requer atualização constante [10].
+:::
+::: {.column width="50%"}
+<!-- [INSERIR IMAGEM: Gráfico de tendência ou radar tecnológico] -->
+:::
+::::::::::::::
+
+## 21. Metacognição na Escrita
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Conhecimento do próprio saber [36].
+- Atividade reflexiva constante [36].
+- Metacompreensão do estudo [37].
+- Centralidade no autoconhecimento [36].
+:::
+::: {.column width="50%"}
+<!-- [INSERIR IMAGEM: Cérebro refletindo sobre si mesmo] -->
+:::
+::::::::::::::
+
+## 22. Retextualização
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+<!-- [INSERIR IMAGEM: Máquina de escrever ou caneta criativa] -->
+:::
+::: {.column width="50%"}
+- Esforço multi-cognitivo complexo [24].
+- Não é mera justaposição de ideias [24].
+- Transformação de dados em voz [24, 38].
+- Base da originalidade acadêmica [38].
+:::
+::::::::::::::
+
+## 23. Ética: Princípios Belmont
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+<!-- [INSERIR IMAGEM: Documento do Relatório Belmont ou justiça] -->
+:::
+::: {.column width="50%"}
+- Respeito às pessoas e autonomia [39].
+- Beneficência: maximizar o bem [39].
+- Justiça: tratamento igualitário [40].
+- Proteção de grupos vulneráveis [41].
+:::
+::::::::::::::
+
+## 24. O TCLE
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+<!-- [INSERIR IMAGEM: Formulário de assinatura de consentimento] -->
+:::
+::: {.column width="50%"}
+- Consentimento Livre e Esclarecido [42].
+- Documento formal obrigatório [43].
+- Livre de qualquer intimidação [42].
+- Registro de anuência voluntária [43, 44].
+:::
+::::::::::::::
+
+## 25. Conclusão da Etapa
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Projeto como plano de inferência [45].
+- Rigor garante segurança final [46].
+- "Todo perguntar é uma busca" [47].
+- Preparação para a coleta de dados [48].
+:::
+::: {.column width="50%"}
+<!-- [INSERIR IMAGEM: Sol nascendo ou linha de partida] -->
+:::
+::::::::::::::

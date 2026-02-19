@@ -102,7 +102,7 @@
     "href": "sessions/index.html",
     "title": "Conteúdo",
     "section": "",
-    "text": "Aula 1: Fundamentos e Paradigmas Científicos\n\n\n\n\n\n\nFelipe Melo\n\n\n\n\n\n\n\n\n\n\n\nAula 2: Lógica e Métodos de Abordagem\n\n\n\n\n\n\nFelipe Melo\n\n\nJan 28, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Aula 1: Fundamentos e Paradigmas Científicos\n\n\n\n\n\n\nFelipe Melo\n\n\n\n\n\n\n\n\n\n\n\nAula 2: Lógica e Métodos de Abordagem\n\n\n\n\n\n\nFelipe Melo\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\nAula 3: A Pergunta de Pesquisa e a Estrutura do Projeto\n\n\n\n\n\n\nFelipe Melo\n\n\nFeb 19, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "slides/aula_1_fundamentos.html#abertura",
@@ -1013,5 +1013,390 @@
     "title": "My Quarto WorkBook",
     "section": "",
     "text": "Task 1: Reflection\nPut your reflection here\n\n\nTask 2: Enhanced plot\nWhen you knit this document, you will create and save a basic bar chart of hot dog eating contest winners. You will then open the resulting file in a vector editing program.\nBe sure that you save your file with a different name. You don’t want to accidentally overwrite all your enhancements and updates when you knit this document. That would be so sad.\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(svglite)\n\nhotdogs &lt;- read_csv(\"data/hot-dog-contest-winners.csv\") |&gt;\n  rename(dogs = `Dogs eaten`, record = `New record`) |&gt;\n  mutate(record = factor(record))\n\nRows: 31 Columns: 5\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (2): Winner, Country\ndbl (3): Year, Dogs eaten, New record\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n# Change the colors here if you want\n# (or anything else if you want too)\nplot_hotdogs &lt;- ggplot(hotdogs, \n                       aes(x = Year, y = dogs, fill = record)) + \n  geom_col() + \n  scale_fill_manual(values = c(\"grey80\", \"#FC7300\")) +\n  scale_x_continuous(breaks = seq(1980, 2010, 2), \n                     expand = c(0, 0)) +\n  scale_y_continuous(breaks = seq(0, 70, 10), \n                     expand = c(0, 0)) +\n  guides(fill = \"none\") +\n  labs(y = \"Hot dogs and buns\", x = NULL) +\n  theme_minimal() +\n  theme(panel.background = element_rect(fill = \"transparent\", colour = NA),\n        plot.background = element_rect(fill = \"transparent\", colour = NA),\n        axis.ticks.x = element_line(linewidth = 0.25),\n        panel.grid.major.x = element_blank(),\n        panel.grid.major.y = element_line(linewidth = 0.5, linetype = \"dashed\"),\n        panel.grid.minor = element_blank())\n\n# Change the dimensions here if you want\nggsave(plot_hotdogs, filename = \"hotdogs.pdf\", device = cairo_pdf,\n       width = 7, height = 4, units = \"in\", bg = \"transparent\")\n\nggsave(plot_hotdogs, filename = \"hotdogs.svg\",\n       width = 7, height = 4, units = \"in\", bg = \"transparent\")"
+  },
+  {
+    "objectID": "sessions/week3/aula3.html",
+    "href": "sessions/week3/aula3.html",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "",
+    "text": "O propósito primordial da humanidade é a busca incessante por conhecer a verdade e a realidade. Nesse contexto, a pesquisa científica surge como uma escolha metodológica específica e rigorosa para adquirir conhecimento sobre uma parcela determinada dessa realidade. Um dos maiores desafios para o pesquisador, especialmente no início de sua jornada, não é a coleta de dados em si, mas a capacidade de formular uma dúvida que seja produtiva.\nA pergunta de pesquisa é definida como uma “incerteza” que exige investigação deliberada. Ela não é apenas um ponto de partida formal, mas a chama que ilumina todo o caminho da descoberta científica, influenciando diretamente a direção, a qualidade do processo investigativo e a posterior análise dos dados. Uma pergunta mal formulada, cujo fulcro carece de clareza, fatalmente conduzirá a análises confusas e decisões metodológicas equivocadas, levando o projeto à “bancarrota” científica.\n\n\n\nPara garantir que uma pergunta de pesquisa seja robusta e capaz de sustentar um projeto de Mestrado ou Doutorado, a literatura recomenda a aplicação do método FINGER. Este acrônimo serve como um guia para que o pesquisador e seu orientador avaliem a viabilidade e o impacto potencial do estudo antes de iniciarem a execução prática.\n\nF – Feasible (Factível): Refere-se à viabilidade operacional. O pesquisador deve ter acesso a um número adequado de participantes ou espécimes, possuir a formação técnica necessária e contar com recursos financeiros e tempo hábil para a conclusão do estudo.\nI – Interesting (Interessante): A questão deve despertar o interesse genuíno da comunidade científica e do próprio investigador, motivando a busca por soluções para problemas anteriormente insolúveis.\nN – Novel (Original/Novo): A pesquisa deve trazer contribuições originais, seja fornecendo novos achados, ampliando conhecimentos existentes ou refutando descobertas passadas através de novas evidências.\nG – Good (Bom): Este critério avalia se o projeto está alinhado com o plano de carreira do pesquisador e se contribui para o seu amadurecimento intelectual.\nE – Ethical (Ético): O estudo deve garantir que o risco para os participantes seja baixo ou aceitável, respeitando os princípios fundamentais da bioética e sendo aprovado por comitês competentes.\nR – Relevant (Relevante): A pergunta deve abordar lacunas no conhecimento, possuir impacto potencial em políticas públicas ou práticas profissionais e orientar futuras investigações.\n\n\n\n\n\nUm projeto de pesquisa é um plano sistemático que demonstra como o pesquisador pretende usar evidências para realizar inferências válidas. No PPGBV, seguimos estruturas lógicas que garantem o rigor necessário para a produção de ciência de alto nível.\n\n\nA delimitação do tema consiste em selecionar um tópico específico, evitando generalizações excessivas que impeçam um estudo profundo. Já a problematização é o marco inaugural onde a “voz do autor” se manifesta de forma explícita; é o processo de transformar um tema amplo em uma dificuldade teórica ou prática que exige uma solução científica.\n\n\n\n\nJustificativa: Deve expor as razões teóricas e práticas do estudo, enfatizando o estágio atual da teoria e as lacunas que a pesquisa pretende preencher.\nObjetivo Geral: Define de forma ampla e direta o propósito central do estudante com a realização do trabalho.\nObjetivos Específicos: Detalham as etapas instrumentais e concretas necessárias para o alcance do objetivo geral.\n\n\n\n\nAs hipóteses são suposições provisórias colocadas como respostas à pergunta de pesquisa [19]. Nas ciências biológicas e sociais, elas raramente são puramente causais de forma rígida, funcionando mais como indicadores de relações probabilísticas entre variáveis que serão submetidas à verificação empírica.\n\n\n\n\n\nO referencial teórico não deve ser confundido com um glossário ou uma simples lista de livros. Ele é o suporte conceitual que serve de “lente” para o desenvolvimento do trabalho, onde o autor discute a evolução do tema e as ideias de diferentes pesquisadores de modo dissertativo.\n\nEstado da Arte: É o mapeamento do nível de desenvolvimento atingido por uma ciência na atualidade, identificando tendências e as publicações mais recentes e relevantes da área.\nRetextualização: O processo de escrita exige um esforço metacognitivo (o conhecimento sobre o próprio conhecimento), transformando a leitura de múltiplos autores em uma narrativa original e autêntica.\n\n\n\n\n\nA ética em pesquisa é fundamentada no respeito à autonomia e dignidade humana. Todo projeto envolvendo seres humanos deve observar os princípios do Relatório Belmont:\n\nRespeito às pessoas: Reconhecimento da autonomia dos participantes e proteção especial a grupos vulneráveis.\nBeneficência: Garantia do bem-estar dos participantes, maximizando benefícios e minimizando danos (não-maleficência).\nJustiça: Tratamento igualitário e distribuição equitativa de encargos e benefícios da pesquisa.\n\nO uso do Termo de Consentimento Livre e Esclarecido (TCLE) é indispensável para registrar que o participante manifestou sua vontade livre de intimidação após ser informado sobre objetivos, riscos e métodos.\n\n\n\n\n\nKuhn: paradigmas científicos – Exploração sobre a natureza das revoluções e mudanças de paradigma.\nDesenho de Pesquisa (ENAP) – Manual completo sobre a lógica de inferência e construção de modelos.\nDiretrizes de Ética (CEPH-FGV) – Guia detalhado sobre proteção de dados e princípios Belmont.\nA Arte de Elaborar uma Pergunta de Pesquisa – Artigo base sobre critérios FINGER e clareza informativa.\nRigor na Pesquisa Qualitativa – Estratégias para garantir credibilidade e"
+  },
+  {
+    "objectID": "sessions/week3/aula3.html#o-acrônimo-finger-parâmetros-de-excelência",
+    "href": "sessions/week3/aula3.html#o-acrônimo-finger-parâmetros-de-excelência",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "O acrônimo FINGER: Parâmetros de excelência",
+    "text": "O acrônimo FINGER: Parâmetros de excelência\nPara garantir que uma pergunta de pesquisa seja robusta e capaz de sustentar um projeto de Mestrado ou Doutorado, a literatura recomenda a aplicação do método FINGER. Este acrônimo serve como um guia para que o pesquisador e seu orientador avaliem a viabilidade e o impacto potencial do estudo antes de iniciarem a execução prática.\n\nF – Feasible (Factível): Refere-se à viabilidade operacional. O pesquisador deve ter acesso a um número adequado de participantes ou espécimes, possuir a formação técnica necessária e contar com recursos financeiros e tempo hábil para a conclusão do estudo.\nI – Interesting (Interessante): A questão deve despertar o interesse genuíno da comunidade científica e do próprio investigador, motivando a busca por soluções para problemas anteriormente insolúveis.\nN – Novel (Original/Novo): A pesquisa deve trazer contribuições originais, seja fornecendo novos achados, ampliando conhecimentos existentes ou refutando descobertas passadas através de novas evidências.\nG – Good (Bom): Este critério avalia se o projeto está alinhado com o plano de carreira do pesquisador e se contribui para o seu amadurecimento intelectual.\nE – Ethical (Ético): O estudo deve garantir que o risco para os participantes seja baixo ou aceitável, respeitando os princípios fundamentais da bioética e sendo aprovado por comitês competentes.\nR – Relevant (Relevante): A pergunta deve abordar lacunas no conhecimento, possuir impacto potencial em políticas públicas ou práticas profissionais e orientar futuras investigações."
+  },
+  {
+    "objectID": "sessions/week3/aula3.html#elementos-obrigatórios-e-estrutura-do-projeto",
+    "href": "sessions/week3/aula3.html#elementos-obrigatórios-e-estrutura-do-projeto",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "Elementos obrigatórios e estrutura do projeto",
+    "text": "Elementos obrigatórios e estrutura do projeto\nUm projeto de pesquisa é um plano sistemático que demonstra como o pesquisador pretende usar evidências para realizar inferências válidas. No PPGBV, seguimos estruturas lógicas que garantem o rigor necessário para a produção de ciência de alto nível.\n\nDelimitação e problematização\nA delimitação do tema consiste em selecionar um tópico específico, evitando generalizações excessivas que impeçam um estudo profundo. Já a problematização é o marco inaugural onde a “voz do autor” se manifesta de forma explícita; é o processo de transformar um tema amplo em uma dificuldade teórica ou prática que exige uma solução científica.\n\n\nJustificativa e objetivos\n\nJustificativa: Deve expor as razões teóricas e práticas do estudo, enfatizando o estágio atual da teoria e as lacunas que a pesquisa pretende preencher.\nObjetivo Geral: Define de forma ampla e direta o propósito central do estudante com a realização do trabalho.\nObjetivos Específicos: Detalham as etapas instrumentais e concretas necessárias para o alcance do objetivo geral.\n\n\n\nO Papel das hipóteses\nAs hipóteses são suposições provisórias colocadas como respostas à pergunta de pesquisa [19]. Nas ciências biológicas e sociais, elas raramente são puramente causais de forma rígida, funcionando mais como indicadores de relações probabilísticas entre variáveis que serão submetidas à verificação empírica."
+  },
+  {
+    "objectID": "sessions/week3/aula3.html#referencial-teórico-e-o-estado-da-arte",
+    "href": "sessions/week3/aula3.html#referencial-teórico-e-o-estado-da-arte",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "Referencial teórico e o estado da arte",
+    "text": "Referencial teórico e o estado da arte\nO referencial teórico não deve ser confundido com um glossário ou uma simples lista de livros. Ele é o suporte conceitual que serve de “lente” para o desenvolvimento do trabalho, onde o autor discute a evolução do tema e as ideias de diferentes pesquisadores de modo dissertativo.\n\nEstado da Arte: É o mapeamento do nível de desenvolvimento atingido por uma ciência na atualidade, identificando tendências e as publicações mais recentes e relevantes da área.\nRetextualização: O processo de escrita exige um esforço metacognitivo (o conhecimento sobre o próprio conhecimento), transformando a leitura de múltiplos autores em uma narrativa original e autêntica."
+  },
+  {
+    "objectID": "sessions/week3/aula3.html#ética-e-integridade-científica",
+    "href": "sessions/week3/aula3.html#ética-e-integridade-científica",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "Ética e integridade científica",
+    "text": "Ética e integridade científica\nA ética em pesquisa é fundamentada no respeito à autonomia e dignidade humana. Todo projeto envolvendo seres humanos deve observar os princípios do Relatório Belmont:\n\nRespeito às pessoas: Reconhecimento da autonomia dos participantes e proteção especial a grupos vulneráveis.\nBeneficência: Garantia do bem-estar dos participantes, maximizando benefícios e minimizando danos (não-maleficência).\nJustiça: Tratamento igualitário e distribuição equitativa de encargos e benefícios da pesquisa.\n\nO uso do Termo de Consentimento Livre e Esclarecido (TCLE) é indispensável para registrar que o participante manifestou sua vontade livre de intimidação após ser informado sobre objetivos, riscos e métodos."
+  },
+  {
+    "objectID": "sessions/week3/aula3.html#referências-para-estudo-links-ativos",
+    "href": "sessions/week3/aula3.html#referências-para-estudo-links-ativos",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "",
+    "text": "Kuhn: paradigmas científicos – Exploração sobre a natureza das revoluções e mudanças de paradigma.\nDesenho de Pesquisa (ENAP) – Manual completo sobre a lógica de inferência e construção de modelos.\nDiretrizes de Ética (CEPH-FGV) – Guia detalhado sobre proteção de dados e princípios Belmont.\nA Arte de Elaborar uma Pergunta de Pesquisa – Artigo base sobre critérios FINGER e clareza informativa.\nRigor na Pesquisa Qualitativa – Estratégias para garantir credibilidade e"
+  },
+  {
+    "objectID": "sessions/week3/aula3.html#referências-para-estudo",
+    "href": "sessions/week3/aula3.html#referências-para-estudo",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "Referências para estudo",
+    "text": "Referências para estudo\n\nKuhn: paradigmas científicos – Exploração sobre a natureza das revoluções e mudanças de paradigma.\nA Arte de Elaborar uma Pergunta de Pesquisa – Artigo base sobre critérios FINGER e clareza informativa.\nRigor na Pesquisa Qualitativa – Estratégias para garantir credibilidade"
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#o-propósito-da-pesquisa",
+    "href": "slides/aula_3_perguntas.html#o-propósito-da-pesquisa",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "O Propósito da Pesquisa",
+    "text": "O Propósito da Pesquisa\n\n\n\nBusca pela verdade e realidade\nEscolha metodológica consciente\nEspecialização do senso comum\nConstrução metódica e racional"
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#a-centralidade-da-pergunta",
+    "href": "slides/aula_3_perguntas.html#a-centralidade-da-pergunta",
+    "title": "A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "2. A Centralidade da Pergunta",
+    "text": "2. A Centralidade da Pergunta\n\n\n\nA pergunta é a chama que ilumina todo o caminho da descoberta [2].\nÉ o alicerce sobre o qual todo o edifício da pesquisa é erguido [3].\n\n\n\nDefine os limites e delineia as estratégias metodológicas [3].\nDetermina a qualidade e a aplicabilidade dos resultados finais [3]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#impacto-no-processo-investigativo",
+    "href": "slides/aula_3_perguntas.html#impacto-no-processo-investigativo",
+    "title": "A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "3. Impacto no Processo Investigativo",
+    "text": "3. Impacto no Processo Investigativo\n\n\n\nInfluencia diretamente na direção e qualidade da investigação [4].\nUma pergunta mal elaborada leva o projeto à bancarrota [5].\n\n\n\nImpacta significativamente na coleta e análise posterior de dados [4].\nPerguntas sem clareza produzem análises e decisões confusas [6]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#a-arte-de-problematizar",
+    "href": "slides/aula_3_perguntas.html#a-arte-de-problematizar",
+    "title": "A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "4. A Arte de Problematizar",
+    "text": "4. A Arte de Problematizar\n\n\n\nO ponto de partida é a identificação de um problema [4].\nProblema: questão que envolve dificuldade teórica ou prática exigindo solução [7].\n\n\n\nA problematização é o marco inaugural da singularidade do autor [8].\nAtravés dela, a voz do pesquisador se manifesta explicitamente [8]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#parâmetros-de-excelência-finger",
+    "href": "slides/aula_3_perguntas.html#parâmetros-de-excelência-finger",
+    "title": "A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "5. Parâmetros de Excelência: FINGER",
+    "text": "5. Parâmetros de Excelência: FINGER\n\n\n\nMétodo sistemático proposto para desenvolver perguntas sólidas [9].\nAcrônimo para: Feasible, Interesting, Novel, Good, Ethical, Relevant [9].\n\n\n\nGarante que a pergunta seja o centro sólido de todas as etapas [10].\nRecomenda-se exame ordenado dos critérios com o orientador [9]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#f---feasible-factível",
+    "href": "slides/aula_3_perguntas.html#f---feasible-factível",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "F - Feasible (Factível)",
+    "text": "F - Feasible (Factível)\n\n\n\nAcesso a participantes/espécimes\nFormação técnica\n\nCustos razoáveis e financiáveis\nTempo de conclusão viável"
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#i---interesting-interessante",
+    "href": "slides/aula_3_perguntas.html#i---interesting-interessante",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "I - Interesting (Interessante)",
+    "text": "I - Interesting (Interessante)\n\n\n\nResposta gera interesse científico\nMotivação para o pesquisador\nResolve problemas insolúveis\nDesvela novas percepções"
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#n---novel-originalnovo",
+    "href": "slides/aula_3_perguntas.html#n---novel-originalnovo",
+    "title": "A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "8. N - Novel (Original/Novo)",
+    "text": "8. N - Novel (Original/Novo)\n\n\n\nDeve fornecer novos achados ou ampliar o saber existente [10].\nPode ter o objetivo de refutar achados anteriores [10].\n\n\n\nBaseia-se na identificação de lacunas de evidências [14].\nExige um processo de retextualização complexa [15]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#g---good-bomplano-de-carreira",
+    "href": "slides/aula_3_perguntas.html#g---good-bomplano-de-carreira",
+    "title": "A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "9. G - Good (Bom/Plano de Carreira)",
+    "text": "9. G - Good (Bom/Plano de Carreira)\n\n\n\nAlinhamento estratégico com o plano de carreira do pesquisador [10].\nContribui para o amadurecimento intelectual e profissional [10].\n\n\n\nReflete a maestria e o domínio da área de estudo [5].\nFortalece a expertise do autor em sua linha de pesquisa [5]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#e---ethical-ético",
+    "href": "slides/aula_3_perguntas.html#e---ethical-ético",
+    "title": "A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "10. E - Ethical (Ético)",
+    "text": "10. E - Ethical (Ético)\n\n\n\nO risco para os participantes deve ser baixo ou aceitável [10].\nDeve ser considerado ético pelos pares e comitês [10].\n\n\n\nObservância obrigatória dos princípios de bioética [16].\nRespeito à autonomia e dignidade dos envolvidos [17]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#r---relevant-relevante",
+    "href": "slides/aula_3_perguntas.html#r---relevant-relevante",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "R - Relevant (Relevante)",
+    "text": "R - Relevant (Relevante)\n\n\n\n\n\nMelhora o conhecimento científico\nOrienta políticas e práticas\nImpacto real na sociedade\nJustifica o investimento público"
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#pilares-gramaticais-da-pergunta",
+    "href": "slides/aula_3_perguntas.html#pilares-gramaticais-da-pergunta",
+    "title": "A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "12. Pilares Gramaticais da Pergunta",
+    "text": "12. Pilares Gramaticais da Pergunta\n\n\n\nLexicologia: Significado das palavras em si mesmas (vocabulário) [19].\nSintaxe: Relação de concordância e ordem nas frases [19].\n\n\n\nSemântica: Estudo da significação e coesão estrutural [19].\nRequer clareza informativa e consistência interna [19]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#estrutura-do-projeto-nbr-15287",
+    "href": "slides/aula_3_perguntas.html#estrutura-do-projeto-nbr-15287",
+    "title": "A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "13. Estrutura do Projeto (NBR 15287)",
+    "text": "13. Estrutura do Projeto (NBR 15287)\n\n\n\nIntrodução: Tema, justificativa, problema e objetivos [20, 21].\nReferencial Teórico: Moldura conceitual e revisão [22].\n\n\n\nMetodologia: Como a investigação será realizada [23].\nElementos Pós-textuais: Referências, apêndices e anexos [20, 21]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#delimitação-do-tema",
+    "href": "slides/aula_3_perguntas.html#delimitação-do-tema",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "Delimitação do tema",
+    "text": "Delimitação do tema\n\n\n\n\n\nSeleção de tópico focalizado\nEvita abrangência excessiva\nDivisão por tempo e espaço\nDefine o “ponto de vista”"
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#definição-dos-objetivos",
+    "href": "slides/aula_3_perguntas.html#definição-dos-objetivos",
+    "title": "A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "15. Definição dos Objetivos",
+    "text": "15. Definição dos Objetivos\n\n\n\nGeral: Visão global e abrangente do propósito do estudo [26].\nResponde à questão: “Para que e para quem?” [26].\n\n\n\nEspecíficos: Caráter concreto e instrumental [27].\nAuxiliam no alcance do objetivo geral em situações particulares [27]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#justificativa-o-porquê",
+    "href": "slides/aula_3_perguntas.html#justificativa-o-porquê",
+    "title": "A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "16. Justificativa: O “Porquê”",
+    "text": "16. Justificativa: O “Porquê”\n\n\n\nApresentação clara das razões teóricas e práticas [28].\nEnfatiza o estágio atual da teoria sobre o tema [29].\n\n\n\nDemonstra a legitimidade e pertinência da pesquisa [28].\nFundamental para a captação de recursos e financiamento [29]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#referencial-teórico-suporte",
+    "href": "slides/aula_3_perguntas.html#referencial-teórico-suporte",
+    "title": "A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "17. Referencial Teórico (Suporte)",
+    "text": "17. Referencial Teórico (Suporte)\n\n\n\nNão é um mero glossário ou lista de referências [30].\nÉ a moldura conceitual que serve de lente para o estudo [31].\n\n\n\nDeve ser apresentado de modo dissertativo [23].\nMostra a evolução do tema e ideias de diferentes autores [22]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#o-estado-da-arte",
+    "href": "slides/aula_3_perguntas.html#o-estado-da-arte",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "20. O Estado da Arte",
+    "text": "20. O Estado da Arte\n\n\n\nDesenvolvimento atual da ciência [35].\nMapeia tendências e hiatos [10].\nIdentifica excelência no assunto [35].\nRequer atualização constante [10]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#formulação-de-hipóteses",
+    "href": "slides/aula_3_perguntas.html#formulação-de-hipóteses",
+    "title": "A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "19. Formulação de Hipóteses",
+    "text": "19. Formulação de Hipóteses\n\n\n\nSuposição provisória para explicar o que se desconhece [32].\nResposta antecipada na expectativa de ser comprovada [32].\n\n\n\nNas ciências sociais/biológicas, indicam tendências e relações [33, 34].\nDevem ser testáveis para verificação de sua validade [32]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#metacognição-na-produção-textual",
+    "href": "slides/aula_3_perguntas.html#metacognição-na-produção-textual",
+    "title": "A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "20. Metacognição na Produção Textual",
+    "text": "20. Metacognição na Produção Textual\n\n\n\nDefinida como o “conhecimento do conhecimento” [31].\nAtividade reflexiva e significativa sobre o próprio saber [31].\n\n\n\nDimensões: Metacompreensão do estudo e meta-escritura [35].\nAlerça a produção textual de alta qualidade [31]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#retextualização-e-voz-do-autor",
+    "href": "slides/aula_3_perguntas.html#retextualização-e-voz-do-autor",
+    "title": "A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "21. Retextualização e Voz do Autor",
+    "text": "21. Retextualização e Voz do Autor\n\n\n\nEsforço multi-cognitivo, não mera justaposição de ideias [8].\nTransformação de dados e leituras em escrita original [8].\n\n\n\nExige leitura atenta de cada palavra e parágrafo [13].\nRevela a autoridade e integridade científica do autor [13, 36]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#princípios-éticos-belmont",
+    "href": "slides/aula_3_perguntas.html#princípios-éticos-belmont",
+    "title": "A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "22. Princípios Éticos Belmont",
+    "text": "22. Princípios Éticos Belmont\n\n\n\nRespeito às Pessoas: Autonomia e proteção a vulneráveis [37].\nJustiça: Tratamento igualitário e distribuição de riscos [38].\n\n\n\nBeneficência: Maximizar benefícios e minimizar danos [37].\nNão-maleficência: Vedação da imposição de danos [37]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#consentimento-e-assentimento",
+    "href": "slides/aula_3_perguntas.html#consentimento-e-assentimento",
+    "title": "A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "23. Consentimento e Assentimento",
+    "text": "23. Consentimento e Assentimento\n\n\n\nTCLE: Documento indispensável para anuência informada [39].\nDeve ser livre de qualquer forma de intimidação [40].\n\n\n\nTALE: Adaptado para menores ou legalmente incapazes [39].\nExige consentimento adicional do representante legal [41]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#rigor-e-transparência",
+    "href": "slides/aula_3_perguntas.html#rigor-e-transparência",
+    "title": "A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "24. Rigor e Transparência",
+    "text": "24. Rigor e Transparência\n\n\n\nO desenho deve convencer uma audiência de céticos [42].\nDecisões devem ser demonstradas como as mais seguras [42].\n\n\n\nExige domínio da linguagem e referências do campo [43].\nA ciência é uma produção coletiva e sistemática [43, 44]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#conclusão-da-etapa-de-projeto",
+    "href": "slides/aula_3_perguntas.html#conclusão-da-etapa-de-projeto",
+    "title": "A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "25. Conclusão da Etapa de Projeto",
+    "text": "25. Conclusão da Etapa de Projeto\n\n\n\nO projeto é o plano para usar evidências e fazer inferências [45].\nDeve ser concluído antes da execução da pesquisa em si [45].\n\n\n\nUma pergunta sólida garante a direção do êxito científico [4].\n“Todo perguntar é uma busca” (Heidegger) [46].\n\n\ntitle: “Untitled” format: revealjs editor: visual —"
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#introdução-ao-encontro",
+    "href": "slides/aula_3_perguntas.html#introdução-ao-encontro",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "1. Introdução ao Encontro",
+    "text": "1. Introdução ao Encontro\n\n\n\nBoas-vindas à semana 2.\nFoco: Pergunta e Projeto.\nAlinhamento com o PPGBV.\nBases da pesquisa científica."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#desafios-iniciais",
+    "href": "slides/aula_3_perguntas.html#desafios-iniciais",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "Desafios iniciais",
+    "text": "Desafios iniciais\n\n\n\nComplexidade da pesquisa\nSuperação de obstáculos técnicos\nExigência de discernimento aguçado\nAssimilação de requisitos formais (estrutura)"
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#centralidade-da-pergunta",
+    "href": "slides/aula_3_perguntas.html#centralidade-da-pergunta",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "Centralidade da pergunta",
+    "text": "Centralidade da pergunta\n\n\n\n\n\nAlicerce de todo o edifício\nChama que ilumina a descoberta\nGuia para coleta e análise\nDetermina qualidade e aplicabilidade"
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#risco-de-falha",
+    "href": "slides/aula_3_perguntas.html#risco-de-falha",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "Risco de falha",
+    "text": "Risco de falha\n\n\n\n\n\nPergunta mal elaborada gera erro\nRisco de “bancarrota” da pesquisa\nDecisões confusas e imprecisas\nFalta de clareza informativa"
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#o-acrônimo-finger",
+    "href": "slides/aula_3_perguntas.html#o-acrônimo-finger",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "O acrônimo FINGER",
+    "text": "O acrônimo FINGER\n\n\n\n\n\nGuia para pergunta sólida\nCritérios de valoração essenciais\nCentro de todas as etapas\nDiscussão conjunta com orientador"
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#n---novel-original",
+    "href": "slides/aula_3_perguntas.html#n---novel-original",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "9. N - Novel (Original)",
+    "text": "9. N - Novel (Original)\n\n\n\nFornece novos achados [14].\nAmplia o saber existente [14].\nRefuta resultados anteriores [14].\nFoco em lacunas de evidência [17]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#ge---good-ethical",
+    "href": "slides/aula_3_perguntas.html#ge---good-ethical",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "G/E - Good & Ethical",
+    "text": "G/E - Good & Ethical\n\n\n\n\n\nAlinhamento com seu plano de carreira\nRisco baixo/aceitável\n\nCondução ética\nRespeito à bioética"
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#problematização",
+    "href": "slides/aula_3_perguntas.html#problematização",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "Problematização",
+    "text": "Problematização\n\n\n\nTransformação do tema em dúvida\nConhecimento das divergências\nMarcos de singularidade"
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#hipóteses",
+    "href": "slides/aula_3_perguntas.html#hipóteses",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "Hipóteses",
+    "text": "Hipóteses\n\n\n\nSuposição provisória de resposta\nGuia para o planejamento prático\nTestável e passível de verificação\nRelação provável entre variáveis"
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#definição-de-objetivos",
+    "href": "slides/aula_3_perguntas.html#definição-de-objetivos",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "15. Definição de Objetivos",
+    "text": "15. Definição de Objetivos\n\n\n\nDefine a natureza do trabalho [28].\nResponde “para que” e “para quem” [29].\nDevem ser claros e diretos [30].\nDelimitam o material a coletar [28]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#objetivo-geral",
+    "href": "slides/aula_3_perguntas.html#objetivo-geral",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "16. Objetivo Geral",
+    "text": "16. Objetivo Geral\n\n\n\n\n\nVisão global e abrangente [28].\nConteúdo intrínseco do fenômeno [28].\nPropósito central da pesquisa [31].\nIndica a meta final do aluno [31]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#objetivos-específicos",
+    "href": "slides/aula_3_perguntas.html#objetivos-específicos",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "17. Objetivos Específicos",
+    "text": "17. Objetivos Específicos\n\n\n\n\n\nCaráter concreto e instrumental [31].\nAuxilia no alcance do geral [31].\nAplicação em situações particulares [31].\nIdentifica novos aspectos do problema [31]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#justificativa",
+    "href": "slides/aula_3_perguntas.html#justificativa",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "18. Justificativa",
+    "text": "18. Justificativa\n\n\n\n\n\nRazões teóricas e práticas [30].\nDemonstra pertinência e interesse [30].\nEnfatiza estágio atual da teoria [20].\nEvita citações diretas [32]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#referencial-teórico",
+    "href": "slides/aula_3_perguntas.html#referencial-teórico",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "19. Referencial Teórico",
+    "text": "19. Referencial Teórico\n\n\n\nSuporte e fundamentação básica [33].\nNão é um glossário de termos [34].\nTexto dissertativo e conectado [34].\nConstrução de moldura conceitual [34]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#metacognição-na-escrita",
+    "href": "slides/aula_3_perguntas.html#metacognição-na-escrita",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "21. Metacognição na Escrita",
+    "text": "21. Metacognição na Escrita\n\n\n\nConhecimento do próprio saber [36].\nAtividade reflexiva constante [36].\nMetacompreensão do estudo [37].\nCentralidade no autoconhecimento [36]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#retextualização",
+    "href": "slides/aula_3_perguntas.html#retextualização",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "22. Retextualização",
+    "text": "22. Retextualização\n\n\n\n\n\nEsforço multi-cognitivo complexo [24].\nNão é mera justaposição de ideias [24].\nTransformação de dados em voz [24, 38].\nBase da originalidade acadêmica [38]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#ética-princípios-belmont",
+    "href": "slides/aula_3_perguntas.html#ética-princípios-belmont",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "23. Ética: Princípios Belmont",
+    "text": "23. Ética: Princípios Belmont\n\n\n\n\n\nRespeito às pessoas e autonomia [39].\nBeneficência: maximizar o bem [39].\nJustiça: tratamento igualitário [40].\nProteção de grupos vulneráveis [41]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#o-tcle",
+    "href": "slides/aula_3_perguntas.html#o-tcle",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "24. O TCLE",
+    "text": "24. O TCLE\n\n\n\n\n\nConsentimento Livre e Esclarecido [42].\nDocumento formal obrigatório [43].\nLivre de qualquer intimidação [42].\nRegistro de anuência voluntária [43, 44]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#conclusão-da-etapa",
+    "href": "slides/aula_3_perguntas.html#conclusão-da-etapa",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "25. Conclusão da Etapa",
+    "text": "25. Conclusão da Etapa\n\n\n\nProjeto como plano de inferência [45].\nRigor garante segurança final [46].\n“Todo perguntar é uma busca” [47].\nPreparação para a coleta de dados [48]."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#introdução",
+    "href": "slides/aula_3_perguntas.html#introdução",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "Introdução",
+    "text": "Introdução\n\n\n\nBoas-vindas à semana 2.\nFoco: Pergunta e Projeto.\nAlinhamento com o PPGBV.\nBases da pesquisa científica."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#n---novel-novo-original",
+    "href": "slides/aula_3_perguntas.html#n---novel-novo-original",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "N - Novel (Novo, Original)",
+    "text": "N - Novel (Novo, Original)\n\n\n\nFornece novos achados\nAmplia o saber existente\nRefuta resultados anteriores\nFoco em lacunas de evidência"
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#ge---good-ethical-boa-e-ética",
+    "href": "slides/aula_3_perguntas.html#ge---good-ethical-boa-e-ética",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "G/E - Good & Ethical (Boa e Ética)",
+    "text": "G/E - Good & Ethical (Boa e Ética)\n\n\n\n\n\nAlinhamento com seu plano de carreira\nRisco baixo/aceitável\n\nCondução ética\nRespeito à bioética"
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html#parte-2",
+    "href": "slides/aula_3_perguntas.html#parte-2",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "Parte 2",
+    "text": "Parte 2"
   }
 ]

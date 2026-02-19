@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Felipe Melo">
+<meta name="dcterms.date" content="2026-02-19">
 
-<title>Conteúdo</title>
+<title>Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,28 +25,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-d4b0c6867662daffec38d31234abbead.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d4b0c6867662daffec38d31234abbead.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/alpine-3.12/buttons.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,84 +73,20 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<style>
-
-      .quarto-title-block .quarto-title-banner {
-        background: #990000;
-      }
-</style>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../img/logo_branco_ufpe.png" alt="UFPE logo" class="navbar-logo light-content">
-    <img src="../img/logo_branco_ufpe.png" alt="UFPE logo" class="navbar-logo dark-content">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../img/logo_branco_ufpe.png" alt="UFPE logo" class="navbar-logo light-content">
+    <img src="../../img/logo_branco_ufpe.png" alt="UFPE logo" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -159,27 +96,27 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Início</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../syllabus.html"> 
+    <a class="nav-link" href="../../syllabus.html"> 
 <span class="menu-text">Objetivos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../schedule.html"> 
+    <a class="nav-link" href="../../schedule.html"> 
 <span class="menu-text">Cronograma</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../sessions/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../sessions/index.html"> 
 <span class="menu-text">Todas as Aulas</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../resources/index.html"> 
+    <a class="nav-link" href="../../resources/index.html"> 
 <span class="menu-text">Recursos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../assessment.html"> 
+    <a class="nav-link" href="../../assessment.html"> 
 <span class="menu-text">Tipo de Avaliação</span></a>
   </li>  
 </ul>
@@ -193,105 +130,138 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Conteúdo</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#a-centralidade-da-pergunta-o-alicerce-da-descoberta" id="toc-a-centralidade-da-pergunta-o-alicerce-da-descoberta" class="nav-link active" data-scroll-target="#a-centralidade-da-pergunta-o-alicerce-da-descoberta">A centralidade da pergunta: O alicerce da descoberta</a>
+  <ul class="collapse">
+  <li><a href="#o-acrônimo-finger-parâmetros-de-excelência" id="toc-o-acrônimo-finger-parâmetros-de-excelência" class="nav-link" data-scroll-target="#o-acrônimo-finger-parâmetros-de-excelência">O acrônimo FINGER: Parâmetros de excelência</a></li>
+  <li><a href="#elementos-obrigatórios-e-estrutura-do-projeto" id="toc-elementos-obrigatórios-e-estrutura-do-projeto" class="nav-link" data-scroll-target="#elementos-obrigatórios-e-estrutura-do-projeto">Elementos obrigatórios e estrutura do projeto</a>
+  <ul class="collapse">
+  <li><a href="#delimitação-e-problematização" id="toc-delimitação-e-problematização" class="nav-link" data-scroll-target="#delimitação-e-problematização">Delimitação e problematização</a></li>
+  <li><a href="#justificativa-e-objetivos" id="toc-justificativa-e-objetivos" class="nav-link" data-scroll-target="#justificativa-e-objetivos">Justificativa e objetivos</a></li>
+  <li><a href="#o-papel-das-hipóteses" id="toc-o-papel-das-hipóteses" class="nav-link" data-scroll-target="#o-papel-das-hipóteses">O Papel das hipóteses</a></li>
+  </ul></li>
+  <li><a href="#referencial-teórico-e-o-estado-da-arte" id="toc-referencial-teórico-e-o-estado-da-arte" class="nav-link" data-scroll-target="#referencial-teórico-e-o-estado-da-arte">Referencial teórico e o estado da arte</a></li>
+  <li><a href="#ética-e-integridade-científica" id="toc-ética-e-integridade-científica" class="nav-link" data-scroll-target="#ética-e-integridade-científica">Ética e integridade científica</a></li>
+  <li><a href="#referências-para-estudo" id="toc-referências-para-estudo" class="nav-link" data-scroll-target="#referências-para-estudo">Referências para estudo</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto</h1>
+<p class="subtitle lead">PPGBV (UFPE)</p>
+</div>
 
 
 
+<div class="quarto-title-meta column-page-left">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Felipe Melo </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 19, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
 
 
+<p><img src="../../img/pergunta.jpg" class="img-fluid"></p>
+<section id="a-centralidade-da-pergunta-o-alicerce-da-descoberta" class="level1">
+<h1>A centralidade da pergunta: O alicerce da descoberta</h1>
+<p>O propósito primordial da humanidade é a busca incessante por conhecer a verdade e a realidade. Nesse contexto, a pesquisa científica surge como uma escolha metodológica específica e rigorosa para adquirir conhecimento sobre uma parcela determinada dessa realidade. Um dos maiores desafios para o pesquisador, especialmente no início de sua jornada, não é a coleta de dados em si, mas a capacidade de formular uma dúvida que seja produtiva.</p>
+<p>A <strong>pergunta de pesquisa</strong> é definida como uma “incerteza” que exige investigação deliberada. Ela não é apenas um ponto de partida formal, mas a chama que ilumina todo o caminho da descoberta científica, influenciando diretamente a direção, a qualidade do processo investigativo e a posterior análise dos dados. Uma pergunta mal formulada, que carece de clareza, fatalmente conduzirá a análises confusas e decisões metodológicas equivocadas, levando o projeto à “bancarrota” científica.</p>
+<hr>
+<section id="o-acrônimo-finger-parâmetros-de-excelência" class="level2">
+<h2 class="anchored" data-anchor-id="o-acrônimo-finger-parâmetros-de-excelência">O acrônimo FINGER: Parâmetros de excelência</h2>
+<p>Para garantir que uma pergunta de pesquisa seja robusta e capaz de sustentar um projeto de Mestrado ou Doutorado, a literatura recomenda a aplicação do método <strong>FINGER</strong>. Este acrônimo serve como um guia para que o pesquisador e seu orientador avaliem a viabilidade e o impacto potencial do estudo antes de iniciarem a execução prática.</p>
+<ul>
+<li><p><strong>F – Feasible (Factível):</strong> Refere-se à viabilidade operacional. O pesquisador deve ter acesso a um número adequado de participantes ou espécimes, possuir a formação técnica necessária e contar com recursos financeiros e tempo hábil para a conclusão do estudo.</p></li>
+<li><p><strong>I – Interesting (Interessante):</strong> A questão deve despertar o interesse genuíno da comunidade científica e do próprio investigador, motivando a busca por soluções para problemas anteriormente insolúveis.</p></li>
+<li><p><strong>N – Novel (Original/Novo):</strong> A pesquisa deve trazer contribuições originais, seja fornecendo novos achados, ampliando conhecimentos existentes ou refutando descobertas passadas através de novas evidências.</p></li>
+<li><p><strong>G – Good (Bom):</strong> Este critério avalia se o projeto está alinhado com o plano de carreira do pesquisador e se contribui para o seu amadurecimento intelectual.</p></li>
+<li><p><strong>E – Ethical (Ético):</strong> O estudo deve garantir que o risco para os participantes seja baixo ou aceitável, respeitando os princípios fundamentais da bioética e sendo aprovado por comitês competentes.</p></li>
+<li><p><strong>R – Relevant (Relevante):</strong> A pergunta deve abordar lacunas no conhecimento, possuir impacto potencial em políticas públicas ou práticas profissionais e orientar futuras investigações.</p></li>
+</ul>
+<hr>
+</section>
+<section id="elementos-obrigatórios-e-estrutura-do-projeto" class="level2">
+<h2 class="anchored" data-anchor-id="elementos-obrigatórios-e-estrutura-do-projeto">Elementos obrigatórios e estrutura do projeto</h2>
+<p>Um projeto de pesquisa é um plano sistemático que demonstra como o pesquisador pretende usar evidências para realizar inferências válidas. No PPGBV, seguimos estruturas lógicas que garantem o rigor necessário para a produção de ciência de alto nível.</p>
+<section id="delimitação-e-problematização" class="level3">
+<h3 class="anchored" data-anchor-id="delimitação-e-problematização">Delimitação e problematização</h3>
+<p>A delimitação do tema consiste em selecionar um tópico específico, evitando generalizações excessivas que impeçam um estudo profundo. Já a problematização é o marco inaugural onde a “voz do autor” se manifesta de forma explícita; é o processo de transformar um tema amplo em uma dificuldade teórica ou prática que exige uma solução científica.</p>
+</section>
+<section id="justificativa-e-objetivos" class="level3">
+<h3 class="anchored" data-anchor-id="justificativa-e-objetivos">Justificativa e objetivos</h3>
+<ul>
+<li><p><strong>Justificativa:</strong> Deve expor as razões teóricas e práticas do estudo, enfatizando o estágio atual da teoria e as lacunas que a pesquisa pretende preencher.</p></li>
+<li><p><strong>Objetivo Geral:</strong> Define de forma ampla e direta o propósito central do estudante com a realização do trabalho.</p></li>
+<li><p><strong>Objetivos Específicos:</strong> Detalham as etapas instrumentais e concretas necessárias para o alcance do objetivo geral.</p></li>
+</ul>
+</section>
+<section id="o-papel-das-hipóteses" class="level3">
+<h3 class="anchored" data-anchor-id="o-papel-das-hipóteses">O Papel das hipóteses</h3>
+<p>As hipóteses são suposições provisórias colocadas como respostas à pergunta de pesquisa [19]. Nas ciências biológicas e sociais, elas raramente são puramente causais de forma rígida, funcionando mais como indicadores de relações probabilísticas entre variáveis que serão submetidas à verificação empírica.</p>
+<hr>
+</section>
+</section>
+<section id="referencial-teórico-e-o-estado-da-arte" class="level2">
+<h2 class="anchored" data-anchor-id="referencial-teórico-e-o-estado-da-arte">Referencial teórico e o estado da arte</h2>
+<p>O referencial teórico não deve ser confundido com um glossário ou uma simples lista de livros. Ele é o suporte conceitual que serve de “lente” para o desenvolvimento do trabalho, onde o autor discute a evolução do tema e as ideias de diferentes pesquisadores de modo dissertativo.</p>
+<ul>
+<li><strong>Estado da Arte:</strong> É o mapeamento do nível de desenvolvimento atingido por uma ciência na atualidade, identificando tendências e as publicações mais recentes e relevantes da área.</li>
+<li><strong>Retextualização:</strong> O processo de escrita exige um esforço metacognitivo (o conhecimento sobre o próprio conhecimento), transformando a leitura de múltiplos autores em uma narrativa original e autêntica.</li>
+</ul>
+<hr>
+</section>
+<section id="ética-e-integridade-científica" class="level2">
+<h2 class="anchored" data-anchor-id="ética-e-integridade-científica">Ética e integridade científica</h2>
+<p>A ética em pesquisa é fundamentada no respeito à autonomia e dignidade humana. Todo projeto envolvendo seres humanos deve observar os princípios do <strong>Relatório Belmont</strong>:</p>
+<ol type="1">
+<li><strong>Respeito às pessoas:</strong> Reconhecimento da autonomia dos participantes e proteção especial a grupos vulneráveis.</li>
+<li><strong>Beneficência:</strong> Garantia do bem-estar dos participantes, maximizando benefícios e minimizando danos (não-maleficência).</li>
+<li><strong>Justiça:</strong> Tratamento igualitário e distribuição equitativa de encargos e benefícios da pesquisa.</li>
+</ol>
+<p>O uso do <strong>Termo de Consentimento Livre e Esclarecido (TCLE)</strong> é indispensável para registrar que o participante manifestou sua vontade livre de intimidação após ser informado sobre objetivos, riscos e métodos.</p>
+<hr>
+</section>
+<section id="referências-para-estudo" class="level2">
+<h2 class="anchored" data-anchor-id="referências-para-estudo">Referências para estudo</h2>
+<ul>
+<li><a href="https://www.ebsco.com/research-starters/literature-and-writing/kuhn-explores-paradigm-shifts-scientific-thought"><strong>Kuhn: paradigmas científicos</strong></a> – Exploração sobre a natureza das revoluções e mudanças de paradigma.</li>
+<li><a href="https://revistanursing.com.br/index.php/revistanursing/0327310"><strong>A Arte de Elaborar uma Pergunta de Pesquisa</strong></a> – Artigo base sobre critérios FINGER e clareza informativa.</li>
+<li><a href="https://periodicos.utfpr.edu.br/rbect/article/view/6977/pdf"><strong>Rigor na Pesquisa Qualitativa</strong></a> – Estratégias para garantir credibilidade</li>
+</ul>
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1769602195182" data-listing-reading-time-sort="3" data-listing-word-count-sort="470">
-<a href="../sessions/week1/1-intro.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="../img/paradigma.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Aula 1: Fundamentos e Paradigmas Científicos
-</h5>
-<div class="card-text listing-description delink">
-A ciência é uma <strong>metamorfose do senso comum</strong>, refinando capacidades que todos possuímos [1]. Enquanto o senso comum é formado por sentimentos e misticismo, a ciência exige <strong>razã…</strong>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Felipe Melo
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1771501153000" data-listing-file-modified-sort="1771501153072" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="619">
-<a href="../sessions/week2/aula_02_dedut.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="../img/metodos.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Aula 2: Lógica e Métodos de Abordagem
-</h5>
-<div class="card-text listing-description delink">
-A ciência se move através de dois caminhos lógicos principais para conectar fatos e teorias.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Felipe Melo
-</div>
-<div class="listing-date">
-Feb 19, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1771522836000" data-listing-file-modified-sort="1771522836876" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="851">
-<a href="../sessions/week3/aula3.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="../img/pergunta.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto
-</h5>
-<div class="card-text listing-description delink">
-O propósito primordial da humanidade é a busca incessante por conhecer a verdade e a realidade. Nesse contexto, a pesquisa científica surge como uma escolha metodológica…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Felipe Melo
-</div>
-<div class="listing-date">
-Feb 19, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -710,4 +680,5 @@ Feb 19, 2026
 
 
 
+<script src="../../site_libs/quarto-contrib/alpine-3.12/alpine@3.12.min.js"></script>
 </body></html>

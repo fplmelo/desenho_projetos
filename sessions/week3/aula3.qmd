@@ -1,0 +1,88 @@
+---
+title: "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto"
+subtitle: "PPGBV (UFPE)"
+author: "Felipe Melo"
+date: "last-modified"
+date-format: "long"
+filters:
+  - naquiz
+format:
+  html:
+    toc: true
+    toc-expanded: 3
+    toc-title: "Nesta página"
+---
+
+![](/img/pergunta.jpg)
+
+# A centralidade da pergunta: O alicerce da descoberta
+
+O propósito primordial da humanidade é a busca incessante por conhecer a verdade e a realidade. Nesse contexto, a pesquisa científica surge como uma escolha metodológica específica e rigorosa para adquirir conhecimento sobre uma parcela determinada dessa realidade. Um dos maiores desafios para o pesquisador, especialmente no início de sua jornada, não é a coleta de dados em si, mas a capacidade de formular uma dúvida que seja produtiva.
+
+A **pergunta de pesquisa** é definida como uma "incerteza" que exige investigação deliberada. Ela não é apenas um ponto de partida formal, mas a chama que ilumina todo o caminho da descoberta científica, influenciando diretamente a direção, a qualidade do processo investigativo e a posterior análise dos dados. Uma pergunta mal formulada, que carece de clareza, fatalmente conduzirá a análises confusas e decisões metodológicas equivocadas, levando o projeto à "bancarrota" científica.
+
+---
+
+## O acrônimo FINGER: Parâmetros de excelência
+
+Para garantir que uma pergunta de pesquisa seja robusta e capaz de sustentar um projeto de Mestrado ou Doutorado, a literatura recomenda a aplicação do método **FINGER**. Este acrônimo serve como um guia para que o pesquisador e seu orientador avaliem a viabilidade e o impacto potencial do estudo antes de iniciarem a execução prática.
+
+*   **F – Feasible (Factível):** Refere-se à viabilidade operacional. O pesquisador deve ter acesso a um número adequado de participantes ou espécimes, possuir a formação técnica necessária e contar com recursos financeiros e tempo hábil para a conclusão do estudo.
+
+*   **I – Interesting (Interessante):** A questão deve despertar o interesse genuíno da comunidade científica e do próprio investigador, motivando a busca por soluções para problemas anteriormente insolúveis.
+
+*   **N – Novel (Original/Novo):** A pesquisa deve trazer contribuições originais, seja fornecendo novos achados, ampliando conhecimentos existentes ou refutando descobertas passadas através de novas evidências.
+
+*   **G – Good (Bom):** Este critério avalia se o projeto está alinhado com o plano de carreira do pesquisador e se contribui para o seu amadurecimento intelectual.
+
+*   **E – Ethical (Ético):** O estudo deve garantir que o risco para os participantes seja baixo ou aceitável, respeitando os princípios fundamentais da bioética e sendo aprovado por comitês competentes.
+
+*   **R – Relevant (Relevante):** A pergunta deve abordar lacunas no conhecimento, possuir impacto potencial em políticas públicas ou práticas profissionais e orientar futuras investigações.
+
+---
+
+## Elementos obrigatórios e estrutura do projeto
+
+Um projeto de pesquisa é um plano sistemático que demonstra como o pesquisador pretende usar evidências para realizar inferências válidas. No PPGBV, seguimos estruturas lógicas que garantem o rigor necessário para a produção de ciência de alto nível.
+
+### Delimitação e problematização
+A delimitação do tema consiste em selecionar um tópico específico, evitando generalizações excessivas que impeçam um estudo profundo. Já a problematização é o marco inaugural onde a "voz do autor" se manifesta de forma explícita; é o processo de transformar um tema amplo em uma dificuldade teórica ou prática que exige uma solução científica.
+
+### Justificativa e objetivos
+*   **Justificativa:** Deve expor as razões teóricas e práticas do estudo, enfatizando o estágio atual da teoria e as lacunas que a pesquisa pretende preencher.
+
+*   **Objetivo Geral:** Define de forma ampla e direta o propósito central do estudante com a realização do trabalho.
+
+*   **Objetivos Específicos:** Detalham as etapas instrumentais e concretas necessárias para o alcance do objetivo geral.
+
+### O Papel das hipóteses
+As hipóteses são suposições provisórias colocadas como respostas à pergunta de pesquisa [19]. Nas ciências biológicas e sociais, elas raramente são puramente causais de forma rígida, funcionando mais como indicadores de relações probabilísticas entre variáveis que serão submetidas à verificação empírica.
+
+---
+
+## Referencial teórico e o estado da arte
+
+O referencial teórico não deve ser confundido com um glossário ou uma simples lista de livros. Ele é o suporte conceitual que serve de "lente" para o desenvolvimento do trabalho, onde o autor discute a evolução do tema e as ideias de diferentes pesquisadores de modo dissertativo.
+
+*   **Estado da Arte:** É o mapeamento do nível de desenvolvimento atingido por uma ciência na atualidade, identificando tendências e as publicações mais recentes e relevantes da área.
+*   **Retextualização:** O processo de escrita exige um esforço metacognitivo (o conhecimento sobre o próprio conhecimento), transformando a leitura de múltiplos autores em uma narrativa original e autêntica.
+
+---
+
+## Ética e integridade científica
+
+A ética em pesquisa é fundamentada no respeito à autonomia e dignidade humana. Todo projeto envolvendo seres humanos deve observar os princípios do **Relatório Belmont**:
+
+1.  **Respeito às pessoas:** Reconhecimento da autonomia dos participantes e proteção especial a grupos vulneráveis.
+2.  **Beneficência:** Garantia do bem-estar dos participantes, maximizando benefícios e minimizando danos (não-maleficência).
+3.  **Justiça:** Tratamento igualitário e distribuição equitativa de encargos e benefícios da pesquisa.
+
+O uso do **Termo de Consentimento Livre e Esclarecido (TCLE)** é indispensável para registrar que o participante manifestou sua vontade livre de intimidação após ser informado sobre objetivos, riscos e métodos.
+
+---
+
+## Referências para estudo
+
+*   [**Kuhn: paradigmas científicos**](https://www.ebsco.com/research-starters/literature-and-writing/kuhn-explores-paradigm-shifts-scientific-thought) – Exploração sobre a natureza das revoluções e mudanças de paradigma.
+*   [**A Arte de Elaborar uma Pergunta de Pesquisa**](https://revistanursing.com.br/index.php/revistanursing/0327310) – Artigo base sobre critérios FINGER e clareza informativa.
+*   [**Rigor na Pesquisa Qualitativa**](https://periodicos.utfpr.edu.br/rbect/article/view/6977/pdf) – Estratégias para garantir credibilidade
