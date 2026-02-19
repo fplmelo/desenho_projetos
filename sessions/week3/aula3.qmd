@@ -15,6 +15,10 @@ format:
 
 ![](/img/pergunta.jpg)
 
+## Slides para esta aula se encongram [AQUI](https://fplmelo.github.io/desenho_projetos/slides/aula_3_perguntas.html#/title-slide) ou abaixo
+
+<iframe name="aula-1" width="700px" height="400px" src="https://fplmelo.github.io/desenho_projetos/slides/aula_3_perguntas.html#/title-slide" scrolling="no" marginwidth="0" marginheight="0" style="border:0px none #ffffff;"></iframe>
+
 # A centralidade da pergunta: O alicerce da descoberta
 
 O propósito primordial da humanidade é a busca incessante por conhecer a verdade e a realidade. Nesse contexto, a pesquisa científica surge como uma escolha metodológica específica e rigorosa para adquirir conhecimento sobre uma parcela determinada dessa realidade. Um dos maiores desafios para o pesquisador, especialmente no início de sua jornada, não é a coleta de dados em si, mas a capacidade de formular uma dúvida que seja produtiva.
