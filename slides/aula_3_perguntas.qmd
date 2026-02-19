@@ -181,7 +181,7 @@ format:
 :::
 ::::::::::::::
 
-## Hipóteses
+## Hipótese(s)
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
 - Suposição provisória de resposta
@@ -190,149 +190,108 @@ format:
 - Relação provável entre variáveis
 :::
 ::: {.column width="50%"}
-<!-- [INSERIR IMAGEM: Fluxograma de hipótese (Se X, então Y)] -->
+![](https://static.mundoeducacao.uol.com.br/mundoeducacao/2023/05/etapas-metodo-cientifico.jpg){width=80%}
 :::
 ::::::::::::::
 
-## 15. Definição de Objetivos
+## Definição de objetivos
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Define a natureza do trabalho [28].
-- Responde "para que" e "para quem" [29].
-- Devem ser claros e diretos [30].
-- Delimitam o material a coletar [28].
+- Define a natureza do trabalho 
+- Responde "para que" e "para quem" 
+- Devem ser claros e diretos 
+- Delimitam o material a coletar 
 :::
 ::: {.column width="50%"}
-<!-- [INSERIR IMAGEM: Alvo ou bandeira de chegada] -->
+![](/img/obj.png)
 :::
 ::::::::::::::
 
-## 16. Objetivo Geral
+## Comparando
 :::::::::::::: {.columns}
+
 ::: {.column width="50%"}
-<!-- [INSERIR IMAGEM: Visão panorâmica ou binóculo] -->
+GERAL
+
+- Visão global e abrangente 
+- Conteúdo intrínseco do fenômeno 
+- Propósito central da pesquisa 
+- Indica a meta final do aluno 
 :::
 ::: {.column width="50%"}
-- Visão global e abrangente [28].
-- Conteúdo intrínseco do fenômeno [28].
-- Propósito central da pesquisa [31].
-- Indica a meta final do aluno [31].
+ESPECÍFICO
+
+- Caráter concreto e instrumental 
+- Auxilia no alcance do geral 
+- Aplicação em situações particulares 
+- Identifica novos aspectos do problema 
 :::
 ::::::::::::::
 
-## 17. Objetivos Específicos
+
+## Justificativa
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-<!-- [INSERIR IMAGEM: Engrenagens ou etapas de uma escada] -->
+![](https://lo.unisa.edu.au/pluginfile.php/3339820/mod_label/intro/Problem%20statement.PNG)
 :::
 ::: {.column width="50%"}
-- Caráter concreto e instrumental [31].
-- Auxilia no alcance do geral [31].
-- Aplicação em situações particulares [31].
-- Identifica novos aspectos do problema [31].
+- Razões teóricas e práticas 
+- Demonstra pertinência e interesse 
+- Enfatiza estágio atual da teoria 
+
 :::
 ::::::::::::::
 
-## 18. Justificativa
+## Referencial Teórico
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-<!-- [INSERIR IMAGEM: Martelo de juiz ou selo de legitimidade] -->
+- Suporte e fundamentação básica 
+- Não é um glossário de termos 
+- Texto dissertativo ou mapa mental 
+- Construção de moldura conceitual 
 :::
 ::: {.column width="50%"}
-- Razões teóricas e práticas [30].
-- Demonstra pertinência e interesse [30].
-- Enfatiza estágio atual da teoria [20].
-- Evita citações diretas [32].
+![](/img/mapa_mental.png)
 :::
 ::::::::::::::
 
-## 19. Referencial Teórico
+## O Estado da Arte
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Suporte e fundamentação básica [33].
-- Não é um glossário de termos [34].
-- Texto dissertativo e conectado [34].
-- Construção de moldura conceitual [34].
+- Desenvolvimento atual da ciência 
+- Mapeia tendências e hiatos 
+- Identifica excelência no assunto 
+- Requer atualização constante 
 :::
 ::: {.column width="50%"}
-<!-- [INSERIR IMAGEM: Estante de livros ou rede de conceitos] -->
+![](https://www.stockholmresilience.org/images/200.3d5f304f199373fd6935595/1758708599430/x1600p/PB_2025.png)
 :::
 ::::::::::::::
 
-## 20. O Estado da Arte
+
+## Retextualização
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Desenvolvimento atual da ciência [35].
-- Mapeia tendências e hiatos [10].
-- Identifica excelência no assunto [35].
-- Requer atualização constante [10].
+![](https://casadaarte.vtexassets.com/arquivos/ids/214530-600-0/maquina-de-escrever-black_typecast-wer-memory-keepers-310296-9.jpg?v=636441871153130000)
 :::
 ::: {.column width="50%"}
-<!-- [INSERIR IMAGEM: Gráfico de tendência ou radar tecnológico] -->
+- Esforço multi-cognitivo complexo 
+- Não é mera justaposição de ideias 
+- Transformação de dados em voz
+- Base da originalidade acadêmica 
 :::
 ::::::::::::::
 
-## 21. Metacognição na Escrita
-:::::::::::::: {.columns}
-::: {.column width="50%"}
-- Conhecimento do próprio saber [36].
-- Atividade reflexiva constante [36].
-- Metacompreensão do estudo [37].
-- Centralidade no autoconhecimento [36].
-:::
-::: {.column width="50%"}
-<!-- [INSERIR IMAGEM: Cérebro refletindo sobre si mesmo] -->
-:::
-::::::::::::::
 
-## 22. Retextualização
+## Conclusão 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-<!-- [INSERIR IMAGEM: Máquina de escrever ou caneta criativa] -->
+- Projeto como plano de inferência 
+- Rigor garante segurança final 
+- "Todo perguntar é uma busca" 
+- Preparação para a coleta de dados 
 :::
 ::: {.column width="50%"}
-- Esforço multi-cognitivo complexo [24].
-- Não é mera justaposição de ideias [24].
-- Transformação de dados em voz [24, 38].
-- Base da originalidade acadêmica [38].
-:::
-::::::::::::::
-
-## 23. Ética: Princípios Belmont
-:::::::::::::: {.columns}
-::: {.column width="50%"}
-<!-- [INSERIR IMAGEM: Documento do Relatório Belmont ou justiça] -->
-:::
-::: {.column width="50%"}
-- Respeito às pessoas e autonomia [39].
-- Beneficência: maximizar o bem [39].
-- Justiça: tratamento igualitário [40].
-- Proteção de grupos vulneráveis [41].
-:::
-::::::::::::::
-
-## 24. O TCLE
-:::::::::::::: {.columns}
-::: {.column width="50%"}
-<!-- [INSERIR IMAGEM: Formulário de assinatura de consentimento] -->
-:::
-::: {.column width="50%"}
-- Consentimento Livre e Esclarecido [42].
-- Documento formal obrigatório [43].
-- Livre de qualquer intimidação [42].
-- Registro de anuência voluntária [43, 44].
-:::
-::::::::::::::
-
-## 25. Conclusão da Etapa
-:::::::::::::: {.columns}
-::: {.column width="50%"}
-- Projeto como plano de inferência [45].
-- Rigor garante segurança final [46].
-- "Todo perguntar é uma busca" [47].
-- Preparação para a coleta de dados [48].
-:::
-::: {.column width="50%"}
-<!-- [INSERIR IMAGEM: Sol nascendo ou linha de partida] -->
+![](/img/phd_journey.png)
 :::
 ::::::::::::::
