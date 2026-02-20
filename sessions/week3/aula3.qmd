@@ -15,7 +15,7 @@ format:
 
 ![](/img/pergunta.jpg)
 
-## Slides para esta aula se encongram [AQUI](https://fplmelo.github.io/desenho_projetos/slides/aula_3_perguntas.html#/title-slide) ou abaixo
+## Slides para esta aula se encontram [AQUI](https://fplmelo.github.io/desenho_projetos/slides/aula_3_perguntas.html#/title-slide) ou abaixo
 
 <iframe name="aula-1" width="700px" height="400px" src="https://fplmelo.github.io/desenho_projetos/slides/aula_3_perguntas.html#/title-slide" scrolling="no" marginwidth="0" marginheight="0" style="border:0px none #ffffff;"></iframe>
 
