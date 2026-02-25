@@ -32,7 +32,7 @@
     "href": "example.html#a-quiz-with-additional-information-in-callouts",
     "title": "Quiz example",
     "section": "A quiz with additional information in callouts",
-    "text": "A quiz with additional information in callouts\n\nBill Gates was the founder of:\n\n\n\n\n ✗Apple\n\n\n ✓Microsoft\n\n\n ✗Facebook\n\n\n ✗Google\n\n\nClear answer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipHint\n\n\n\n\n\nThe company name starts with an ‘M’…\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\nBill Gates and Paul Allen founded Microsoft on April 4, 1975."
+    "text": "A quiz with additional information in callouts\n\nBill Gates was the founder of:\n\n\n\n\n ✗Apple\n\n\n ✓Microsoft\n\n\n ✗Facebook\n\n\n ✗Google\n\n\nClear answer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nThe company name starts with an ‘M’…\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\nBill Gates and Paul Allen founded Microsoft on April 4, 1975."
   },
   {
     "objectID": "assessment.html",
@@ -102,14 +102,14 @@
     "href": "sessions/index.html",
     "title": "Conteúdo",
     "section": "",
-    "text": "Aula 1: Fundamentos e Paradigmas Científicos\n\n\n\n\n\n\nFelipe Melo\n\n\n\n\n\n\n\n\n\n\n\nAula 2: Lógica e Métodos de Abordagem\n\n\n\n\n\n\nFelipe Melo\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\nAula 3: A Pergunta de Pesquisa e a Estrutura do Projeto\n\n\n\n\n\n\nFelipe Melo\n\n\nFeb 20, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Aula 1: Fundamentos e Paradigmas Científicos\n\n\n\n\n\n\nFelipe Melo\n\n\n\n\n\n\n\n\n\n\n\nAula 2: Lógica e Métodos de Abordagem\n\n\n\n\n\n\nFelipe Melo\n\n\nFeb 24, 2026\n\n\n\n\n\n\n\n\n\n\n\nAula 3: A Pergunta de Pesquisa e a Estrutura do Projeto\n\n\n\n\n\n\nFelipe Melo\n\n\nFeb 24, 2026\n\n\n\n\n\n\n\n\n\n\n\nAula 4: Delineamento metodológico e ética na pesquisa\n\n\n\n\n\n\nFelipe Melo\n\n\nFeb 24, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "slides/aula_1_fundamentos.html#abertura",
     "href": "slides/aula_1_fundamentos.html#abertura",
     "title": "Fundamentos e Paradigmas Científicos",
-    "section": "Abertura",
-    "text": "Abertura\n\nBoas-vindas ao curso.\nO Encontro 1 foca na Filosofia da Ciência.\nObjetivo: Compreender como o conhecimento é construído e validado.\nA ciência não é apenas técnica, mas fundamentada em protocolos e linguagem."
+    "section": "",
+    "text": "Boas-vindas ao curso.\nO Encontro 1 foca na Filosofia da Ciência.\nObjetivo: Compreender como o conhecimento é construído e validado.\nA ciência não é apenas técnica, mas fundamentada em protocolos e linguagem."
   },
   {
     "objectID": "slides/aula_1_fundamentos.html#a-mais-antiga-busca-da-humanidade",
@@ -123,7 +123,7 @@
     "href": "slides/aula_1_fundamentos.html#a-jornada-científica",
     "title": "Fundamentos e Paradigmas Científicos",
     "section": "A Jornada Científica",
-    "text": "A Jornada Científica\n\n\n\nIniciar na pesquisa exige compreender procedimentos essenciais\nNecessidade de assimilar requisitos técnicos e teóricos\nTer discernimento para superar obstáculos complexos ao longo do percurso"
+    "text": "A Jornada Científica\n\n\n\n\nIniciar na pesquisa exige compreender procedimentos essenciais\nNecessidade de assimilar requisitos técnicos e teóricos\nTer discernimento para superar obstáculos complexos ao longo do percurso"
   },
   {
     "objectID": "slides/aula_1_fundamentos.html#o-que-é-ciência-etimologia",
@@ -144,7 +144,7 @@
     "href": "slides/aula_1_fundamentos.html#ciência-vs.-senso-comum",
     "title": "Fundamentos e Paradigmas Científicos",
     "section": "Ciência vs. Senso Comum",
-    "text": "Ciência vs. Senso Comum\n\n\nSenso Comun\n\nO senso comum é o conhecimento adquirido no convívio social (família, amigos, rua)\nSenso Comum: Formado por sentimentos, desejos, crenças e misticismo\n\n\nCiência\n\nCiência: Formada através da “razão-pura” e de forma metodologicamente rigorosa\nA ciência busca excluir emoções e crenças religiosas do contexto investigativo"
+    "text": "Ciência vs. Senso Comum\n\n\n\nSenso Comun\n\nO senso comum é o conhecimento adquirido no convívio social (família, amigos, rua)\nSenso Comum: Formado por sentimentos, desejos, crenças e misticismo\n\n\n\n\nCiência\n\nCiência: Formada através da “razão-pura” e de forma metodologicamente rigorosa\nA ciência busca excluir emoções e crenças religiosas do contexto investigativo"
   },
   {
     "objectID": "slides/aula_1_fundamentos.html#ambos-buscam-compreender-o-mundo-para-a-sobrevivência-e-bem-estar",
@@ -521,8 +521,8 @@
     "objectID": "example_presentation.html#a-basic-example",
     "href": "example_presentation.html#a-basic-example",
     "title": "Quiz example",
-    "section": "A basic example",
-    "text": "A basic example\n\nBill Gates was the founder of:\n\n\n\n\n ✗Apple\n\n\n ✓Microsoft\n\n\n ✗Facebook\n\n\n ✗Google"
+    "section": "",
+    "text": "Bill Gates was the founder of:\n\n\n\n\n ✗Apple\n\n\n ✓Microsoft\n\n\n ✗Facebook\n\n\n ✗Google"
   },
   {
     "objectID": "example_presentation.html#a-quiz-with-a-clear-answer-button",
@@ -613,7 +613,7 @@
     "href": "workbook/workbook.html#your-workbook",
     "title": "Tutorial: Getting Started with a Quarto Webpage",
     "section": "Your workbook",
-    "text": "Your workbook\nWhile learning stats and coding, you’ll also learn how to build and publish simple websites using R and RStudio. This website is vital for you learning during this module. This is going to be your live coursebook.\nSee some examples how NTU students used this for the summative last year:\n\nExample 1\nExample 2\n\n\n\n\n\n\n\nTipInvest on your worbook\n\n\n\nYour workbook is going to be your “best friend” during this module. There you can experiment, create personal notes and gather bibliography. It works like a paper notebook, but it is a website."
+    "text": "Your workbook\nWhile learning stats and coding, you’ll also learn how to build and publish simple websites using R and RStudio. This website is vital for you learning during this module. This is going to be your live coursebook.\nSee some examples how NTU students used this for the summative last year:\n\nExample 1\nExample 2\n\n\n\n\n\n\n\nInvest on your worbook\n\n\n\nYour workbook is going to be your “best friend” during this module. There you can experiment, create personal notes and gather bibliography. It works like a paper notebook, but it is a website."
   },
   {
     "objectID": "workbook/workbook.html#prerequisites",
@@ -759,8 +759,8 @@
     "objectID": "slides/aula_2_deduct.html#introdução",
     "href": "slides/aula_2_deduct.html#introdução",
     "title": "Aula 2 - Lógica e Métodos de Abordagem",
-    "section": "Introdução",
-    "text": "Introdução\n\nO que define o conhecimento científico?\nA importância do método na Biologia.\nVisão geral: Indução, Dedução, Popper e Lakatos."
+    "section": "",
+    "text": "O que define o conhecimento científico?\nA importância do método na Biologia.\nVisão geral: Indução, Dedução, Popper e Lakatos."
   },
   {
     "objectID": "slides/aula_2_deduct.html#o-pensamento-científico",
@@ -1375,8 +1375,8 @@
     "objectID": "slides/aula_3_perguntas.html#introdução",
     "href": "slides/aula_3_perguntas.html#introdução",
     "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
-    "section": "Introdução",
-    "text": "Introdução\n\n\n\nBoas-vindas à semana 2.\nFoco: Pergunta e Projeto.\nAlinhamento com o PPGBV.\nBases da pesquisa científica."
+    "section": "",
+    "text": "Boas-vindas à semana 2.\nFoco: Pergunta e Projeto.\nAlinhamento com o PPGBV.\nBases da pesquisa científica."
   },
   {
     "objectID": "slides/aula_3_perguntas.html#n---novel-novo-original",
@@ -1454,5 +1454,124 @@
     "title": "Programa do Curso",
     "section": "",
     "text": "Sejam bem-vindos ao curso Desenho do Projetos. Sabemos que entrar no mestrado ou doutorado é como mergulhar em um oceano de dados e teorias, e às vezes a gente se sente meio perdido sobre como transformar aquela curiosidade inicial em uma tese ou dissertação de respeito. Este curso foi pensado justamente para ser o seu GPS acadêmico.\n\n\nNosso objetivo não é apenas ensinar a preencher formulários ou formatar referências. Queremos que você atinja a maestria na arte de pesquisar.\n• Entender o “porquê” da ciência: Vamos mergulhar na filosofia para entender que a ciência não é uma verdade absoluta, mas um campo de disputas e mudanças de paradigmas.\n• Dominar a “pergunta de ouro”: Você vai aprender a usar o critério FINGER (Viável, Interessante, Novo, Ético e Relevante) para que sua pergunta de pesquisa seja o alicerce sólido de todo o seu trabalho.\n• Cientista Mão na Massa: Instrumentalizar você para montar projetos robustos e escrever manuscritos que os revisores e agências de fomento tenham prazer em ler."
+  },
+  {
+    "objectID": "example_presentation.html",
+    "href": "example_presentation.html",
+    "title": "Quiz example",
+    "section": "",
+    "text": "Bill Gates was the founder of:\n\n\n\n\n ✗Apple\n\n\n ✓Microsoft\n\n\n ✗Facebook\n\n\n ✗Google"
+  },
+  {
+    "objectID": "sessions/week4/aula3.html#slides-para-esta-aula-se-encontram-aqui-ou-abaixo",
+    "href": "sessions/week4/aula3.html#slides-para-esta-aula-se-encontram-aqui-ou-abaixo",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "Slides para esta aula se encontram AQUI ou abaixo",
+    "text": "Slides para esta aula se encontram AQUI ou abaixo"
+  },
+  {
+    "objectID": "sessions/week4/aula3.html#o-acrônimo-finger-parâmetros-de-excelência",
+    "href": "sessions/week4/aula3.html#o-acrônimo-finger-parâmetros-de-excelência",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "O acrônimo FINGER: Parâmetros de excelência",
+    "text": "O acrônimo FINGER: Parâmetros de excelência\nPara garantir que uma pergunta de pesquisa seja robusta e capaz de sustentar um projeto de Mestrado ou Doutorado, a literatura recomenda a aplicação do método FINGER. Este acrônimo serve como um guia para que o pesquisador e seu orientador avaliem a viabilidade e o impacto potencial do estudo antes de iniciarem a execução prática.\n\nF – Feasible (Factível): Refere-se à viabilidade operacional. O pesquisador deve ter acesso a um número adequado de participantes ou espécimes, possuir a formação técnica necessária e contar com recursos financeiros e tempo hábil para a conclusão do estudo.\nI – Interesting (Interessante): A questão deve despertar o interesse genuíno da comunidade científica e do próprio investigador, motivando a busca por soluções para problemas anteriormente insolúveis.\nN – Novel (Original/Novo): A pesquisa deve trazer contribuições originais, seja fornecendo novos achados, ampliando conhecimentos existentes ou refutando descobertas passadas através de novas evidências.\nG – Good (Bom): Este critério avalia se o projeto está alinhado com o plano de carreira do pesquisador e se contribui para o seu amadurecimento intelectual.\nE – Ethical (Ético): O estudo deve garantir que o risco para os participantes seja baixo ou aceitável, respeitando os princípios fundamentais da bioética e sendo aprovado por comitês competentes.\nR – Relevant (Relevante): A pergunta deve abordar lacunas no conhecimento, possuir impacto potencial em políticas públicas ou práticas profissionais e orientar futuras investigações."
+  },
+  {
+    "objectID": "sessions/week4/aula3.html#elementos-obrigatórios-e-estrutura-do-projeto",
+    "href": "sessions/week4/aula3.html#elementos-obrigatórios-e-estrutura-do-projeto",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "Elementos obrigatórios e estrutura do projeto",
+    "text": "Elementos obrigatórios e estrutura do projeto\nUm projeto de pesquisa é um plano sistemático que demonstra como o pesquisador pretende usar evidências para realizar inferências válidas. No PPGBV, seguimos estruturas lógicas que garantem o rigor necessário para a produção de ciência de alto nível.\n\nDelimitação e problematização\nA delimitação do tema consiste em selecionar um tópico específico, evitando generalizações excessivas que impeçam um estudo profundo. Já a problematização é o marco inaugural onde a “voz do autor” se manifesta de forma explícita; é o processo de transformar um tema amplo em uma dificuldade teórica ou prática que exige uma solução científica.\n\n\nJustificativa e objetivos\n\nJustificativa: Deve expor as razões teóricas e práticas do estudo, enfatizando o estágio atual da teoria e as lacunas que a pesquisa pretende preencher.\nObjetivo Geral: Define de forma ampla e direta o propósito central do estudante com a realização do trabalho.\nObjetivos Específicos: Detalham as etapas instrumentais e concretas necessárias para o alcance do objetivo geral.\n\n\n\nO Papel das hipóteses\nAs hipóteses são suposições provisórias colocadas como respostas à pergunta de pesquisa [19]. Nas ciências biológicas e sociais, elas raramente são puramente causais de forma rígida, funcionando mais como indicadores de relações probabilísticas entre variáveis que serão submetidas à verificação empírica."
+  },
+  {
+    "objectID": "sessions/week4/aula3.html#referencial-teórico-e-o-estado-da-arte",
+    "href": "sessions/week4/aula3.html#referencial-teórico-e-o-estado-da-arte",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "Referencial teórico e o estado da arte",
+    "text": "Referencial teórico e o estado da arte\nO referencial teórico não deve ser confundido com um glossário ou uma simples lista de livros. Ele é o suporte conceitual que serve de “lente” para o desenvolvimento do trabalho, onde o autor discute a evolução do tema e as ideias de diferentes pesquisadores de modo dissertativo.\n\nEstado da Arte: É o mapeamento do nível de desenvolvimento atingido por uma ciência na atualidade, identificando tendências e as publicações mais recentes e relevantes da área.\nRetextualização: O processo de escrita exige um esforço metacognitivo (o conhecimento sobre o próprio conhecimento), transformando a leitura de múltiplos autores em uma narrativa original e autêntica."
+  },
+  {
+    "objectID": "sessions/week4/aula3.html#ética-e-integridade-científica",
+    "href": "sessions/week4/aula3.html#ética-e-integridade-científica",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "Ética e integridade científica",
+    "text": "Ética e integridade científica\nA ética em pesquisa é fundamentada no respeito à autonomia e dignidade humana. Todo projeto envolvendo seres humanos deve observar os princípios do Relatório Belmont:\n\nRespeito às pessoas: Reconhecimento da autonomia dos participantes e proteção especial a grupos vulneráveis.\nBeneficência: Garantia do bem-estar dos participantes, maximizando benefícios e minimizando danos (não-maleficência).\nJustiça: Tratamento igualitário e distribuição equitativa de encargos e benefícios da pesquisa.\n\nO uso do Termo de Consentimento Livre e Esclarecido (TCLE) é indispensável para registrar que o participante manifestou sua vontade livre de intimidação após ser informado sobre objetivos, riscos e métodos."
+  },
+  {
+    "objectID": "sessions/week4/aula3.html#referências-para-estudo",
+    "href": "sessions/week4/aula3.html#referências-para-estudo",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "Referências para estudo",
+    "text": "Referências para estudo\n\nKuhn: paradigmas científicos – Exploração sobre a natureza das revoluções e mudanças de paradigma.\nA Arte de Elaborar uma Pergunta de Pesquisa – Artigo base sobre critérios FINGER e clareza informativa.\nRigor na Pesquisa Qualitativa – Estratégias para garantir credibilidade"
+  },
+  {
+    "objectID": "slides/aula_1_fundamentos.html",
+    "href": "slides/aula_1_fundamentos.html",
+    "title": "Fundamentos e Paradigmas Científicos",
+    "section": "",
+    "text": "Boas-vindas ao curso.\nO Encontro 1 foca na Filosofia da Ciência.\nObjetivo: Compreender como o conhecimento é construído e validado.\nA ciência não é apenas técnica, mas fundamentada em protocolos e linguagem."
+  },
+  {
+    "objectID": "slides/aula_2_deduct.html",
+    "href": "slides/aula_2_deduct.html",
+    "title": "Aula 2 - Lógica e Métodos de Abordagem",
+    "section": "",
+    "text": "O que define o conhecimento científico?\nA importância do método na Biologia.\nVisão geral: Indução, Dedução, Popper e Lakatos."
+  },
+  {
+    "objectID": "slides/aula_3_perguntas.html",
+    "href": "slides/aula_3_perguntas.html",
+    "title": "Aula 3: A Pergunta de Pesquisa e a Estrutura do Projeto",
+    "section": "",
+    "text": "Boas-vindas à semana 2.\nFoco: Pergunta e Projeto.\nAlinhamento com o PPGBV.\nBases da pesquisa científica."
+  },
+  {
+    "objectID": "sessions/week4/aula4.html",
+    "href": "sessions/week4/aula4.html",
+    "title": "Aula 4: Delineamento metodológico e ética na pesquisa",
+    "section": "",
+    "text": "Após definir o problema e as perguntas de pesquisa, o pesquisador deve escolher o caminho para respondê-las. O delineamento metodológico não é apenas uma escolha técnica, mas uma decisão estratégica que determina a validade e o rigor dos resultados obtidos. Neste encontro, exploramos as diferenças fundamentais entre as abordagens de N-grande e N-pequeno, as técnicas de coleta e os pilares éticos que sustentam a ciência moderna."
+  },
+  {
+    "objectID": "sessions/week4/aula4.html#introdução-o-caminho-da-investigação",
+    "href": "sessions/week4/aula4.html#introdução-o-caminho-da-investigação",
+    "title": "Aula 4: Delineamento metodológico e ética na pesquisa",
+    "section": "",
+    "text": "Após definir o problema e as perguntas de pesquisa, o pesquisador deve escolher o caminho para respondê-las. O delineamento metodológico não é apenas uma escolha técnica, mas uma decisão estratégica que determina a validade e o rigor dos resultados obtidos. Neste encontro, exploramos as diferenças fundamentais entre as abordagens de N-grande e N-pequeno, as técnicas de coleta e os pilares éticos que sustentam a ciência moderna."
+  },
+  {
+    "objectID": "sessions/week4/aula4.html#escolha-do-método-n-grande-vs.-n-pequeno",
+    "href": "sessions/week4/aula4.html#escolha-do-método-n-grande-vs.-n-pequeno",
+    "title": "Aula 4: Delineamento metodológico e ética na pesquisa",
+    "section": "1. Escolha do Método: N-grande vs. N-pequeno",
+    "text": "1. Escolha do Método: N-grande vs. N-pequeno\nA distinção entre as abordagens quantitativa (N-grande) e qualitativa (N-pequeno) vai além do uso de números. Elas representam diferentes “culturas de pesquisa” e formas de interrogar a realidade.\n\nPesquisa Quantitativa (Orientada por Variáveis)\nFoca na identificação do efeito das causas.\n\nObjetivo: Mensurar o impacto de um fator (X) sobre um fenômeno (Y) em uma população ampla.\nLogística: Assume a homogeneidade dos casos para buscar leis gerais ou probabilidades estatísticas.\nRaciocínio: Predominantemente dedutivo, testando hipóteses pré-definidas no plano da abstração.\n\n\n\nPesquisa Qualitativa (Orientada por Casos)\nFoca na identificação da causa dos efeitos.\n\nObjetivo: Compreender profundamente mecanismos causais e significados subjetivos em contextos específicos.\nLogística: Valoriza a singularidade e a profundidade de um ou poucos casos.\nRaciocínio: Frequentemente indutivo, permitindo que conceitos e hipóteses sejam refinados durante o contato com o campo.\n\n\n[INSERIR FIGURA 1: Infográfico comparativo - Efeito das Causas (N-grande) vs. Causa dos Efeitos (N-pequeno)]"
+  },
+  {
+    "objectID": "sessions/week4/aula4.html#técnicas-de-coleta-de-dados",
+    "href": "sessions/week4/aula4.html#técnicas-de-coleta-de-dados",
+    "title": "Aula 4: Delineamento metodológico e ética na pesquisa",
+    "section": "2. Técnicas de Coleta de Dados",
+    "text": "2. Técnicas de Coleta de Dados\nA escolha da técnica depende da natureza do objeto e do tipo de explicação pretendida.\n\nExperimentos: Considerado o padrão-ouro para inferência causal, onde se manipula deliberadamente uma variável independente para observar o efeito em uma variável dependente sob condições controladas.\nObservação: Técnica vital para capturar fenômenos em seu ambiente natural, podendo ser participante (envolvimento do pesquisador) ou não-participante.\nAmostragem:\n\nProbabilística: Cada elemento tem chance conhecida de ser selecionado, permitindo generalização estatística.\nNão-Probabilística: Baseada no julgamento do pesquisador (ex: bola-de-neve, conveniência)."
+  },
+  {
+    "objectID": "sessions/week4/aula4.html#estratégias-de-rigor-a-triangulação",
+    "href": "sessions/week4/aula4.html#estratégias-de-rigor-a-triangulação",
+    "title": "Aula 4: Delineamento metodológico e ética na pesquisa",
+    "section": "3. Estratégias de Rigor: A Triangulação",
+    "text": "3. Estratégias de Rigor: A Triangulação\nPara aumentar a credibilidade da pesquisa, especialmente na abordagem qualitativa, utiliza-se a Triangulação. Ela consiste no desenvolvimento de linhas convergentes de investigação através do uso de múltiplas fontes de evidência, métodos ou pesquisadores para estudar o mesmo fato.\n\nVantagem: Superar as deficiências inerentes a um único método ou investigador.\nCritérios Qualitativos: Busca-se garantir a credibilidade (veracidade), transferibilidade (aplicabilidade), dependibilidade (consistência) e confirmabilidade (neutralidade dos dados)."
+  },
+  {
+    "objectID": "sessions/week4/aula4.html#ética-em-pesquisa-princípios-belmont",
+    "href": "sessions/week4/aula4.html#ética-em-pesquisa-princípios-belmont",
+    "title": "Aula 4: Delineamento metodológico e ética na pesquisa",
+    "section": "4. Ética em Pesquisa: Princípios Belmont",
+    "text": "4. Ética em Pesquisa: Princípios Belmont\nA ética é o compromisso fundamental com a dignidade humana. Toda pesquisa com seres humanos deve ser pautada pelos princípios estabelecidos no Relatório Belmont (1978):\n\nRespeito às Pessoas: Reconhecimento da autonomia e proteção de vulneráveis (como menores e legalmente incapazes).\nBeneficência: Maximizar benefícios e minimizar danos (não-maleficência).\nJustiça: Tratamento igualitário e distribuição equitativa de riscos e benefícios.\n\n\nDocumentação Indispensável\n\nTCLE (Termo de Consentimento Livre e Esclarecido): Registro da anuência voluntária e informada do participante.\nTALE (Termo de Assentimento Livre e Esclarecido): Adaptado para menores ou pessoas com discernimento reduzido, que anuem na medida de sua compreensão.\n\n\n[INSERIR FIGURA 2: Fluxograma Ético - Do Desenho de Pesquisa à Aprovação no Comitê de Ética]"
+  },
+  {
+    "objectID": "sessions/week4/aula4.html#referências-sugeridas-links-ativos",
+    "href": "sessions/week4/aula4.html#referências-sugeridas-links-ativos",
+    "title": "Aula 4: Delineamento metodológico e ética na pesquisa",
+    "section": "Referências Sugeridas (Links Ativos)",
+    "text": "Referências Sugeridas (Links Ativos)\n\nCritérios de Rigor na Pesquisa Qualitativa – Detalha estratégias de credibilidade e triangulação."
   }
 ]

@@ -1,0 +1,84 @@
+---
+title: "Aula 4: Delineamento metodológico e ética na pesquisa"
+subtitle: "PPGBV (UFPE)"
+author: "Felipe Melo"
+date: "last-modified"
+date-format: "long"
+filters:
+  - naquiz
+format:
+  html:
+    toc: true
+    toc-expanded: 3
+    toc-title: "Nesta página"
+---
+
+## Introdução: O Caminho da Investigação
+
+Após definir o problema e as perguntas de pesquisa, o pesquisador deve escolher o caminho para respondê-las. O delineamento metodológico não é apenas uma escolha técnica, mas uma decisão estratégica que determina a validade e o rigor dos resultados obtidos. Neste encontro, exploramos as diferenças fundamentais entre as abordagens de N-grande e N-pequeno, as técnicas de coleta e os pilares éticos que sustentam a ciência moderna.
+
+---
+
+## 1. Escolha do Método: N-grande vs. N-pequeno
+
+A distinção entre as abordagens quantitativa (N-grande) e qualitativa (N-pequeno) vai além do uso de números. Elas representam diferentes "culturas de pesquisa" e formas de interrogar a realidade.
+
+### Pesquisa Quantitativa (Orientada por Variáveis)
+Foca na identificação do **efeito das causas**. 
+
+*   **Objetivo:** Mensurar o impacto de um fator (X) sobre um fenômeno (Y) em uma população ampla.
+*   **Logística:** Assume a homogeneidade dos casos para buscar leis gerais ou probabilidades estatísticas.
+*   **Raciocínio:** Predominantemente dedutivo, testando hipóteses pré-definidas no plano da abstração.
+
+### Pesquisa Qualitativa (Orientada por Casos)
+Foca na identificação da **causa dos efeitos**.
+
+*   **Objetivo:** Compreender profundamente mecanismos causais e significados subjetivos em contextos específicos.
+*   **Logística:** Valoriza a singularidade e a profundidade de um ou poucos casos.
+*   **Raciocínio:** Frequentemente indutivo, permitindo que conceitos e hipóteses sejam refinados durante o contato com o campo.
+
+> **[INSERIR FIGURA 1: Infográfico comparativo - Efeito das Causas (N-grande) vs. Causa dos Efeitos (N-pequeno)]**
+
+---
+
+## 2. Técnicas de Coleta de Dados
+
+A escolha da técnica depende da natureza do objeto e do tipo de explicação pretendida.
+
+*   **Experimentos:** Considerado o padrão-ouro para inferência causal, onde se manipula deliberadamente uma variável independente para observar o efeito em uma variável dependente sob condições controladas.
+*   **Observação:** Técnica vital para capturar fenômenos em seu ambiente natural, podendo ser participante (envolvimento do pesquisador) ou não-participante.
+*   **Amostragem:**
+    *   **Probabilística:** Cada elemento tem chance conhecida de ser selecionado, permitindo generalização estatística.
+    *   **Não-Probabilística:** Baseada no julgamento do pesquisador (ex: bola-de-neve, conveniência).
+
+---
+
+## 3. Estratégias de Rigor: A Triangulação
+
+Para aumentar a credibilidade da pesquisa, especialmente na abordagem qualitativa, utiliza-se a **Triangulação**. Ela consiste no desenvolvimento de linhas convergentes de investigação através do uso de múltiplas fontes de evidência, métodos ou pesquisadores para estudar o mesmo fato.
+
+*   **Vantagem:** Superar as deficiências inerentes a um único método ou investigador.
+*   **Critérios Qualitativos:** Busca-se garantir a credibilidade (veracidade), transferibilidade (aplicabilidade), dependibilidade (consistência) e confirmabilidade (neutralidade dos dados).
+
+---
+
+## 4. Ética em Pesquisa: Princípios Belmont
+
+A ética é o compromisso fundamental com a dignidade humana. Toda pesquisa com seres humanos deve ser pautada pelos princípios estabelecidos no **Relatório Belmont** (1978):
+
+1.  **Respeito às Pessoas:** Reconhecimento da autonomia e proteção de vulneráveis (como menores e legalmente incapazes).
+2.  **Beneficência:** Maximizar benefícios e minimizar danos (não-maleficência).
+3.  **Justiça:** Tratamento igualitário e distribuição equitativa de riscos e benefícios.
+
+### Documentação Indispensável
+*   **TCLE (Termo de Consentimento Livre e Esclarecido):** Registro da anuência voluntária e informada do participante.
+*   **TALE (Termo de Assentimento Livre e Esclarecido):** Adaptado para menores ou pessoas com discernimento reduzido, que anuem na medida de sua compreensão.
+
+> **[INSERIR FIGURA 2: Fluxograma Ético - Do Desenho de Pesquisa à Aprovação no Comitê de Ética]**
+
+---
+
+## Referências Sugeridas (Links Ativos)
+
+*   [**Critérios de Rigor na Pesquisa Qualitativa**](https://periodicos.utfpr.edu.br/rbect/article/view/6977) – Detalha estratégias de credibilidade e triangulação.
+
