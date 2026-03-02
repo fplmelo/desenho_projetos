@@ -1,0 +1,166 @@
+---
+title: "Aula 4: Delineamento de um Projeto de Pesquisa"
+subtitle: "PPGBV - UFPE"
+format: 
+  revealjs:
+    theme: default
+    transition: fade
+    slide-number: true
+    chalkboard: true
+---
+
+## Introdução 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Foco: Estrutura de um Projeto
+- Componentes estruturais e sua aplicação
+- Habiliade de planejamento
+:::
+::: {.column width="50%"}
+![](https://blog.fastformat.co/wp-content/uploads/2018/03/funil-pesquisa-1.png){width=150%}
+:::
+::::::::::::::
+
+## Estrutura de um Proejto de Pesquisa{.center}
+
+## Tutorial é bóia
+![](/img/pics.png)
+
+## Título
+:::{.columns}
+:::{.column}
+- Conciso
+- Objetivo
+- Criativo
+- Chamativo
+- Honesto
+
+Leia este [post](https://theoreticalecology.wordpress.com/2013/09/05/should-paper-titles-in-ecology-be-more-specific/)
+
+
+:::
+:::{.column}
+
+![](https://rlv.zcache.com/if_youre_not_anti_fascist_what_are_you_rectangular_sticker-r49e199354bde4f8990000ab802c3eb74_zg2qla_644.webp?rlvnet=1)
+
+:::
+:::
+
+## Avalie estes títulos
+
+**Human-wildlife conflicts in Brazil: Navigating through shared and spared landscapes**
+
+::: {.quiz}
+
+
+-   [ ] Bom
+-   [ ] Ruim
+-   [ ] Pode melhorar
+
+:::
+
+## 
+
+**Roads imperil South American protected areas**
+
+::: {.quiz}
+
+
+-   [ ] Bom
+-   [ ] Ruim
+-   [ ] Pode melhorar
+
+:::
+
+## 
+
+**Effects of human activities on zooplankton biodiversity in aquatic systems across three vegetation domains: A landscape analysis approach**
+
+::: {.quiz}
+
+
+-   [ ] Bom
+-   [ ] Ruim
+-   [ ] Pode melhorar
+
+:::
+
+## 
+
+**A Comparison of Immune Function and Physiological Stress in Three Populations of the Southwestern Snake-Necked Turtle (Chelodina oblonga) Along an Urbanisation Gradient**
+
+::: {.quiz}
+
+
+-   [ ] Bom
+-   [ ] Ruim
+-   [ ] Pode melhorar
+
+:::
+
+## Sintaxe de um título
+
+- Verbos: 
+    - troque "muda" e "afeta" por "aumenta" ou "prejudica"
+- Efeitos causadores
+    - "Efeitos de A sobre B..." em vez de "Relação entre A e B"
+- Indexação geográfica excessiva
+    - "Na Caatinga de Sergipe" por "Florestas secas do Brasil"
+- Palavras-chave
+    - São as principais do projeto, escolha bem!!!
+    
+## Um treino rápido
+
+:::{.callout-tip}
+
+## Reescreva este título usando estas recomendações
+
+Ecological Strategies of Trees Across Diverse Riparian Forests Along the Tropical Rio Doce, Brazil
+
+-> 10 min
+
+:::
+
+## Um treino rápido
+
+:::{.callout-tip}
+
+## Reescreva O SEU título usando estas recomendações
+
+
+
+-> 10 min
+
+:::
+
+## Resumo
+
+- É o passo seguinte da leitura (não da escrita)
+- Captura o leitor ou o afasta
+- É um eerćicio de objetividade poderoso
+- Tem método
+
+## Um bom resumo
+
+![](/img/title.png){fig-align=center}
+
+![](/img/resumo.png){.absolute top=200 right=50}
+
+## Vamos treinar
+:::{.callout-tip}
+
+## Escreva um resumo de seu projeto em 100 apalvras
+
+-> 10 min
+
+:::
+
+## Palavras-chave
+
+- Não podem repetir o título
+- Precisam direcionar a busca por artigos
+- Abrangente mas objetiva
+
+Existem ferrametnas online
+
+## Introdução
