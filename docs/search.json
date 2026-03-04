@@ -102,7 +102,7 @@
     "href": "sessions/index.html",
     "title": "Conteúdo",
     "section": "",
-    "text": "Aula 1: Fundamentos e Paradigmas Científicos\n\n\n\n\n\n\nFelipe Melo\n\n\n\n\n\n\n\n\n\n\n\nAula 2: Lógica e Métodos de Abordagem\n\n\n\n\n\n\nFelipe Melo\n\n\nFeb 24, 2026\n\n\n\n\n\n\n\n\n\n\n\nAula 3: A Pergunta de Pesquisa e a Estrutura do Projeto\n\n\n\n\n\n\nFelipe Melo\n\n\nFeb 24, 2026\n\n\n\n\n\n\n\n\n\n\n\nAula 4: Delineamento metodológico e ética na pesquisa\n\n\n\n\n\n\nFelipe Melo\n\n\nMar 4, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Aula 1: Fundamentos e Paradigmas Científicos\n\n\n\n\n\n\nFelipe Melo\n\n\n\n\n\n\n\n\n\n\n\nAula 2: Lógica e Métodos de Abordagem\n\n\n\n\n\n\nFelipe Melo\n\n\nFeb 24, 2026\n\n\n\n\n\n\n\n\n\n\n\nAula 3: A Pergunta de Pesquisa e a Estrutura do Projeto\n\n\n\n\n\n\nFelipe Melo\n\n\nFeb 24, 2026\n\n\n\n\n\n\n\n\n\n\n\nAula 4: Delineamento de um Projeto de Pesquisa\n\n\n\n\n\n\nFelipe Melo\n\n\nMar 4, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "slides/aula_1_fundamentos.html#abertura",
@@ -2007,5 +2007,12 @@
     "title": "Aula 4: Delineamento de um Projeto de Pesquisa",
     "section": "Seja criativo",
     "text": "Seja criativo"
+  },
+  {
+    "objectID": "sessions/week4/aula4.html#introdução",
+    "href": "sessions/week4/aula4.html#introdução",
+    "title": "Aula 4: Delineamento de um Projeto de Pesquisa",
+    "section": "Introdução",
+    "text": "Introdução\nEste resumo expandido apresenta os componentes fundamentais para a elaboração de um projeto de pesquisa rigoroso, auxiliando na transição da ideia teórica para o planejamento executável.\n\n\n1. Elementos Pré-Textuais\n\nTítulo: Deve ser conciso, informativo e refletir fielmente o objeto de estudo. Evite termos vagos; prefira indicar a relação entre as variáveis principais.\nResumo: Uma síntese de 150 a 250 palavras que apresenta o problema, o objetivo geral, a metodologia simplificada e a relevância do estudo.\nPalavras-chave: 3 a 5 termos técnicos (preferencialmente indexados em vocabulários controlados como DeCS ou Tesauros) que facilitem a busca do trabalho.\n\n\n\n\n2. Fundamentação e Intenção\n\nObjetivos\n\nGeral: A meta ampla que se pretende alcançar.\nEspecíficos: O detalhamento das etapas ou metas intermediárias necessárias para atingir o objetivo geral.\n\n\n\nHipóteses e Predições\n\nHipótese Científica: Uma explicação provisória e teórica para o fenômeno observado (“O fenômeno X ocorre devido ao mecanismo Y”).\nPredições: O desdobramento observável da hipótese (“Se a hipótese for verdadeira, espero que o dado A seja maior que B”).\n\n\n\n\n\n3. Procedimentos Metodológicos\n\nMétodos\nÉ o “coração” do projeto. Deve descrever de forma replicável: 1. Delineamento: Tipo de pesquisa (experimental, documental, etc.). 2. Unidade de Análise: Amostra, população ou sistema biológico/social. 3. Protocolos: Descrição técnica da coleta de dados. 4. Análise de Dados: Ferramentas estatísticas ou qualitativas que serão usadas para testar as predições.\n\n\nCronograma\nUma tabela temporal (Gantt) que distribui as atividades do projeto (revisão, coleta, análise, escrita) ao longo dos meses de execução.\n\n\n\n\n4. Horizontes da Pesquisa\n\nResultados Esperados\nDiferente das predições (que são sobre os dados), aqui descrevem-se as entregas do projeto: * Contribuições teóricas (preenchimento de lacunas). * Produtos concretos (softwares, protocolos, patentes). * Impacto social ou científico (publicações e formação de RH).\n\n\n\n\n\n\n\nTipDica de Ouro\n\n\n\nA coerência interna é o que define um bom projeto: os Métodos devem ser capazes de testar as Predições, que por sua vez derivam da Hipótese, visando atingir os Objetivos."
   }
 ]
