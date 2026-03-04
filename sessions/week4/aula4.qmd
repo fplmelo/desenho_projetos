@@ -18,56 +18,75 @@ format:
 <iframe name="aula-1" width="700px" height="400px" src="https://fplmelo.github.io/desenho_projetos/slides/aula_4_delineamento.html#/title-slide" scrolling="no" marginwidth="0" marginheight="0" style="border:0px none #ffffff;"></iframe>
 
 
-## Introdução
-Este resumo expandido apresenta os componentes fundamentais para a elaboração de um projeto de pesquisa rigoroso, auxiliando na transição da ideia teórica para o planejamento executável.
+## Introdução à Elaboração do Projeto
+
+A elaboração de um projeto de pesquisa é um plano sistemático que demonstra como o pesquisador pretende usar evidências para realizar inferências válidas. Este documento é o "alicerce estrutural" da investigação, transformando incertezas em um caminho de descoberta científica. 
+
+Abaixo, detalhamos os itens essenciais para a estrutura de um projeto rigoroso no **PPGBV**.
+
+![](https://www.monoweb.com.br/wp-content/uploads/2019/07/imagem-001.jpg)
 
 ---
 
-### 1. Elementos Pré-Textuais
+### 1. Título
+O título é a "porta de entrada" do seu trabalho. Deve ser **estratégico, conciso e informativo**, revelando com exatidão o objeto de estudo e a relação entre as variáveis principais para captar o interesse de leitores e revisores.
 
-*   **Título:** Deve ser conciso, informativo e refletir fielmente o objeto de estudo. Evite termos vagos; prefira indicar a relação entre as variáveis principais.
-*   **Resumo:** Uma síntese de 150 a 250 palavras que apresenta o problema, o objetivo geral, a metodologia simplificada e a relevância do estudo.
-*   **Palavras-chave:** 3 a 5 termos técnicos (preferencialmente indexados em vocabulários controlados como DeCS ou Tesauros) que facilitem a busca do trabalho.
+### 2. Resumo
+Uma síntese de **100 a 250 palavras** que apresenta de forma concisa o problema, o objetivo geral, a metodologia simplificada e os resultados alcançados ou esperados. Deve ser redigido em voz ativa e na terceira pessoa do singular.
 
----
-
-### 2. Fundamentação e Intenção
-
-#### Objetivos
-*   **Geral:** A meta ampla que se pretende alcançar.
-*   **Específicos:** O detalhamento das etapas ou metas intermediárias necessárias para atingir o objetivo geral.
-
-#### Hipóteses e Predições
-*   **Hipótese Científica:** Uma explicação provisória e teórica para o fenômeno observado ("O fenômeno X ocorre devido ao mecanismo Y").
-*   **Predições:** O desdobramento observável da hipótese ("Se a hipótese for verdadeira, espero que o dado A seja maior que B").
+### 3. Palavras-Chave
+Conjunto de **3 a 5 termos técnicos** que representam o projeto como um todo. São essenciais para a indexação e busca do seu trabalho em bases de dados científicas.
 
 ---
 
-### 3. Procedimentos Metodológicos
+### 4. Introdução
+Nesta parte, o assunto é apresentado como um todo [9]. A introdução deve conter:
 
-#### Métodos
-É o "coração" do projeto. Deve descrever de forma replicável:
-1.  **Delineamento:** Tipo de pesquisa (experimental, documental, etc.).
-2.  **Unidade de Análise:** Amostra, população ou sistema biológico/social.
-3.  **Protocolos:** Descrição técnica da coleta de dados.
-4.  **Análise de Dados:** Ferramentas estatísticas ou qualitativas que serão usadas para testar as predições.
+*   **Delimitação do tema:** Seleção do tópico específico a ser focalizado, evitando generalizações excessivas.
 
-#### Cronograma
-Uma tabela temporal (Gantt) que distribui as atividades do projeto (revisão, coleta, análise, escrita) ao longo dos meses de execução.
+*   **Problematização:** A formulação do problema de pesquisa em formato de pergunta clara, precisa e objetiva. A definição deste problema é a chave para superar os obstáculos da jornada científica.
+
+### 5. Justificativa
+Apresenta as razões teóricas e práticas que fundamentam o estudo. Deve ressaltar o **estágio atual da teoria** (Estado da Arte), as lacunas que a pesquisa pretende preencher e a sua relevância para o avanço da ciência e da sociedade.
+
+### 6. Objetivos
+*   **Objetivo Geral:** Define a meta ampla e abrangente, indicando o propósito central do pesquisador.
+*   **Objetivos Específicos:** Caráter concreto e instrumental; detalham as etapas necessárias para alcançar o objetivo geral em situações particulares.
 
 ---
 
-### 4. Horizontes da Pesquisa
+### 7. Hipóteses
+São **suposições provisórias** levantadas na tentativa de explicar o que se desconhece. Funcionam como respostas antecipadas ao problema de pesquisa, geralmente formuladas na lógica: *"Se X ocorre, então Y deve ser o resultado"*.
 
-#### Resultados Esperados
-Diferente das predições (que são sobre os dados), aqui descrevem-se as **entregas do projeto**:
-*   Contribuições teóricas (preenchimento de lacunas).
-*   Produtos concretos (softwares, protocolos, patentes).
-*   Impacto social ou científico (publicações e formação de RH).
+### 8. Predições
+Enquanto a hipótese é a explicação teórica, a predição é o **desdobramento observável** no mundo prático. Elas guiam o planejamento dos experimentos, indicando o que se espera encontrar nos dados se a hipótese for válida.
+
+---
+
+### 9. Métodos (Metodologia)
+É o modo de caminhar da pesquisa, detalhando o procedimento sistemático para atingir os objetivos. Deve incluir:
+
+*   **Delineamento:** Tipo de pesquisa (experimental, descritiva, qualitativa, quantitativa ou mista).
+
+*   **Unidade de Análise:** Definição clara da amostra ou objeto de estudo.
+
+*   **Protocolos de Coleta:** Descrição das técnicas (entrevistas, observação, coleta de dados fenológicos, etc.).
+
+*   **Análise de Dados:** Ferramentas estatísticas (univariadas ou multivariadas) ou análise de conteúdo.
+
+*   **Ética:** Descrição do respeito aos princípios de **beneficência, justiça e respeito às pessoas**, incluindo a previsão do Termo de Consentimento Livre e Esclarecido (TCLE).
+
+### 10. Resultados Esperados
+Descrição das contribuições que a pesquisa pretende trazer para o campo teórico e prático, como preenchimento de hiatos de conhecimento ou sugestão de políticas públicas [16, 39, 40].
+
+---
+
+### 11. Cronograma
+Tabela temporal que descreve todas as **etapas do trabalho** (pesquisa bibliográfica, coleta de dados, análise, redação final) e o período previsto para a realização de cada uma.
 
 ---
 
 ::: {.callout-tip}
 ## Dica de Ouro
-A coerência interna é o que define um bom projeto: os **Métodos** devem ser capazes de testar as **Predições**, que por sua vez derivam da **Hipótese**, visando atingir os **Objetivos**.
+O projeto de pesquisa deve ser tal que **convença uma audiência de céticos** de que as decisões tomadas pelo pesquisador são as mais seguras e infalíveis possíveis para chegar a conclusões válidas.
 :::
