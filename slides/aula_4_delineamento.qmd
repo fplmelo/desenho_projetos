@@ -118,7 +118,7 @@ Leia este [post](https://theoreticalecology.wordpress.com/2013/09/05/should-pape
 
 Ecological Strategies of Trees Across Diverse Riparian Forests Along the Tropical Rio Doce, Brazil
 
--> 10 min
+{{< countdown minutes=10 >}}
 
 :::
 
@@ -130,7 +130,7 @@ Ecological Strategies of Trees Across Diverse Riparian Forests Along the Tropica
 
 
 
--> 10 min
+{{< countdown minutes=10 >}}
 
 :::
 
@@ -152,7 +152,7 @@ Ecological Strategies of Trees Across Diverse Riparian Forests Along the Tropica
 
 ## Escreva um resumo de seu projeto em 100 apalvras
 
--> 10 min
+{{< countdown minutes=10 >}}
 
 :::
 
@@ -199,12 +199,191 @@ Existem ferramentas online
 - **M**ensurável
 - **A**lcançável
 - **R**elevante
-- **T**emporalmente fiel
+- **T**emporalmente determinado
 :::
 :::{.column}
 
+![](/img/target.jpg)
+
+:::
+:::
+
+##
+
+| O que você quer alcançar? | Quais verbos você pode usar? |
+|----------------------------|------------------------------|
+| Adquirir conhecimento / compreensão | Identificar, Medir, Determinar, Descrever, Comparar, Avaliar |
+| Explorar ou testar uma teoria | Medir, Testar, Calcular, Determinar, Investigar, Descobrir, Demonstrar, Examinar |
+| Analisar ou conectar dados / pesquisas / teorias existentes | Examinar, Contrastar, Analisar, Relacionar, Comparar, Determinar |
+| Avaliar ou comparar resultados e dados | Explicar, Analisar, Examinar, Interpretar, Medir, Diferenciar, Determinar |
+
+## Vamos treinar{.center}
+
+{{< countdown minutes=5 >}}
+
+## Justificativa
+
+1 - O problema é relevante?
+
+2 - Existe uma lacuna real no conhecimento?
+
+3  - Sua pesquisa é necessária — teoricamente e na prática — em escala local e global?
+
+--- 
+### Fundamentação teórica (o que ainda não sabemos?)
+
+:::{.columns}
+:::{.column}
+**Inclua:**
+
+- Principais teorias que explicam o fenômeno
+
+- Avanços recentes na literatura
+
+- Limitações, controvérsias ou inconsistências
+
+- O que ainda não foi investigado (lacuna clara)
+:::
+:::{.column}
+**Perguntas-chave**
+
+- Onde a literatura diverge?
+
+- Que contexto ainda não foi explorado?
+
+- Que abordagem metodológica ainda não foi aplicada?
+
 :::
 :::
 
 
+## Relevância prática
 
+:::{.columns}
+:::{.column}
+**Explique:**
+
+- Quem será afetado pelos resultados? 
+
+- Que decisões podem ser melhoradas?
+
+- Que políticas podem ser aprimoradas?
+
+- Que inovação pode surgir?
+:::
+:::{.column}
+
+
+![](/img/applied.png)
+:::
+:::
+
+## Conexão entre teoria e prática
+
+:::{.columns}
+:::{.column}
+**Mostre que:**
+
+- A teoria ajuda a entender o problema real
+
+- O contexto empírico desafia ou expande a teoria
+
+- Seu estudo pode refinar modelos existentes ou propor novos
+
+:::
+:::{.column}
+
+**Use frases como:**
+
+- “Ao investigar X no contexto Y, este estudo contribui para…”
+
+- “Este projeto testa os limites da teoria Z em ambientes emergentes…”
+
+- “Os resultados podem redefinir a compreensão de…”
+
+:::
+:::
+
+
+## Vamos treinar{.center}
+
+{{< countdown minutes=10 >}}
+
+## Hipótese
+
+| Aspecto | Hipótese Científica | Hipótese Estatística |
+| :--- | :--- | :--- |
+| **O que é?** | Explicação teórica | Teste matemático |
+| **Linguagem** | Palavras (Causa/Efeito) | Números e Símbolos |
+| **Foco** | O fenômeno | Os dados |
+| **Exemplo** | "Luz afeta o crescimento" | $H_0: \mu_1 = \mu_2$ |
+
+## Aplicação Prática
+
+- **Científica:** Orienta o desenho do experimento e a teoria.
+- **Estatística:** Decide se os resultados são fruto do acaso (valor de p).
+
+
+## Gere suas hipóteses{.center}
+
+{{< countdown minutes=10 >}}
+
+## Resultados esperados
+
+- **Contribuição Teórica:** Validação da relação entre [Variável A] e [Variável B].
+- **Impacto Prático:** Desenvolvimento de um protocolo otimizado para [Problema X].
+- **Difusão do Conhecimento:** Publicação de artigo em periódico qualificado e apresentação em congresso nacional.
+- **Formação de Recursos Humanos:** Treinamento de alunos de iniciação científica na metodologia proposta.
+
+## Predições (O que esperamos observar)
+
+- **Se** o fertilizante X for eficaz (**Hipótese**),
+- **Então** o grupo tratado apresentará:
+    - Um aumento de 30% na biomassa foliar
+    - Floração antecipada em comparação ao grupo controle
+    - Maior resistência ao estresse hídrico
+
+dica: **USE GRÀFICOS!!!**
+
+## 
+
+![](/img/res_esp.png)
+
+## Métodos
+
+*   **Delineamento:** Definição da natureza do estudo (experimental, observacional ou computacional).
+*   **Sistema de Estudo:** Especificação exata da população, banco de dados ou linhagem biológica.
+*   **Protocolos:** Descrição técnica e sequencial da coleta de dados.
+*   **Análise de Dados:** Plano detalhado de como os dados serão processados e testados.
+
+## Escrita objetiva
+
+*   **Direcionalidade:** Use frases diretas e justifique por que o método escolhido é o mais adequado.
+*   **Visualização:** Priorize **fluxogramas** para demonstrar a visão macro do processo.
+*   **Precisão Técnica:** Substitua termos genéricos por ferramentas e testes específicos (ex: "ANOVA" em vez de "estatística").
+*   **Replicabilidade:** Escreva de modo que outro pesquisador consiga reproduzir seu desenho experimental.
+
+## Faça um fluxograma de seus métidos
+
+{{< countdown minutes=5 >}}
+
+## Cronograma
+
+![](https://images.prismic.io/voitto-blog/37ea4162-3519-4a8a-a134-2ceb3fa8b6ef_diagrama+gantt.png)
+
+## Cronograma de "marcos"
+
+![](https://artia.com/wp-content/uploads/2023/12/cronograma-de-marcos-2.png)
+
+## Seja criativo{.center}
+
+## Conclusão
+
+:::{.incremental}
+
+- Manejar UM projeto de PG é só o começo da vida acadêmica
+- Não se desespere... vai piorar... e muito
+- Leve a sério, mas com leveza
+- Você agora recebe um salário para fazer PG
+
+:::

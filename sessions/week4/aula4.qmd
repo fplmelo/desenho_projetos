@@ -13,6 +13,11 @@ format:
     toc-title: "Nesta página"
 ---
 
+## Slides para esta aula se encontram [AQUI](https://fplmelo.github.io/desenho_projetos/slides/aula_4_delineamento.html#/title-slide) ou abaixo
+
+<iframe name="aula-1" width="700px" height="400px" src="https://fplmelo.github.io/desenho_projetos/slides/aula_4_delineamento.html#/title-slide" scrolling="no" marginwidth="0" marginheight="0" style="border:0px none #ffffff;"></iframe>
+
+
 ## Introdução: O Caminho da Investigação
 
 Após definir o problema e as perguntas de pesquisa, o pesquisador deve escolher o caminho para respondê-las. O delineamento metodológico não é apenas uma escolha técnica, mas uma decisão estratégica que determina a validade e o rigor dos resultados obtidos. Neste encontro, exploramos as diferenças fundamentais entre as abordagens de N-grande e N-pequeno, as técnicas de coleta e os pilares éticos que sustentam a ciência moderna.
