@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Felipe Melo">
+<meta name="dcterms.date" content="2026-03-10">
 
-<title>Tutorial: Getting Started with a Quarto Webpage</title>
+<title>Encontro 5: Escrita e Leitura Científica de Alto Impacto</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,64 +22,30 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c53b967fd35b7266222f39950ae6bd4b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-c53b967fd35b7266222f39950ae6bd4b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/alpine-3.12/buttons.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -105,12 +73,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<style>
-
-      .quarto-title-block .quarto-title-banner {
-        background: #9e043d;
-      }
-</style>
 
 
 </head>
@@ -118,13 +80,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../img/logo_branco_ufpe.png" alt="UFPE logo" class="navbar-logo light-content">
-    <img src="../img/logo_branco_ufpe.png" alt="UFPE logo" class="navbar-logo dark-content">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../img/logo_branco_ufpe.png" alt="UFPE logo" class="navbar-logo light-content">
+    <img src="../../img/logo_branco_ufpe.png" alt="UFPE logo" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -134,23 +96,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Início</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../syllabus.html"> 
+    <a class="nav-link" href="../../syllabus.html"> 
 <span class="menu-text">Objetivos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../schedule.html"> 
+    <a class="nav-link" href="../../schedule.html"> 
 <span class="menu-text">Cronograma</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../sessions/index.html"> 
+    <a class="nav-link" href="../../sessions/index.html"> 
 <span class="menu-text">Todas as Aulas</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../resources/index.html"> 
+    <a class="nav-link" href="../../resources/index.html"> 
 <span class="menu-text">Recursos</span></a>
   </li>  
 </ul>
@@ -163,160 +125,130 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Tutorial: Getting Started with a Quarto Webpage</h1>
-            <p class="subtitle lead">Basic set-up</p>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#why-a-quarto-webpage" id="toc-why-a-quarto-webpage" class="nav-link active" data-scroll-target="#why-a-quarto-webpage">Why a Quarto webpage?</a></li>
-  <li><a href="#your-workbook" id="toc-your-workbook" class="nav-link" data-scroll-target="#your-workbook">Your workbook</a></li>
-  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
-  <li><a href="#creating-a-quarto-project-recommended-for-websites" id="toc-creating-a-quarto-project-recommended-for-websites" class="nav-link" data-scroll-target="#creating-a-quarto-project-recommended-for-websites">Creating a Quarto Project (Recommended for Websites)</a></li>
-  <li><a href="#creating-your-webpage-content" id="toc-creating-your-webpage-content" class="nav-link" data-scroll-target="#creating-your-webpage-content">Creating Your Webpage Content</a></li>
-  <li><a href="#configuring-your-quarto-website" id="toc-configuring-your-quarto-website" class="nav-link" data-scroll-target="#configuring-your-quarto-website">Configuring Your Quarto Website</a></li>
-  <li><a href="#rendering-your-quarto-webpages" id="toc-rendering-your-quarto-webpages" class="nav-link" data-scroll-target="#rendering-your-quarto-webpages">Rendering Your Quarto Webpage(s)</a></li>
-  <li><a href="#previewing-your-webpage" id="toc-previewing-your-webpage" class="nav-link" data-scroll-target="#previewing-your-webpage">Previewing Your Webpage</a></li>
-  <li><a href="#further-steps" id="toc-further-steps" class="nav-link" data-scroll-target="#further-steps">Further Steps</a></li>
-  <li><a href="#publish-your-workbook" id="toc-publish-your-workbook" class="nav-link" data-scroll-target="#publish-your-workbook">Publish your workbook</a>
+  <li><a href="#a-escrita-como-processo-metacognitivo" id="toc-a-escrita-como-processo-metacognitivo" class="nav-link active" data-scroll-target="#a-escrita-como-processo-metacognitivo">A Escrita como Processo Metacognitivo</a></li>
+  <li><a href="#estratégias-para-escrever-resumos-abstracts" id="toc-estratégias-para-escrever-resumos-abstracts" class="nav-link" data-scroll-target="#estratégias-para-escrever-resumos-abstracts">1. Estratégias para Escrever Resumos (Abstracts)</a></li>
+  <li><a href="#organização-da-introdução" id="toc-organização-da-introdução" class="nav-link" data-scroll-target="#organização-da-introdução">2. Organização da Introdução</a></li>
+  <li><a href="#estratégias-de-leitura-crítica" id="toc-estratégias-de-leitura-crítica" class="nav-link" data-scroll-target="#estratégias-de-leitura-crítica">3. Estratégias de Leitura Crítica</a>
   <ul class="collapse">
-  <li><a href="#simple-rpubs-page" id="toc-simple-rpubs-page" class="nav-link" data-scroll-target="#simple-rpubs-page">Simple Rpubs page</a></li>
+  <li><a href="#níveis-de-leitura" id="toc-níveis-de-leitura" class="nav-link" data-scroll-target="#níveis-de-leitura">Níveis de Leitura</a></li>
+  <li><a href="#momentos-da-leitura-analítica" id="toc-momentos-da-leitura-analítica" class="nav-link" data-scroll-target="#momentos-da-leitura-analítica">Momentos da Leitura Analítica</a></li>
+  <li><a href="#tomada-de-apontamentos" id="toc-tomada-de-apontamentos" class="nav-link" data-scroll-target="#tomada-de-apontamentos">Tomada de Apontamentos</a></li>
   </ul></li>
+  <li><a href="#literatura-e-recursos-sugeridos" id="toc-literatura-e-recursos-sugeridos" class="nav-link" data-scroll-target="#literatura-e-recursos-sugeridos">Literatura e Recursos Sugeridos</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Encontro 5: Escrita e Leitura Científica de Alto Impacto</h1>
+<p class="subtitle lead">PPGBV (UFPE)</p>
+</div>
 
 
 
+<div class="quarto-title-meta column-page-left">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Felipe Melo </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 10, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
-<section id="why-a-quarto-webpage" class="level2">
-<h2 class="anchored" data-anchor-id="why-a-quarto-webpage">Why a Quarto webpage?</h2>
-<p>This tutorial provides an introduction to creating a basic webpage using <strong>Quarto</strong> within <strong>RStudio</strong>. Quarto, the next-generation version of R Markdown, allows you to author dynamic content and can render to various formats, including websites.</p>
+</header>
+
+
+<p><img src="https://lunetas.com.br/wp-content/uploads/2018/12/48415828-1408443392625354-2652581435621244928-n.jpg" class="img-fluid"></p>
+<section id="a-escrita-como-processo-metacognitivo" class="level2">
+<h2 class="anchored" data-anchor-id="a-escrita-como-processo-metacognitivo">A Escrita como Processo Metacognitivo</h2>
+<p>A produção textual de qualidade na academia não é uma simples “colagem” de ideias, mas um processo alicerçado na <strong>metacognição</strong> e na subjetividade do pesquisador. Trata-se de um esforço multi-cognitivo de <strong>retextualização</strong>, onde a voz do autor organiza a intertextualidade para propor novos conhecimentos.</p>
+<hr>
 </section>
-<section id="your-workbook" class="level2">
-<h2 class="anchored" data-anchor-id="your-workbook">Your workbook</h2>
-<p>While learning <em>stats</em> and coding, you’ll also learn how to build and publish <strong>simple websites</strong> using R and RStudio. This website is vital for you learning during this module. This is going to be your live coursebook.</p>
-<p>See some examples how NTU students used this for the summative last year:</p>
+<section id="estratégias-para-escrever-resumos-abstracts" class="level2">
+<h2 class="anchored" data-anchor-id="estratégias-para-escrever-resumos-abstracts">1. Estratégias para Escrever Resumos (Abstracts)</h2>
+<p>O resumo é a “vitrine” que permite ao leitor decidir sobre a relevância da leitura integral do texto</p>
 <ul>
-<li><p><a href="https://rpubs.com/katieprange/1265088">Example 1</a></p></li>
-<li><p><a href="https://rpubs.com/Tbowne911/1226661">Example 2</a></p></li>
+<li><strong>Conteúdo Obrigatório:</strong> Deve apresentar, de forma concisa, os <strong>objetivos, a metodologia e os resultados</strong> alcançados (ou esperados)</li>
+<li><strong>Voz e Estilo:</strong> Utilize frases concisas em vez de tópicos, empregando o <strong>verbo na voz ativa e na terceira pessoa do singular</strong><br>
+</li>
+<li><strong>O que Evitar:</strong> Não inclua citações bibliográficas, frases negativas, símbolos, equações, tabelas ou quadros</li>
+<li><strong>Extensão:</strong> Geralmente entre <strong>100 a 250 palavras</strong>, conforme normas da ABNT ou diretrizes do periódic.</li>
+<li><strong>Momento de Redação:</strong> Por ser estratégico, recomenda-se que seja elaborado <strong>após o autor ter avançado na redação final</strong>, garantindo segurança sobre o direcionamento dado ao tema.</li>
 </ul>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Invest on your worbook
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Your workbook is going to be your “best friend” during this module. There you can experiment, create personal notes and gather bibliography. It works like a paper notebook, but it is a website.</p>
-</div>
-</div>
+<hr>
 </section>
-<section id="prerequisites" class="level2">
-<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
-<p>Before you begin, ensure you have the following:</p>
+<section id="organização-da-introdução" class="level2">
+<h2 class="anchored" data-anchor-id="organização-da-introdução">2. Organização da Introdução</h2>
+<p>A introdução é a seção inicial que deve contextualizar o estudo e <strong>aguçar a curiosidade do leitor</strong>.</p>
 <ul>
-<li><strong>R</strong> installed on your computer.</li>
-<li><strong>RStudio</strong> installed on your computer.</li>
-<li>The <strong><code>quarto</code> package</strong> may need to be installed if you intend to render from the R console:</li>
+<li><strong>Elementos Essenciais:</strong> Deve conter o tema, a sua delimitação (espacial e temporal), o problema de pesquisa (em formato de pergunta), a justificativa e os objetivos.</li>
+<li><strong>Fluxo Narrativo:</strong>
+<ol type="1">
+<li><strong>Apresentação do Tema:</strong> Contextualização breve do assunto.</li>
+<li><strong>Problematização:</strong> Exposição do hiato de conhecimento ou questão controvertida ainda não respondida pela literatura.</li>
+<li><strong>Hipóteses:</strong> Quando couber, apresentar respostas provisórias que serão testadas.</li>
+<li><strong>Objetivos:</strong> Finalizar a introdução explicitando claramente o que se pretende alcançar.</li>
+</ol></li>
+<li><strong>Dica de Maestria:</strong> Embora seja o primeiro elemento lido, a introdução deve ser um dos <strong>últimos a ser finalizado</strong>, evitando incoerências com o desenvolvimento e a conclusão.</li>
 </ul>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"quarto"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
+<hr>
 </section>
-<section id="creating-a-quarto-project-recommended-for-websites" class="level2">
-<h2 class="anchored" data-anchor-id="creating-a-quarto-project-recommended-for-websites">Creating a Quarto Project (Recommended for Websites)</h2>
-<p>While not explicitly detailed in these short excerpts, for creating a webpage (which often involves multiple pages and assets), it is generally recommended to start with a <strong>Quarto project</strong>. This helps organise your website files.</p>
+<section id="estratégias-de-leitura-crítica" class="level2">
+<h2 class="anchored" data-anchor-id="estratégias-de-leitura-crítica">3. Estratégias de Leitura Crítica</h2>
+<p>Sustentar a própria voz na escrita requer uma <strong>leitura atenta</strong>, baseada na decodificação cuidadosa de cada palavra e parágrafo.</p>
+<section id="níveis-de-leitura" class="level3">
+<h3 class="anchored" data-anchor-id="níveis-de-leitura">Níveis de Leitura</h3>
 <ol type="1">
-<li>In RStudio, go to <strong>File &gt; New Project…</strong>.</li>
-<li>Choose <strong>New Directory</strong>.</li>
-<li>Select <strong>Quarto Project</strong>.</li>
-<li>Choose a name for your project and a location to save it.</li>
-<li>Click <strong>Create Project</strong>.</li>
-</ol>
-<p>This will create a basic Quarto project structure.</p>
-<iframe width="611" height="343" src="https://www.youtube.com/embed/_f3latmOhew" title="Get started with Quarto | Mine Çetinkaya-Rundel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
-</iframe>
-</section>
-<section id="creating-your-webpage-content" class="level2">
-<h2 class="anchored" data-anchor-id="creating-your-webpage-content">Creating Your Webpage Content</h2>
-<p>Webpages in a Quarto website are typically created as <strong><code>.qmd</code> files</strong>, similar to standard Quarto documents.</p>
-<ol type="1">
-<li>Within your Quarto project, go to <strong>File &gt; New File &gt; Quarto Document…</strong>.</li>
-<li>Choose your desired default format (this might be less critical for individual content pages within a website structure, as the website configuration will largely dictate the final output). Click <strong>Create</strong>.</li>
-<li>This will open a new <code>.qmd</code> file where you can write your webpage content using a combination of:
-<ul>
-<li><p><strong>YAML Header</strong>: Each page can have an optional YAML header (demarcated by <code>---</code> at the start and end) to specify metadata like the title.</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"My Webpage"</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
-<li><p><strong>Markdown Text</strong>: Use standard Markdown syntax to format your text, headings, lists, links, images, etc.. RStudio’s <strong>Visual editor</strong> can be helpful for this, offering a WYSIWYM experience [1]. You can switch between <strong>Visual</strong> and <strong>Source</strong> modes using the toolbar or the shortcut <strong>⌘⇧ F4</strong> (macOS) or <strong>Ctrl+Shift+F4</strong> (Windows/Linux) [1].</p></li>
-<li><p><strong>Code Chunks</strong>: You can embed and execute code (primarily R in this context, indicated by ```<code>{r}</code>) within your webpage to create dynamic content [2, 3]. You can <strong>run individual code chunks interactively</strong> in RStudio by clicking the <strong>Run</strong> icon or using the keyboard shortcut (<strong>⇧⌘⏎</strong> on macOS or <strong>Ctrl+Shift+Enter</strong> on Windows/Linux).</p></li>
-</ul></li>
-</ol>
-</section>
-<section id="configuring-your-quarto-website" class="level2">
-<h2 class="anchored" data-anchor-id="configuring-your-quarto-website">Configuring Your Quarto Website</h2>
-<p>Creating a multi-page website with Quarto involves a configuration file, typically named <code>_quarto.yml</code>, in the root of your project. This file defines the navigation, theme, and other website-level settings.</p>
-<p><strong>Note:</strong> The provided sources do not contain specific details on the structure and content of the <code>_quarto.yml</code> file. However, based on Quarto’s nature as a next-generation version of R Markdown [4], it leverages YAML for configuration. You would typically define your website’s navigation links to your different <code>.qmd</code> content pages within this file.</p>
-</section>
-<section id="rendering-your-quarto-webpages" class="level2">
-<h2 class="anchored" data-anchor-id="rendering-your-quarto-webpages">Rendering Your Quarto Webpage(s)</h2>
-<p>Once you have your content pages (<code>.qmd</code> files<code>) and your website configuration (</code>_quarto.yml`), you can render your website.</p>
-<ol type="1">
-<li>In RStudio, with your Quarto project open, you can typically use the <strong>Build</strong> pane. Look for a <strong>Render Website</strong> option. Clicking this will process your project files according to your <code>_quarto.yml</code> configuration and generate your website.</li>
-<li>Alternatively, you might be able to render the entire website from the R console within your project directory using the <code>quarto</code> package, though the specific command for a website render isn’t detailed in the excerpts. It would likely be related to the <code>quarto::quarto_render()</code> function but applied at the project level.</li>
+<li><strong>Leitura Exploratória:</strong> Uma “expedição de reconhecimento” para verificar se a obra interessa à pesquisa, examinando índices, introdução, conclusão e bibliografia.</li>
+<li><strong>Leitura Seletiva:</strong> Focada apenas no material que contribui diretamente para a solução do problema proposto, eliminando o que é irrelevante.</li>
+<li><strong>Leitura Analítica:</strong> Tem como finalidade <strong>ordenar e sumariar</strong> as informações das fontes.</li>
 </ol>
 </section>
-<section id="previewing-your-webpage" class="level2">
-<h2 class="anchored" data-anchor-id="previewing-your-webpage">Previewing Your Webpage</h2>
-<p>After rendering, Quarto will generate the necessary HTML and other files for your website. You can usually preview your webpage by looking a the <strong>Viewer</strong> tab in bottom-right panel of your Rstudio window.</p>
-</section>
-<section id="further-steps" class="level2">
-<h2 class="anchored" data-anchor-id="further-steps">Further Steps</h2>
-<p>This tutorial provides a basic introduction. Creating a full-fledged website with Quarto involves learning more about:</p>
+<section id="momentos-da-leitura-analítica" class="level3">
+<h3 class="anchored" data-anchor-id="momentos-da-leitura-analítica">Momentos da Leitura Analítica</h3>
 <ul>
-<li>The <strong><code>_quarto.yml</code> configuration file</strong> to control navigation, theme, and other website settings.</li>
-<li>Organising your content into multiple <code>.qmd</code> pages.</li>
-<li>Using <strong>themes</strong> to style your website.</li>
-<li>Including <strong>assets</strong> like images and CSS files.</li>
+<li><strong>Visão do Todo:</strong> Leitura integral do texto selecionado.</li>
+<li><strong>Identificação de Ideias-Chave:</strong> Localizar as frases que sintetizam cada parágrafo.</li>
+<li><strong>Hierarquização:</strong> Organizar as ideias por ordem de importância, distinguindo as principais das secundárias.</li>
+<li><strong>Sintetização:</strong> Recompor o texto decomposto, fixando-se no essencial para a solução do seu problema de pesquisa.</li>
 </ul>
-<p>This is a starting point to introduce Quarto as a tool capable of creating websites and its reliance on <code>.qmd</code> files and YAML. You would need to consult further Quarto documentation for detailed instructions on website creation.</p>
-<p>By following these initial steps, you can begin to explore the possibilities of creating webpages with Quarto in RStudio.</p>
 </section>
-<section id="publish-your-workbook" class="level2">
-<h2 class="anchored" data-anchor-id="publish-your-workbook">Publish your workbook</h2>
-<p>There are many ways to publish your workbook and you might chose simple or more advanced ways.</p>
-<section id="simple-rpubs-page" class="level3">
-<h3 class="anchored" data-anchor-id="simple-rpubs-page">Simple Rpubs page</h3>
+<section id="tomada-de-apontamentos" class="level3">
+<h3 class="anchored" data-anchor-id="tomada-de-apontamentos">Tomada de Apontamentos</h3>
+<ul>
+<li>As notas devem ser feitas preferencialmente com <strong>frases próprias</strong>, indicando que o pesquisador realmente entendeu o pensamento do autor.</li>
+<li>Separe com clareza o material citado (transcrição <em>ipsis litteris</em>) das anotações pessoais para evitar o <strong>plágio</strong>.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="literatura-e-recursos-sugeridos" class="level2">
+<h2 class="anchored" data-anchor-id="literatura-e-recursos-sugeridos">Literatura e Recursos Sugeridos</h2>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -738,4 +670,5 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
+<script src="../../site_libs/quarto-contrib/alpine-3.12/alpine@3.12.min.js"></script>
 </body></html>

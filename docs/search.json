@@ -32,7 +32,7 @@
     "href": "example.html#a-quiz-with-additional-information-in-callouts",
     "title": "Quiz example",
     "section": "A quiz with additional information in callouts",
-    "text": "A quiz with additional information in callouts\n\nBill Gates was the founder of:\n\n\n\n\n ✗Apple\n\n\n ✓Microsoft\n\n\n ✗Facebook\n\n\n ✗Google\n\n\nClear answer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nThe company name starts with an ‘M’…\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\nBill Gates and Paul Allen founded Microsoft on April 4, 1975."
+    "text": "A quiz with additional information in callouts\n\nBill Gates was the founder of:\n\n\n\n\n ✗Apple\n\n\n ✓Microsoft\n\n\n ✗Facebook\n\n\n ✗Google\n\n\nClear answer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipHint\n\n\n\n\n\nThe company name starts with an ‘M’…\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\nBill Gates and Paul Allen founded Microsoft on April 4, 1975."
   },
   {
     "objectID": "assessment.html",
@@ -102,7 +102,7 @@
     "href": "sessions/index.html",
     "title": "Conteúdo",
     "section": "",
-    "text": "Aula 1: Fundamentos e Paradigmas Científicos\n\n\n\n\n\n\nFelipe Melo\n\n\n\n\n\n\n\n\n\n\n\nAula 2: Lógica e Métodos de Abordagem\n\n\n\n\n\n\nFelipe Melo\n\n\nFeb 24, 2026\n\n\n\n\n\n\n\n\n\n\n\nAula 3: A Pergunta de Pesquisa e a Estrutura do Projeto\n\n\n\n\n\n\nFelipe Melo\n\n\nFeb 24, 2026\n\n\n\n\n\n\n\n\n\n\n\nAula 4: Delineamento metodológico e ética na pesquisa\n\n\n\n\n\n\nFelipe Melo\n\n\nFeb 24, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Aula 1: Fundamentos e Paradigmas Científicos\n\n\n\n\n\n\nFelipe Melo\n\n\n\n\n\n\n\n\n\n\n\nAula 2: Lógica e Métodos de Abordagem\n\n\n\n\n\n\nFelipe Melo\n\n\nMar 3, 2026\n\n\n\n\n\n\n\n\n\n\n\nAula 3: A Pergunta de Pesquisa e a Estrutura do Projeto\n\n\n\n\n\n\nFelipe Melo\n\n\nMar 3, 2026\n\n\n\n\n\n\n\n\n\n\n\nAula 4: Delineamento metodológico e ética na pesquisa\n\n\n\n\n\n\nFelipe Melo\n\n\nMar 3, 2026\n\n\n\n\n\n\n\n\n\n\n\nEncontro 5: Escrita e Leitura Científica de Alto Impacto\n\n\n\n\n\n\nFelipe Melo\n\n\nMar 10, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "slides/aula_1_fundamentos.html#abertura",
@@ -613,7 +613,7 @@
     "href": "workbook/workbook.html#your-workbook",
     "title": "Tutorial: Getting Started with a Quarto Webpage",
     "section": "Your workbook",
-    "text": "Your workbook\nWhile learning stats and coding, you’ll also learn how to build and publish simple websites using R and RStudio. This website is vital for you learning during this module. This is going to be your live coursebook.\nSee some examples how NTU students used this for the summative last year:\n\nExample 1\nExample 2\n\n\n\n\n\n\n\nInvest on your worbook\n\n\n\nYour workbook is going to be your “best friend” during this module. There you can experiment, create personal notes and gather bibliography. It works like a paper notebook, but it is a website."
+    "text": "Your workbook\nWhile learning stats and coding, you’ll also learn how to build and publish simple websites using R and RStudio. This website is vital for you learning during this module. This is going to be your live coursebook.\nSee some examples how NTU students used this for the summative last year:\n\nExample 1\nExample 2\n\n\n\n\n\n\n\nTipInvest on your worbook\n\n\n\nYour workbook is going to be your “best friend” during this module. There you can experiment, create personal notes and gather bibliography. It works like a paper notebook, but it is a website."
   },
   {
     "objectID": "workbook/workbook.html#prerequisites",
@@ -1853,5 +1853,243 @@
     "title": "Aula 4: Delineamento de um Projeto de Pesquisa",
     "section": "Introdução",
     "text": "Introdução"
+  },
+  {
+    "objectID": "sessions/week5/aula5.html",
+    "href": "sessions/week5/aula5.html",
+    "title": "Encontro 5: Escrita e Leitura Científica de Alto Impacto",
+    "section": "",
+    "text": "A produção textual de qualidade na academia não é uma simples “colagem” de ideias, mas um processo alicerçado na metacognição e na subjetividade do pesquisador. Trata-se de um esforço multi-cognitivo de retextualização, onde a voz do autor organiza a intertextualidade para propor novos conhecimentos."
+  },
+  {
+    "objectID": "sessions/week5/aula5.html#a-escrita-como-processo-metacognitivo",
+    "href": "sessions/week5/aula5.html#a-escrita-como-processo-metacognitivo",
+    "title": "Encontro 5: Escrita e Leitura Científica de Alto Impacto",
+    "section": "A Escrita como Processo Metacognitivo",
+    "text": "A Escrita como Processo Metacognitivo\nA produção textual de qualidade na academia não é uma simples “colagem” de ideias, mas um processo alicerçado na metacognição e na subjetividade do pesquisador. Trata-se de um esforço multi-cognitivo de retextualização, onde a voz do autor organiza a intertextualidade para propor novos conhecimentos."
+  },
+  {
+    "objectID": "sessions/week5/aula5.html#elementos-pré-textuais-a-vitrine-do-artigo",
+    "href": "sessions/week5/aula5.html#elementos-pré-textuais-a-vitrine-do-artigo",
+    "title": "Encontro 5: Escrita Científica de Alto Impacto",
+    "section": "1. Elementos Pré-Textuais: A Vitrine do Artigo",
+    "text": "1. Elementos Pré-Textuais: A Vitrine do Artigo\nOs elementos iniciais são fundamentais para a indexação e para despertar o interesse de revisores e leitores [5, 6].\n\nTítulo Estratégico: Deve ser exato e conciso, revelando objetivamente o objeto de estudo e a relação entre as variáveis. É a “porta de entrada” e deve ser elaborado com originalidade e coerência\nResumo (Abstract): Síntese informativa de 100 a 250 palavras. Deve apresentar objetivos, metodologia e resultados de forma concisa, utilizando preferencialmente a terceira pessoa do singular e voz ativa.\nPalavras-chave: 3 a 5 termos técnicos que representam o artigo para fins de busca em bases de dados."
+  },
+  {
+    "objectID": "sessions/week5/aula5.html#elementos-textuais-o-corpo-do-trabalho",
+    "href": "sessions/week5/aula5.html#elementos-textuais-o-corpo-do-trabalho",
+    "title": "Encontro 5: Escrita Científica de Alto Impacto",
+    "section": "2. Elementos Textuais: O Corpo do Trabalho",
+    "text": "2. Elementos Textuais: O Corpo do Trabalho\nO corpo do artigo é onde o argumento científico é desenvolvido e defendido.\n\nIntrodução\nA introdução deve situar o tema, delimitar o assunto e apresentar claramente os objetivos da pesquisa. É essencial que ela crie uma expectativa positiva e justifique a relevância do estudo.\n\n\nDesenvolvimento (Fundamentação e Metodologia)\n\nRevisão de Literatura: Deve ser dissertativa, mostrando a evolução do tema e as conexões entre autores, em vez de ser um mero glossário.\nMetodologia: Descrição detalhada do “modo de caminhar” da pesquisa, permitindo que outros pesquisadores repliquem o estudo.\nDescrição e Análise dos Resultados: Apresentação dos fatos obtidos e sua confrontação com a literatura revisada, destacando convergências e divergências.\n\n\n\nConclusão ou Considerações Finais\nDestaque para as descobertas de modo sintético, respondendo aos objetivos e hipóteses iniciais. Deve explicar as ideias predominantes sem polêmicas excessivas, sugerindo novos enfoques para estudos futuros."
+  },
+  {
+    "objectID": "sessions/week5/aula5.html#rigor-padronização-e-originalidade",
+    "href": "sessions/week5/aula5.html#rigor-padronização-e-originalidade",
+    "title": "Encontro 5: Escrita Científica de Alto Impacto",
+    "section": "3. Rigor, Padronização e Originalidade",
+    "text": "3. Rigor, Padronização e Originalidade\nA ciência diferencia-se de outras formas de saber pelo seu rigor metodológico e dimensão pública. Na escrita, isso se traduz em:\n\nPadronização: Uso rigoroso das normas (como ABNT NBR 6023 para referências) para garantir a credibilidade e a recuperação da informação.\nIntegridade: O plágio e o autoplágio são terminantemente proibidos; a autoria deve ser declarada e respeitar todos os envolvidos no processo."
+  },
+  {
+    "objectID": "sessions/week5/aula5.html#literatura-e-recursos-sugeridos",
+    "href": "sessions/week5/aula5.html#literatura-e-recursos-sugeridos",
+    "title": "Encontro 5: Escrita e Leitura Científica de Alto Impacto",
+    "section": "Literatura e Recursos Sugeridos",
+    "text": "Literatura e Recursos Sugeridos"
+  },
+  {
+    "objectID": "sessions/week5/aula5.html#estratégias-para-escrever-resumos-abstracts",
+    "href": "sessions/week5/aula5.html#estratégias-para-escrever-resumos-abstracts",
+    "title": "Encontro 5: Escrita e Leitura Científica de Alto Impacto",
+    "section": "1. Estratégias para Escrever Resumos (Abstracts)",
+    "text": "1. Estratégias para Escrever Resumos (Abstracts)\nO resumo é a “vitrine” que permite ao leitor decidir sobre a relevância da leitura integral do texto\n\nConteúdo Obrigatório: Deve apresentar, de forma concisa, os objetivos, a metodologia e os resultados alcançados (ou esperados)\nVoz e Estilo: Utilize frases concisas em vez de tópicos, empregando o verbo na voz ativa e na terceira pessoa do singular\n\nO que Evitar: Não inclua citações bibliográficas, frases negativas, símbolos, equações, tabelas ou quadros\nExtensão: Geralmente entre 100 a 250 palavras, conforme normas da ABNT ou diretrizes do periódic.\nMomento de Redação: Por ser estratégico, recomenda-se que seja elaborado após o autor ter avançado na redação final, garantindo segurança sobre o direcionamento dado ao tema."
+  },
+  {
+    "objectID": "sessions/week5/aula5.html#organização-da-introdução",
+    "href": "sessions/week5/aula5.html#organização-da-introdução",
+    "title": "Encontro 5: Escrita e Leitura Científica de Alto Impacto",
+    "section": "2. Organização da Introdução",
+    "text": "2. Organização da Introdução\nA introdução é a seção inicial que deve contextualizar o estudo e aguçar a curiosidade do leitor.\n\nElementos Essenciais: Deve conter o tema, a sua delimitação (espacial e temporal), o problema de pesquisa (em formato de pergunta), a justificativa e os objetivos.\nFluxo Narrativo:\n\nApresentação do Tema: Contextualização breve do assunto.\nProblematização: Exposição do hiato de conhecimento ou questão controvertida ainda não respondida pela literatura.\nHipóteses: Quando couber, apresentar respostas provisórias que serão testadas.\nObjetivos: Finalizar a introdução explicitando claramente o que se pretende alcançar.\n\nDica de Maestria: Embora seja o primeiro elemento lido, a introdução deve ser um dos últimos a ser finalizado, evitando incoerências com o desenvolvimento e a conclusão."
+  },
+  {
+    "objectID": "sessions/week5/aula5.html#estratégias-de-leitura-crítica",
+    "href": "sessions/week5/aula5.html#estratégias-de-leitura-crítica",
+    "title": "Encontro 5: Escrita e Leitura Científica de Alto Impacto",
+    "section": "3. Estratégias de Leitura Crítica",
+    "text": "3. Estratégias de Leitura Crítica\nSustentar a própria voz na escrita requer uma leitura atenta, baseada na decodificação cuidadosa de cada palavra e parágrafo.\n\nNíveis de Leitura\n\nLeitura Exploratória: Uma “expedição de reconhecimento” para verificar se a obra interessa à pesquisa, examinando índices, introdução, conclusão e bibliografia.\nLeitura Seletiva: Focada apenas no material que contribui diretamente para a solução do problema proposto, eliminando o que é irrelevante.\nLeitura Analítica: Tem como finalidade ordenar e sumariar as informações das fontes.\n\n\n\nMomentos da Leitura Analítica\n\nVisão do Todo: Leitura integral do texto selecionado.\nIdentificação de Ideias-Chave: Localizar as frases que sintetizam cada parágrafo.\nHierarquização: Organizar as ideias por ordem de importância, distinguindo as principais das secundárias.\nSintetização: Recompor o texto decomposto, fixando-se no essencial para a solução do seu problema de pesquisa.\n\n\n\nTomada de Apontamentos\n\nAs notas devem ser feitas preferencialmente com frases próprias, indicando que o pesquisador realmente entendeu o pensamento do autor.\nSepare com clareza o material citado (transcrição ipsis litteris) das anotações pessoais para evitar o plágio."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#o-desafio-da-escrita",
+    "href": "slides/aula_5_escrita.html#o-desafio-da-escrita",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "O Desafio da Escrita",
+    "text": "O Desafio da Escrita\n\n\n\nEscrita como jornada\nCompreensão de requisitos\nSuperação de obstáculos\nBusca pela maestria"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#metacognição-e-texto",
+    "href": "slides/aula_5_escrita.html#metacognição-e-texto",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Metacognição e Texto",
+    "text": "Metacognição e Texto\n\n\n\nConhecimento do saber\nAtividade reflexiva\nMonitoramento ativo\nAutonmomia e compreensão"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#retextualização-complexa",
+    "href": "slides/aula_5_escrita.html#retextualização-complexa",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Retextualização Complexa",
+    "text": "Retextualização Complexa\n\n\n\nAlém da justa-posição\nEsforço multi-cognitivo\nTransformação de dados\nCriação de sentido novo"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#a-voz-do-autor",
+    "href": "slides/aula_5_escrita.html#a-voz-do-autor",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "4. A Voz do Autor",
+    "text": "4. A Voz do Autor\n\n\n\n\n\nExplicitação da voz.\nArticulação de ideias.\nOriginalidade autêntica.\nDomínio da linguagem."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#ciência-como-campo-aberto",
+    "href": "slides/aula_5_escrita.html#ciência-como-campo-aberto",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "5. Ciência como Campo Aberto",
+    "text": "5. Ciência como Campo Aberto\n\n\n\n\n\nLuta entre teorias.\nConcepções de mundo.\nProgresso disruptivo.\nProvisoriedade do saber."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#elementos-pré-textuais",
+    "href": "slides/aula_5_escrita.html#elementos-pré-textuais",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "6. Elementos Pré-Textuais",
+    "text": "6. Elementos Pré-Textuais\n\n\n\n\n\nCaracterização inicial.\nReconhecimento de origem.\nAutoria declarada.\nResumo e Título."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#o-título-estratégico",
+    "href": "slides/aula_5_escrita.html#o-título-estratégico",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "7. O Título Estratégico",
+    "text": "7. O Título Estratégico\n\n\n\nRedigido com exatidão.\nRevelação do objeto.\nCaptação de interesse.\nPorteira do artigo."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#o-resumo-abstract",
+    "href": "slides/aula_5_escrita.html#o-resumo-abstract",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "8. O Resumo (Abstract)",
+    "text": "8. O Resumo (Abstract)\n\n\n\nConciso e informativo.\n100 a 250 palavras.\nVoz ativa/3ª pessoa.\nSem citações diretas."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#palavras-chave",
+    "href": "slides/aula_5_escrita.html#palavras-chave",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "9. Palavras-Chave",
+    "text": "9. Palavras-Chave\n\n\n\n3 a 5 termos técnicos.\nEssenciais para busca.\nRepresentação do todo.\nIndexação eficiente."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#a-introdução",
+    "href": "slides/aula_5_escrita.html#a-introdução",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "10. A Introdução",
+    "text": "10. A Introdução\n\n\n\n\n\nDelimitação do tema.\nProblema e objetivos.\nJustificativa clara.\nGuia para o leitor."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#referencial-teórico",
+    "href": "slides/aula_5_escrita.html#referencial-teórico",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "11. Referencial Teórico",
+    "text": "11. Referencial Teórico\n\n\n\n\n\nEvolução do tema.\nDiálogo entre autores.\nTexto dissertativo.\nSuporte fundamental."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#o-estado-da-arte",
+    "href": "slides/aula_5_escrita.html#o-estado-da-arte",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "12. O Estado da Arte",
+    "text": "12. O Estado da Arte\n\n\n\n\n\nNível atual da ciência.\nTendências e excelência.\nMapeamento do campo.\nHiatos de evidência."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#metodologia-o-caminho",
+    "href": "slides/aula_5_escrita.html#metodologia-o-caminho",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "13. Metodologia: O Caminho",
+    "text": "13. Metodologia: O Caminho\n\n\n\nEscolhas estratégicas.\nTécnicas de coleta.\nAnálise de dados.\nReplicabilidade do estudo."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#resultados-e-discussão",
+    "href": "slides/aula_5_escrita.html#resultados-e-discussão",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "14. Resultados e Discussão",
+    "text": "14. Resultados e Discussão\n\n\n\nDescrição dos dados.\nInterpretação crítica.\nConfronto com teorias.\nFatos novos e efeitos."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#conclusões-finais",
+    "href": "slides/aula_5_escrita.html#conclusões-finais",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "15. Conclusões Finais",
+    "text": "15. Conclusões Finais\n\n\n\nDeduções lógicas.\nResgate dos objetivos.\nLimitações do estudo.\nSugestões futuras."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#rigor-e-transparência",
+    "href": "slides/aula_5_escrita.html#rigor-e-transparência",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "16. Rigor e Transparência",
+    "text": "16. Rigor e Transparência\n\n\n\n\n\nMétodo sistematizado.\nFidelidade da info.\nDimensão pública.\nValidação pelos pares."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#ética-na-escrita",
+    "href": "slides/aula_5_escrita.html#ética-na-escrita",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "17. Ética na Escrita",
+    "text": "17. Ética na Escrita\n\n\n\n\n\nProibição de plágio.\nAutoria responsável.\nSigilo de participantes.\nHonestidade intelectual."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#padronização-abnt",
+    "href": "slides/aula_5_escrita.html#padronização-abnt",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "18. Padronização ABNT",
+    "text": "18. Padronização ABNT\n\n\n\n\n\nReferências (NBR 6023).\nCitações (NBR 10520).\nResumos (NBR 6028).\nUniformidade visual."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#a-importância-das-citações",
+    "href": "slides/aula_5_escrita.html#a-importância-das-citações",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "19. A Importância das Citações",
+    "text": "19. A Importância das Citações\n\n\n\nDiálogo com o passado.\nEmbasamento teórico.\nEvita “obras de ficção”.\nCrédito aos autores."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#linguagem-científica",
+    "href": "slides/aula_5_escrita.html#linguagem-científica",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "20. Linguagem Científica",
+    "text": "20. Linguagem Científica\n\n\n\nPrecisão e clareza.\nObjetividade na voz.\nExclusão de emoções.\nUso da razão pura."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#revisão-por-pares",
+    "href": "slides/aula_5_escrita.html#revisão-por-pares",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "21. Revisão por Pares",
+    "text": "21. Revisão por Pares\n\n\n\nOlhar externo crítico.\nVerificação de dados.\nQualidade do relato.\nEstímulo à exploração."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#originalidade-não-imitar",
+    "href": "slides/aula_5_escrita.html#originalidade-não-imitar",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "22. Originalidade: Não Imitar",
+    "text": "22. Originalidade: Não Imitar\n\n\n\n\n\nAprender a aprender.\nSuperar a cópia.\nSíntese de saberes.\nCriatividade própria."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#divulgação-dos-resultados",
+    "href": "slides/aula_5_escrita.html#divulgação-dos-resultados",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "23. Divulgação dos Resultados",
+    "text": "23. Divulgação dos Resultados\n\n\n\n\n\nClareza e precisão.\nExposição de métodos.\nReconhecimento de erros.\nImpacto na sociedade."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#escrita-como-maestria",
+    "href": "slides/aula_5_escrita.html#escrita-como-maestria",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "24. Escrita como Maestria",
+    "text": "24. Escrita como Maestria\n\n\n\n\n\nAlém do linguístico.\nExpressão da curiosidade.\nChama da descoberta.\nCiência como arte."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#próximos-passos",
+    "href": "slides/aula_5_escrita.html#próximos-passos",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "25. Próximos Passos",
+    "text": "25. Próximos Passos\n\n\n\nPraticar a escritura.\nSubmeter manuscritos.\nResponder a revisores.\nContribuir para a BV."
   }
 ]

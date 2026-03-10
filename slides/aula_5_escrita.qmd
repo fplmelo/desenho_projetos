@@ -1,0 +1,334 @@
+---
+title: "Aula 5 - Escrita Científica de Alto Impacto"
+subtitle: "PPGBV - UFPE"
+format: 
+  revealjs:
+    theme: default
+    slide-number: true
+    transition: slide
+---
+
+## O Desafio da Escrita
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Escrita como jornada
+- Compreensão de requisitos
+- Superação de obstáculos
+- Busca pela maestria
+:::
+::: {.column width="50%"}
+![](/img/meme-kid-pc.webp)
+:::
+::::::::::::::
+
+## Metacognição e Texto
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Conhecimento do saber
+- Atividade reflexiva
+- Monitoramento ativo
+- Autonmomia e compreensão
+:::
+::: {.column width="50%"}
+![](https://ensinopesquisaextensao.com.br/wp-content/uploads/elementor/thumbs/Metacognicao-443-qdz4xswkh8nhyfhtah9lbw0jmzygc7eunevrw8ggai.webp){width=150%}
+:::
+::::::::::::::
+
+## Retextualização Complexa
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Além da justa-posição
+- Esforço multi-cognitivo
+- Transformação de dados
+- Criação de sentido novo
+:::
+::: {.column width="50%"}
+<!-- [IMAGEM: Metáfora de tecelagem ou mosaico] -->
+:::
+::::::::::::::
+
+## 4. A Voz do Autor
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+<!-- [IMAGEM: Ícone de um microfone ou megafone] -->
+:::
+::: {.column width="50%"}
+- Explicitação da voz.
+- Articulação de ideias.
+- Originalidade autêntica.
+- Domínio da linguagem.
+:::
+::::::::::::::
+
+## 5. Ciência como Campo Aberto
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+<!-- [IMAGEM: Campo de batalha ou debate científico] -->
+:::
+::: {.column width="50%"}
+- Luta entre teorias.
+- Concepções de mundo.
+- Progresso disruptivo.
+- Provisoriedade do saber.
+:::
+::::::::::::::
+
+## 6. Elementos Pré-Textuais
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+<!-- [IMAGEM: Capa de uma revista científica] -->
+:::
+::: {.column width="50%"}
+- Caracterização inicial.
+- Reconhecimento de origem.
+- Autoria declarada.
+- Resumo e Título.
+:::
+::::::::::::::
+
+## 7. O Título Estratégico
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Redigido com exatidão.
+- Revelação do objeto.
+- Captação de interesse.
+- Porteira do artigo.
+:::
+::: {.column width="50%"}
+<!-- [IMAGEM: Uma porta se abrindo para o conhecimento] -->
+:::
+::::::::::::::
+
+## 8. O Resumo (Abstract)
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Conciso e informativo.
+- 100 a 250 palavras.
+- Voz ativa/3ª pessoa.
+- Sem citações diretas.
+:::
+::: {.column width="50%"}
+<!-- [IMAGEM: Lupa focando em um parágrafo de texto] -->
+:::
+::::::::::::::
+
+## 9. Palavras-Chave
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- 3 a 5 termos técnicos.
+- Essenciais para busca.
+- Representação do todo.
+- Indexação eficiente.
+:::
+::: {.column width="50%"}
+<!-- [IMAGEM: Ícone de tags ou etiquetas de busca] -->
+:::
+::::::::::::::
+
+## 10. A Introdução
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+<!-- [IMAGEM: Bússola ou mapa de navegação] -->
+:::
+::: {.column width="50%"}
+- Delimitação do tema.
+- Problema e objetivos.
+- Justificativa clara.
+- Guia para o leitor.
+:::
+::::::::::::::
+
+## 11. Referencial Teórico
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+<!-- [IMAGEM: Pilha de livros organizados] -->
+:::
+::: {.column width="50%"}
+- Evolução do tema.
+- Diálogo entre autores.
+- Texto dissertativo.
+- Suporte fundamental.
+:::
+::::::::::::::
+
+## 12. O Estado da Arte
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+<!-- [IMAGEM: Gráfico de tendências atuais] -->
+:::
+::: {.column width="50%"}
+- Nível atual da ciência.
+- Tendências e excelência.
+- Mapeamento do campo.
+- Hiatos de evidência.
+:::
+::::::::::::::
+
+## 13. Metodologia: O Caminho
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Escolhas estratégicas.
+- Técnicas de coleta.
+- Análise de dados.
+- Replicabilidade do estudo.
+:::
+::: {.column width="50%"}
+<!-- [IMAGEM: Planta baixa ou esquema de processo] -->
+:::
+::::::::::::::
+
+## 14. Resultados e Discussão
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Descrição dos dados.
+- Interpretação crítica.
+- Confronto com teorias.
+- Fatos novos e efeitos.
+:::
+::: {.column width="50%"}
+<!-- [IMAGEM: Cientista analisando gráficos] -->
+:::
+::::::::::::::
+
+## 15. Conclusões Finais
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Deduções lógicas.
+- Resgate dos objetivos.
+- Limitações do estudo.
+- Sugestões futuras.
+:::
+::: {.column width="50%"}
+<!-- [IMAGEM: Bandeira de chegada em uma corrida] -->
+:::
+::::::::::::::
+
+## 16. Rigor e Transparência
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+<!-- [IMAGEM: Balança de precisão] -->
+:::
+::: {.column width="50%"}
+- Método sistematizado.
+- Fidelidade da info.
+- Dimensão pública.
+- Validação pelos pares.
+:::
+::::::::::::::
+
+## 17. Ética na Escrita
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+<!-- [IMAGEM: Escudo de integridade/ética] -->
+:::
+::: {.column width="50%"}
+- Proibição de plágio.
+- Autoria responsável.
+- Sigilo de participantes.
+- Honestidade intelectual.
+:::
+::::::::::::::
+
+## 18. Padronização ABNT
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+<!-- [IMAGEM: Manual de normas ou régua] -->
+:::
+::: {.column width="50%"}
+- Referências (NBR 6023).
+- Citações (NBR 10520).
+- Resumos (NBR 6028).
+- Uniformidade visual.
+:::
+::::::::::::::
+
+## 19. A Importância das Citações
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Diálogo com o passado.
+- Embasamento teórico.
+- Evita "obras de ficção".
+- Crédito aos autores.
+:::
+::: {.column width="50%"}
+<!-- [IMAGEM: Rede conectando diferentes nomes/autores] -->
+:::
+::::::::::::::
+
+## 20. Linguagem Científica
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Precisão e clareza.
+- Objetividade na voz.
+- Exclusão de emoções.
+- Uso da razão pura.
+:::
+::: {.column width="50%"}
+<!-- [IMAGEM: Caneta tinteiro escrevendo com clareza] -->
+:::
+::::::::::::::
+
+## 21. Revisão por Pares
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Olhar externo crítico.
+- Verificação de dados.
+- Qualidade do relato.
+- Estímulo à exploração.
+:::
+::: {.column width="50%"}
+<!-- [IMAGEM: Dois pesquisadores debatendo um papel] -->
+:::
+::::::::::::::
+
+## 22. Originalidade: Não Imitar
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+<!-- [IMAGEM: Pássaro saindo da gaiola] -->
+:::
+::: {.column width="50%"}
+- Aprender a aprender.
+- Superar a cópia.
+- Síntese de saberes.
+- Criatividade própria.
+:::
+::::::::::::::
+
+## 23. Divulgação dos Resultados
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+<!-- [IMAGEM: Jornal científico ou tela de site] -->
+:::
+::: {.column width="50%"}
+- Clareza e precisão.
+- Exposição de métodos.
+- Reconhecimento de erros.
+- Impacto na sociedade.
+:::
+::::::::::::::
+
+## 24. Escrita como Maestria
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+<!-- [IMAGEM: Maestro regendo uma orquestra] -->
+:::
+::: {.column width="50%"}
+- Além do linguístico.
+- Expressão da curiosidade.
+- Chama da descoberta.
+- Ciência como arte.
+:::
+::::::::::::::
+
+## 25. Próximos Passos
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+- Praticar a escritura.
+- Submeter manuscritos.
+- Responder a revisores.
+- Contribuir para a BV.
+:::
+::: {.column width="50%"}
+<!-- [IMAGEM: Pegadas em direção ao horizonte] -->
+:::
+::::::::::::::

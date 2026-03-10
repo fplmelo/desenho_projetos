@@ -1,0 +1,72 @@
+---
+title: "Encontro 5: Escrita e Leitura Científica de Alto Impacto"
+subtitle: "PPGBV (UFPE)"
+author: "Felipe Melo"
+date: "last-modified"
+date-format: "long"
+filters:
+  - naquiz
+format:
+  html:
+    toc: true
+    toc-expanded: 3
+    toc-title: "Nesta página"
+---
+
+![](https://lunetas.com.br/wp-content/uploads/2018/12/48415828-1408443392625354-2652581435621244928-n.jpg)
+
+## A Escrita como Processo Metacognitivo
+
+A produção textual de qualidade na academia não é uma simples "colagem" de ideias, mas um processo alicerçado na **metacognição** e na subjetividade do pesquisador. Trata-se de um esforço multi-cognitivo de **retextualização**, onde a voz do autor organiza a intertextualidade para propor novos conhecimentos.
+
+---
+
+## 1. Estratégias para Escrever Resumos (Abstracts)
+
+O resumo é a "vitrine" que permite ao leitor decidir sobre a relevância da leitura integral do texto 
+
+*   **Conteúdo Obrigatório:** Deve apresentar, de forma concisa, os **objetivos, a metodologia e os resultados** alcançados (ou esperados) 
+*   **Voz e Estilo:** Utilize frases concisas em vez de tópicos, empregando o **verbo na voz ativa e na terceira pessoa do singular**  
+*   **O que Evitar:** Não inclua citações bibliográficas, frases negativas, símbolos, equações, tabelas ou quadros 
+*   **Extensão:** Geralmente entre **100 a 250 palavras**, conforme normas da ABNT ou diretrizes do periódic.
+*   **Momento de Redação:** Por ser estratégico, recomenda-se que seja elaborado **após o autor ter avançado na redação final**, garantindo segurança sobre o direcionamento dado ao tema.
+
+---
+
+## 2. Organização da Introdução
+
+A introdução é a seção inicial que deve contextualizar o estudo e **aguçar a curiosidade do leitor**.
+
+*   **Elementos Essenciais:** Deve conter o tema, a sua delimitação (espacial e temporal), o problema de pesquisa (em formato de pergunta), a justificativa e os objetivos.
+*   **Fluxo Narrativo:** 
+    1.  **Apresentação do Tema:** Contextualização breve do assunto.
+    2.  **Problematização:** Exposição do hiato de conhecimento ou questão controvertida ainda não respondida pela literatura.
+    3.  **Hipóteses:** Quando couber, apresentar respostas provisórias que serão testadas.
+    4.  **Objetivos:** Finalizar a introdução explicitando claramente o que se pretende alcançar.
+*   **Dica de Maestria:** Embora seja o primeiro elemento lido, a introdução deve ser um dos **últimos a ser finalizado**, evitando incoerências com o desenvolvimento e a conclusão.
+
+---
+
+## 3. Estratégias de Leitura Crítica
+
+Sustentar a própria voz na escrita requer uma **leitura atenta**, baseada na decodificação cuidadosa de cada palavra e parágrafo.
+
+### Níveis de Leitura
+1.  **Leitura Exploratória:** Uma "expedição de reconhecimento" para verificar se a obra interessa à pesquisa, examinando índices, introdução, conclusão e bibliografia.
+2.  **Leitura Seletiva:** Focada apenas no material que contribui diretamente para a solução do problema proposto, eliminando o que é irrelevante.
+3.  **Leitura Analítica:** Tem como finalidade **ordenar e sumariar** as informações das fontes.
+
+### Momentos da Leitura Analítica 
+*   **Visão do Todo:** Leitura integral do texto selecionado.
+*   **Identificação de Ideias-Chave:** Localizar as frases que sintetizam cada parágrafo.
+*   **Hierarquização:** Organizar as ideias por ordem de importância, distinguindo as principais das secundárias.
+*   **Sintetização:** Recompor o texto decomposto, fixando-se no essencial para a solução do seu problema de pesquisa.
+
+### Tomada de Apontamentos
+*   As notas devem ser feitas preferencialmente com **frases próprias**, indicando que o pesquisador realmente entendeu o pensamento do autor.
+*   Separe com clareza o material citado (transcrição *ipsis litteris*) das anotações pessoais para evitar o **plágio**.
+
+---
+
+## Literatura e Recursos Sugeridos
+
