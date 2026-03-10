@@ -1,5 +1,5 @@
 ---
-title: "Aula 4: Delineamento metodológico e ética na pesquisa"
+title: "Aula 4: Delineamento de um Projeto de Pesquisa"
 subtitle: "PPGBV (UFPE)"
 author: "Felipe Melo"
 date: "last-modified"
@@ -13,72 +13,80 @@ format:
     toc-title: "Nesta página"
 ---
 
-## Introdução: O Caminho da Investigação
+## Slides para esta aula se encontram [AQUI](https://fplmelo.github.io/desenho_projetos/slides/aula_4_delineamento.html#/title-slide) ou abaixo
 
-Após definir o problema e as perguntas de pesquisa, o pesquisador deve escolher o caminho para respondê-las. O delineamento metodológico não é apenas uma escolha técnica, mas uma decisão estratégica que determina a validade e o rigor dos resultados obtidos. Neste encontro, exploramos as diferenças fundamentais entre as abordagens de N-grande e N-pequeno, as técnicas de coleta e os pilares éticos que sustentam a ciência moderna.
+<iframe name="aula-1" width="700px" height="400px" src="https://fplmelo.github.io/desenho_projetos/slides/aula_4_delineamento.html#/title-slide" scrolling="no" marginwidth="0" marginheight="0" style="border:0px none #ffffff;"></iframe>
 
----
 
-## 1. Escolha do Método: N-grande vs. N-pequeno
+## Introdução à Elaboração do Projeto
 
-A distinção entre as abordagens quantitativa (N-grande) e qualitativa (N-pequeno) vai além do uso de números. Elas representam diferentes "culturas de pesquisa" e formas de interrogar a realidade.
+A elaboração de um projeto de pesquisa é um plano sistemático que demonstra como o pesquisador pretende usar evidências para realizar inferências válidas. Este documento é o "alicerce estrutural" da investigação, transformando incertezas em um caminho de descoberta científica. 
 
-### Pesquisa Quantitativa (Orientada por Variáveis)
-Foca na identificação do **efeito das causas**. 
+Abaixo, detalhamos os itens essenciais para a estrutura de um projeto rigoroso no **PPGBV**.
 
-*   **Objetivo:** Mensurar o impacto de um fator (X) sobre um fenômeno (Y) em uma população ampla.
-*   **Logística:** Assume a homogeneidade dos casos para buscar leis gerais ou probabilidades estatísticas.
-*   **Raciocínio:** Predominantemente dedutivo, testando hipóteses pré-definidas no plano da abstração.
-
-### Pesquisa Qualitativa (Orientada por Casos)
-Foca na identificação da **causa dos efeitos**.
-
-*   **Objetivo:** Compreender profundamente mecanismos causais e significados subjetivos em contextos específicos.
-*   **Logística:** Valoriza a singularidade e a profundidade de um ou poucos casos.
-*   **Raciocínio:** Frequentemente indutivo, permitindo que conceitos e hipóteses sejam refinados durante o contato com o campo.
-
-> **[INSERIR FIGURA 1: Infográfico comparativo - Efeito das Causas (N-grande) vs. Causa dos Efeitos (N-pequeno)]**
+![](https://www.monoweb.com.br/wp-content/uploads/2019/07/imagem-001.jpg)
 
 ---
 
-## 2. Técnicas de Coleta de Dados
+### 1. Título
+O título é a "porta de entrada" do seu trabalho. Deve ser **estratégico, conciso e informativo**, revelando com exatidão o objeto de estudo e a relação entre as variáveis principais para captar o interesse de leitores e revisores.
 
-A escolha da técnica depende da natureza do objeto e do tipo de explicação pretendida.
+### 2. Resumo
+Uma síntese de **100 a 250 palavras** que apresenta de forma concisa o problema, o objetivo geral, a metodologia simplificada e os resultados alcançados ou esperados. Deve ser redigido em voz ativa e na terceira pessoa do singular.
 
-*   **Experimentos:** Considerado o padrão-ouro para inferência causal, onde se manipula deliberadamente uma variável independente para observar o efeito em uma variável dependente sob condições controladas.
-*   **Observação:** Técnica vital para capturar fenômenos em seu ambiente natural, podendo ser participante (envolvimento do pesquisador) ou não-participante.
-*   **Amostragem:**
-    *   **Probabilística:** Cada elemento tem chance conhecida de ser selecionado, permitindo generalização estatística.
-    *   **Não-Probabilística:** Baseada no julgamento do pesquisador (ex: bola-de-neve, conveniência).
-
----
-
-## 3. Estratégias de Rigor: A Triangulação
-
-Para aumentar a credibilidade da pesquisa, especialmente na abordagem qualitativa, utiliza-se a **Triangulação**. Ela consiste no desenvolvimento de linhas convergentes de investigação através do uso de múltiplas fontes de evidência, métodos ou pesquisadores para estudar o mesmo fato.
-
-*   **Vantagem:** Superar as deficiências inerentes a um único método ou investigador.
-*   **Critérios Qualitativos:** Busca-se garantir a credibilidade (veracidade), transferibilidade (aplicabilidade), dependibilidade (consistência) e confirmabilidade (neutralidade dos dados).
+### 3. Palavras-Chave
+Conjunto de **3 a 5 termos técnicos** que representam o projeto como um todo. São essenciais para a indexação e busca do seu trabalho em bases de dados científicas.
 
 ---
 
-## 4. Ética em Pesquisa: Princípios Belmont
+### 4. Introdução
+Nesta parte, o assunto é apresentado como um todo [9]. A introdução deve conter:
 
-A ética é o compromisso fundamental com a dignidade humana. Toda pesquisa com seres humanos deve ser pautada pelos princípios estabelecidos no **Relatório Belmont** (1978):
+*   **Delimitação do tema:** Seleção do tópico específico a ser focalizado, evitando generalizações excessivas.
 
-1.  **Respeito às Pessoas:** Reconhecimento da autonomia e proteção de vulneráveis (como menores e legalmente incapazes).
-2.  **Beneficência:** Maximizar benefícios e minimizar danos (não-maleficência).
-3.  **Justiça:** Tratamento igualitário e distribuição equitativa de riscos e benefícios.
+*   **Problematização:** A formulação do problema de pesquisa em formato de pergunta clara, precisa e objetiva. A definição deste problema é a chave para superar os obstáculos da jornada científica.
 
-### Documentação Indispensável
-*   **TCLE (Termo de Consentimento Livre e Esclarecido):** Registro da anuência voluntária e informada do participante.
-*   **TALE (Termo de Assentimento Livre e Esclarecido):** Adaptado para menores ou pessoas com discernimento reduzido, que anuem na medida de sua compreensão.
+### 5. Justificativa
+Apresenta as razões teóricas e práticas que fundamentam o estudo. Deve ressaltar o **estágio atual da teoria** (Estado da Arte), as lacunas que a pesquisa pretende preencher e a sua relevância para o avanço da ciência e da sociedade.
 
-> **[INSERIR FIGURA 2: Fluxograma Ético - Do Desenho de Pesquisa à Aprovação no Comitê de Ética]**
+### 6. Objetivos
+*   **Objetivo Geral:** Define a meta ampla e abrangente, indicando o propósito central do pesquisador.
+*   **Objetivos Específicos:** Caráter concreto e instrumental; detalham as etapas necessárias para alcançar o objetivo geral em situações particulares.
 
 ---
 
-## Referências Sugeridas (Links Ativos)
+### 7. Hipóteses
+São **suposições provisórias** levantadas na tentativa de explicar o que se desconhece. Funcionam como respostas antecipadas ao problema de pesquisa, geralmente formuladas na lógica: *"Se X ocorre, então Y deve ser o resultado"*.
 
-*   [**Critérios de Rigor na Pesquisa Qualitativa**](https://periodicos.utfpr.edu.br/rbect/article/view/6977) – Detalha estratégias de credibilidade e triangulação.
+### 8. Predições
+Enquanto a hipótese é a explicação teórica, a predição é o **desdobramento observável** no mundo prático. Elas guiam o planejamento dos experimentos, indicando o que se espera encontrar nos dados se a hipótese for válida.
 
+---
+
+### 9. Métodos (Metodologia)
+É o modo de caminhar da pesquisa, detalhando o procedimento sistemático para atingir os objetivos. Deve incluir:
+
+*   **Delineamento:** Tipo de pesquisa (experimental, descritiva, qualitativa, quantitativa ou mista).
+
+*   **Unidade de Análise:** Definição clara da amostra ou objeto de estudo.
+
+*   **Protocolos de Coleta:** Descrição das técnicas (entrevistas, observação, coleta de dados fenológicos, etc.).
+
+*   **Análise de Dados:** Ferramentas estatísticas (univariadas ou multivariadas) ou análise de conteúdo.
+
+*   **Ética:** Descrição do respeito aos princípios de **beneficência, justiça e respeito às pessoas**, incluindo a previsão do Termo de Consentimento Livre e Esclarecido (TCLE).
+
+### 10. Resultados Esperados
+Descrição das contribuições que a pesquisa pretende trazer para o campo teórico e prático, como preenchimento de hiatos de conhecimento ou sugestão de políticas públicas [16, 39, 40].
+
+---
+
+### 11. Cronograma
+Tabela temporal que descreve todas as **etapas do trabalho** (pesquisa bibliográfica, coleta de dados, análise, redação final) e o período previsto para a realização de cada uma.
+
+---
+
+::: {.callout-tip}
+## Dica de Ouro
+O projeto de pesquisa deve ser tal que **convença uma audiência de céticos** de que as decisões tomadas pelo pesquisador são as mais seguras e infalíveis possíveis para chegar a conclusões válidas.
+:::
