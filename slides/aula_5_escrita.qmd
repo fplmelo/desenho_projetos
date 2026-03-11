@@ -34,29 +34,29 @@ format:
 :::
 ::::::::::::::
 
-## Retextualização Complexa
+## Retextualização
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Além da justa-posição
+- Não é uma justa-posição
 - Esforço multi-cognitivo
 - Transformação de dados
 - Criação de sentido novo
 :::
 ::: {.column width="50%"}
-<!-- [IMAGEM: Metáfora de tecelagem ou mosaico] -->
+![](https://creativepark.canon/images/contents/CNT-0020126/CNT-0020126_detail-01_s@2x.jpg)
 :::
 ::::::::::::::
 
 ## 4. A Voz do Autor
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-<!-- [IMAGEM: Ícone de um microfone ou megafone] -->
+![](https://redemix.vteximg.com.br/arquivos/ids/208797-1000-1000/7891991015493.jpg?v=638350601634300000)
 :::
 ::: {.column width="50%"}
-- Explicitação da voz.
-- Articulação de ideias.
-- Originalidade autêntica.
-- Domínio da linguagem.
+- Originalidade
+- Estilo linguístico
+- Criatividade
+- Provocação
 :::
 ::::::::::::::
 
