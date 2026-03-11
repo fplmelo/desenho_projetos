@@ -47,7 +47,7 @@ format:
 :::
 ::::::::::::::
 
-## 4. A Voz do Autor
+## A voz do autor
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
 ![](https://redemix.vteximg.com.br/arquivos/ids/208797-1000-1000/7891991015493.jpg?v=638350601634300000)
@@ -60,7 +60,7 @@ format:
 :::
 ::::::::::::::
 
-## 5. Ciência como Campo Aberto
+## A ciência não está pronta
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
 <!-- [IMAGEM: Campo de batalha ou debate científico] -->
@@ -73,16 +73,18 @@ format:
 :::
 ::::::::::::::
 
-## 6. Elementos Pré-Textuais
+## Leitura Crítica{.center}
+
+## Elementos pré-Textuais
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
 <!-- [IMAGEM: Capa de uma revista científica] -->
 :::
 ::: {.column width="50%"}
-- Caracterização inicial.
-- Reconhecimento de origem.
-- Autoria declarada.
-- Resumo e Título.
+- Caracterização inicial
+- Reconhecimento de origem
+- Autoria declarada
+- Resumo e Título
 :::
 ::::::::::::::
 

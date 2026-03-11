@@ -20,36 +20,36 @@ format:
 <iframe name="aula-1" width="700px" height="400px" src="https://fplmelo.github.io/desenho_projetos/slides/aula_1_fundamentos.html#/title-slide" scrolling="no" marginwidth="0" marginheight="0" style="border:0px none #ffffff;"></iframe>
 
 ## 1. Ciência vs. Senso Comum
-A ciência é uma **metamorfose do senso comum**, refinando capacidades que todos possuímos [1]. Enquanto o senso comum é formado por sentimentos e misticismo, a ciência exige **razão e rigor metodológico** para excluir a subjetividade do pesquisador [2, 3].
+A ciência é uma **metamorfose do senso comum**, refinando capacidades que todos possuímos. Enquanto o senso comum é formado por sentimentos e misticismo, a ciência exige **razão e rigor metodológico** para excluir a subjetividade do pesquisador.
 
-*   **Exemplo:** O senso comum utiliza um chá baseado na tradição familiar para curar dor de estômago. A ciência investiga os compostos químicos da planta, realiza testes controlados e isola variáveis para validar a eficácia [2, 4].
+*   **Exemplo:** O senso comum utiliza um chá baseado na tradição familiar para curar dor de estômago. A ciência investiga os compostos químicos da planta, realiza testes controlados e isola variáveis para validar a eficácia.
 
 ## 2. Paradigmas e Revoluções (Thomas Kuhn)
-O conhecimento científico não avança de forma linear, mas por **rupturas disruptivas** chamadas mudanças de paradigma [5].
-*   **Ciência Normal:** Fase de estabilidade onde os cientistas trabalham sob as mesmas regras e pressupostos [6].
-*   **Anomalias e Crise:** Surgem fatos que o paradigma atual não consegue explicar, gerando instabilidade [6].
-*   **Revolução Científica:** Adoção de um novo paradigma que resolve as anomalias anteriores [6].
+O conhecimento científico não avança de forma linear, mas por **rupturas disruptivas** chamadas mudanças de paradigma
+*   **Ciência Normal:** Fase de estabilidade onde os cientistas trabalham sob as mesmas regras e pressupostos.
+*   **Anomalias e Crise:** Surgem fatos que o paradigma atual não consegue explicar, gerando instabilidade.
+*   **Revolução Científica:** Adoção de um novo paradigma que resolve as anomalias anteriores.
 
-*   **Exemplo:** A transição da **cosmologia ptolomaica** (Terra como centro) para a **copernicana** (Sol como centro) [7].
+*   **Exemplo:** A transição da **cosmologia ptolomaica** (Terra como centro) para a **copernicana** (Sol como centro).
 
 ## 3. Bases Epistemológicas e Ontológicas
-Toda pesquisa está ancorada em compromissos filosóficos que determinam o método [8].
-*   **Ontologia:** Trata da natureza da realidade. Questiona: "O que existe?" [9, 10].
-*   **Epistemologia:** Trata de como adquirimos conhecimento. Questiona: "Como posso conhecer o mundo?" [10, 11].
+Toda pesquisa está ancorada em compromissos filosóficos que determinam o método.
+*   **Ontologia:** Trata da natureza da realidade. Questiona: "O que existe?".
+*   **Epistemologia:** Trata de como adquirimos conhecimento. Questiona: "Como posso conhecer o mundo?".
 
-*   **Exemplo:** Um pesquisador decide se a "pobreza" é uma variável numérica objetiva (renda) ou uma construção social baseada em percepções e estigmas [12, 13].
+*   **Exemplo:** Um pesquisador decide se a "pobreza" é uma variável numérica objetiva (renda) ou uma construção social baseada em percepções e estigmas.
 
 ## 4. O Contínuo Naturalismo vs. Construtivismo
-Essas posições definem como o pesquisador se relaciona com o objeto de estudo [14, 15].
-*   **Naturalismo (Positivismo):** O mundo é real e independente do observador. Foca em regularidades e leis gerais [14, 16].
-*   **Construtivismo (Interpretativismo):** A realidade é uma construção social. O conhecimento é subjetivo e depende da interação entre pesquisador e participante [10, 17].
+Essas posições definem como o pesquisador se relaciona com o objeto de estudo.
+*   **Naturalismo (Positivismo):** O mundo é real e independente do observador. Foca em regularidades e leis gerais.
+*   **Construtivismo (Interpretativismo):** A realidade é uma construção social. O conhecimento é subjetivo e depende da interação entre pesquisador e participante.
 
-*   **Exemplo:** No **Naturalismo**, o pesquisador observa a ebulição da água sem interferir, apenas mensurando. No **Construtivismo**, o pesquisador participa de uma comunidade para entender os significados que os membros atribuem aos seus rituais [18, 19].
+*   **Exemplo:** No **Naturalismo**, o pesquisador observa a ebulição da água sem interferir, apenas mensurando. No **Construtivismo**, o pesquisador participa de uma comunidade para entender os significados que os membros atribuem aos seus rituais.
 
 ## 5. Rigor e Dimensões do Desenho de Pesquisa
-O desenho de pesquisa é o plano para usar evidências para fazer inferências [20]. Ele deve convencer uma audiência de **céticos** de que as decisões tomadas são seguras [21].
-*   **Dimensão Ampla:** Diálogo teórico e bases metateóricas [22, 23].
-*   **Dimensão Prática:** Procedimentos técnicos de coleta e análise [22, 24].
+O desenho de pesquisa é o plano para usar evidências para fazer inferências. Ele deve convencer uma audiência de **céticos** de que as decisões tomadas são seguras.
+*   **Dimensão Ampla:** Diálogo teórico e bases metateóricas.
+*   **Dimensão Prática:** Procedimentos técnicos de coleta e análise.
 
 ---
 
