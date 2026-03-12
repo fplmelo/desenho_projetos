@@ -75,262 +75,301 @@ format:
 
 ## Leitura Crítica{.center}
 
-## Elementos pré-Textuais
+## Leitura em 3 estágios
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-<!-- [IMAGEM: Capa de uma revista científica] -->
+![](https://static.wixstatic.com/media/dd9c01_89712d2db06144aeb3142a1ffecb9d6a~mv2.jpg/v1/fill/w_568,h_444,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/dd9c01_89712d2db06144aeb3142a1ffecb9d6a~mv2.jpg)
 :::
 ::: {.column width="50%"}
-- Caracterização inicial
-- Reconhecimento de origem
-- Autoria declarada
-- Resumo e Título
+1 - Visão geral ✅
+
+2 - Leitura detalhada ✅
+
+3 - "Recriar o artigo" ✅
 :::
 ::::::::::::::
 
-## 7. O Título Estratégico
+## Estágio 1 - Visão geral
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Redigido com exatidão.
-- Revelação do objeto.
-- Captação de interesse.
-- Porteira do artigo.
+- Título + Resumo + Introdução
+- Pule para as conclusões
+- Dê uma olhada nas referências
+
 :::
 ::: {.column width="50%"}
-<!-- [IMAGEM: Uma porta se abrindo para o conhecimento] -->
+![](https://s3.amazonaws.com/libapps/accounts/80887/images/Reading.jpg)
 :::
 ::::::::::::::
 
-## 8. O Resumo (Abstract)
+## Estágio 1 - Responda
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Conciso e informativo.
-- 100 a 250 palavras.
-- Voz ativa/3ª pessoa.
-- Sem citações diretas.
+- De que se trata o artigo?
+- Qual o contexto teórico?
+- As premissas são válidas?
+- Qual a principal mensagem?
+- Está bem escrito?
 :::
 ::: {.column width="50%"}
-<!-- [IMAGEM: Lupa focando em um parágrafo de texto] -->
+![](https://99588517054034056dc4ed3dd2f332bd.cdn.bubble.io/f1732545993065x917082769616874900/lupa-sobre-texto.webp)
 :::
 ::::::::::::::
 
-## 9. Palavras-Chave
+## Estágio 2 - Leitura detalhada
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- 3 a 5 termos técnicos.
-- Essenciais para busca.
-- Representação do todo.
-- Indexação eficiente.
+- Examine figuras e tabelas
+- Leia os resultados com cuidado
+- Sublinhe as referências novas
+
 :::
 ::: {.column width="50%"}
-<!-- [IMAGEM: Ícone de tags ou etiquetas de busca] -->
+![](https://rfortherestofus.com/img/containers/images/2019/08/ggthemr-fresh.png/8bd9d5a1c180291dbb461cd9ebed57de.png)
 :::
 ::::::::::::::
 
-## 10. A Introdução
+## Estágio 2 - Seja capaz de:
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-<!-- [IMAGEM: Bússola ou mapa de navegação] -->
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0iCNwacn-1evkv98x-AWvBHCXbez_T6ugXw&s){width=160%}
 :::
 ::: {.column width="50%"}
-- Delimitação do tema.
-- Problema e objetivos.
-- Justificativa clara.
-- Guia para o leitor.
+- Resumir o artigo para terceiros
+- Julgar a qualidade das evidências
+- Ter uma opinião sobre a qualidade do trabalho
+
 :::
 ::::::::::::::
 
-## 11. Referencial Teórico
+## Estágio 3 - "Recriar o artigo"
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-<!-- [IMAGEM: Pilha de livros organizados] -->
+![](/img/repro.jpg)
 :::
 ::: {.column width="50%"}
-- Evolução do tema.
-- Diálogo entre autores.
-- Texto dissertativo.
-- Suporte fundamental.
+- Necessário quando se é revisor
+- Questionar todos os pontos
+- Examinar pressupostos com detalhe
+- Reproduzir o exprimento
 :::
 ::::::::::::::
 
-## 12. O Estado da Arte
+## Estágio 3 - Seja capaz de:
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-<!-- [IMAGEM: Gráfico de tendências atuais] -->
+![](https://upload.wikimedia.org/wikipedia/commons/8/86/Open_Peer_Review.png)
 :::
 ::: {.column width="50%"}
-- Nível atual da ciência.
-- Tendências e excelência.
-- Mapeamento do campo.
-- Hiatos de evidência.
+- Apontar pontos fracos e fortes
+- Imaginar melhorias no exprimento
+- Localizar lacunas de conheciment
 :::
 ::::::::::::::
 
-## 13. Metodologia: O Caminho
+## Revisão de literatura
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Escolhas estratégicas.
-- Técnicas de coleta.
-- Análise de dados.
-- Replicabilidade do estudo.
+- Um "mar" de papers
+- Quais devo ler?
+- Onde procurar?
+- Existe método?
+
 :::
 ::: {.column width="50%"}
-<!-- [IMAGEM: Planta baixa ou esquema de processo] -->
+![](http://www.phdcomics.com/comics/archive/phd070412s.gif)
 :::
 ::::::::::::::
 
-## 14. Resultados e Discussão
+## Busca de literatura
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Descrição dos dados.
-- Interpretação crítica.
-- Confronto com teorias.
-- Fatos novos e efeitos.
+- Palavras-chave
+- Autores
+- "Bola-de-neve"
+- Revisões recentes
 :::
 ::: {.column width="50%"}
-<!-- [IMAGEM: Cientista analisando gráficos] -->
+![](https://bluesyemre.wordpress.com/wp-content/uploads/2018/04/academic-search-engines.jpg)
 :::
 ::::::::::::::
 
-## 15. Conclusões Finais
+## Ler com foco
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Deduções lógicas.
-- Resgate dos objetivos.
-- Limitações do estudo.
-- Sugestões futuras.
+- Tenha sempre sua questão "na cabeça"
+- Saiba diferenciar "luxo" de "lixo"
+- Faça anotações
+
 :::
 ::: {.column width="50%"}
-<!-- [IMAGEM: Bandeira de chegada em uma corrida] -->
+![](https://blogs.sun.ac.za/libraryresearchnews/files/2019/02/steps-of-literature-review-580x435.png)
 :::
 ::::::::::::::
 
-## 16. Rigor e Transparência
+## Método PRISMA
+
+![](https://pubrica.com/wp-content/uploads/2025/12/V1-PRISMA-Method-explained-Reporting-guidelines-for-systematic-review-recreation-image-.webp)
+
+## Método PRISMA
+
+![](https://s3-eu-west-1.amazonaws.com/ppreviews-plos-725668748/27873581/preview.jpg)
+
+## Exercício
+
+- Faça uma busca usando palavras específicas da sua área
+- Faça um primeiro levantamento
+- Selecione um sub-conjunto de artigos
+
+{{< countdown "25:00" >}}
+
+
+## Parte 2 - Escrita Crítica{.center}
+
+## Defina sua estratégia
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-<!-- [IMAGEM: Balança de precisão] -->
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLSpmx-9gb1LMWKwf98QHOVd_XBwvez6oEKg&s){width=200%}
 :::
 ::: {.column width="50%"}
-- Método sistematizado.
-- Fidelidade da info.
-- Dimensão pública.
-- Validação pelos pares.
+- **I**ntrodução
+- **M**étodos
+- **R**esultados
+- **D**iscussão
 :::
 ::::::::::::::
 
-## 17. Ética na Escrita
+## O fantasma da página em branco
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-<!-- [IMAGEM: Escudo de integridade/ética] -->
+- Comece por onde for melhor
+- Crie hábito de escrever diariamente
+- Não fique num loop infinito
+- Mantenha o documento limpo
 :::
 ::: {.column width="50%"}
-- Proibição de plágio.
-- Autoria responsável.
-- Sigilo de participantes.
-- Honestidade intelectual.
+![](/img/gdocs.png)
+[exemplo](https://docs.google.com/document/d/1TmEOmPldOm8ZFkFs5C4RymU9SfIiNal_mQHkV-4LLI4/edit?tab=t.d4qacdygzw2l#heading=h.hx1rf5t1vvig)
+
 :::
 ::::::::::::::
 
-## 18. Padronização ABNT
+## Use ferramentas de citação
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-<!-- [IMAGEM: Manual de normas ou régua] -->
+- Organize suas coleções
+- Aprenda a formatar referências
+- Trabalhe coletivamente
+
 :::
 ::: {.column width="50%"}
-- Referências (NBR 6023).
-- Citações (NBR 10520).
-- Resumos (NBR 6028).
-- Uniformidade visual.
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Zotero-5-macOS-Screenshot%402x.png/1280px-Zotero-5-macOS-Screenshot%402x.png)
+
+[ZOTERO](https://www.zotero.org/)
 :::
 ::::::::::::::
 
-## 19. A Importância das Citações
+## Cuida da qualidade do seus gráficos
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Diálogo com o passado.
-- Embasamento teórico.
-- Evita "obras de ficção".
-- Crédito aos autores.
+- Perfeição é pouco
+- Estética importa
+- Evite exageros
+- Saiba reproduzir
+
 :::
 ::: {.column width="50%"}
-<!-- [IMAGEM: Rede conectando diferentes nomes/autores] -->
+![](https://www.researchgate.net/publication/385699843/figure/fig2/AS:11431281289575104@1731283740514/Performance-of-tidyplots-a-Plot-gallery-b-ggplot2-and-tidyplots-example-code-to.ppm)
+
+[GGPLOT](https://ggplot2.tidyverse.org/)
 :::
 ::::::::::::::
 
-## 20. Linguagem Científica
+## Formatação
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Precisão e clareza.
-- Objetividade na voz.
-- Exclusão de emoções.
-- Uso da razão pura.
+- Formatação simples
+- Gráficos no texto
+- Número das linhas
+- Espaço DUPLO
 :::
 ::: {.column width="50%"}
-<!-- [IMAGEM: Caneta tinteiro escrevendo com clareza] -->
+![](/img/gdocs.png)
+[exemplo](https://docs.google.com/document/d/1TmEOmPldOm8ZFkFs5C4RymU9SfIiNal_mQHkV-4LLI4/edit?tab=t.d4qacdygzw2l#heading=h.hx1rf5t1vvig)
 :::
 ::::::::::::::
 
-## 21. Revisão por Pares
+## Cover Letter
+
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Olhar externo crítico.
-- Verificação de dados.
-- Qualidade do relato.
-- Estímulo à exploração.
+- Formal e direta
+- Resuma o recado para o editor
+- Informe a estrutura do paper
+- É uma venda!!!
 :::
 ::: {.column width="50%"}
-<!-- [IMAGEM: Dois pesquisadores debatendo um papel] -->
+![](https://thinkscience.co.jp/en/images/content/2016-11-Writing-A-Cover-Letter.png)
+[exemplo](https://thinkscience.co.jp/en/articles/writing-journal-cover-letters)
 :::
 ::::::::::::::
 
-## 22. Originalidade: Não Imitar
+## Escreva sua "cover letter"
+
+{{< countdown "25:00" >}}
+
+
+## Objetivos de uma escrita crítica
+
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-<!-- [IMAGEM: Pássaro saindo da gaiola] -->
+![](https://i.pinimg.com/736x/6a/73/56/6a7356fd429dd4d25def6ea7126c10a0.jpg)
 :::
 ::: {.column width="50%"}
-- Aprender a aprender.
-- Superar a cópia.
-- Síntese de saberes.
-- Criatividade própria.
+- Aprender a aprender
+- Superar a cópia
+- Síntese de saberes
+- Criatividade própria
 :::
 ::::::::::::::
 
-## 23. Divulgação dos Resultados
+## Divulgação dos Resultados
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-<!-- [IMAGEM: Jornal científico ou tela de site] -->
+![](https://ars.els-cdn.com/content/image/X25300644.jpg)
 :::
 ::: {.column width="50%"}
-- Clareza e precisão.
-- Exposição de métodos.
-- Reconhecimento de erros.
-- Impacto na sociedade.
+- Clareza e precisão
+- Exposição de métodos
+- Reconhecimento de erros
+- Impacto na sociedade
 :::
 ::::::::::::::
 
-## 24. Escrita como Maestria
+## Escrita como diálogo
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-<!-- [IMAGEM: Maestro regendo uma orquestra] -->
+![](https://br.web.img3.acsta.net/pictures/16/08/09/19/54/036068.jpg)
 :::
 ::: {.column width="50%"}
-- Além do linguístico.
-- Expressão da curiosidade.
-- Chama da descoberta.
-- Ciência como arte.
+- Além do linguístico
+- Expressão da curiosidade
+- Chama da descoberta
+- Ciência como arte
 :::
 ::::::::::::::
 
-## 25. Próximos Passos
+## Próximos Passos
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-- Praticar a escritura.
-- Submeter manuscritos.
-- Responder a revisores.
-- Contribuir para a BV.
+- Praticar a escritura
+- Submeter manuscritos
+- Responder a revisores
+- Pedir financiamento
 :::
 ::: {.column width="50%"}
-<!-- [IMAGEM: Pegadas em direção ao horizonte] -->
+![](https://doity.com.br/blog/app/uploads/2022/05/projeto-de-pesquisa-930x534.png)
 :::
 ::::::::::::::
+
+## FIM{.center}

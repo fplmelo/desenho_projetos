@@ -941,22 +941,22 @@
     "objectID": "slides/aula_5_escrita.html#divulgação-dos-resultados",
     "href": "slides/aula_5_escrita.html#divulgação-dos-resultados",
     "title": "Aula 5 - Escrita Científica de Alto Impacto",
-    "section": "23. Divulgação dos Resultados",
-    "text": "23. Divulgação dos Resultados\n\n\n\n\n\nClareza e precisão.\nExposição de métodos.\nReconhecimento de erros.\nImpacto na sociedade."
+    "section": "Divulgação dos Resultados",
+    "text": "Divulgação dos Resultados\n\n\n\n\n\nClareza e precisão\nExposição de métodos\nReconhecimento de erros\nImpacto na sociedade"
   },
   {
     "objectID": "slides/aula_5_escrita.html#escrita-como-maestria",
     "href": "slides/aula_5_escrita.html#escrita-como-maestria",
     "title": "Aula 5 - Escrita Científica de Alto Impacto",
-    "section": "24. Escrita como Maestria",
-    "text": "24. Escrita como Maestria\n\n\n\n\n\nAlém do linguístico.\nExpressão da curiosidade.\nChama da descoberta.\nCiência como arte."
+    "section": "Escrita como Maestria",
+    "text": "Escrita como Maestria\n\n\n\n\n\nAlém do linguístico\nExpressão da curiosidade\nChama da descoberta\nCiência como arte"
   },
   {
     "objectID": "slides/aula_5_escrita.html#próximos-passos",
     "href": "slides/aula_5_escrita.html#próximos-passos",
     "title": "Aula 5 - Escrita Científica de Alto Impacto",
-    "section": "25. Próximos Passos",
-    "text": "25. Próximos Passos\n\n\n\nPraticar a escritura.\nSubmeter manuscritos.\nResponder a revisores.\nContribuir para a BV."
+    "section": "Próximos Passos",
+    "text": "Próximos Passos\n\n\n\nPraticar a escritura\nSubmeter manuscritos\nResponder a revisores\nPedir financiamento"
   },
   {
     "objectID": "example.html",
@@ -1467,7 +1467,7 @@
     "href": "sessions/index.html",
     "title": "Conteúdo",
     "section": "",
-    "text": "Aula 1: Fundamentos e Paradigmas Científicos\n\n\n\n\n\n\nFelipe Melo\n\n\n\n\n\n\n\n\n\n\n\nAula 2: Lógica e Métodos de Abordagem\n\n\n\n\n\n\nFelipe Melo\n\n\nFeb 24, 2026\n\n\n\n\n\n\n\n\n\n\n\nAula 3: A Pergunta de Pesquisa e a Estrutura do Projeto\n\n\n\n\n\n\nFelipe Melo\n\n\nFeb 24, 2026\n\n\n\n\n\n\n\n\n\n\n\nAula 4: Delineamento de um Projeto de Pesquisa\n\n\n\n\n\n\nFelipe Melo\n\n\nMar 11, 2026\n\n\n\n\n\n\n\n\n\n\n\nEncontro 5: Escrita e Leitura Científica de Alto Impacto\n\n\n\n\n\n\nFelipe Melo\n\n\nMar 11, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Aula 1: Fundamentos e Paradigmas Científicos\n\n\n\n\n\n\nFelipe Melo\n\n\n\n\n\n\n\n\n\n\n\nAula 2: Lógica e Métodos de Abordagem\n\n\n\n\n\n\nFelipe Melo\n\n\nMar 3, 2026\n\n\n\n\n\n\n\n\n\n\n\nAula 3: A Pergunta de Pesquisa e a Estrutura do Projeto\n\n\n\n\n\n\nFelipe Melo\n\n\nMar 3, 2026\n\n\n\n\n\n\n\n\n\n\n\nAula 4: Delineamento de um Projeto de Pesquisa\n\n\n\n\n\n\nFelipe Melo\n\n\nMar 12, 2026\n\n\n\n\n\n\n\n\n\n\n\nEncontro 5: Escrita e Leitura Científica de Alto Impacto\n\n\n\n\n\n\nFelipe Melo\n\n\nMar 12, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "syllabus.html",
@@ -1685,5 +1685,229 @@
     "title": "Using Quarto",
     "section": "Output formats",
     "text": "Output formats\nYou can specify what kind of document you create when you render in the YAML front matter.\ntitle: \"My document\"\nformat:\n  html: default\n  pdf: default\n  docx: default\nThe indentation of the YAML section matters, especially when you have settings nested under each output type. Here’s what a typical format section might look like:\n---\ntitle: \"My document\"\nauthor: \"My name\"\ndate: \"June 4, 2024\"\nformat: \n  html_document: \n    toc: yes\n  pdf_document: \n    toc: yes\n  word_document: \n    toc: yes\n---\n\nPage reproduced from: Andrew Heiss All content licensed under a Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#leitura-em-3-estágios",
+    "href": "slides/aula_5_escrita.html#leitura-em-3-estágios",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Leitura em 3 estágios",
+    "text": "Leitura em 3 estágios\n\n\n\n\n1 - Visão geral ✅\n2 - Leitura detalhada ✅\n3 - “Recriar o artigo” ✅"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#passo-1---visão-geral",
+    "href": "slides/aula_5_escrita.html#passo-1---visão-geral",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Passo 1 - Visão geral",
+    "text": "Passo 1 - Visão geral\n\n\n\nTítulo + Resumo + Introdução\nPule para as conclusões\nDê uma olhada nas referências"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#passo-1---responda",
+    "href": "slides/aula_5_escrita.html#passo-1---responda",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Passo 1 - Responda",
+    "text": "Passo 1 - Responda\n\n\n\nDe que se trata o artigo?\nQual o contexto teórico?\nAs premissas são válidas?\nQual a principal mensagem?\nEstá bem escrito?"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#estágio-1---visão-geral",
+    "href": "slides/aula_5_escrita.html#estágio-1---visão-geral",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Estágio 1 - Visão geral",
+    "text": "Estágio 1 - Visão geral\n\n\n\nTítulo + Resumo + Introdução\nPule para as conclusões\nDê uma olhada nas referências"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#estágio-1---responda",
+    "href": "slides/aula_5_escrita.html#estágio-1---responda",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Estágio 1 - Responda",
+    "text": "Estágio 1 - Responda\n\n\n\nDe que se trata o artigo?\nQual o contexto teórico?\nAs premissas são válidas?\nQual a principal mensagem?\nEstá bem escrito?"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#estágio-2---resultados",
+    "href": "slides/aula_5_escrita.html#estágio-2---resultados",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Estágio 2 - Resultados",
+    "text": "Estágio 2 - Resultados\n\n\n\nExamine figuras e tableas\nLeia os resultados com cuidado\nSublinhe as referências novas"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#estágio-2---leitura-detalhada",
+    "href": "slides/aula_5_escrita.html#estágio-2---leitura-detalhada",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Estágio 2 - Leitura detalhada",
+    "text": "Estágio 2 - Leitura detalhada\n\n\n\nExamine figuras e tabelas\nLeia os resultados com cuidado\nSublinhe as referências novas"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#estágio-2---seja-capaz-de",
+    "href": "slides/aula_5_escrita.html#estágio-2---seja-capaz-de",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Estágio 2 - Seja capaz de:",
+    "text": "Estágio 2 - Seja capaz de:\n\n\n\n\n\nResumir o artigo para terceiros\nJulgar a qualidade das evidências\nTer uma opinião sobre a qualidade do trabalho"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#estágio-3---recriar-o-artigo",
+    "href": "slides/aula_5_escrita.html#estágio-3---recriar-o-artigo",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Estágio 3 - “Recriar o artigo”",
+    "text": "Estágio 3 - “Recriar o artigo”\n\n\n\n\n\nNecessário quando se é revisor\nQuestionar todos os pontos\nExaminar pressupostos com detalhe\nReproduzir o exprimento"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#estágio-3---seja-capaz-de",
+    "href": "slides/aula_5_escrita.html#estágio-3---seja-capaz-de",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Estágio 3 - Seja capaz de:",
+    "text": "Estágio 3 - Seja capaz de:\n\n\n\n\n\nApontar pontos fracos e fortes\nImaginar melhorias no exprimento\nLocalizar lacunas de conheciment"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#revisão-de-literatura",
+    "href": "slides/aula_5_escrita.html#revisão-de-literatura",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Revisão de literatura",
+    "text": "Revisão de literatura\n\n\n\nUm “mar” de papers\nQuais devo ler?\nOnde procurar?\nExiste método?"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#busca-de-literatura",
+    "href": "slides/aula_5_escrita.html#busca-de-literatura",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Busca de literatura",
+    "text": "Busca de literatura\n\n\n\nPalavras-chave\nAutores\n“Bola-de-neve”\nRevisões recentes"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#ler-com-foco",
+    "href": "slides/aula_5_escrita.html#ler-com-foco",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Ler com foco",
+    "text": "Ler com foco\n\n\n\nTenha sempre sua questão “na cabeça”\nSaiba diferenciar “luxo” de “lixo”\nFaça anotações"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#método-prisma",
+    "href": "slides/aula_5_escrita.html#método-prisma",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Método PRISMA",
+    "text": "Método PRISMA"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#método-prisma-1",
+    "href": "slides/aula_5_escrita.html#método-prisma-1",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Método PRISMA",
+    "text": "Método PRISMA"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#escrever-ciência",
+    "href": "slides/aula_5_escrita.html#escrever-ciência",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Escrever ciência",
+    "text": "Escrever ciência"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#section",
+    "href": "slides/aula_5_escrita.html#section",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "",
+    "text": "Aprender a aprender.\nSuperar a cópia.\nSíntese de saberes.\nCriatividade própria."
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#vamos-treinar",
+    "href": "slides/aula_5_escrita.html#vamos-treinar",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Vamos treinar",
+    "text": "Vamos treinar"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#exercício",
+    "href": "slides/aula_5_escrita.html#exercício",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Exercício",
+    "text": "Exercício\n\nFaça uma busca usando palavras específicas da sua área\nFaça um primeiro levantamento\nSelecione um sub-conjunto de artigos"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#parte-2---escrita-crítica",
+    "href": "slides/aula_5_escrita.html#parte-2---escrita-crítica",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Parte 2 - Escrita Crítica",
+    "text": "Parte 2 - Escrita Crítica"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#defina-sua-estratégia",
+    "href": "slides/aula_5_escrita.html#defina-sua-estratégia",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Defina sua estratégia",
+    "text": "Defina sua estratégia\n\n\n\n\n\nIntrodução\nMétodos\nResultados\nDiscussão"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#o-fantasma-da-página-em-branco",
+    "href": "slides/aula_5_escrita.html#o-fantasma-da-página-em-branco",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "O fantasma da página em branco",
+    "text": "O fantasma da página em branco\n\n\n\nComece por onde for melhor\nCrie hábito de escrever diariamente\nNão fique num loop infinito\nMantenha o documento limpo\n\n\n exemplo"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#use-ferramentas-de-citação",
+    "href": "slides/aula_5_escrita.html#use-ferramentas-de-citação",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Use ferramentas de citação",
+    "text": "Use ferramentas de citação\n\n\n\nOrganize suas coleções\nAprenda a formatar referências\nTrabalhe coletivamente\n\n\n\nZOTERO"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#cuida-da-qualidade-do-seus-gráficos",
+    "href": "slides/aula_5_escrita.html#cuida-da-qualidade-do-seus-gráficos",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Cuida da qualidade do seus gráficos",
+    "text": "Cuida da qualidade do seus gráficos\n\n\n\nPerfeição é pouco\nEstética importa\nEvite exageros\nSaiba reproduzir\n\n\n\nGGPLOT"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#formatação",
+    "href": "slides/aula_5_escrita.html#formatação",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Formatação",
+    "text": "Formatação\n\n\n\nFormatação simples\nGráficos no texto\nNúmero das linhas\nEspaço DUPLO\n\n\n exemplo"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#cover-letter",
+    "href": "slides/aula_5_escrita.html#cover-letter",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Cover Letter",
+    "text": "Cover Letter\n\n\n\nFormal e direta\nResuma o recado para o editor\nInforme a estrutura do paper\nÉ uma venda!!!\n\n\n exemplo"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#escreva-sua-coiver-letter",
+    "href": "slides/aula_5_escrita.html#escreva-sua-coiver-letter",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Escreva sua coiver letter",
+    "text": "Escreva sua coiver letter"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#escreva-sua-cover-letter",
+    "href": "slides/aula_5_escrita.html#escreva-sua-cover-letter",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Escreva sua “cover letter”",
+    "text": "Escreva sua “cover letter”"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#objetivos-de-uma-escrita-crítica",
+    "href": "slides/aula_5_escrita.html#objetivos-de-uma-escrita-crítica",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Objetivos de uma escrita crítica",
+    "text": "Objetivos de uma escrita crítica\n\n\n\n\n\nAprender a aprender\nSuperar a cópia\nSíntese de saberes\nCriatividade própria"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#escrita-como-diálogo",
+    "href": "slides/aula_5_escrita.html#escrita-como-diálogo",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "Escrita como diálogo",
+    "text": "Escrita como diálogo\n\n\n\n\n\nAlém do linguístico\nExpressão da curiosidade\nChama da descoberta\nCiência como arte"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html#fim",
+    "href": "slides/aula_5_escrita.html#fim",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "FIM",
+    "text": "FIM"
+  },
+  {
+    "objectID": "sessions/week5/aula5.html#slides-para-esta-aula-se-encontram-aqui-ou-abaixo",
+    "href": "sessions/week5/aula5.html#slides-para-esta-aula-se-encontram-aqui-ou-abaixo",
+    "title": "Encontro 5: Escrita e Leitura Científica de Alto Impacto",
+    "section": "Slides para esta aula se encontram AQUI ou abaixo",
+    "text": "Slides para esta aula se encontram AQUI ou abaixo"
   }
 ]
