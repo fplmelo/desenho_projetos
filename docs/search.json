@@ -780,8 +780,8 @@
     "objectID": "slides/aula_5_escrita.html#o-desafio-da-escrita",
     "href": "slides/aula_5_escrita.html#o-desafio-da-escrita",
     "title": "Aula 5 - Escrita Científica de Alto Impacto",
-    "section": "O Desafio da Escrita",
-    "text": "O Desafio da Escrita\n\n\n\nEscrita como jornada\nCompreensão de requisitos\nSuperação de obstáculos\nBusca pela maestria"
+    "section": "",
+    "text": "Escrita como jornada\nCompreensão de requisitos\nSuperação de obstáculos\nBusca pela maestria"
   },
   {
     "objectID": "slides/aula_5_escrita.html#metacognição-e-texto",
@@ -1467,7 +1467,7 @@
     "href": "sessions/index.html",
     "title": "Conteúdo",
     "section": "",
-    "text": "Aula 1: Fundamentos e Paradigmas Científicos\n\n\n\n\n\n\nFelipe Melo\n\n\n\n\n\n\n\n\n\n\n\nAula 2: Lógica e Métodos de Abordagem\n\n\n\n\n\n\nFelipe Melo\n\n\nMar 3, 2026\n\n\n\n\n\n\n\n\n\n\n\nAula 3: A Pergunta de Pesquisa e a Estrutura do Projeto\n\n\n\n\n\n\nFelipe Melo\n\n\nMar 3, 2026\n\n\n\n\n\n\n\n\n\n\n\nAula 4: Delineamento de um Projeto de Pesquisa\n\n\n\n\n\n\nFelipe Melo\n\n\nMar 12, 2026\n\n\n\n\n\n\n\n\n\n\n\nEncontro 5: Escrita e Leitura Científica de Alto Impacto\n\n\n\n\n\n\nFelipe Melo\n\n\nMar 12, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Aula 1: Fundamentos e Paradigmas Científicos\n\n\n\n\n\n\nFelipe Melo\n\n\n\n\n\n\n\n\n\n\n\nAula 2: Lógica e Métodos de Abordagem\n\n\n\n\n\n\nFelipe Melo\n\n\nFeb 24, 2026\n\n\n\n\n\n\n\n\n\n\n\nAula 3: A Pergunta de Pesquisa e a Estrutura do Projeto\n\n\n\n\n\n\nFelipe Melo\n\n\nFeb 24, 2026\n\n\n\n\n\n\n\n\n\n\n\nAula 4: Delineamento de um Projeto de Pesquisa\n\n\n\n\n\n\nFelipe Melo\n\n\nMar 11, 2026\n\n\n\n\n\n\n\n\n\n\n\nEncontro 5: Escrita e Leitura Científica de Alto Impacto\n\n\n\n\n\n\nFelipe Melo\n\n\nMar 13, 2026\n\n\n\n\n\n\n\n\n\n\n\nEncontro 6: Financiamento e Divulgação Científica\n\n\n\n\n\n\nFelipe Melo\n\n\nMar 13, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "syllabus.html",
@@ -1909,5 +1909,33 @@
     "title": "Encontro 5: Escrita e Leitura Científica de Alto Impacto",
     "section": "Slides para esta aula se encontram AQUI ou abaixo",
     "text": "Slides para esta aula se encontram AQUI ou abaixo"
+  },
+  {
+    "objectID": "slides/aula_5_escrita.html",
+    "href": "slides/aula_5_escrita.html",
+    "title": "Aula 5 - Escrita Científica de Alto Impacto",
+    "section": "",
+    "text": "Escrita como jornada\nCompreensão de requisitos\nSuperação de obstáculos\nBusca pela maestria"
+  },
+  {
+    "objectID": "sessions/week6/aula6_financ.html",
+    "href": "sessions/week6/aula6_financ.html",
+    "title": "Encontro 6: Financiamento e Divulgação Científica",
+    "section": "",
+    "text": "A pesquisa científica não se encerra com a obtenção de resultados. Para que a ciência aconteça de fato, ela precisa de recursos para ser executada e de estratégias para ser comunicada tanto para os pares quanto para a sociedade. Este encontro final aborda os aspectos necessários (orçamentos e editais) e o compromisso ético e social da divulgação dos achados."
+  },
+  {
+    "objectID": "sessions/week6/aula6_financ.html#introdução-além-da-bancada",
+    "href": "sessions/week6/aula6_financ.html#introdução-além-da-bancada",
+    "title": "Encontro 6: Financiamento e Divulgação Científica",
+    "section": "",
+    "text": "A pesquisa científica não se encerra com a obtenção de resultados. Para que a ciência aconteça de fato, ela precisa de recursos para ser executada e de estratégias para ser comunicada tanto para os pares quanto para a sociedade. Este encontro final aborda os aspectos necessários (orçamentos e editais) e o compromisso ético e social da divulgação dos achados."
+  },
+  {
+    "objectID": "sessions/week6/aula6_financ.html#elaboração-de-propostas-de-financiamento",
+    "href": "sessions/week6/aula6_financ.html#elaboração-de-propostas-de-financiamento",
+    "title": "Encontro 6: Financiamento e Divulgação Científica",
+    "section": "1. Elaboração de Propostas de Financiamento",
+    "text": "1. Elaboração de Propostas de Financiamento\nQualquer empreendimento de pesquisa, por melhor que seja sua fundamentação teórica, possui pouca probabilidade de viabilização se não considerar aspectos administrativos como tempo e custos.\n\nAdequação aos editias\nHá casos, muito raros, em que os editias de financimaento disponíveis parecem se enquadrar perfeitamente no nosso projeto de pesquisa. Outras vezes (frequantes no Brasil pelo edital Universal) os editais são tão genéricos que cabe qualquer ideia neles. No entanto, o cenário mais comum é que os editias “tangenciem” nossas ideias e que portanto teremos que fazer adaptações para nos enquadrar neles.\n\n\nTrabalho em equipe\nA ciência é uma atividade social. Fazemos ciência em equipe, com a particpação de muitas pessoas em diferentes graus de envolvimento. Pense no seu projeto atual… qual a equipe dele? Pelo menos você e seu orientador ou orientadora estão nela. Mas, muitas vezes, trabalhamos com os colegas de laboratório, ajudamos uns aos outros, pariicipamos nas coletas, escrevemos juntos, etc. Quando se trata de fazer pesquiesa financiada, os benefícos de um financiamento devem ser distribuídos, A maioria dos prgãos de fomento vêem com bons olhos que um time diverso e amplo se beneficie da execução de uma pesquisa.\n\n\nPara além da Academia\nOutro aspecto cada vez mais frequante é a participaçõa de stores não-acadêmicos na pesquisa científica. Essa participação se dá de diversas formas como: ciência cidadã, tomadores de decisão, comunidades locais, etc. No entanto, o grau de envolvimento desses setores também vai depender do tipo de pesquisa e da capacidade do projeto em abrir espaçõs para a participação efetiva. Listar pessoas envolvidas é bem diferente de abri portas e canais de participaçõa efeitva.\n\n\nO Orçamento da Pesquisa\nO projeto deve apresentar uma estimativa realista dos custos, geralmente agrupados em duas categorias principais:\n\nGastos com Pessoal: Pagamento de serviços prestados por terceiros, bolsas e honorários.\nGastos com Material:\n\nConsumo: Papel, sementes, reagentes, materiais de escritório.\nCapital/Equipamentos: Computadores, gravadores, utensílios de laboratório ou veículos.\n\n\n\n\nEstratégias para Captar Recursos\n\nAderência ao Edital: Os recursos devem estar estritamente alinhados às normas publicadas pela agência de fomento (CNPq, FACEPE).\nJustificativa Financeira: A agência precisa entender a relação custo/benefício do estudo.\nApresentação de Objetivos: Agências exigem que os objetivos (gerais e específicos) sejam apresentados de forma clara para entender exatamente o que está sendo financiado.\n\n\n[INSERIR FIGURA 1: Modelo de planilha orçamentária detalhada para agências de fomento]"
   }
 ]

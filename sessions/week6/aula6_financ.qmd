@@ -1,0 +1,54 @@
+---
+title: "Encontro 6: Financiamento e Divulgação Científica"
+subtitle: "PPGBV (UFPE)"
+author: "Felipe Melo"
+date: "last-modified"
+date-format: "long"
+filters:
+  - naquiz
+format:
+  html:
+    toc: true
+    toc-expanded: 3
+    toc-title: "Nesta página"
+---
+
+## Introdução: Além da Bancada
+
+A pesquisa científica não se encerra com a obtenção de resultados. Para que a ciência aconteça de fato, ela precisa de **recursos para ser executada** e de **estratégias para ser comunicada** tanto para os pares quanto para a sociedade. Este encontro final aborda os aspectos necessários (orçamentos e editais) e o compromisso ético e social da divulgação dos achados.
+
+---
+
+## 1. Elaboração de Propostas de Financiamento
+
+Qualquer empreendimento de pesquisa, por melhor que seja sua fundamentação teórica, possui pouca probabilidade de viabilização se não considerar aspectos administrativos como tempo e custos. 
+
+### Adequação aos editias
+
+Há casos, muito raros, em que os editias de financimaento disponíveis parecem se enquadrar perfeitamente no nosso projeto de pesquisa. Outras vezes (frequantes no Brasil pelo edital Universal) os editais são tão genéricos que cabe qualquer ideia neles. No entanto, o cenário mais comum é que os editias "tangenciem" nossas ideias e que portanto teremos que fazer adaptações para nos enquadrar neles.
+
+### Trabalho em equipe
+
+A ciência é uma atividade social. Fazemos ciência em equipe, com a particpação de muitas pessoas em diferentes graus de envolvimento. Pense no seu projeto atual... qual a equipe dele? Pelo menos você e seu orientador ou orientadora estão nela. Mas, muitas vezes, trabalhamos com os colegas de laboratório, ajudamos uns aos outros, pariicipamos nas coletas, escrevemos juntos, etc. Quando se trata de fazer pesquiesa financiada, os benefícos de um financiamento devem ser distribuídos, A maioria dos prgãos de fomento vêem com bons olhos que um time diverso e amplo se beneficie da execução de uma pesquisa.
+
+### Para além da Academia
+
+Outro aspecto cada vez mais frequante é a participaçõa de stores não-acadêmicos na pesquisa científica. Essa participação se dá de diversas formas como: ciência cidadã, tomadores de decisão, comunidades locais, etc. No entanto, o grau de envolvimento desses setores também vai depender do tipo de pesquisa e da capacidade do projeto em abrir espaçõs para a participação efetiva. Listar pessoas envolvidas é bem diferente de abri portas e canais de participaçõa efeitva. 
+
+### O Orçamento da Pesquisa
+O projeto deve apresentar uma estimativa realista dos custos, geralmente agrupados em duas categorias principais:
+
+*   **Gastos com Pessoal:** Pagamento de serviços prestados por terceiros, bolsas e honorários.
+
+*   **Gastos com Material:** 
+
+    *   *Consumo:* Papel, sementes, reagentes, materiais de escritório.
+    
+    *   *Capital/Equipamentos:* Computadores, gravadores, utensílios de laboratório ou veículos.
+
+### Estratégias para Captar Recursos
+*   **Aderência ao Edital:** Os recursos devem estar estritamente alinhados às normas publicadas pela agência de fomento (CNPq, FACEPE).
+*   **Justificativa Financeira:** A agência precisa entender a relação **custo/benefício** do estudo. 
+*   **Apresentação de Objetivos:** Agências exigem que os objetivos (gerais e específicos) sejam apresentados de forma clara para entender exatamente o que está sendo financiado.
+
+> **[INSERIR FIGURA 1: Modelo de planilha orçamentária detalhada para agências de fomento]**
